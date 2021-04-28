@@ -1,3 +1,6 @@
+html {
+  background-color: black;
+}
 .App {
   text-align: center;
 }
@@ -8,13 +11,51 @@
   }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
   }
-  to {
-    transform: rotate(360deg);
+  8% {
+    opacity: 1;
+    animation-timing-function: ease-out;
   }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  8% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  17% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  19% {
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.no-cssanimations .cb-slideshow li span {
+  opacity: 1;
 }
 .sliderimg {
   transition: 0.5s ease;
@@ -24,6 +65,101 @@
   object-fit: cover;
   border: 2px;
   border-radius: 5px;
+}
+/* .sliderimgWelcome {
+  transition: 4s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 2px;
+  border-radius: 5px;
+} */
+.cb-slideshow,
+.cb-slideshow:after {
+  /* position: fixed; */
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.cb-slideshow:after {
+  content: "";
+  background: transparent url(./images/armyband5.jpeg) repeat top left;
+}
+.cb-slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 36s linear infinite 0s;
+}
+.cb-slideshow li div {
+  z-index: 1000;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  animation: titleAnimation 36s linear infinite 0s;
+}
+.cb-slideshow li div h3 {
+  font-family: "BebasNeueRegular", "Arial Narrow", Arial, sans-serif;
+  font-size: 140px;
+  padding: 0;
+  line-height: 200px;
+}
+.cb-slideshow li:nth-child(1) span {
+  background-image: url(./images/armyband4.jpeg);
+}
+.cb-slideshow li:nth-child(2) span {
+  background-image: url(./images/armyband5.jpeg);
+  animation-delay: 6s;
+}
+.cb-slideshow li:nth-child(3) span {
+  background-image: url(./images/armyband6.jpeg);
+  animation-delay: 12s;
+}
+
+.cb-slideshow li:nth-child(2) div {
+  animation-delay: 6s;
+}
+.cb-slideshow li:nth-child(3) div {
+  animation-delay: 12s;
+}
+/* .cb-slideshow li:nth-child(4) div {
+  animation-delay: 18s;
+}
+.cb-slideshow li:nth-child(5) div {
+  animation-delay: 24s;
+}
+.cb-slideshow li:nth-child(6) div {
+  animation-delay: 30s;
+} */
+#enter {
+  z-index: 2000;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn,
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item,
+.alice-carousel__next-btn-wrapper,
+.alice-carousel__prev-btn-wrapper,
+.alice-carousel__dots {
+  text-align: right;
+  display: none;
 }
 #bandlogo {
   width: 5vw;
@@ -103,4 +239,15 @@
   float: left;
   width: 5vw;
   height: 5vw;
+}
+
+@media screen and (max-width: 1140px) {
+  .cb-slideshow li div h3 {
+    font-size: 140px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cb-slideshow li div h3 {
+    font-size: 80px;
+  }
 }
