@@ -1,5 +1,5 @@
 html {
-  background-color: black;
+  background-color: rgba(175, 175, 175, 0.247);
 }
 .App {
   text-align: center;
@@ -58,13 +58,19 @@ html {
   opacity: 1;
 }
 .sliderimg {
-  transition: 0.5s ease;
+  transition: filter 2s ease;
   backface-visibility: hidden;
   opacity: 1;
   width: 100%;
   object-fit: cover;
   border: 2px;
   border-radius: 5px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.sliderimg:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 /* .sliderimgWelcome {
   transition: 4s ease;
@@ -115,8 +121,8 @@ html {
   animation: titleAnimation 36s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
-  font-family: "BebasNeueRegular", "Arial Narrow", Arial, sans-serif;
-  font-size: 140px;
+  font-family: Arial, sans-serif;
+  font-size: 100px;
   padding: 0;
   line-height: 200px;
 }
@@ -168,6 +174,7 @@ html {
 .mainnavbar {
   background-color: black;
   padding: 15px;
+  box-shadow: 10px 6px 16px 0px black;
 }
 #navbartitle {
   color: white;
@@ -240,7 +247,71 @@ html {
   width: 5vw;
   height: 5vw;
 }
+.alice-carousel {
+  padding-top: 1vw;
+  box-shadow: 0px 0px 16px 0px black;
 
+  margin: 1vw 0px 0px 0px !important;
+}
+.alice-carousel__wrapper {
+  margin-top: -1vw;
+  margin-bottom: -2vw;
+}
+
+.signuplink {
+  background-color: #ffcc01;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 2vw;
+  width: 50%;
+  margin: auto;
+  height: 12vw;
+}
+.about {
+  background-color: #181795;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 2vw;
+  height: 37vw;
+  width: 80%;
+  margin: auto;
+}
+.ensembles {
+  background-color: whitesmoke;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 2vw;
+  height: 37vw;
+  width: 90%;
+  margin: auto;
+}
+.events {
+  background-color: #3f5022;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 2vw;
+  height: 37vw;
+  width: 70%;
+  margin: auto;
+}
+.media {
+  background-color: #00214e;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 2vw;
+  height: 37vw;
+  width: 75%;
+  margin: auto;
+}
+.jobs {
+  background-color: #0353a4;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 2vw;
+  height: 37vw;
+  width: 80%;
+  margin: auto;
+}
+.footer {
+  background-color: black;
+  box-shadow: 10px 6px 16px 0px black;
+
+  height: 37vw;
+}
 @media screen and (max-width: 1140px) {
   .cb-slideshow li div h3 {
     font-size: 140px;
