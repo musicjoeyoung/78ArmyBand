@@ -64,7 +64,7 @@ html {
   width: 100%;
   object-fit: cover;
   border: 2px;
-  border-radius: 5px;
+
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -266,6 +266,10 @@ html {
   margin: auto;
   height: 12vw;
 }
+#signuptext {
+  position: relative;
+  top: 42%;
+}
 .about {
   background-color: #181795;
   box-shadow: 10px 6px 16px 0px black;
@@ -273,6 +277,41 @@ html {
   height: 37vw;
   width: 80%;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+#aboutimage,
+#aboutcarousel {
+  /* border: 5px solid black; */
+  width: 31vw;
+  height: 23.3vw;
+  margin: auto;
+}
+#abouttitle {
+  margin: auto;
+  text-align: center;
+}
+#armyband7 {
+  width: 31vw;
+  /* transition: filter 2s ease; */
+  transition: all 1.7s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#armyband7:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+#historylink {
+  position: relative;
+  top: 28%;
+  color: white;
+}
+#meetthebandlink {
+  position: relative;
+  top: 42%;
+  color: white;
 }
 .ensembles {
   background-color: whitesmoke;
@@ -321,4 +360,7 @@ html {
   .cb-slideshow li div h3 {
     font-size: 80px;
   }
+}
+li {
+  list-style-type: none;
 }

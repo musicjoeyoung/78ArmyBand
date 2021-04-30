@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HomeCarousel from "./HomeCarousel";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import armyband7 from "./images/armyband7.jpeg";
 
 export class Home extends Component {
   render() {
@@ -13,13 +14,24 @@ export class Home extends Component {
         <br />
         <br />
         <br />
-        <div className="signuplink">sign up for our newsletter</div>
+        <div className="signuplink">
+          <h3 id="signuptext">sign up for our newsletter</h3>
+        </div>
         <br />
         <br />
         <br />
         <div className="about">
-          <div className="aboutimage"></div>
-          <div>about carousel</div>
+          about
+          <div id="abouttitlebox">
+            <h2 id="abouttitle">ABOUT</h2>
+          </div>
+          <div id="aboutimage">
+            <img src={armyband7} alt="" id="armyband7" />
+          </div>
+          <div id="aboutcarousel">
+            <h3 id="historylink">History</h3>
+            <h3 id="meetthebandlink">Meet the Band</h3>
+          </div>
         </div>
         <br />
         <br />
