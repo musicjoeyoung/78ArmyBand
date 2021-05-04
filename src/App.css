@@ -277,20 +277,23 @@ html {
   height: 37vw;
   width: 80%;
   margin: auto;
+}
+.aboutChildContainer {
   display: flex;
   flex-direction: row;
+  margin-top: 6vw;
 }
-#aboutimage,
-#aboutcarousel {
+.aboutimage,
+.aboutcarousel {
   /* border: 5px solid black; */
   width: 31vw;
   height: 23.3vw;
   margin: auto;
 }
-#abouttitle {
+/* #abouttitle {
   margin: auto;
   text-align: center;
-}
+} */
 #armyband7 {
   width: 31vw;
   /* transition: filter 2s ease; */
@@ -307,11 +310,13 @@ html {
   position: relative;
   top: 28%;
   color: white;
+  font-size: 1.5vw;
 }
 #meetthebandlink {
   position: relative;
   top: 42%;
   color: white;
+  font-size: 1.5vw;
 }
 .ensembles {
   background-color: whitesmoke;
@@ -319,6 +324,29 @@ html {
   border-radius: 2vw;
   height: 37vw;
   width: 90%;
+  margin: auto;
+  /*   display: flex;
+  flex-direction: row; */
+}
+.ensembleNames {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  width: 31vw;
+  margin: auto;
+}
+.ensembleChildContainer {
+  display: flex;
+  flex-direction: row;
+}
+#ensembleName {
+  border: 1px solid black;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+.ensembleImageContainer {
+  width: 31vw;
+  height: 23.3vw;
   margin: auto;
 }
 .events {

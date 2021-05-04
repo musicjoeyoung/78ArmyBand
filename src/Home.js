@@ -21,29 +21,34 @@ export class Home extends Component {
         <br />
         <br />
         <div className="about">
-          about
-          <div id="abouttitlebox">
-            <h2 id="abouttitle">ABOUT</h2>
-          </div>
-          <div id="aboutimage">
-            <img src={armyband7} alt="" id="armyband7" />
-          </div>
-          <div id="aboutcarousel">
-            <h3 id="historylink">History</h3>
-            <h3 id="meetthebandlink">Meet the Band</h3>
+          <h3>About</h3>
+          <div className="aboutChildContainer">
+            <div className="aboutimage">
+              <img src={armyband7} alt="" id="armyband7" />
+            </div>
+            <div className="aboutcarousel">
+              <h3 id="historylink">History</h3>
+              <h3 id="meetthebandlink">Meet the Band</h3>
+            </div>
           </div>
         </div>
         <br />
         <br />
         <br />{" "}
         <div className="ensembles">
-          <div>ensemble 1</div>
-          <div>ensemble 2</div>
-          <div>ensemble 3</div>
-          <div>ensemble 4</div>
-          <div>ensemble 5</div>
-          <div>ensemble 6</div>
-          <div>changing image</div>
+          <h3>Ensembles</h3>
+          <div className="ensembleChildContainer">
+            <div className="ensembleNames">
+              <div id="ensembleName">ensemble 2</div>
+              <div id="ensembleName">ensemble 3</div>
+              <div id="ensembleName">ensemble 4</div>
+              <div id="ensembleName">ensemble 5</div>
+              <div id="ensembleName">ensemble 6</div>
+            </div>
+            <div className="ensembleImageContainer">
+              <div id="ensembleImage">changing image</div>
+            </div>
+          </div>
         </div>
         <br />
         <br />
