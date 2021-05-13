@@ -257,31 +257,33 @@ html {
   margin-top: -1vw;
   margin-bottom: -2vw;
 }
-
+#mainDivTitle {
+  font-size: 2vw;
+}
 .signuplink {
   background-color: #ffcc01;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
   width: 50%;
+  height: 8vw;
   margin: auto;
-  height: 12vw;
 }
 #signuptext {
   position: relative;
   top: 42%;
+  font-size: 2vw;
 }
 .about {
   background-color: #181795;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
-  height: 37vw;
   width: 80%;
   margin: auto;
 }
 .aboutChildContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 6vw;
+  padding-bottom: 3vw;
 }
 .aboutimage,
 .aboutcarousel {
@@ -322,27 +324,68 @@ html {
   background-color: whitesmoke;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
-  height: 37vw;
+  /* height: 37vw; */
   width: 90%;
   margin: auto;
   /*   display: flex;
   flex-direction: row; */
+  padding-bottom: 3vw;
 }
 .ensembleNames {
   display: flex;
   flex-direction: column;
-  border: 5px solid black;
+  /* border: 5px solid black; */
   width: 31vw;
-  margin: auto;
+  margin-left: 7vw;
 }
 .ensembleChildContainer {
   display: flex;
   flex-direction: row;
 }
-#ensembleName {
+.ensembleName {
   border: 1px solid black;
-  margin-bottom: 2vw;
+  padding-top: 2vw;
   margin-top: 2vw;
+}
+#ensemble1 {
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+#ensemble1:hover {
+  background-color: #ffcc01;
+  transform: scale(1.1);
+}
+#ensemble2 {
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+#ensemble2:hover {
+  background-color: #ffcc01;
+  transform: scale(1.1);
+}
+#ensemble3 {
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+#ensemble3:hover {
+  background-color: #ffcc01;
+  transform: scale(1.1);
+}
+#ensemble4 {
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+#ensemble4:hover {
+  background-color: #ffcc01;
+  transform: scale(1.1);
+}
+#ensemble5 {
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+#ensemble5:hover {
+  background-color: #ffcc01;
+  transform: scale(1.1);
 }
 .ensembleImageContainer {
   width: 31vw;
@@ -353,31 +396,105 @@ html {
   background-color: #3f5022;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
-  height: 37vw;
+
   width: 70%;
   margin: auto;
+}
+#selectedEventsVideo {
+  width: 34vw !important;
+  height: 29vw !important;
+}
+.eventsChildContainer {
+  display: flex;
+  flex-direction: row;
+}
+.eventsNames {
+  border: 1px solid black;
+  margin: auto;
+}
+.eventsVideoContainer {
+  margin: auto;
+}
+#eventsVideo {
+  border: 1px solid black;
+}
+#requestBand {
+  margin-left: 57%;
 }
 .media {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
-  height: 37vw;
+  padding-bottom: 3vw;
   width: 75%;
   margin: auto;
 }
+.mediaChildContainer {
+  display: flex;
+  flex-direction: row;
+}
+.mediaVideosPicturesArticles {
+  margin-left: 1vw;
+}
+.mediaVideo {
+  margin: auto;
+}
+#VidsAndPics {
+  display: flex;
+  flex-direction: row;
+  /*   margin-right: 12vw; */
+}
+#selectedMediaVideo {
+  width: 34vw !important;
+  height: 29vw !important;
+}
+#mediaVideos {
+  background-image: url("/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/images/78tharmybandcircle.jpeg");
+  border-radius: 50%;
+  width: 14vw;
+  height: 14vw;
+  position: relative;
+  margin-right: 3vw;
+}
+#mediaPictures {
+  background: lightblue;
+  border-radius: 50%;
+  width: 14vw;
+  height: 14vw;
+  margin-left: 3vw;
+}
+#mediaArticles {
+  background: lightblue;
+  border-radius: 50%;
+  width: 14vw;
+  height: 14vw;
+  margin-top: 3vw;
+  margin-left: 10vw;
+}
+
 .jobs {
   background-color: #0353a4;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
-  height: 37vw;
   width: 80%;
   margin: auto;
+  padding-bottom: 3vw;
+}
+.jobsChildContainer {
+  display: flex;
+  flex-direction: row;
+}
+.vacancies {
+  margin: auto;
+  border: 1px solid black;
+}
+.auditionInfo {
+  margin: auto;
+  border: 1px solid black;
 }
 .footer {
   background-color: black;
   box-shadow: 10px 6px 16px 0px black;
-
-  height: 37vw;
 }
 @media screen and (max-width: 1140px) {
   .cb-slideshow li div h3 {
