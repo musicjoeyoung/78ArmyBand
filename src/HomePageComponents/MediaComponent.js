@@ -1,0 +1,36 @@
+import React, { Component } from "react";
+
+export class MediaComponent extends Component {
+  render() {
+    return (
+      <div className="media">
+        <h3 id="mainDivTitle">Media</h3>
+        <div className="mediaChildContainer">
+          <div className="mediaVideosPicturesArticles">
+            <div id="VidsAndPics">
+              <div id="mediaVideos" />
+              <div id="mediaPictures">circle pictures</div>
+            </div>
+            <div id="mediaArticles">circle articles</div>
+          </div>
+          <div className="mediaVideo">
+            <div>
+              <iframe
+                id="selectedMediaVideo"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/64R69szw6d4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default MediaComponent;

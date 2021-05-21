@@ -266,7 +266,7 @@ html {
   border-radius: 2vw;
   width: 50%;
   height: 8vw;
-  margin: auto;
+  margin: 5vw auto auto;
 }
 #signuptext {
   position: relative;
@@ -278,7 +278,7 @@ html {
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
   width: 80%;
-  margin: auto;
+  margin: 5vw auto auto;
 }
 .aboutChildContainer {
   display: flex;
@@ -326,7 +326,7 @@ html {
   border-radius: 2vw;
   /* height: 37vw; */
   width: 90%;
-  margin: auto;
+  margin: 5vw auto auto;
   /*   display: flex;
   flex-direction: row; */
   padding-bottom: 3vw;
@@ -342,16 +342,19 @@ html {
   display: flex;
   flex-direction: row;
 }
+
 .ensembleName {
   border: 1px solid black;
   padding-top: 2vw;
   margin-top: 2vw;
-}
-#ensemble1 {
   background-color: white;
   transition: all 0.4s ease-in-out;
 }
-#ensemble1:hover {
+#ensemble1 {
+  cursor: pointer;
+}
+
+#ensemble1:hover .ensembleImageContainer {
   background-color: #ffcc01;
   transform: scale(1.1);
 }
@@ -367,6 +370,7 @@ html {
   background-color: white;
   transition: all 0.4s ease-in-out;
 }
+
 #ensemble3:hover {
   background-color: #ffcc01;
   transform: scale(1.1);
@@ -391,14 +395,14 @@ html {
   width: 31vw;
   height: 23.3vw;
   margin: auto;
+  border: 5px solid black;
 }
 .events {
   background-color: #3f5022;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
-
   width: 70%;
-  margin: auto;
+  margin: 5vw auto auto;
 }
 #selectedEventsVideo {
   width: 34vw !important;
@@ -427,7 +431,7 @@ html {
   border-radius: 2vw;
   padding-bottom: 3vw;
   width: 75%;
-  margin: auto;
+  margin: 5vw auto auto;
 }
 .mediaChildContainer {
   display: flex;
@@ -477,7 +481,7 @@ html {
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
   width: 80%;
-  margin: auto;
+  margin: 5vw auto auto;
   padding-bottom: 3vw;
 }
 .jobsChildContainer {
@@ -495,6 +499,7 @@ html {
 .footer {
   background-color: black;
   box-shadow: 10px 6px 16px 0px black;
+  margin: 5vw auto auto;
 }
 @media screen and (max-width: 1140px) {
   .cb-slideshow li div h3 {
