@@ -172,7 +172,7 @@ html {
   height: 5vw;
 }
 .mainnavbar {
-  background-color: black;
+  background-color: #00214e;
   padding: 15px;
   box-shadow: 10px 6px 16px 0px black;
 }
@@ -342,7 +342,6 @@ html {
   display: flex;
   flex-direction: row;
 }
-
 .ensembleName {
   border: 1px solid black;
   padding-top: 2vw;
@@ -351,10 +350,11 @@ html {
   transition: all 0.4s ease-in-out;
 }
 #ensemble1 {
-  cursor: pointer;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
 }
 
-#ensemble1:hover .ensembleImageContainer {
+#ensemble1:hover {
   background-color: #ffcc01;
   transform: scale(1.1);
 }
@@ -391,11 +391,14 @@ html {
   background-color: #ffcc01;
   transform: scale(1.1);
 }
+#ensembleImage {
+  width: 31vw;
+}
 .ensembleImageContainer {
   width: 31vw;
   height: 23.3vw;
   margin: auto;
-  border: 5px solid black;
+  border: 1px solid black;
 }
 .events {
   background-color: #3f5022;
