@@ -198,7 +198,8 @@ html {
   color: white;
 }
 .contact-page-bg-image,
-.about-page-bg-image {
+.about-page-bg-image,
+.ensembles-page-bg-image {
   background-image: url("images/armyband3.jpeg");
   height: 100%;
   width: 100%;
@@ -208,7 +209,8 @@ html {
 }
 
 .contact-page-bg-text,
-.about-page-bg-text {
+.about-page-bg-text,
+.ensembles-page-bg-text {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
@@ -224,7 +226,8 @@ html {
   text-align: center;
 }
 #contact-page-pText,
-#contact-page-pText {
+#contact-page-pText,
+#ensembles-page-pText {
   font-size: 20px;
 }
 #navbarheader {
