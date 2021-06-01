@@ -194,7 +194,38 @@ html {
   margin-left: auto;
 }
 #contactusText {
-  font-size: 1.3vw;
+  font-size: 1.4vw;
+  color: white;
+}
+.contact-page-bg-image,
+.about-page-bg-image {
+  background-image: url("images/armyband3.jpeg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-page-bg-text,
+.about-page-bg-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 96%;
+  padding: 20px;
+  text-align: center;
+}
+#contact-page-pText,
+#contact-page-pText {
+  font-size: 20px;
 }
 #navbarheader {
   display: flex;
@@ -261,7 +292,6 @@ h6 {
 .alice-carousel {
   padding-top: 1vw;
   box-shadow: 0px 0px 16px 0px black;
-
   margin: 1vw 0px 0px 0px !important;
 }
 .alice-carousel__wrapper {
@@ -349,6 +379,7 @@ h6 {
   flex-direction: row; */
   padding-bottom: 3vw;
 }
+
 .ensembleNames {
   display: flex;
   flex-direction: column;
@@ -450,7 +481,7 @@ h6 {
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 2vw;
   padding-bottom: 3vw;
-  width: 75%;
+  width: 99%;
   margin: 5vw auto auto;
 }
 .mediaChildContainer {
@@ -469,8 +500,8 @@ h6 {
   /*   margin-right: 12vw; */
 }
 #selectedMediaVideo {
-  width: 34vw !important;
-  height: 29vw !important;
+  width: 52vw !important;
+  height: 35vw !important;
 }
 #mediaVideos {
   /* background-image: url("/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/images/78tharmybandcircle.jpeg"); */
@@ -614,6 +645,7 @@ h6 {
   }
   #contactusText {
     font-size: 12px;
+    color: white;
   }
   #bandlogo {
     width: 9vw;

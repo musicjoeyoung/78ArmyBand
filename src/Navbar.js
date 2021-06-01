@@ -30,9 +30,10 @@ export default function Navbar() {
           </div>
         </div>
         <div id="contactus">
-          <h4 id="contactusText" href="mailto:musicjoeyoung@gmail.com">
-            Contact Us!
-          </h4>
+          <Link to="/contact" id="contactusText">
+            Contact us
+          </Link>
+          {/* <h4 href="mailto:musicjoeyoung@gmail.com">Contact Us!</h4> */}
         </div>
       </div>
     </div>
