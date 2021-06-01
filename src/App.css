@@ -178,7 +178,15 @@ html {
 }
 #navbartitle {
   color: white;
-  font-size: 1.7vw;
+  font-size: 23px;
+  margin-bottom: -1.5vw;
+}
+#iconAndHeader {
+  display: flex;
+  flex-direction: row;
+}
+#navbarTitleNames {
+  margin-top: -1vw;
 }
 #contactus {
   color: white;
@@ -217,7 +225,10 @@ html {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
+h6 {
+  color: white;
+  margin-bottom: -1.5vw;
+}
 /* Links inside the dropdown */
 .navbar a {
   color: black;
@@ -259,6 +270,13 @@ html {
 }
 #mainDivTitle {
   font-size: 2vw;
+}
+
+#mainDivTitleAbout,
+#mainDivTitleFooter,
+#mainDivTitleMedia {
+  font-size: 2vw;
+  color: white;
 }
 .signuplink {
   background-color: #ffcc01;
@@ -392,13 +410,12 @@ html {
   transform: scale(1.1);
 }
 #ensembleImage {
-  width: 31vw;
+  width: 34vw;
 }
 .ensembleImageContainer {
   width: 31vw;
-  height: 23.3vw;
+  height: 18.3vw;
   margin: auto;
-  border: 1px solid black;
 }
 .events {
   background-color: #3f5022;
@@ -408,26 +425,26 @@ html {
   margin: 5vw auto auto;
 }
 #selectedEventsVideo {
-  width: 34vw !important;
-  height: 29vw !important;
+  width: 28vw !important;
+  height: 20vw !important;
 }
 .eventsChildContainer {
   display: flex;
   flex-direction: row;
 }
 .eventsNames {
-  border: 1px solid black;
   margin: auto;
+}
+#events {
+  margin-top: 1vw;
 }
 .eventsVideoContainer {
-  margin: auto;
+  margin: 7%;
 }
-#eventsVideo {
-  border: 1px solid black;
+/* #eventsVideo {
 }
 #requestBand {
-  margin-left: 57%;
-}
+} */
 .media {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
@@ -456,7 +473,8 @@ html {
   height: 29vw !important;
 }
 #mediaVideos {
-  background-image: url("/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/images/78tharmybandcircle.jpeg");
+  /* background-image: url("/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/images/78tharmybandcircle.jpeg"); */
+  background: lightblue;
   border-radius: 50%;
   width: 14vw;
   height: 14vw;
@@ -493,7 +511,6 @@ html {
 }
 .vacancies {
   margin: auto;
-  border: 1px solid black;
 }
 .auditionInfo {
   margin: auto;
@@ -504,14 +521,103 @@ html {
   box-shadow: 10px 6px 16px 0px black;
   margin: 5vw auto auto;
 }
+.footerChildContainer {
+  display: flex;
+  flex-direction: row;
+  /* padding-bottom: 3vw; */
+  justify-content: center;
+  padding-top: 2vw;
+}
+.footerLogos {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  justify-content: space-evenly;
+  margin-right: 9vw;
+  padding-top: 1vw;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3vw;
+  color: white;
+  width: 40vw;
+  justify-content: space-evenly;
+}
+/* #footerLinksDiv {
+} */
+#armylogo {
+  width: 179px;
+  height: 239px;
+}
+#band78 {
+  width: 179px;
+  height: 179px;
+}
 @media screen and (max-width: 1140px) {
   .cb-slideshow li div h3 {
     font-size: 140px;
+  }
+  #navbartitle {
+    color: white;
+    font-size: 1.8vw;
+  }
+  #contactusText {
+    font-size: 19px;
+  }
+  #bandlogo {
+    width: 9vw;
+    height: 9vw;
+  }
+  .footerLogos {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    justify-content: space-evenly;
+    margin-right: 9vw;
+    padding-top: 1vw;
+  }
+
+  .footerLinks {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3vw;
+    color: white;
+    width: 53vw;
+    justify-content: space-evenly;
+  }
+  #linksH4 {
+    font-size: 12px;
+  }
+  #learnMore,
+  #importantLinks,
+  #socialMedia {
+    font-size: 14px;
+  }
+  #armylogo {
+    width: 89px;
+    height: 129px;
+  }
+  #band78 {
+    width: 89px;
+    height: 89px;
   }
 }
 @media screen and (max-width: 600px) {
   .cb-slideshow li div h3 {
     font-size: 80px;
+  }
+  #navbartitle {
+    color: white;
+    font-size: 12px;
+  }
+  #contactusText {
+    font-size: 12px;
+  }
+  #bandlogo {
+    width: 9vw;
+    height: 9vw;
   }
 }
 li {

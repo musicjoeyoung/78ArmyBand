@@ -21,9 +21,9 @@ export class EventsComponent extends Component {
             </div>
           </div>
           <div className="eventsNames">
-            <div>events 1</div>
-            <div>events 2</div>
-            <div>events 3</div>
+            <div id="events">events 1</div>
+            <div id="events">events 2</div>
+            <div id="events">events 3</div>
           </div>
         </div>
         <button id="requestBand">request the band</button>

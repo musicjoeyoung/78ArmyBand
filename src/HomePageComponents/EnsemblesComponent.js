@@ -4,7 +4,6 @@ import ensemble2 from "../images/armyband2.jpeg";
 import ensemble3 from "../images/armyband3.jpeg";
 import ensemble4 from "../images/armyband4.jpeg";
 import ensemble5 from "../images/armyband5.jpeg";
-import armyband7 from "../images/armyband7.jpeg";
 
 function changeImage1() {
   document.getElementById("ensembleImage").src = ensemble1;
@@ -66,7 +65,7 @@ export class EnsemblesComponent extends Component {
             </div>
           </div>
           <div className="ensembleImageContainer">
-            <img id="ensembleImage" alt="" src={armyband7} />
+            <img id="ensembleImage" alt="" src={ensemble1} />
           </div>
         </div>
       </div>

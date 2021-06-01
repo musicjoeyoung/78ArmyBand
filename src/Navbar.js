@@ -21,8 +21,14 @@ export default function Navbar() {
         </div>
       </div>
       <div id="navbarheader">
-        <img src={armyband78} alt="" id="bandlogo" />
-        <h3 id="navbartitle">78th Army Band</h3>
+        <div id="iconAndHeader">
+          <img src={armyband78} alt="" id="bandlogo" />
+          <div id="navbarTitleNames">
+            <h6>US Army Reserves</h6>
+            <h3 id="navbartitle">78th Army Band</h3>
+            <h6>Fort Dix, NJ | Fort Totten, NY</h6>
+          </div>
+        </div>
         <div id="contactus">
           <h4 id="contactusText" href="mailto:musicjoeyoung@gmail.com">
             Contact Us!
