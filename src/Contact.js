@@ -24,7 +24,7 @@ export class Contact extends Component {
           <p>1-2 sentences here</p>
           <button>Request the Band</button>
         </div>
-        <div classname="contact-page-newsletter-signup">
+        <div className="contact-page-newsletter-signup">
           <h2>Sign up for our newsletter!</h2>
           <input></input>
           email form here

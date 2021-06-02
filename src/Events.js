@@ -8,9 +8,9 @@ export class Events extends Component {
     return (
       <div>
         <Navbar />
-        <img src={armyband3} className="ensembles-page-bg-image" alt="" />
+        <img src={armyband3} className="events-page-bg-image" alt="" />
 
-        <div className="ensembles-page-bg-text">
+        <div className="events-page-bg-text">
           <h1>Events</h1>
         </div>
         <div className="eventsList">

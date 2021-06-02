@@ -199,7 +199,9 @@ html {
 }
 .contact-page-bg-image,
 .about-page-bg-image,
-.ensembles-page-bg-image {
+.ensembles-page-bg-image,
+.events-page-bg-image,
+.media-page-bg-image {
   background-image: url("images/armyband3.jpeg");
   height: 100%;
   width: 100%;
@@ -207,17 +209,26 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.ensembles-page-pic-and-text {
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* .ensembles-page-pic {
+  display: flex;
+  flex-direction: column-reverse;
+} */
 .contact-page-bg-text,
 .about-page-bg-text,
-.ensembles-page-bg-text {
+.ensembles-page-bg-text,
+.events-page-bg-text,
+.media-page-bg-text {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 80%;
+  /* top: 84%; */
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;

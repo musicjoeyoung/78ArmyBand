@@ -8,11 +8,14 @@ export class About extends Component {
     return (
       <div>
         <Navbar />
-        <img src={armyband3} className="about-page-bg-image" alt="" />
-
-        <div className="about-page-bg-text">
-          <h1>About</h1>
-          <p id="about-page-pText">The history of the 78th Army Band...</p>
+        <div className="ensembles-page-pic-and-text">
+          <div className="ensembles-page-pic">
+            <img src={armyband3} className="about-page-bg-image" alt="" />
+          </div>
+          <div className="about-page-bg-text">
+            <h1>About</h1>
+            <p id="about-page-pText">The history of the 78th Army Band...</p>
+          </div>
         </div>
         <div className="history">
           <h2>History</h2>

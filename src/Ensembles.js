@@ -8,13 +8,16 @@ export class Ensembles extends Component {
     return (
       <div>
         <Navbar />
-        <img src={armyband3} className="ensembles-page-bg-image" alt="" />
-
-        <div className="ensembles-page-bg-text">
-          <h1>Ensembles</h1>
-          <p id="ensembles-page-pText">
-            The ensembles of the 78th Army Band...
-          </p>
+        <div className="ensembles-page-pic-and-text">
+          <div className="ensembles-page-pic">
+            <img src={armyband3} className="ensembles-page-bg-image" alt="" />
+          </div>
+          <div className="ensembles-page-bg-text">
+            <h1>Ensembles</h1>
+            <p id="ensembles-page-pText">
+              The ensembles of the 78th Army Band...
+            </p>
+          </div>
         </div>
         <div className="ensemblesList">
           <h2>Ensembles</h2>
