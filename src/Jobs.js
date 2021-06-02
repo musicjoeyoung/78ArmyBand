@@ -8,10 +8,13 @@ export class Jobs extends Component {
     return (
       <div>
         <Navbar />
-        <img src={armyband3} className="vacancies-page-bg-image" alt="" />
-
-        <div className="vacancies-page-bg-text">
-          <h1>Vacancies</h1>
+        <div className="jobs-page-pic-and-text">
+          <div className="jobs-page-pic">
+            <img src={armyband3} className="jobs-page-bg-image" alt="" />
+          </div>
+          <div className="jobs-page-bg-text">
+            <h1>jobs</h1>
+          </div>
         </div>
         <div className="eventsList">
           Divs whose event information changes on hover.

@@ -8,10 +8,13 @@ export class Media extends Component {
     return (
       <div>
         <Navbar />
-        <img src={armyband3} className="media-page-bg-image" alt="" />
-
-        <div className="media-page-bg-text">
-          <h1>Media</h1>
+        <div className="media-page-pic-and-text">
+          <div className="media-page-pic">
+            <img src={armyband3} className="media-page-bg-image" alt="" />
+          </div>
+          <div className="media-page-bg-text">
+            <h1>Media</h1>
+          </div>
         </div>
         <div>
           Videos

@@ -9,6 +9,7 @@ import Media from "./Media";
 import Jobs from "./Jobs";
 import Contact from "./Contact";
 import ErrorNotFound from "./ErrorNotFound";
+import TermsOfUse from "./TermsOfUse";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
@@ -40,6 +41,9 @@ class App extends Component {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/termsofuse">
+              <TermsOfUse />
             </Route>
             <Route path="*" component={ErrorNotFound} />
           </Switch>

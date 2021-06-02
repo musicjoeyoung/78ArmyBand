@@ -10,13 +10,27 @@ export default function Navbar() {
         <div className="dropdown">
           <img className="dropbtn" src={dropdownImg} alt="" />
           <div className="navbar">
-            <Link to="/home">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/ensembles">Ensembles</Link>
-            <Link to="/events">Events</Link>
-            <Link to="/media">Media</Link>
-            <Link to="/jobs">Career Opportunities</Link>
-            <Link to="/contact">Contact us</Link>
+            <Link id="navbarLinks" to="/home">
+              Home
+            </Link>
+            <Link id="navbarLinks" to="/about">
+              About
+            </Link>
+            <Link id="navbarLinks" to="/ensembles">
+              Ensembles
+            </Link>
+            <Link id="navbarLinks" to="/events">
+              Events
+            </Link>
+            <Link id="navbarLinks" to="/media">
+              Media
+            </Link>
+            <Link id="navbarLinks" to="/jobs">
+              Career Opportunities
+            </Link>
+            <Link id="navbarLinks" to="/contact">
+              Contact us
+            </Link>
           </div>
         </div>
       </div>

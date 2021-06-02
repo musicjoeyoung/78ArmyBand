@@ -181,6 +181,9 @@ html {
   font-size: 23px;
   margin-bottom: -1.5vw;
 }
+#navbarLinks {
+  color: black;
+}
 #iconAndHeader {
   display: flex;
   flex-direction: row;
@@ -201,7 +204,8 @@ html {
 .about-page-bg-image,
 .ensembles-page-bg-image,
 .events-page-bg-image,
-.media-page-bg-image {
+.media-page-bg-image,
+.jobs-page-bg-image {
   background-image: url("images/armyband3.jpeg");
   height: 100%;
   width: 100%;
@@ -209,7 +213,12 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.ensembles-page-pic-and-text {
+.contact-page-pic-and-text,
+.about-page-pic-and-text,
+.ensembles-page-pic-and-text,
+.events-page-pic-and-text,
+.media-page-pic-and-text,
+.jobs-page-pic-and-text {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -221,7 +230,8 @@ html {
 .about-page-bg-text,
 .ensembles-page-bg-text,
 .events-page-bg-text,
-.media-page-bg-text {
+.media-page-bg-text,
+.jobs-page-bg-text {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
@@ -237,8 +247,11 @@ html {
   text-align: center;
 }
 #contact-page-pText,
-#contact-page-pText,
-#ensembles-page-pText {
+#about-page-pText,
+#ensembles-page-pText,
+#events-page-pText,
+#media-page-pText,
+#jobs-page-pText {
   font-size: 20px;
 }
 #navbarheader {
@@ -590,7 +603,26 @@ h6 {
   width: 40vw;
   justify-content: space-evenly;
 }
-/* #footerLinksDiv {
+#footerLinksDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  margin-top: 11px;
+}
+
+/* #linksH4 {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
 } */
 #armylogo {
   width: 179px;
@@ -632,9 +664,7 @@ h6 {
     width: 53vw;
     justify-content: space-evenly;
   }
-  #linksH4 {
-    font-size: 12px;
-  }
+
   #learnMore,
   #importantLinks,
   #socialMedia {
