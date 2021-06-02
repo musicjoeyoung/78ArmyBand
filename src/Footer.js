@@ -20,7 +20,7 @@ export class Footer extends Component {
                 <a>Calendar</a>
                 <a href="https://www.goarmy.com/band.html">US Army Bands</a>
                 <a>Request the Band</a>
-                <a href="mailto:joseph.m.young72.mil@mail.mil?subject=78th Army Band Website">
+                <a href="mailto:joseph.m.young72.mil@mail.mil?subject: 78th Army Band Website">
                   Webmaster Contact
                 </a>
               </div>

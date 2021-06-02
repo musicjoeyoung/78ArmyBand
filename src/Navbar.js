@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import armyband78 from "./images/band78.jpeg";
 import dropdownImg from "./images/dropdown.png";
+import headerImg from "./images/78ArmyBandSiteHeader.png";
 
 export default function Navbar() {
   return (
@@ -35,14 +36,9 @@ export default function Navbar() {
         </div>
       </div>
       <div id="navbarheader">
-        <div id="iconAndHeader">
-          <img src={armyband78} alt="" id="bandlogo" />
-          <div id="navbarTitleNames">
-            <h6>US Army Reserves</h6>
-            <h3 id="navbartitle">78th Army Band</h3>
-            <h6>Fort Dix, NJ | Fort Totten, NY</h6>
-          </div>
-        </div>
+        <a href="./Home">
+          <img src={headerImg} id="bandHomePageLogo"/>
+        </a>
         <div id="contactus">
           <Link to="/contact" id="contactusText">
             Contact us
