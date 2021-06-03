@@ -428,11 +428,29 @@ h6 {
   filter: grayscale(0%);
   transform: scale(1.1);
 }
+.history {
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
 #historylink {
   position: relative;
   top: 28%;
   color: white;
   font-size: 1.5vw;
+}
+.meetTheBand {
+  border: 1px solid;
+  height: 900px;
+  width: 800px;
+  margin: auto;
+}
+#bioImg {
+  float: left;
+  margin-left: 15%;
+  height: 200px;
+  width: 200px;
 }
 #meetthebandlink {
   position: relative;
