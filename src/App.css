@@ -446,6 +446,9 @@ h6 {
   width: 800px;
   margin: auto;
 }
+#bioText1 {
+  color: black;
+}
 #bioImg {
   float: left;
   margin-left: 15%;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import armyband78 from "./images/band78.jpeg";
+
 import dropdownImg from "./images/dropdown.png";
 import headerImg from "./images/78ArmyBandSiteHeader.png";
 
@@ -37,7 +37,7 @@ export default function Navbar() {
       </div>
       <div id="navbarheader">
         <a href="./Home">
-          <img src={headerImg} id="bandHomePageLogo"/>
+          <img src={headerImg} id="bandHomePageLogo" />
         </a>
         <div id="contactus">
           <Link to="/contact" id="contactusText">
