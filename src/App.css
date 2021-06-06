@@ -448,6 +448,10 @@ h6 {
 }
 #bioText1 {
   color: black;
+  border: 1px solid;
+  height: 500px;
+  width: 500px;
+  float: left;
 }
 #bioImg {
   float: left;

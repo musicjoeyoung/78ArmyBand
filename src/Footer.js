@@ -19,7 +19,9 @@ export class Footer extends Component {
                 <a href="./Contact">Contact Us</a>
                 <a>Calendar</a>
                 <a href="https://www.goarmy.com/band.html">US Army Bands</a>
-                <a>Request the Band</a>
+                <a href="./Contact#contact-page-request-the-band">
+                  Request the Band
+                </a>
                 <a href="mailto:joseph.m.young72.mil@mail.mil?subject: 78th Army Band Website">
                   Webmaster Contact
                 </a>

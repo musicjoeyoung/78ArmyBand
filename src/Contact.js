@@ -23,7 +23,10 @@ export class Contact extends Component {
             <h2>We want to hear from you!</h2>
           </div>
         </div>
-        <div className="contact-page-request-the-band">
+        <div
+          className="contact-page-request-the-band"
+          id="contact-page-request-the-band"
+        >
           <h2>Request the Band</h2>
           <p id="requestBandPTag">
             To request local support, complete a{" "}
