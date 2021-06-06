@@ -286,7 +286,7 @@ html {
   /* top: 84%; */
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  /* z-index: 2; */
   width: 96%;
   padding: 20px;
   text-align: center;
@@ -341,8 +341,10 @@ h6 {
 }
 
 /* Change color of dropdown links on hover */
-.navbar a:hover {
+.navbar a:hover,
+li:hover {
   background-color: #f1f1f1;
+  cursor: pointer;
 }
 
 /* Show the dropdown menu on hover */
@@ -358,8 +360,8 @@ h6 {
   display: flex;
   background-color: #ffcc01;
   float: left;
-  width: 5vw;
-  height: 5vw;
+  /* width: 5vw;
+  height: 5vw; */
 }
 .alice-carousel {
   padding-top: 1vw;
@@ -442,22 +444,25 @@ h6 {
 }
 .meetTheBand {
   border: 1px solid;
-  height: 900px;
+  height: auto;
   width: 800px;
   margin: auto;
 }
-#bioText1 {
+#bioText1,
+#bioText2 {
   color: black;
-  border: 1px solid;
+  text-align: justify;
   height: 500px;
-  width: 500px;
-  float: left;
+  width: 70%;
+  margin-left: 15%;
 }
-#bioImg {
+#bioImg1,
+#bioImg2 {
   float: left;
   margin-left: 15%;
   height: 200px;
   width: 200px;
+  padding-right: 3%;
 }
 #meetthebandlink {
   position: relative;
