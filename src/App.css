@@ -172,8 +172,8 @@ html {
   height: 5vw;
 }
 .mainnavbar {
+  display: flex;
   background-color: #00214e;
-  padding: 15px;
   box-shadow: 10px 6px 16px 0px black;
 }
 
@@ -182,16 +182,17 @@ html {
 }
 #bandHomePageLogo {
   margin: auto;
-  width: 80%;
+  width: 15vw;
 }
 
 #contactus {
   color: white;
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: auto;
+  margin-right: 1%;
 }
 #contactusText {
-  font-size: 1.4vw;
+  font-size: 1.1vw;
   color: white;
 }
 #requestBandInfo {
@@ -306,11 +307,10 @@ html {
 }
 .dropbtn {
   color: white;
-  padding: 1.38vw;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  width: 2.3vw;
+  width: 35px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -354,14 +354,16 @@ li:hover {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #00214e;
+  /* background-color: #00214e; */
+  background-color: #ffcc01;
 }
 .dropdownDiv {
   display: flex;
   background-color: #ffcc01;
-  float: left;
-  /* width: 5vw;
-  height: 5vw; */
+  margin-left: 2%;
+  width: 35px;
+  height: 35px;
+  margin-top: 1.5%;
 }
 .alice-carousel {
   padding-top: 1vw;

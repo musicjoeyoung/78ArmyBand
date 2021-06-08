@@ -39,12 +39,11 @@ export default function Navbar() {
         <a href="./Home">
           <img src={headerImg} id="bandHomePageLogo" alt="78bandlogo" />
         </a>
-        <div id="contactus">
-          <Link to="/contact" id="contactusText">
-            Contact us
-          </Link>
-          {/* <h4 href="mailto:musicjoeyoung@gmail.com">Contact Us!</h4> */}
-        </div>
+      </div>
+      <div id="contactus">
+        <Link to="/contact" id="contactusText">
+          Contact us
+        </Link>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import "./App.css";
 import Welcome from "./Welcome";
 import Home from "./Home";
 import About from "./About";
+
 import Ensembles from "./Ensembles";
 import Events from "./Events";
 import Media from "./Media";
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path="/about">
               <About />
             </Route>
+
             <Route path="/ensembles">
               <Ensembles />
             </Route>
