@@ -469,6 +469,9 @@ li:hover {
   width: 200px;
   padding-right: 3%;
 }
+#staffName {
+  text-align: left;
+}
 #meetthebandlink {
   position: relative;
   top: 42%;
