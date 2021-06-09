@@ -450,6 +450,7 @@ li:hover {
   width: 800px;
   margin: auto;
 }
+#bioText,
 #bioText1,
 #bioText2 {
   color: black;
@@ -458,6 +459,8 @@ li:hover {
   width: 70%;
   margin-left: 15%;
 }
+
+#bioImg,
 #bioImg1,
 #bioImg2 {
   float: left;
