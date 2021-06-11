@@ -59,9 +59,13 @@ export class Profile extends Component {
       .map(function (staff) {
         return (
           <div>
-            <img id="bioImg" src={staff.img} />
-            <h4 id="staffName">{staff.name}</h4>
-            <p id="bioText">{staff.bio}</p>
+            <img key={staff.img} id="bioImg" alt="bioImage" src={staff.img} />
+            <h4 key={staff.name} id="staffName">
+              {staff.name}
+            </h4>
+            <p key={staff.bio} id="bioText">
+              {staff.bio}
+            </p>
           </div>
         );
       });
@@ -72,11 +76,17 @@ export class Profile extends Component {
       .map(function (staff) {
         return (
           <div>
-            <h4>{staff.name}</h4>
-            <p id="bioText">{staff.bio}</p>
+            <img key={staff.img} id="bioImg" alt="bioImage" src={staff.img} />
+            <h4 key={staff.name} id="staffName">
+              {staff.name}
+            </h4>
+            <p key={staff.bio} id="bioText">
+              {staff.bio}
+            </p>
           </div>
         );
       });
+
     return (
       <div>
         <div className="meetTheBand">
@@ -84,17 +94,19 @@ export class Profile extends Component {
             <div className="dropdown">
               <img className="dropbtn" src={dropdownImg} alt="" />
               <div className="navbar">
-                <li id="navbarLinks" onClick={CommandTeam}>
-                  Command Team
-                </li>
-                <li id="navbarLinks" onClick={Brass}>
-                  Brass
-                </li>
+                <li id="navbarLinks">Command Team</li>
+                <li id="navbarLinks">Brass</li>
+                <li id="navbarLinks">Woodwinds</li>
+                <li id="navbarLinks">Percussion</li>
               </div>
             </div>
           </div>
           <h2>Meet the Band</h2>
-          <p>Command Team: {CommandTeam}</p>
+          {/*  I want this to show the selected li tag's content*/}
+          <p>
+            Command Team: {CommandTeam}{" "}
+            {/* (or Brass, or Percussion, or Woodwinds, etc.) */}
+          </p>
         </div>
       </div>
     );
