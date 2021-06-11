@@ -327,6 +327,7 @@ html {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  top: 35px;
 }
 h6 {
   color: white;
@@ -445,17 +446,21 @@ li:hover {
   font-size: 1.5vw;
 }
 .meetTheBand {
+  display: flex;
+  flex-direction: column;
   border: 1px solid;
-  height: auto;
-  width: 800px;
+  /*  height: auto; */
+  width: 850px;
   margin: auto;
+}
+.individualProfile {
+  height: auto;
 }
 #bioText,
 #bioText1,
 #bioText2 {
   color: black;
   text-align: justify;
-  height: 500px;
   width: 70%;
   margin-left: 15%;
 }
