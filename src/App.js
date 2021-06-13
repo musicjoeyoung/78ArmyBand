@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import Welcome from "./Welcome";
+//import Welcome from "./Welcome";
 import Home from "./Home";
 import About from "./About/About.js";
 import Ensembles from "./Ensembles";
@@ -19,7 +19,7 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route exact path="/">
-              <Welcome />
+              <Home />
             </Route>
             <Route path="/home">
               <Home />
