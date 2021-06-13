@@ -388,7 +388,7 @@ li:hover {
 .signuplink {
   background-color: #ffcc01;
   box-shadow: 10px 6px 16px 0px black;
-  border-radius: 2vw;
+  border-radius: 7px;
   width: 50%;
   height: 8vw;
   margin: 5vw auto auto;
@@ -401,8 +401,8 @@ li:hover {
 .about {
   background-color: #181795;
   box-shadow: 10px 6px 16px 0px black;
-  border-radius: 2vw;
-  width: 80%;
+  border-radius: 7px;
+  width: 90%;
   margin: 5vw auto auto;
 }
 .aboutChildContainer {
@@ -414,7 +414,7 @@ li:hover {
 .aboutcarousel {
   /* border: 5px solid black; */
   width: 31vw;
-  height: 23.3vw;
+  /* height: 23.3vw; */
   margin: auto;
 }
 /* #abouttitle {
@@ -485,9 +485,9 @@ li:hover {
 .ensembles {
   background-color: whitesmoke;
   box-shadow: 10px 6px 16px 0px black;
-  border-radius: 2vw;
-  /* height: 37vw; */
+  border-radius: 7px;
   width: 90%;
+  /* height: 37vw; */
   margin: 5vw auto auto;
   /*   display: flex;
   flex-direction: row; */
@@ -565,7 +565,7 @@ li:hover {
 .events {
   background-color: #3f5022;
   box-shadow: 10px 6px 16px 0px black;
-  border-radius: 2vw;
+  border-radius: 7px;
   width: 70%;
   margin: 5vw auto auto;
 }
@@ -593,9 +593,9 @@ li:hover {
 .media {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
-  border-radius: 2vw;
   padding-bottom: 3vw;
-  width: 99%;
+  border-radius: 7px;
+  width: 90%;
   margin: 5vw auto auto;
 }
 .mediaChildContainer {
@@ -645,8 +645,8 @@ li:hover {
 .jobs {
   background-color: #0353a4;
   box-shadow: 10px 6px 16px 0px black;
-  border-radius: 2vw;
-  width: 80%;
+  border-radius: 7px;
+  width: 90%;
   margin: 5vw auto auto;
   padding-bottom: 3vw;
 }
@@ -656,6 +656,7 @@ li:hover {
 }
 .vacancies {
   margin: auto;
+  border: 1px solid black;
 }
 .auditionInfo {
   margin: auto;

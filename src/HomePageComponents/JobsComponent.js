@@ -14,7 +14,7 @@ export class JobsComponent extends Component {
           </div>
           <div className="auditionInfo">
             <h4>Audtion Information</h4>
-            <label for="instruments">Instruments:</label>
+            <label htmlFor="instruments">Instruments:</label>
             <select>
               <optgroup label="Woodwinds">
                 <option value="flute">Flute</option>

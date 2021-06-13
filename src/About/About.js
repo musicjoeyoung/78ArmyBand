@@ -5,6 +5,7 @@ import Profiles from "./Profiles";
 import NavComponent from "./NavComponent";
 import { staff } from "./staffArray.js";
 import armyband3 from "../images/armyband3.jpeg";
+import History from "./History";
 
 function About() {
   const [section, setSection] = useState("Command Team");
@@ -26,8 +27,9 @@ function About() {
           <p id="about-page-pText">The 78th Army Band...</p>
         </div>
       </div>
+      <History />
       <div className="meetTheBand">
-        <h1>Meet the Band!</h1>
+        <h1 id="meetTheBand">Meet the Band!</h1>
         <NavComponent setSection={updateSection}></NavComponent>
         <h2>{section}</h2>
         <Profiles staff={profiles} />

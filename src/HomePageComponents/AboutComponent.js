@@ -11,8 +11,16 @@ export class AboutComponent extends Component {
             <img src={armyband7} alt="" id="armyband7" />
           </div>
           <div className="aboutcarousel">
-            <h3 id="historylink">History</h3>
-            <h3 id="meetthebandlink">Meet the Band</h3>
+            <h3>
+              <a id="historylink" href="../About/#history">
+                History
+              </a>
+            </h3>
+            <h3>
+              <a id="meetthebandlink" href="../About/#meetTheBand">
+                Meet the Band
+              </a>
+            </h3>
           </div>
         </div>
       </div>

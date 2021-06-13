@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import img1 from "./images/armyband1.jpg";
-import img2 from "./images/armyband2.jpeg";
-import img3 from "./images/armyband3.jpeg";
+import img1 from "./images/BandParade2.jpg";
+import img2 from "./images/BandFormation.jpg";
+import img3 from "./images/BandParadeNYC.jpeg";
 export default function HomeCarousel() {
   return (
     <AliceCarousel
@@ -13,9 +13,9 @@ export default function HomeCarousel() {
       infinite
       animationType="fadeout"
     >
+      <img src={img3} alt="" className="sliderimg" />
       <img src={img1} alt="" className="sliderimg" />
       <img src={img2} alt="" className="sliderimg" />
-      <img src={img3} alt="" className="sliderimg" />
     </AliceCarousel>
   );
 }
