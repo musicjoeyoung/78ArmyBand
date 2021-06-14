@@ -25,7 +25,7 @@ export class Media extends Component {
                   id="selectedMediaVideo"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/64R69szw6d4"
+                  src="http://www.youtube.com/embed/?listType=user_uploads&list=78thArmyBand"
                   title="YouTube video player"
                   frameorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -35,16 +35,7 @@ export class Media extends Component {
             </div>
           </div>
         </div>
-        <div>
-          Videos
-          <div>actual video</div>
-          <div>carousel of videos</div>
-        </div>
-        <div>
-          Pictures
-          <div>actual Picture</div>
-          <div>carousel of Pictures</div>
-        </div>
+
         <div>
           Articles
           <div>actual Article</div>
