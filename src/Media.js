@@ -16,6 +16,25 @@ export class Media extends Component {
             <h1>Media</h1>
           </div>
         </div>
+        <div className="media">
+          <h3 id="mainDivTitleMedia">Media</h3>
+          <div className="mediaChildContainer">
+            <div className="mediaVideo">
+              <div>
+                <iframe
+                  id="selectedMediaVideo"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/64R69szw6d4"
+                  title="YouTube video player"
+                  frameorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
         <div>
           Videos
           <div>actual video</div>
