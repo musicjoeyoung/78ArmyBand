@@ -400,11 +400,12 @@ li:hover {
 }
 .about {
   background-color: #181795;
+  -webkit-box-shadow: 10px 6px 16px 0px black;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
-  width: 90%;
+  width: 70%;
   max-width: 1280px;
-  margin: 5vw auto auto;
+  margin: auto;
 }
 .aboutChildContainer {
   display: flex;
@@ -445,6 +446,91 @@ li:hover {
   top: 28%;
   color: white;
   font-size: 1.5vw;
+}
+#historyText {
+  color: white;
+  margin: auto;
+  width: 85%;
+}
+
+.modal-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateZ(0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-area {
+  position: relative;
+  top: 22%;
+  /* left: 0; */
+  /* align-items: unset; */
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  padding: 2.5em 1.5em 1.5em 1.5em;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 10px 3px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 10px 3px rgb(0 0 0 / 10%);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-shadow: 10px 10px 8px 8px #000000;
+  box-shadow: 10px 10px 8px 8px #000000;
+  border-radius: 7px;
+  color: #284b63;
+  -webkit-animation: fadeIn cubic-bezier(0.4, 0, 1, 1) 2s;
+  animation: fadeIn cubic-bezier(0.4, 0, 1, 1) 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+._modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  line-height: 1;
+  background: #f6f6f7;
+  border: 0;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+._modal-close-icon {
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  stroke: black;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.modal-body {
+  padding-top: 0.25em;
+}
+
+._hide-visual {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+.scroll-lock {
+  overflow: hidden;
+  margin-right: 17px;
+}
+#modalText {
+  line-height: 40px;
 }
 .meetTheBand {
   display: flex;
