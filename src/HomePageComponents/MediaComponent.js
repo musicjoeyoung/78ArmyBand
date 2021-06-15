@@ -7,10 +7,8 @@ export class MediaComponent extends Component {
         <h3 id="mainDivTitleMedia">Media</h3>
         <div className="mediaChildContainer">
           <div className="mediaVideosPicturesArticles">
-            <div id="VidsAndPics">
-              <div id="mediaVideos">videos</div>
-              <div id="mediaPictures">pictures</div>
-            </div>
+            <div id="mediaVideos">videos</div>
+            <div id="mediaPictures">pictures</div>
             <div id="mediaArticles">articles</div>
           </div>
           <div className="mediaVideo">

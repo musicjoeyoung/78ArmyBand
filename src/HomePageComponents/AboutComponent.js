@@ -16,6 +16,7 @@ export class AboutComponent extends Component {
                 History
               </a>
             </h3>
+            <br />
             <h3>
               <a id="meetthebandlink" href="../About/#meetTheBand">
                 Meet the Band
