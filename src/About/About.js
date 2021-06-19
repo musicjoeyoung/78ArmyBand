@@ -4,7 +4,7 @@ import Footer from "../Footer";
 import Profiles from "./Profiles";
 import NavComponent from "./NavComponent";
 import { staff } from "./staffArray.js";
-import armyband3 from "../images/armyband3.jpeg";
+import armyband from "../images/78armybandparade.jpeg";
 import History from "./History";
 
 function About() {
@@ -20,7 +20,7 @@ function About() {
       <Navbar />
       <div className="about-page-pic-and-text">
         <div className="about-page-pic">
-          <img src={armyband3} className="about-page-bg-image" alt="" />
+          <img src={armyband} className="about-page-bg-image" alt="" />
         </div>
         <div className="about-page-bg-text">
           <h1>About the band</h1>

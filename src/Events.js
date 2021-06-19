@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import armyband3 from "./images/armyband3.jpeg";
+import armyband3 from "./images/78armybandtimessquare.jpeg";
 
 export class Events extends Component {
   render() {

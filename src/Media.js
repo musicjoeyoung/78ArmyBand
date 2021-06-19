@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import armyband3 from "./images/armyband3.jpeg";
+import armyband from "./images/78armybandlibertyvibes.jpeg";
 
 export class Media extends Component {
   render() {
@@ -10,7 +10,7 @@ export class Media extends Component {
         <Navbar />
         <div className="media-page-pic-and-text">
           <div className="media-page-pic">
-            <img src={armyband3} className="media-page-bg-image" alt="" />
+            <img src={armyband} className="media-page-bg-image" alt="" />
           </div>
           <div className="media-page-bg-text">
             <h1>Media</h1>

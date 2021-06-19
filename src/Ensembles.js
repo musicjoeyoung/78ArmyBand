@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import armyband3 from "./images/armyband3.jpeg";
+import armyband from "./images/78armybandgreenwayrockin.jpeg";
 
 export class Ensembles extends Component {
   render() {
@@ -10,7 +10,7 @@ export class Ensembles extends Component {
         <Navbar />
         <div className="ensembles-page-pic-and-text">
           <div className="ensembles-page-pic">
-            <img src={armyband3} className="ensembles-page-bg-image" alt="" />
+            <img src={armyband} className="ensembles-page-bg-image" alt="" />
           </div>
           <div className="ensembles-page-bg-text">
             <h1>Ensembles</h1>
