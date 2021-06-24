@@ -16,6 +16,10 @@ export class JobsComponent extends Component {
             <h4>Audtion Information</h4>
             <label htmlFor="instruments">Instruments:</label>
             <select>
+              <option disabled selected value>
+                {" "}
+                -- select instrument --{" "}
+              </option>
               <optgroup label="Woodwinds">
                 <option value="flute">Flute</option>
                 <option value="clarinet">Clarinet</option>
@@ -34,6 +38,7 @@ export class JobsComponent extends Component {
                 <option value="guitar">Electric Guitar</option>
                 <option value="bass">Bass Guitar/String Bass</option>
               </optgroup>
+              <optgroup label="-----">-----</optgroup>
               <option value="percussion">Percussion</option>
               <option value="pianoKeyboard">Piano/Keyboard</option>
               <option value="vocals">Vocals</option>
