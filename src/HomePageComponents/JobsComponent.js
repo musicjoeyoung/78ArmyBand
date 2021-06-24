@@ -44,9 +44,9 @@ export class JobsComponent extends Component {
               <option value="vocals">Vocals</option>
               <option value="audioEngineer">Audio Engineer</option>
             </select>
-            <div>description</div>
-            <div>samples</div>
-            <div>media resources</div>
+            <div>description of AMPA general</div>
+            <div>samples AMPAs</div>
+            <div>media resources for general AMPA</div>
           </div>
         </div>
       </div>
