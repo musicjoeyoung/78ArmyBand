@@ -740,6 +740,63 @@ li:hover {
   display: flex;
   flex-direction: row;
 }
+.jobs-page-description {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 70%;
+  margin: 5vw auto auto;
+}
+.jobs-page-vacancies {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 70%;
+  margin: 5vw auto auto;
+}
+.audition-dropdown {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 70%;
+  margin: 5vw auto auto;
+}
+.instrument-PDF {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 87%;
+  margin: 5vw auto auto;
+}
+.react-pdf__Page__canvas {
+  display: block !important;
+  user-select: none !important;
+  width: 97% !important;
+  margin: auto !important;
+  height: auto !important;
+}
+
+.general-audition-info {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 70%;
+  margin: 5vw auto auto;
+}
+.armyMusicCareers {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 70%;
+  margin: 5vw auto auto;
+}
+.armyCareers {
+  border-bottom: 1px solid black;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 70%;
+  margin: 5vw auto auto;
+}
 .vacancies {
   margin: auto;
   border: 1px solid black;
