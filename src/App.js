@@ -6,7 +6,7 @@ import About from "./About/About.js";
 import Ensembles from "./Ensembles";
 import Events from "./Events";
 import Media from "./Media";
-import Jobs from "./Jobs";
+import Jobs from "./Jobs/Jobs";
 import Contact from "./Contact";
 import ErrorNotFound from "./ErrorNotFound";
 import TermsOfUse from "./TermsOfUse";

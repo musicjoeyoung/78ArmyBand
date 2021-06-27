@@ -703,10 +703,10 @@ li:hover {
   flex-direction: row;
   /*   margin-right: 12vw; */
 }
-#selectedMediaVideo {
-  /*   width: 52vw !important;
-  height: 35vw !important; */
-}
+/* #selectedMediaVideo {
+    width: 52vw !important;
+  height: 35vw !important;
+} */
 #mediaVideos {
   /* background-image: url("/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/images/78tharmybandcircle.jpeg"); */
   background: lightblue;
@@ -765,7 +765,7 @@ li:hover {
   border-bottom: 1px solid black;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
-  width: 87%;
+  width: 75%;
   margin: 5vw auto auto;
 }
 .react-pdf__Page__canvas {

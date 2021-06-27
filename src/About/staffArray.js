@@ -1,6 +1,7 @@
 import band78 from "../images/band78.jpeg";
 
 import Endlein from "../images/EndleinTestPic.png";
+
 export const staff = [
   {
     name: "CW4 Luis J. Santiago",
