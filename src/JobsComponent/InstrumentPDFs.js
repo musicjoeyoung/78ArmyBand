@@ -13,8 +13,15 @@ function MyApp() {
 
   return (
     <div>
-      <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
+      <Document
+        file={pdf}
+        onLoadSuccess={({ numPages }) => setNumPages(numPages)}
+      >
+        {Array.apply(null, Array(numPages))
+          .map((x, i) => i + 1)
+          .map((pageNumber) => (
+            <Page pageNumber={pageNumber} />
+          ))}
       </Document>
       <p>
         Page {pageNumber} of {numPages}
