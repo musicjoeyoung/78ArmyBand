@@ -34,6 +34,16 @@ function About() {
         <h2>{section}</h2>
         <Profiles staff={profiles} />
       </div>
+      <iframe
+        title="78th Army Band History"
+        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tXSzTlnmS1IBki00cXKA854YxjnEQtxRM0vXrq1cKnY&font=Default&lang=en&initial_zoom=2&height=650"
+        width="100%"
+        height="650"
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+        allowFullScreen
+        frameBorder="0"
+      ></iframe>
       <Footer />
     </div>
   );
