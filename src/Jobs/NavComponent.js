@@ -3,7 +3,10 @@ import React from "react";
 export default function NavComponent() {
   return (
     <div className="audition-dropdown">
-      Audition Dropdown Menu <label htmlFor="instruments">Instruments:</label>
+      <label htmlFor="instruments">
+        <h4>Instruments:</h4>
+      </label>
+      <br />
       <select>
         <option /* disabled */ defaultValue value="selectInstrument">
           {" "}

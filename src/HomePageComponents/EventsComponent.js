@@ -10,9 +10,12 @@ export class EventsComponent extends Component {
             <div id="events">events 1</div>
             <div id="events">events 2</div>
             <div id="events">events 3</div>
+            <br />
+          </div>
+          <div className="eventsRequestButton">
+            <button id="requestBand">request the band</button>
           </div>
         </div>
-        <button id="requestBand">request the band</button>
       </div>
     );
   }

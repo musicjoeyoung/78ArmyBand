@@ -1,24 +1,32 @@
 import React, { Component } from "react";
-import ensemble1 from "../images/armyband1.jpg";
-import ensemble2 from "../images/armyband2.jpeg";
-import ensemble3 from "../images/armyband3.jpeg";
-import ensemble4 from "../images/armyband4.jpeg";
-import ensemble5 from "../images/armyband5.jpeg";
+import ConcertBand from "../images/78ConcertBand.jpeg";
+import MarchingCeremonialBand from "../images/armyband1.jpg";
+import BrassQuintet from "../images/armyband7.jpeg";
+import Checkmate from "../images/Checkmate.jpeg";
+import FortDixielandBrassBand from "../images/FortDixielandBrassBand.jpeg";
+import LadyLiberty from "../images/LadyLiberty.png";
+import LibertyVibes from "../images/LibertyVibes.jpeg";
 
 function changeImage1() {
-  document.getElementById("ensembleImage").src = ensemble1;
+  document.getElementById("ensembleImage").src = ConcertBand;
 }
 function changeImage2() {
-  document.getElementById("ensembleImage").src = ensemble2;
+  document.getElementById("ensembleImage").src = MarchingCeremonialBand;
 }
 function changeImage3() {
-  document.getElementById("ensembleImage").src = ensemble3;
+  document.getElementById("ensembleImage").src = BrassQuintet;
 }
 function changeImage4() {
-  document.getElementById("ensembleImage").src = ensemble4;
+  document.getElementById("ensembleImage").src = Checkmate;
 }
 function changeImage5() {
-  document.getElementById("ensembleImage").src = ensemble5;
+  document.getElementById("ensembleImage").src = FortDixielandBrassBand;
+}
+function changeImage6() {
+  document.getElementById("ensembleImage").src = LadyLiberty;
+}
+function changeImage7() {
+  document.getElementById("ensembleImage").src = LibertyVibes;
 }
 
 export class EnsemblesComponent extends Component {
@@ -30,42 +38,56 @@ export class EnsemblesComponent extends Component {
           <div className="ensembleNames">
             <div
               className="ensembleName"
-              id="ensemble1"
+              id="ConcertBand"
               onMouseOver={changeImage1}
             >
-              ensemble 1
+              Concert Band
             </div>
             <div
               className="ensembleName"
-              id="ensemble2"
+              id="MarchingCeremonialBand"
               onMouseOver={changeImage2}
             >
-              ensemble 2
+              Marching/Ceremonial Band
             </div>
             <div
               className="ensembleName"
-              id="ensemble3"
+              id="BrassQuintet"
               onMouseOver={changeImage3}
             >
-              ensemble 3
+              Brass Quintet
             </div>
             <div
               className="ensembleName"
-              id="ensemble4"
+              id="Checkmate"
               onMouseOver={changeImage4}
             >
-              ensemble 4
+              Checkmate
             </div>
             <div
               className="ensembleName"
-              id="ensemble5"
+              id="FortDixielandBrassBand"
               onMouseOver={changeImage5}
             >
-              ensemble 5
+              Fort Dix-ieland Brass Band
+            </div>
+            <div
+              className="ensembleName"
+              id="FortDixielandBrassBand"
+              onMouseOver={changeImage6}
+            >
+              Lady Liberty
+            </div>
+            <div
+              className="ensembleName"
+              id="FortDixielandBrassBand"
+              onMouseOver={changeImage7}
+            >
+              Liberty Vibes
             </div>
           </div>
           <div className="ensembleImageContainer">
-            <img id="ensembleImage" alt="" src={ensemble1} />
+            <img id="ensembleImage" alt="" src={ConcertBand} />
           </div>
         </div>
       </div>

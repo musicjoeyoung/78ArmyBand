@@ -9,13 +9,12 @@ export class JobsComponent extends Component {
         <div className="jobsChildContainer">
           <div className="vacancies">
             <h4>Vacancies</h4>
-            <div>instrument</div>
-            <div>instrument</div>
-            <div>instrument</div>
+            <div>Bassoon</div>
+            <div>Bass Guitar</div>
+            <div>Oboe</div>
           </div>
-          <div className="auditionInfo">
-            <NavComponent />
-          </div>
+
+          <NavComponent id="jobsNavCompHomepage" />
         </div>
       </div>
     );

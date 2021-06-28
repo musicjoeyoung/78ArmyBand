@@ -13,13 +13,13 @@ export class AboutComponent extends Component {
           <div className="aboutcarousel">
             <h3>
               <a id="historylink" href="../About/#history">
-                History
+                -- History --
               </a>
             </h3>
             <br />
             <h3>
               <a id="meetthebandlink" href="../About/#meetTheBand">
-                Meet the Band
+                -- Meet the Band --
               </a>
             </h3>
           </div>

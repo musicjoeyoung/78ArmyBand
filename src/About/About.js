@@ -27,13 +27,13 @@ function About() {
           <p id="about-page-pText">The 78th Army Band...</p>
         </div>
       </div>
-      <History />
       <div className="meetTheBand">
-        <h1 id="meetTheBand">Meet the Band!</h1>
+        <h1 id="meetTheBand">Meet the Band</h1>
         <NavComponent setSection={updateSection}></NavComponent>
         <h2>{section}</h2>
         <Profiles staff={profiles} />
       </div>
+      <History />
       <iframe
         title="78th Army Band History"
         src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tXSzTlnmS1IBki00cXKA854YxjnEQtxRM0vXrq1cKnY&font=Default&lang=en&initial_zoom=2&height=650"

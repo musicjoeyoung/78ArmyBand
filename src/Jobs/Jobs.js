@@ -18,7 +18,7 @@ function Jobs() {
           <img src={armyband} className="jobs-page-bg-image" alt="" />
         </div>
         <div className="jobs-page-bg-text">
-          <h1>jobs</h1>
+          <h1>Jobs</h1>
         </div>
       </div>
       <div className="jobs-page-description">

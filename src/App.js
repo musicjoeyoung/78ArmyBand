@@ -3,7 +3,7 @@ import "./App.css";
 //import Welcome from "./Welcome";
 import Home from "./Home";
 import About from "./About/About.js";
-import Ensembles from "./Ensembles";
+import Ensembles from "./Ensembles/Ensembles";
 import Events from "./Events";
 import Media from "./Media";
 import Jobs from "./Jobs/Jobs";
