@@ -33,7 +33,11 @@ export class EnsemblesComponent extends Component {
   render() {
     return (
       <div className="ensembles">
-        <h3 id="mainDivTitle">Ensembles</h3>
+        <h3 id="mainDivTitleEnsemble">
+          <a href="./Ensembles/Ensembles.js" id="mainDivTitleEnsemble">
+            Ensembles
+          </a>
+        </h3>
         <div className="ensembleChildContainer">
           <div className="ensembleNames">
             <div

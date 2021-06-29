@@ -5,7 +5,11 @@ export class JobsComponent extends Component {
   render() {
     return (
       <div className="jobs">
-        <h3 id="mainDivTitle">Career Opportunities</h3>
+        <h3 id="mainDivTitle">
+          <a href="./Jobs/Jobs.js" id="mainDivTitleEnsemble">
+            Career Opportunities
+          </a>
+        </h3>
         <div className="jobsChildContainer">
           <div className="vacancies">
             <h4>Vacancies</h4>
