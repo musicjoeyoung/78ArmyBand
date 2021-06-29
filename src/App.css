@@ -616,6 +616,11 @@ li:hover {
   background-color: white;
   transition: all 0.4s ease-in-out;
 }
+.ensembleName:hover {
+  background-color: yellow;
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
 #ensembleH2Name {
   text-align: center;
 }
