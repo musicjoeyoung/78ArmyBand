@@ -805,6 +805,16 @@ li:hover {
   width: 70%;
   margin: 5vw auto auto;
 }
+.PDF-Options {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+#singlePDF-option {
+  border: solid 1px black;
+  width: 7vw;
+}
 select {
   width: 15vw;
 }
