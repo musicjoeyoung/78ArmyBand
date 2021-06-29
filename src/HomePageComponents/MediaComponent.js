@@ -12,19 +12,19 @@ export class MediaComponent extends Component {
           <div className="mediaVideosPicturesArticles">
             <div id="mediaVideos">
               <a href="https://www.youtube.com/channel/UCnvvkFN8g_YqQDxFx9oQL2w">
-                <img id="mediaLogo" src={YouTube} />
+                <img id="mediaLogo" src={YouTube} alt="YouTube logo" />
               </a>
             </div>
             <br />
             <div id="mediaPictures">
               <a href="https://www.facebook.com/78thArmyBand">
-                <img id="mediaLogo" src={FB} />
+                <img id="mediaLogo" src={FB} alt="FB logo" />
               </a>
             </div>
             <br />
             <div id="mediaArticles">
               <a href="https://www.bands.army.mil/organizations/pages/default.asp?unit=78ABNJ&p=news&NewsID=1201">
-                <img id="mediaLogo" src={circle78} />
+                <img id="mediaLogo" src={circle78} alt="99th logo" />
               </a>
             </div>
           </div>

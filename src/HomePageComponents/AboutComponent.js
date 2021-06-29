@@ -11,15 +11,15 @@ export class AboutComponent extends Component {
             <img src={armyband7} alt="" id="armyband7" />
           </div>
           <div className="aboutcarousel">
-            <h3>
+            <h3 id="aboutCompLinks">
               <a id="historylink" href="../About/#history">
-                -- History --
+                History
               </a>
             </h3>
             <br />
-            <h3>
+            <h3 id="aboutCompLinks">
               <a id="meetthebandlink" href="../About/#meetTheBand">
-                -- Meet the Band --
+                Meet the Band
               </a>
             </h3>
           </div>
