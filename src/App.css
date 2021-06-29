@@ -54,6 +54,18 @@ html {
     opacity: 0;
   }
 }
+.parallax {
+  /* background-image: url("img_parallax.jpg") */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .no-cssanimations .cb-slideshow li span {
   opacity: 1;
 }
@@ -547,10 +559,11 @@ li:hover {
 }
 .meetTheBand {
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
-  border: 1px solid;
-  /*  height: auto; */
-  width: 850px;
+  /* border: 1px solid; */
+  /* height: auto; */
+  /* width: 850px; */
   margin: auto;
 }
 
