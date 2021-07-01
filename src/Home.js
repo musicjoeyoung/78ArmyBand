@@ -8,6 +8,7 @@ import EventsComponent from "./HomePageComponents/EventsComponent.js";
 import MediaComponent from "./HomePageComponents/MediaComponent.js";
 import JobsComponent from "./HomePageComponents/JobsComponent";
 import Footer from "./Footer";
+import logo from "./images/78armybandlyrelogo.png";
 
 export class Home extends Component {
   render() {
@@ -15,13 +16,18 @@ export class Home extends Component {
       <div>
         <Navbar />
         <br />
-        <h1 id="homePageH1">
+        <img
+          src={logo}
+          className="homePageLogoImg {
+"
+        />
+        {/*  <h1 id="homePageH1">
           New York City’s Own 78th Army Band
           <br />
           <p id="homePageP">
             Serving the Greater New York, New Jersey, and Pennsylvania areas.
           </p>
-        </h1>
+        </h1> */}
         <HomeCarousel />
         <SignUpLinkComponent />
         <AboutComponent />

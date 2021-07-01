@@ -185,17 +185,13 @@ html {
   margin: auto;
   width: 17vw;
 }
-#homePageH1 {
+.homePageLogoImg {
   position: absolute;
-  top: 16vw;
+  /* top: 16vw; */
+  width: 77vw;
   z-index: 2;
   margin: auto;
-  width: 100%;
-  font-family: interface, sans-serif;
-  color: #ffcc01;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  font-size: 52px;
+  margin-left: -37%;
 }
 #homePageP {
   color: #ffcc01;
