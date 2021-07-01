@@ -35,7 +35,7 @@ export default function Navbar() {
         </div>
       </div>
       <div id="navbarheader">
-        <a href="./Home">
+        <a href="/home">
           <img src={headerImg} id="bandHomePageLogo" alt="78bandlogo" />
         </a>
       </div>

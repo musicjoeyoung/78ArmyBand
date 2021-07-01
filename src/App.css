@@ -54,18 +54,7 @@ html {
     opacity: 0;
   }
 }
-.parallax {
-  /* background-image: url("img_parallax.jpg") */
 
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .no-cssanimations .cb-slideshow li span {
   opacity: 1;
 }
@@ -195,6 +184,24 @@ html {
 #bandHomePageLogo {
   margin: auto;
   width: 17vw;
+}
+#homePageH1 {
+  position: absolute;
+  top: 9vw;
+  z-index: 2;
+  margin: auto;
+  width: 100%;
+  font-family: interface, sans-serif;
+  color: #ffcc01;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 52px;
+}
+#homePageP {
+  color: #ffcc01;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 25px;
 }
 
 #contactus {
@@ -379,7 +386,7 @@ li:hover {
   margin-top: 1.5%;
 }
 .alice-carousel {
-  padding-top: 1vw;
+  /* padding-top: 1vw; */
   /* box-shadow: 0px 0px 16px 0px black; */
   margin: 1vw 0px 0px 0px !important;
 }
@@ -414,11 +421,14 @@ li:hover {
   background-color: #00214e;
   -webkit-box-shadow: 10px 6px 16px 0px black;
   box-shadow: 10px 6px 16px 0px black;
-  border-radius: 7px;
+  /*  border-radius: 7px;
   width: 85%;
-  max-width: 1280px;
+  max-width: 1280px; */
   margin: auto;
   margin-top: 5vw;
+}
+#history¶ {
+  color: white;
 }
 .aboutChildContainer {
   display: flex;
@@ -437,7 +447,7 @@ li:hover {
   text-align: center;
 } */
 #armyband7 {
-  width: 31vw;
+  width: 37vw;
   /* transition: filter 2s ease; */
   transition: all 1.7s ease-in-out;
   -webkit-filter: grayscale(100%);
@@ -462,7 +472,7 @@ li:hover {
 }
 #historylink:hover,
 #meetthebandlink:hover {
-  background-color: yellow;
+  background-color: #ffcc01;
   color: black;
 }
 #aboutCompLinks:hover {
@@ -629,8 +639,10 @@ li:hover {
   background-color: #00214e;
   transition: all 0.4s ease-in-out;
   color: white;
+  border-radius: 22px;
 }
-.ensembleName:hover {
+.ensembleName:hover,
+.ensembleNameNavComp:hover {
   background-color: #ffcc01;
   transform: scale(1.1);
   transition: all 0.4s ease-in-out;
@@ -642,16 +654,21 @@ li:hover {
 .ensemblesNavComp {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .ensembleNameNavComp {
+  width: 18.5vw;
   border: 1px solid black;
-  height: 40px;
-  border-radius: 13px;
-  box-shadow: 10px 6px 16px -5px black;
+  padding-top: 2vw;
+  margin-top: 2vw;
+  background-color: #00214e;
+  transition: all 0.4s ease-in-out;
+  color: white;
+  border-radius: 22px;
+  margin-right: 10px;
 }
 .ensembleNameNavComp:hover {
-  background-color: yellow;
+  background-color: #ffcc01;
   transform: scale(1.1);
   transition: all 0.4s ease-in-out;
 }
