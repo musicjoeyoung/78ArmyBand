@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import dropdownImg from "./images/dropdown.png";
-import headerImg from "./images/78ArmyBandSiteHeader.png";
+import headerImg from "./images/78logo.png";
 
 export default function Navbar() {
   return (
