@@ -35,6 +35,7 @@ export class Home extends Component {
         <EventsComponent />
         <MediaComponent />
         <JobsComponent />
+
         <Footer />
       </div>
     );

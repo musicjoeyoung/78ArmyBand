@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import armylogo from "./images/ArmyLogo.png";
 import band78 from "./images/band78.jpeg";
+import ScrollButton from "./ScrollButton";
 
 export class Footer extends Component {
   render() {
     return (
       <div className="footer">
+        <ScrollButton />
         {/* <h3 id="mainDivTitleFooter">About</h3> */}
         <div className="footerChildContainer">
           <div className="footerLogos">
