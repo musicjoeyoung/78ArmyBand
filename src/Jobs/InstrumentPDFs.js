@@ -35,9 +35,9 @@ function InstrumentPDFs() {
             <Page pageNumber={pageNumber} />
           ))}
       </Document>
-      <p>
+      {/*     <p>
         Page {pageNumber} of {numPages}
-      </p>
+      </p> */}
     </div>
   );
 }
