@@ -1,4 +1,6 @@
 import React from "react";
+const reactStringReplace = require("react-string-replace");
+//? put a function here to map a <br/> within the bio every time a ¶ occurs?
 
 const Profiles = ({ staff }) => {
   return staff.map((staff) => (
@@ -8,7 +10,11 @@ const Profiles = ({ staff }) => {
         {staff.name}
       </h4>
       <p key={staff.bio} id="bioText">
-        {staff.bio}
+        {reactStringReplace(staff.bio, "¶", (match, i) => (
+          <div>
+            <br />
+          </div>
+        ))}
       </p>
     </div>
   ));

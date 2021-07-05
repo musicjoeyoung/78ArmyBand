@@ -9,6 +9,7 @@ import MediaComponent from "./HomePageComponents/MediaComponent.js";
 import JobsComponent from "./HomePageComponents/JobsComponent";
 import Footer from "./Footer";
 import logo from "./images/78armybandlyrelogo.png";
+import Fade from "react-reveal/Fade";
 
 export class Home extends Component {
   render() {
@@ -29,7 +30,9 @@ export class Home extends Component {
           </p>
         </h1> */}
         <HomeCarousel />
-        <SignUpLinkComponent />
+        <Fade bottom>
+          <SignUpLinkComponent />
+        </Fade>
         <AboutComponent />
         <EnsemblesComponent />
         <EventsComponent />
