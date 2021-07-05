@@ -9,7 +9,7 @@ import MediaComponent from "./HomePageComponents/MediaComponent.js";
 import JobsComponent from "./HomePageComponents/JobsComponent";
 import Footer from "./Footer";
 import logo from "./images/78armybandlyrelogo.png";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 export class Home extends Component {
   render() {
@@ -17,20 +17,9 @@ export class Home extends Component {
       <div>
         <Navbar />
         <br />
-        <img
-          src={logo}
-          className="homePageLogoImg {
-"
-        />
-        {/*  <h1 id="homePageH1">
-          New York City’s Own 78th Army Band
-          <br />
-          <p id="homePageP">
-            Serving the Greater New York, New Jersey, and Pennsylvania areas.
-          </p>
-        </h1> */}
+        <img src={logo} className="homePageLogoImg" />
         <HomeCarousel />
-        <Fade bottom>
+        <Fade direction="up">
           <SignUpLinkComponent />
         </Fade>
         <AboutComponent />
@@ -38,7 +27,6 @@ export class Home extends Component {
         <EventsComponent />
         <MediaComponent />
         <JobsComponent />
-
         <Footer />
       </div>
     );

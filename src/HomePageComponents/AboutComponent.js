@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import armyband7 from "../images/armyband7.jpeg";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 export class AboutComponent extends Component {
   render() {
@@ -15,8 +15,9 @@ export class AboutComponent extends Component {
           <div className="aboutimage">
             <img src={armyband7} alt="" id="armyband7" />
           </div>
-          <Fade>
-            <div className="aboutcarousel">
+
+          <div className="aboutcarousel">
+            <Fade direction="up">
               <h3 id="aboutCompLinks">
                 <a id="historylink" href="../About/#history">
                   History
@@ -46,8 +47,8 @@ export class AboutComponent extends Component {
                   Read more...
                 </a>
               </p>
-            </div>
-          </Fade>
+            </Fade>
+          </div>
         </div>
       </div>
     );
