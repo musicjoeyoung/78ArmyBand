@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { file } from "./InstrumentPDFs";
 
 const JobsMap = ({ PDFs }) => {
@@ -9,3 +9,4 @@ const JobsMap = ({ PDFs }) => {
   ));
 };
 export default EnsemblesProfiles;
+ */

@@ -1,4 +1,4 @@
-import pdf1 from "./AMPA Materials/9B/9B EXAMPLE QPP.pdf";
+/* import pdf1 from "./AMPA Materials/9B/9B EXAMPLE QPP.pdf";
 import pdf2 from "./AMPA Materials/9B/9B Text.pdf";
 
 export const PDFs = [
@@ -11,3 +11,4 @@ export const PDFs = [
     section: { pdf2 },
   },
 ];
+ */

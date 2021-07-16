@@ -963,6 +963,10 @@ a:active {
   width: 179px;
   height: 179px;
 }
+
+li {
+  list-style-type: none;
+}
 @media screen and (max-width: 1140px) {
   .cb-slideshow li div h3 {
     font-size: 140px;
@@ -1018,17 +1022,20 @@ a:active {
   }
   .dropdownDiv,
   .dropdown,
-  .dropbtn,
-  #contactus {
-    display: none;
+  .dropbtn {
+    height: 9vw;
+    width: 9vw;
   }
-  #navbarheader {
+  .dropdown:hover .navbar {
+    /* display: flex; */
+  }
+  /*  #navbarheader {
     margin: auto;
   }
   .navbar,
   #navbarLinks {
     display: flex;
-  }
+  } */
   .signuplink {
     width: 90vw;
   }
@@ -1120,7 +1127,107 @@ a:active {
   select {
     width: 21vw;
   }
-}
-li {
-  list-style-type: none;
+
+  .aboutimage,
+  .aboutcarousel {
+    /* border: 5px solid black; */
+    width: auto;
+    /* height: 23.3vw; */
+    margin: auto;
+  }
+  #mainDivTitleEnsemble {
+    font-size: 4.6vw;
+    color: black !important;
+  }
+  .ensembleChildContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .ensembleNames {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+  }
+  .ensembleImageContainer {
+    width: 75vw;
+    margin: 2vw auto auto;
+    height: auto;
+  }
+  .ensembleName {
+    border: 1px solid black;
+    padding-top: 2vw;
+    margin-top: 2vw;
+    background-color: #00214e;
+    transition: none;
+    color: white;
+    border-radius: 22px;
+  }
+  .ensembleName:hover,
+  .ensembleNameNavComp:hover {
+    background-color: #00214e;
+    transform: none;
+    transition: none;
+    color: white;
+  }
+  #ensembleH2Name {
+    text-align: center;
+  }
+  .ensemblesNavComp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ensembleNameNavComp {
+    width: 18.5vw;
+    border: 1px solid black;
+    padding-top: 2vw;
+    margin-top: 2vw;
+    background-color: #00214e;
+    transition: none;
+    color: white;
+    border-radius: 22px;
+    margin-right: 10px;
+  }
+  .ensembleNameNavComp:hover {
+    background-color: #00214e;
+    transform: none;
+    transition: none;
+  }
+  .kqKUoK {
+    display: none;
+  }
+  #bioImg,
+  #bioImg1,
+  #bioImg2 {
+    width: 200px;
+    margin: auto;
+  }
+  #staffName {
+    text-align: center;
+  }
+  #bioText,
+  #bioText1,
+  #bioText2 {
+    color: black;
+    text-align: justify;
+    padding-right: 3vw;
+  }
+  .mainProfileDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-page-newsletter-signup {
+    border: 1px solid;
+    height: 300px;
+    width: auto;
+    margin: auto;
+  }
+  .contact-page-email-form {
+    font: 400 15px / 1.8 Raleway, sans-serif;
+    text-align: justify;
+    margin: 1vw auto auto;
+    border: 1px solid;
+    width: auto;
+  }
 }

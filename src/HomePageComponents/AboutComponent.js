@@ -29,7 +29,7 @@ export class AboutComponent extends Component {
                 aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.{" "}
+                mollit anim id est laborum. <br />
                 <a id="historylink" href="../About/#history">
                   Read more...
                 </a>
@@ -42,7 +42,7 @@ export class AboutComponent extends Component {
               </h3>
               <p id="history¶">
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.{" "}
+                qui officia deserunt mollit anim id est laborum. <br />
                 <a id="meetthebandlink" href="../About/#meetTheBand">
                   Read more...
                 </a>
