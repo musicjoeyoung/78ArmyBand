@@ -1026,16 +1026,6 @@ li {
     height: 9vw;
     width: 9vw;
   }
-  .dropdown:hover .navbar {
-    /* display: flex; */
-  }
-  /*  #navbarheader {
-    margin: auto;
-  }
-  .navbar,
-  #navbarLinks {
-    display: flex;
-  } */
   .signuplink {
     width: 90vw;
   }
