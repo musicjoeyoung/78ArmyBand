@@ -1,4 +1,5 @@
 import React from "react";
+import flute from "../Jobs/AMPA Materials/9G/9G Text.pdf";
 
 export default function NavComponent() {
   return (
@@ -7,6 +8,7 @@ export default function NavComponent() {
         <h4>Instruments:</h4>
       </label>
       <br />
+      <a href={flute}>Flute information</a>
       <select>
         <option /* disabled */ defaultValue value="selectInstrument">
           {" "}

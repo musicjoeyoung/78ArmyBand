@@ -2,8 +2,8 @@ import React, { useState } from "react";
 /* import { Document, Page } from "react-pdf"; */
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import pdf1 from "./AMPA Materials/9B/9B EXAMPLE QPP.pdf";
-import pdf2 from "./AMPA Materials/9B/9B Text.pdf";
-import pdf3 from "./AMPA Materials/9B/Part 2 AMPA 9B.pdf";
+/* import pdf2 from "./AMPA Materials/9B/9B Text.pdf";
+import pdf3 from "./AMPA Materials/9B/Part 2 AMPA 9B.pdf"; */
 
 //Instead of importing a PDF, do I import a list of the PDFs separated by instrument?
 //And then connect that if the value of an option (in NavComponent) is selected, then the PDF is then changed to that?

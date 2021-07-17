@@ -17,7 +17,7 @@ export class Home extends Component {
       <div>
         <Navbar />
         <br />
-        <img src={logo} className="homePageLogoImg" />
+        <img src={logo} className="homePageLogoImg" alt="logo" />
         <HomeCarousel />
         <Fade direction="up">
           <SignUpLinkComponent />

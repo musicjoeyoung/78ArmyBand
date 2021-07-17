@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import ConcertBand from "../images/78ConcertBand.jpeg";
 import MarchingCeremonialBand from "../images/armyband1.jpg";
 import BrassQuintet from "../images/armyband7.jpeg";
