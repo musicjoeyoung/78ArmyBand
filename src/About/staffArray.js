@@ -34,22 +34,23 @@ export const staff = [
   {
     name: "SFC Ted Traini",
     bio:
-      "SFC Theodore (Ted) Traini grew up in Delaware County, a suburb of Philadelphia. Originally from Glenolden and currently residing in Wallingford. He started playing Double Bass in High School as well as Tuba. He obtained his Associates Degree from Delaware County Community College in 1996, and a BS in Organizational Management from Cabrini College in 2002. ¶ His primary instruction on Tuba was provided by Jay Krush, Chestnut Brass Co. with numerous performance experiences at Temple University Orchestra and Temple University Opera Orchestra. While in the Army Band he has led and participated in a variety of Musical support teams to include, Checkmate, Brass Quintet, Stage Band, and Jazz Combo. ¶ He joined the 307th Army Reserve band in Willow Grove, PA and has held a variety of assignments. He eventually moved to the 78th Army Band at JBMDL, and is currently the Platoon Sergeant of the Ft Totten Detachment of the 78th Army Band. ¶ He is currently employed in the transportation and logistics industry, married to his wife Debbie, and enjoys his off time training and exercising his dog Brie.",
+      "SFC Theodore (Ted) Traini grew up in Delaware County, a suburb of Philadelphia. Originally from Glenolden and currently residing in Wallingford. He started playing Double Bass in High School as well as Tuba. He obtained his Associates Degree from Delaware County Community College in 1996, and a BS in Organizational Management from Cabrini College in 2002. ¶ His primary instruction on Tuba was provided by Jay Krush, Chestnut Brass Co. with numerous performance experiences at Temple University Orchestra and Temple University Opera Orchestra.  ¶ While in the Army Band he has led and participated in a variety of Musical support teams to include, Checkmate, Brass Quintet, Stage Band, and Jazz Combo. ¶ He joined the 307th Army Reserve band in Willow Grove, PA and has held a variety of assignments. He eventually moved to the 78th Army Band at JBMDL, and is currently the Platoon Sergeant of the Ft Totten Detachment of the 78th Army Band. ¶ He is currently employed in the transportation and logistics industry, married to his wife Debbie, and enjoys his off time training and exercising his dog Brie.",
     img: band78,
     section: "Brass",
   },
   {
-    name: "SGT Brian Freedman",
-    bio: "Boston...",
-    img: band78,
-    section: "Brass",
-  },
-  {
-    name: "SGT John Smith",
+    name: "SFC Christina Greenway",
     bio:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!",
+      "Sergeant First Class Christina Greenway, currently resides in Northampton, PA. She joined the 106th Army National Guard Band at Camp Robinson, AR in 1998. She attended Arkansas Tech University and earned her B.A. in Music Education in 2002. While in school, Greenway was a member of Tau Beta Sigma, a music service fraternity. She transferred to the Pennsylvania National Guard after graduating and joined the 276th Army Band in Philadelphia, PA. In 2007, the 276th National Guard was deactivated. Greenway reenlisted into the 78th Division Band, an Army Reserve band in Edison, NJ. This unit eventually became the 78th Army Band based out of Joint Base McGuire-Dix-Lakehurst, NJ. ¶ Not only does Greenway serve through music, she also serves a critical role maintaining the unit's readiness as a Training NCO. In 2016, Greenway was awarded the Army Commendation Medal for coordinating multiple major training events for the unit during CSTX Operation 'Global Lightning.' Greenway has also been awarded two Army Achievement Medals for serving in various musical missions. ¶ Greenway lives with her wife and son, five cats and two dogs. She enjoys fishing, running, and home improvement projects. ",
     img: band78,
-    section: "Woodwinds",
+    section: "Brass",
+  },
+  {
+    name: "SFC Tyrone Tedrick",
+    bio:
+      "SFC Tyrone “Ty” Tedrick has served in the US Army Reserve for 17 years. SFC Tedrick currently serves as tuba section leader and the brass quintet NCOIC.  ¶ During his time with the 78th Army Band he has graduated from the US Army School of Music Senior Leader and Advanced Leader courses. He resides with his wife and two children in Wilmington, Delaware where he is an elementary school Physical Education teacher.",
+    img: band78,
+    section: "Brass",
   },
   {
     name: "SGT John Smith",

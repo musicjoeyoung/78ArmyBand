@@ -1,4 +1,5 @@
 import React from "react";
+const reactStringReplace = require("react-string-replace");
 
 const EnsemblesProfiles = ({ ensembles }) => {
   return ensembles.map((ensemble) => (
@@ -13,7 +14,12 @@ const EnsemblesProfiles = ({ ensembles }) => {
         src={ensemble.img}
       />
       <p key={ensembles.bio} id="bioText">
-        {ensemble.bio}
+        {/* {ensemble.bio} */}
+        {reactStringReplace(ensemble.bio, "¶", (match, i) => (
+          <div>
+            <br />
+          </div>
+        ))}
       </p>
     </div>
   ));

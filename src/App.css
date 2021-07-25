@@ -877,18 +877,32 @@ select {
   margin: 5vw auto auto;
 }
 .armyMusicCareers {
-  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffcc01;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
-  width: 70%;
-  margin: 5vw auto auto;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 3vw;
+  padding: 2vw;
+}
+#armyMusicImg {
+  width: 90%;
+  margin: auto;
+}
+
+#jobText {
+  color: black !important;
+  font-size: 16px !important;
 }
 .armyCareers {
-  border-bottom: 1px solid black;
+  background-color: #ffcc01;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
-  width: 70%;
-  margin: 5vw auto auto;
+  width: 50%;
+  height: 8vw;
+  margin: auto;
 }
 .vacancies {
   margin: auto;

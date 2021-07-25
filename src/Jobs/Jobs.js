@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import armyband from "../images/78armybandrrecording.jpeg";
 import InstrumentPDFs from "./InstrumentPDFs.js";
 import NavComponent from "./NavComponent";
+import armymusic from "../images/band-overview.jpeg";
 
 function Jobs() {
   /* const [instrument, setInstrument] = useState("test");
@@ -75,7 +76,12 @@ function Jobs() {
         <InstrumentPDFs />
       </div>
       <div className="general-audition-info">General Audition Info</div>
-      <div className="armyMusicCareers">Army Music Careers</div>
+      <div className="armyMusicCareers">
+        <a href="https://www.goarmy.com/band.html" id="jobText">
+          Army Music Careers
+        </a>
+        <img id="armyMusicImg" src={armymusic} />
+      </div>
       <div className="armyCareers">Army Careers</div>
       <Footer />
     </div>
