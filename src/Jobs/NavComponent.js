@@ -1,4 +1,5 @@
 import React from "react";
+import dropdownImg from "../images/dropdown.png";
 import flute from "../Jobs/AMPA Materials/9G/9G Text.pdf";
 
 export default function NavComponent() {
@@ -8,9 +9,35 @@ export default function NavComponent() {
         <h4>Instruments:</h4>
       </label>
       <br />
-      <a href={flute}>Flute information</a>
-      <select>
-        <option /* disabled */ defaultValue value="selectInstrument">
+      <div className="dropdown">
+        <img className="dropbtn" src={dropdownImg} alt="" />
+        <div className="navbar">
+          <a href={flute}>Flute information</a>
+          <a id="instrumentPDFs" to="/home">
+            Home
+          </a>
+          <a id="instrumentPDFs" to="/about">
+            About
+          </a>
+          <a id="instrumentPDFs" to="/ensembles">
+            Ensembles
+          </a>
+          <a id="instrumentPDFs" to="/events">
+            Events
+          </a>
+          <a id="instrumentPDFs" to="/media">
+            Media
+          </a>
+          <a id="instrumentPDFs" to="/jobs">
+            Career Opportunities
+          </a>
+          <a id="instrumentPDFs" to="/contact">
+            Contact us
+          </a>
+        </div>
+      </div>
+      {/* <select>
+        <option //disabled  defaultValue value="selectInstrument">
           {" "}
           -- select instrument --{" "}
         </option>
@@ -37,7 +64,7 @@ export default function NavComponent() {
         <option value="pianoKeyboard">Piano/Keyboard</option>
         <option value="vocals">Vocals</option>
         <option value="audioEngineer">Audio Engineer</option>
-      </select>
+      </select> */}
     </div>
   );
 }

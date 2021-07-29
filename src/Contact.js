@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import armyband3 from "./images/armyband3.jpeg";
+import trombones from "./images/trombones.jpeg";
 import ContactForm from "./ContactForm.js";
 
 export class Contact extends Component {
@@ -11,7 +11,7 @@ export class Contact extends Component {
         <Navbar />
         <div className="contact-page-pic-and-text">
           <div className="contact-page-pic">
-            <img src={armyband3} className="contact-page-bg-image" alt="" />
+            <img src={trombones} className="contact-page-bg-image" alt="" />
           </div>
           <div className="contact-page-bg-text">
             <h1>Contact us!</h1>

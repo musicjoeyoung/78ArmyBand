@@ -181,6 +181,7 @@ html {
 #navbarLinks {
   color: black;
 }
+
 #bandHomePageLogo {
   margin: auto;
   width: 15vw;
@@ -960,7 +961,7 @@ a:hover,
 a:active {
   text-decoration: none;
   font-size: 12px;
-  color: white;
+  color: black;
   margin-top: 11px;
 }
 
