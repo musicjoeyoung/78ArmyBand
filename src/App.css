@@ -333,6 +333,7 @@ html {
 .dropdown {
   position: relative;
   display: inline-block;
+  background-color: #ffcc01;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -760,12 +761,14 @@ li:hover {
   margin: 5vw auto auto;
 }
 .mediaChildContainer {
-  display: flex;
-  flex-direction: row;
-  margin-left: 14vw;
+  /* display: flex;
+  flex-direction: row; */
+  /* margin-left: 14vw; */
 }
 .mediaVideosPicturesArticles {
-  margin-left: 1vw;
+  /*  margin-left: 1vw; */
+  display: flex;
+  justify-content: space-between;
 }
 .mediaVideo {
   margin: auto;
@@ -829,8 +832,35 @@ li:hover {
   border-bottom: 1px solid black;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
-  width: 70%;
+  width: 40%;
   margin: 5vw auto auto;
+}
+.instrumentsByName {
+  display: flex;
+  flex-direction: column;
+  background-color: #00214e;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 90%;
+  margin: 4vw auto auto;
+  padding: 2vw;
+}
+.instrumentAndImg {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7vw;
+}
+#instrumentImg {
+  width: 40%;
+}
+#instrumentDescription {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+  color: white;
+}
+#instrumentTitle {
+  color: white;
 }
 .PDF-Options {
   display: flex;
@@ -948,6 +978,9 @@ select {
   color: white;
   width: 40vw;
   justify-content: space-evenly;
+}
+#footerATags {
+  color: white !important;
 }
 #footerLinksDiv {
   display: flex;

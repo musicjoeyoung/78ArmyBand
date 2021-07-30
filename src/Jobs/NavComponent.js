@@ -1,7 +1,8 @@
 import React from "react";
 import dropdownImg from "../images/dropdown.png";
-import flute from "../Jobs/AMPA Materials/9G/9G Text.pdf";
+import flute from "../Jobs/AMPA Materials/9B.pdf";
 
+//use this for the home page; dropdown links take user ection on the Jobs page and NOT directly
 export default function NavComponent() {
   return (
     <div className="audition-dropdown">
@@ -12,28 +13,14 @@ export default function NavComponent() {
       <div className="dropdown">
         <img className="dropbtn" src={dropdownImg} alt="" />
         <div className="navbar">
-          <a href={flute}>Flute information</a>
-          <a id="instrumentPDFs" to="/home">
-            Home
-          </a>
-          <a id="instrumentPDFs" to="/about">
-            About
-          </a>
-          <a id="instrumentPDFs" to="/ensembles">
-            Ensembles
-          </a>
-          <a id="instrumentPDFs" to="/events">
-            Events
-          </a>
-          <a id="instrumentPDFs" to="/media">
-            Media
-          </a>
-          <a id="instrumentPDFs" to="/jobs">
-            Career Opportunities
-          </a>
-          <a id="instrumentPDFs" to="/contact">
-            Contact us
-          </a>
+          <a href="./Jobs/Jobs.js#flute">Flute information</a>
+          <a href="./Jobs/Jobs.js#oboe">Oboe</a>
+          <a href="./Jobs/Jobs.js#clarinet">Clarinet</a>
+          <a href="./Jobs/Jobs.js#bassoon">Bassoon</a>
+          <a id="instrumentPDFs">Events</a>
+          <a id="instrumentPDFs">Media</a>
+          <a id="instrumentPDFs">Career Opportunities</a>
+          <a id="instrumentPDFs">Contact us</a>
         </div>
       </div>
       {/* <select>

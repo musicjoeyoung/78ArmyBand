@@ -18,13 +18,23 @@ export class Footer extends Component {
             <div>
               <h3 id="learnMore">Learn More</h3>
               <div id="footerLinksDiv">
-                <a href="./Contact">Contact Us</a>
-                <a>Calendar</a>
-                <a href="https://www.goarmy.com/band.html">US Army Bands</a>
-                <a href="./Contact#contact-page-request-the-band">
+                <a id="footerATags" href="./Contact">
+                  Contact Us
+                </a>
+                <a id="footerATags">Calendar</a>
+                <a id="footerATags" href="https://www.goarmy.com/band.html">
+                  US Army Bands
+                </a>
+                <a
+                  id="footerATags"
+                  href="./Contact#contact-page-request-the-band"
+                >
                   Request the Band
                 </a>
-                <a href="mailto:joseph.m.young72.mil@mail.mil?subject: 78th Army Band Website">
+                <a
+                  id="footerATags"
+                  href="mailto:joseph.m.young72.mil@mail.mil?subject: 78th Army Band Website"
+                >
                   Webmaster Contact
                 </a>
               </div>
@@ -32,21 +42,51 @@ export class Footer extends Component {
             <div>
               <h3 id="importantLinks">Important Links</h3>
               <div id="footerLinksDiv">
-                <a href="./TermsOfUse">Terms of Use</a>
-                <a href="https://www.goarmy.com/">US Army</a>
-                <a href="https://www.usar.army.mil/">US Army Reserves</a>
-                <a href="https://www.usar.army.mil/99thRD/">99th RSC</a>
-                <a href="https://www.jbmdl.jb.mil/">Fort Dix</a>
+                <a id="footerATags" href="./TermsOfUse">
+                  Terms of Use
+                </a>
+                <a id="footerATags" href="https://www.goarmy.com/">
+                  US Army
+                </a>
+                <a id="footerATags" href="https://www.usar.army.mil/">
+                  US Army Reserves
+                </a>
+                <a id="footerATags" href="https://www.usar.army.mil/99thRD/">
+                  99th RSC
+                </a>
+                <a id="footerATags" href="https://www.jbmdl.jb.mil/">
+                  Fort Dix
+                </a>
                 {/* <a>Fort Totten</a> */}
               </div>
             </div>
             <div>
               <h3 id="socialMedia">Social Media</h3>
               <div id="footerLinksDiv">
-                <a href="https://www.youtube.com/user/78thArmyBand">YouTube</a>
-                <a href="https://www.instagram.com/78tharmyband/">Instagram</a>
-                <a href="https://www.facebook.com/78thArmyBand">Facebook</a>
-                <a href="https://twitter.com/78thArmyBand?s=20">Twitter</a>
+                <a
+                  id="footerATags"
+                  href="https://www.youtube.com/user/78thArmyBand"
+                >
+                  YouTube
+                </a>
+                <a
+                  id="footerATags"
+                  href="https://www.instagram.com/78tharmyband/"
+                >
+                  Instagram
+                </a>
+                <a
+                  id="footerATags"
+                  href="https://www.facebook.com/78thArmyBand"
+                >
+                  Facebook
+                </a>
+                <a
+                  id="footerATags"
+                  href="https://twitter.com/78thArmyBand?s=20"
+                >
+                  Twitter
+                </a>
               </div>
             </div>
           </div>
