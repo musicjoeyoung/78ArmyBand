@@ -24,12 +24,13 @@ export class AboutComponent extends Component {
                 </a>
               </h3>
               <p id="history¶">
-                Ipsum lorem ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum. <br />
+                The 78th Infantry Division was formed in August of 1942. One
+                year later, the 78th Army Band was formed on the 2nd of August,
+                1943. During this time, it was known as the 78th Infantry
+                Division Band. The insignia was a lightning strike on a blood
+                red field. The battles that the 78th Infantry fought, according
+                to the French, resembled a lightning strike, leaving the field
+                red. <br />
                 <a id="historylink" href="../About/#history">
                   Read more...
                 </a>

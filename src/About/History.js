@@ -8,56 +8,42 @@ export class History extends Component {
   modalContent = (
     <React.Fragment>
       <p id="modalText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Justo donec enim
-        diam vulputate ut pharetra sit amet aliquam. Lacus laoreet non curabitur
-        gravida arcu ac tortor dignissim convallis. Quis imperdiet massa
-        tincidunt nunc pulvinar sapien. Lacus suspendisse faucibus interdum
-        posuere lorem ipsum dolor sit. Ut tortor pretium viverra suspendisse
-        potenti nullam ac tortor vitae. Non pulvinar neque laoreet suspendisse
-        interdum consectetur libero id. Aliquet enim tortor at auctor urna nunc
-        id cursus metus. Lectus vestibulum mattis ullamcorper velit sed
-        ullamcorper. Neque ornare aenean euismod elementum nisi quis eleifend
-        quam. Mauris cursus mattis molestie a iaculis at erat pellentesque. Sit
-        amet commodo nulla facilisi nullam vehicula ipsum a arcu. Elementum
-        curabitur vitae nunc sed velit. Nunc vel risus commodo viverra maecenas
-        accumsan lacus. Id ornare arcu odio ut sem nulla pharetra diam sit. Elit
-        ut aliquam purus sit amet. Non arcu risus quis varius quam quisque id
-        diam vel. Ac turpis egestas maecenas pharetra convallis. Nec nam aliquam
-        sem et. Amet venenatis urna cursus eget nunc scelerisque. Est
-        pellentesque elit ullamcorper dignissim. Lectus vestibulum mattis
-        ullamcorper velit sed ullamcorper morbi. Tellus integer feugiat
-        scelerisque varius morbi enim nunc. Duis at tellus at urna condimentum
-        mattis pellentesque id nibh. Sit amet commodo nulla facilisi. Netus et
-        malesuada fames ac. Placerat in egestas erat imperdiet sed. Turpis massa
-        tincidunt dui ut ornare lectus. Consequat semper viverra nam libero
-        justo laoreet sit amet. Tempor id eu nisl nunc mi ipsum faucibus vitae
-        aliquet. Mattis aliquam faucibus purus in massa. Massa massa ultricies
-        mi quis hendrerit dolor magna eget. Nisi lacus sed viverra tellus in hac
-        habitasse. Eu scelerisque felis imperdiet proin fermentum leo vel orci
-        porta. Arcu non odio euismod lacinia at quis risus sed. Feugiat nibh sed
-        pulvinar proin. Et malesuada fames ac turpis egestas integer. Venenatis
-        urna cursus eget nunc scelerisque viverra. Mattis aliquam faucibus purus
-        in massa tempor nec feugiat nisl. Elit eget gravida cum sociis natoque
-        penatibus et magnis dis. Placerat vestibulum lectus mauris ultrices eros
-        in cursus turpis. Amet aliquam id diam maecenas ultricies mi. Varius vel
-        pharetra vel turpis nunc eget lorem. Feugiat in ante metus dictum at.
-        Nisi lacus sed viverra tellus in hac habitasse. Integer quis auctor elit
-        sed vulputate. Dui accumsan sit amet nulla facilisi morbi tempus iaculis
-        urna. Integer eget aliquet nibh praesent tristique magna. Hac habitasse
-        platea dictumst quisque. Non diam phasellus vestibulum lorem sed risus
-        ultricies tristique nulla. Pellentesque massa placerat duis ultricies
-        lacus. Ac turpis egestas sed tempus urna et pharetra pharetra. Ac
-        placerat vestibulum lectus mauris ultrices. Elementum tempus egestas sed
-        sed risus pretium. Vitae sapien pellentesque habitant morbi tristique
-        senectus et. Tortor pretium viverra suspendisse potenti nullam ac tortor
-        vitae. Morbi tincidunt ornare massa eget egestas purus viverra. Amet
-        aliquam id diam maecenas ultricies. Diam volutpat commodo sed egestas.
-        Eget nunc scelerisque viverra mauris in aliquam sem fringilla ut. Mi
-        bibendum neque egestas congue quisque egestas diam in. Eu mi bibendum
-        neque egestas. Lobortis scelerisque fermentum dui faucibus in ornare
-        quam viverra. Pulvinar neque laoreet suspendisse interdum consectetur
-        libero id faucibus.
+        Formation of the Band The 78th Infantry Division was formed in August of
+        1942. One year later, the 78th Army Band was formed on the 2nd of
+        August, 1943. During this time, it was known as the 78th Infantry
+        Division Band. The insignia was a lightning strike on a blood red field.
+        The battles that the 78th Infantry fought, according to the French,
+        resembled a lightning strike, leaving the field red. European (WWII)
+        Combat On the 13th of December, 1944, the 78th Infantry Division
+        (including the band) entered combat, fighting in WWII. They fought in
+        the Rhineland Campaign. the Ardennes-Alsace Campaign, and the Central
+        Europe Campaign. The 78th Infantry Division Band was decorated with a
+        Meritorious Unit Commendation and a streamer embroidered with European
+        Theater. The 78th Infantry Division spent a total of 125 days in combat
+        wherein there were 12,257 casualties and 1,547 deaths.
+        Deactivation/Reactivation/Name Change Shortly after the deployment, the
+        78th Infantry Division Band was deactivated on the 22nd of May, 1946 in
+        Germany. On the 1st of October, 1950, the 78th Infantry Division Band
+        was reactivated in Newark, New Jersey. Over the next 8 years, it moved
+        to three different cities in New Jersey -- Newark in 1950, Kearny in
+        1955, and Camp Kilmer in Edison, NJ in 1958. In 1959, the name was
+        changed from the 78th Infantry Division Band to the 78th Infantry Band.
+        In 1968, the Band was consolidated with the Support Company for the 78th
+        (Training) Division. In 1970 and 1971, the Support Company and Band was
+        reorganized and renamed. 878th Army Band On the 16th of November, 1982,
+        the band element was separated from the Support Company and renamed the
+        878th Army Band, no longer a part of the Support Company (although still
+        under the 78th Training Division). The next year, on the 17th of
+        November in 1983, the 878th Army Band returned to be a part of the Band
+        Element of the 78th Division (Training). 78th Division Band On the 16th
+        of September, 1988, the 78th withdrew from Headquarters Company and was
+        redesignated as the 78th Division Band. They remained as the 78th
+        Division Band even as the 78th Division changed title Training to
+        Exercise (in 1993) and Exercise to Training Support (in 1999). Relieved
+        and Reorganized On the 1st of April, 2007, the 78th Division Band was
+        relieved from the 78th Division (Training Support). On the 16th of
+        October, 2008, the Band was reorganized and redesignated as the 78th
+        Army Band out of Fort Dix, NJ.
       </p>
     </React.Fragment>
   ); //
@@ -66,17 +52,12 @@ export class History extends Component {
       <div className="about" id="history">
         <h3 id="mainDivTitleAbout">History</h3>
         <p id="historyText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo
-          donec enim diam vulputate ut pharetra sit amet aliquam. Lacus laoreet
-          non curabitur gravida arcu ac tortor dignissim convallis. Quis
-          imperdiet massa tincidunt nunc pulvinar sapien. Lacus suspendisse
-          faucibus interdum posuere lorem ipsum dolor sit. Ut tortor pretium
-          viverra suspendisse potenti nullam ac tortor vitae. Non pulvinar neque
-          laoreet suspendisse interdum consectetur libero id. Aliquet enim
-          tortor at auctor urna nunc id cursus metus. Lectus vestibulum mattis
-          ullamcorper velit sed ullamcorper. Neque ornare aenean euismod
-          elementum nisi quis eleifend quam.
+          The 78th Infantry Division was formed in August of 1942. One year
+          later, the 78th Army Band was formed on the 2nd of August, 1943.
+          During this time, it was known as the 78th Infantry Division Band. The
+          insignia was a lightning strike on a blood red field. The battles that
+          the 78th Infantry fought, according to the French, resembled a
+          lightning strike, leaving the field red.
         </p>
 
         <Modal modalProps={this.modalProps} modalContent={this.modalContent} />

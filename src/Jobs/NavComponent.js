@@ -1,6 +1,5 @@
 import React from "react";
 import dropdownImg from "../images/dropdown.png";
-import flute from "../Jobs/AMPA Materials/9B.pdf";
 
 //use this for the home page; dropdown links take user ection on the Jobs page and NOT directly
 export default function NavComponent() {
@@ -16,11 +15,18 @@ export default function NavComponent() {
           <a href="./Jobs/Jobs.js#flute">Flute information</a>
           <a href="./Jobs/Jobs.js#oboe">Oboe</a>
           <a href="./Jobs/Jobs.js#clarinet">Clarinet</a>
-          <a href="./Jobs/Jobs.js#bassoon">Bassoon</a>
-          <a id="instrumentPDFs">Events</a>
-          <a id="instrumentPDFs">Media</a>
-          <a id="instrumentPDFs">Career Opportunities</a>
-          <a id="instrumentPDFs">Contact us</a>
+          <a href="./Jobs/Jobs.js#saxophone">Saxophone</a>
+          <a href="./Jobs/Jobs.js#horn">Horn</a>
+          <a href="./Jobs/Jobs.js#trumpet">Trumpet</a>
+          <a href="./Jobs/Jobs.js#trombone">Trombone</a>
+          <a href="./Jobs/Jobs.js#euphonium">Euphonium</a>
+          <a href="./Jobs/Jobs.js#tuba">Tuba</a>
+          <a href="./Jobs/Jobs.js#percussion">Percussion</a>
+          <a href="./Jobs/Jobs.js#keybaord">KeyBoard/Piano</a>
+          <a href="./Jobs/Jobs.js#guitar">Electric Guitar</a>
+          <a href="./Jobs/Jobs.js#bass">Electric Bass</a>
+          <a href="./Jobs/Jobs.js#vocals">Vocals</a>
+          <a href="./Jobs/Jobs.js#engineer">Audio Engineer</a>
         </div>
       </div>
       {/* <select>

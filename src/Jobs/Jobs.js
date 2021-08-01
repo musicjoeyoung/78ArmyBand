@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import armyband from "../images/78armybandrrecording.jpeg";
 //import InstrumentPDFs from "./InstrumentPDFs.js";
-import NavComponent from "./NavComponent";
+//import NavComponent from "./NavComponent";
 import armymusic from "../images/band-overview.jpeg";
 import flute from "../images/instruments/78Flute-Piccolo.jpeg";
 import clarinet from "../images/instruments/78Clarinet.jpeg";
@@ -65,16 +65,16 @@ function Jobs() {
           <strong>Salary & Benefits: </strong> As a musician in the Army
           Reserve, you'll receive benefits that allow you to do what you're best
           at: making great music. Benefits include: <br />
-          <ul>Advanced initial rank (E-4 pay grade)</ul>
-          <ul>Tuition Assistance</ul>
-          <ul>
+          <li>Advanced initial rank (E-4 pay grade)</li>
+          <li>Tuition Assistance</li>
+          <li>
             Professional-quality instruments and supplies provided free of
             charge
-          </ul>
-          <ul>
+          </li>
+          <li>
             Check out all the benefits of being in the Army Reserve{" "}
             <a href="https://www.goarmy.com/reserve/benefits.html">here.</a>
-          </ul>
+          </li>
         </p>
         <p>
           <strong>Audition: </strong> <br />
@@ -114,7 +114,7 @@ function Jobs() {
       </div>
       <div className="instrumentsByName">
         <div className="instrumentAndImg" id="flute">
-          <img id="instrumentImg" src={flute} />
+          <img id="instrumentImg" src={flute} alt="military musician: flute" />
           <div>
             <h1 id="instrumentTitle">Flute/Piccolo</h1>
             <p id="instrumentDescription">
@@ -136,10 +136,18 @@ function Jobs() {
               not required).{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={armymusic} />
+          <img
+            id="instrumentImg"
+            src={armymusic}
+            alt="military musician: oboe"
+          />
         </div>
         <div className="instrumentAndImg" id="clarinet">
-          <img id="instrumentImg" src={clarinet} />
+          <img
+            id="instrumentImg"
+            src={clarinet}
+            alt="military musician: clarinet"
+          />
           <div>
             <h1 id="instrumentTitle">Clarinet</h1>
             <p id="instrumentDescription">
@@ -162,10 +170,18 @@ function Jobs() {
               required, improvisational skill is valued and rewarded.{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={saxophone} />
+          <img
+            id="instrumentImg"
+            src={saxophone}
+            alt="military musician: saxophone"
+          />
         </div>
         <div className="instrumentAndImg" id="bassoon">
-          <img id="instrumentImg" src={armymusic} />
+          <img
+            id="instrumentImg"
+            src={armymusic}
+            alt="military musician: bassoon"
+          />
           <div>
             <h1 id="instrumentTitle">Bassoon</h1>
             <p id="instrumentDescription">
@@ -185,10 +201,14 @@ function Jobs() {
               play in multiple styles, and chamber music experience are valued.{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={horn} />
+          <img id="instrumentImg" src={horn} alt="military musician: horn" />
         </div>
         <div className="instrumentAndImg" id="trumpet">
-          <img id="instrumentImg" src={trumpet} />
+          <img
+            id="instrumentImg"
+            src={trumpet}
+            alt="military musician: trumpet"
+          />
           <div>
             <h1 id="instrumentTitle">Trumpet</h1>
             <p id="instrumentDescription">
@@ -212,10 +232,18 @@ function Jobs() {
               trombone.{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={euphonium} />
+          <img
+            id="instrumentImg"
+            src={euphonium}
+            alt="military musician: euphonium"
+          />
         </div>
         <div className="instrumentAndImg" id="trombone">
-          <img id="instrumentImg" src={trombone} />
+          <img
+            id="instrumentImg"
+            src={trombone}
+            alt="military musician: trombone"
+          />
           <div>
             <h1 id="instrumentTitle">Trombone</h1>
             <p id="instrumentDescription">
@@ -240,10 +268,14 @@ function Jobs() {
               some outdoor ceremonies.{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={tuba} />
+          <img id="instrumentImg" src={tuba} alt="military musician: tuba" />
         </div>
         <div className="instrumentAndImg" id="percussion">
-          <img id="instrumentImg" src={percussion} />
+          <img
+            id="instrumentImg"
+            src={percussion}
+            alt="military musician: percussion"
+          />
           <div>
             <h1 id="instrumentTitle">Percussion</h1>
             <p id="instrumentDescription">
@@ -270,10 +302,18 @@ function Jobs() {
               keyboards as well as the piano.{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={armymusic} />
+          <img
+            id="instrumentImg"
+            src={armymusic}
+            alt="military musician: piano"
+          />
         </div>
         <div className="instrumentAndImg" id="guitar">
-          <img id="instrumentImg" src={guitar} />
+          <img
+            id="instrumentImg"
+            src={guitar}
+            alt="military musician: guitar"
+          />
           <div>
             <h1 id="instrumentTitle">Electric Guitar</h1>
             <p id="instrumentDescription">
@@ -294,10 +334,14 @@ function Jobs() {
               consideration given to those also proficient on upright bass.{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={bass} />
+          <img id="instrumentImg" src={bass} alt="military musician: bass" />
         </div>
         <div className="instrumentAndImg" id="vocals">
-          <img id="instrumentImg" src={vocals} />
+          <img
+            id="instrumentImg"
+            src={vocals}
+            alt="military musician: vocalist"
+          />
           <div>
             <h1 id="instrumentTitle">Vocals</h1>
             <p id="instrumentDescription">
@@ -322,7 +366,11 @@ function Jobs() {
               systems.{" "}
             </p>
           </div>
-          <img id="instrumentImg" src={engineer} />
+          <img
+            id="instrumentImg"
+            src={engineer}
+            alt="military musician: engineer"
+          />
         </div>
       </div>
       <div className="general-audition-info">General Audition Info</div>
