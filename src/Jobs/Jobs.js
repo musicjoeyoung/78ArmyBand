@@ -18,6 +18,21 @@ import vocals from "../images/instruments/78Vocalist.jpeg";
 import percussion from "../images/instruments/78Percussion.jpeg";
 import bass from "../images/instruments/78Bass.jpeg";
 import trumpet from "../images/instruments/78Trumpet.jpeg";
+import _9B from "../Jobs/AMPA Materials/9B.pdf";
+import _9C from "../Jobs/AMPA Materials/9C.pdf";
+import _9D from "../Jobs/AMPA Materials/9D.pdf";
+import _9E from "../Jobs/AMPA Materials/9E.pdf";
+import _9F from "../Jobs/AMPA Materials/9F.pdf";
+import _9G from "../Jobs/AMPA Materials/9G.pdf";
+import _9H from "../Jobs/AMPA Materials/9H.pdf";
+import _9J from "../Jobs/AMPA Materials/9J.pdf";
+import _9K from "../Jobs/AMPA Materials/9K.pdf";
+import _9L from "../Jobs/AMPA Materials/9L.pdf";
+import _9M from "../Jobs/AMPA Materials/9M.pdf";
+import _9N from "../Jobs/AMPA Materials/9N.pdf";
+import _9T from "../Jobs/AMPA Materials/9T.pdf";
+import _9U from "../Jobs/AMPA Materials/9U.pdf";
+import _9V from "../Jobs/AMPA Materials/9V.pdf";
 
 function Jobs() {
   /* const [instrument, setInstrument] = useState("test");
@@ -123,6 +138,10 @@ function Jobs() {
               concert band, ceremonial band, woodwind quintet and other small
               ensembles based on their strengths and the needs of the band.
             </p>
+            <br />
+            <a href={_9G} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="oboe">
@@ -135,6 +154,10 @@ function Jobs() {
               another instrument, such as clarinet or saxophone (though this is
               not required).{" "}
             </p>
+            <br />
+            <a href={_9H} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
           <img
             id="instrumentImg"
@@ -156,6 +179,10 @@ function Jobs() {
               Clarinet players may also be asked to perform on bass clarinet or
               E-flat clarinet, depending on the piece of music.{" "}
             </p>
+            <br />
+            <a href={_9J} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="saxophone">
@@ -169,6 +196,10 @@ function Jobs() {
               and to perform on all members of the sax family. While not
               required, improvisational skill is valued and rewarded.{" "}
             </p>
+            <br />
+            <a href={_9L} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
           <img
             id="instrumentImg"
@@ -190,6 +221,10 @@ function Jobs() {
               marching band, bassoonists often double on another instrument,
               such as clarinet or saxophone (though this is not required).{" "}
             </p>
+            <br />
+            <a href={_9K} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="horn">
@@ -200,6 +235,10 @@ function Jobs() {
               band, ceremonial band, and brass or woodwind quintet. Ability to
               play in multiple styles, and chamber music experience are valued.{" "}
             </p>
+            <br />
+            <a href={_9D} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
           <img id="instrumentImg" src={horn} alt="military musician: horn" />
         </div>
@@ -219,6 +258,10 @@ function Jobs() {
               performing as a bugler during military ceremonies, and performing
               Taps at military funerals.{" "}
             </p>
+            <br />
+            <a href={_9B} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="euphonium">
@@ -231,6 +274,10 @@ function Jobs() {
               required, some euphonium players are also very proficient on
               trombone.{" "}
             </p>
+            <br />
+            <a href={_9C} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
           <img
             id="instrumentImg"
@@ -256,6 +303,10 @@ function Jobs() {
               may be asked to perform on either depending on the needs of the
               ensemble.{" "}
             </p>
+            <br />
+            <a href={_9E} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="tuba">
@@ -267,6 +318,10 @@ function Jobs() {
               required to perform on sousaphone during marching performances and
               some outdoor ceremonies.{" "}
             </p>
+            <br />
+            <a href={_9F} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
           <img id="instrumentImg" src={tuba} alt="military musician: tuba" />
         </div>
@@ -286,6 +341,10 @@ function Jobs() {
               snare and bass drum in the ceremonial band and concert snare,
               mallets, and auxiliary percussion in the concert band.{" "}
             </p>
+            <br />
+            <a href={_9M} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="keyboard">
@@ -301,6 +360,10 @@ function Jobs() {
               different styles, and should be very familiar with digital
               keyboards as well as the piano.{" "}
             </p>
+            <br />
+            <a href={_9N} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
           <img
             id="instrumentImg"
@@ -322,6 +385,10 @@ function Jobs() {
               country band. All guitar players must be skilled in electric
               guitar, as well as acoustic.{" "}
             </p>
+            <br />
+            <a href={_9T} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="bass">
@@ -333,6 +400,10 @@ function Jobs() {
               players must play bass guitar proficiently, with additional
               consideration given to those also proficient on upright bass.{" "}
             </p>
+            <br />
+            <a href={_9U} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
           <img id="instrumentImg" src={bass} alt="military musician: bass" />
         </div>
@@ -353,6 +424,10 @@ function Jobs() {
               experienced solo performer with excellent stage presence and
               professional demeanor.{" "}
             </p>
+            <br />
+            <a href={_9V} id="pdfLink">
+              Click here for resources
+            </a>
           </div>
         </div>
         <div className="instrumentAndImg" id="engineer">
@@ -365,6 +440,10 @@ function Jobs() {
               techniques, you will be trained on the operation of lighting
               systems.{" "}
             </p>
+            <br />
+            {/* <a href={trumpetPDF} id="pdfLink">
+              Click here for resources
+            </a> */}
           </div>
           <img
             id="instrumentImg"
@@ -373,14 +452,14 @@ function Jobs() {
           />
         </div>
       </div>
-      <div className="general-audition-info">General Audition Info</div>
+      {/* <div className="general-audition-info">General Audition Info</div>
       <div className="armyMusicCareers">
         <a href="https://www.goarmy.com/band.html" id="jobText">
           Army Music Careers
         </a>
         <img id="armyMusicImg" src={armymusic} alt="military band" />
       </div>
-      <div className="armyCareers">Army Careers</div>
+      <div className="armyCareers">Army Careers</div> */}
       <Footer />
     </div>
   );
