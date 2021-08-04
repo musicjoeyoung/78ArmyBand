@@ -11,8 +11,12 @@ export class Footer extends Component {
         {/* <h3 id="mainDivTitleFooter">About</h3> */}
         <div className="footerChildContainer">
           <div className="footerLogos">
-            <img src={armylogo} alt="armylogo" id="armylogo" />
-            <img src={band78} alt="band78" id="band78" />
+            <a href="https://www.goarmy.com/">
+              <img src={armylogo} alt="armylogo" id="armylogo" />
+            </a>
+            <a href="/home">
+              <img src={band78} alt="band78" id="band78" />
+            </a>
           </div>
           <div className="footerLinks">
             <div>

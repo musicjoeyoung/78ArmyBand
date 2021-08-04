@@ -31,7 +31,7 @@ export class AboutComponent extends Component {
                 red field. The battles that the 78th Infantry fought, according
                 to the French, resembled a lightning strike, leaving the field
                 red. <br />
-                <a id="historylink" href="../About/#history">
+                <a id="historylinkReadMore" href="../About/#history">
                   Read more...
                 </a>
               </p>
@@ -42,9 +42,8 @@ export class AboutComponent extends Component {
                 </a>
               </h3>
               <p id="history¶">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum. <br />
-                <a id="meetthebandlink" href="../About/#meetTheBand">
+                Meet the musicians and learn more about who we are. <br />
+                <a id="meetthebandlinkReadMore" href="../About/#meetTheBand">
                   Read more...
                 </a>
               </p>

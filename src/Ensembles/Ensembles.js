@@ -28,8 +28,13 @@ function Ensembles() {
         </div>
       </div>
       <div className="ensemblesList">
-        <h2>Ensembles</h2>
-        <p>1-2 sentences here</p>
+        <p id="ensemblePageDescription">
+          The 78th Army Band's many ensembles perform throughout the larger
+          tri-state area for all communities. They play a vital role in the Army
+          by providing musical support for various troops, units, and branches,
+          entertaining civilians, and serving as musical ambassadors of the
+          Army.
+        </p>
         <div className="individualEnsemble">
           <NavComponent setName={updateName} />
           <EnsemblesProfiles ensembles={profiles} />

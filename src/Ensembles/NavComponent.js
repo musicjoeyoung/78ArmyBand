@@ -25,9 +25,7 @@ export default function NavComponent({ setName }) {
         >
           Brass Quintet
         </button>
-      </div>
-      <br />
-      <div className="ensemblesNavComp">
+
         <button
           className="ensembleNameNavComp"
           onMouseOver={setName}
