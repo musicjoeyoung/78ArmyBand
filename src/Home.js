@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HomeCarousel from "./HomeCarousel";
 import Navbar from "./Navbar";
-import SignUpLinkComponent from "./HomePageComponents/SignUpLinkComponent.js";
+//import SignUpLinkComponent from "./HomePageComponents/SignUpLinkComponent.js";
 import AboutComponent from "./HomePageComponents/AboutComponent.js";
 import EnsemblesComponent from "./HomePageComponents/EnsemblesComponent.js";
 import EventsComponent from "./HomePageComponents/EventsComponent.js";
@@ -19,9 +19,9 @@ export class Home extends Component {
         <br />
         <img src={logo} className="homePageLogoImg" alt="logo" />
         <HomeCarousel />
-        <Fade direction="up">
+        {/*  <Fade direction="up">
           <SignUpLinkComponent />
-        </Fade>
+        </Fade> */}
         <AboutComponent />
         <EnsemblesComponent />
         <EventsComponent />

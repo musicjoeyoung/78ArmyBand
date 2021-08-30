@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NavComponent from "../Jobs/NavComponent";
+import VacanciesComp from "../Jobs/VacanciesComp";
 
 export class JobsComponent extends Component {
   render() {
@@ -11,13 +12,7 @@ export class JobsComponent extends Component {
           </a>
         </h3>
         <div className="jobsChildContainer">
-          <div className="vacancies">
-            <h4>Vacancies</h4>
-            <div>Bassoon</div>
-            <div>Bass Guitar</div>
-            <div>Oboe</div>
-          </div>
-
+          <VacanciesComp />
           <NavComponent id="jobsNavCompHomepage" />
         </div>
       </div>

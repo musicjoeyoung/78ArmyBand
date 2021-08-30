@@ -33,6 +33,7 @@ import _9N from "../Jobs/AMPA Materials/9N.pdf";
 import _9T from "../Jobs/AMPA Materials/9T.pdf";
 import _9U from "../Jobs/AMPA Materials/9U.pdf";
 import _9V from "../Jobs/AMPA Materials/9V.pdf";
+import VacanciesComp from "./VacanciesComp";
 
 function Jobs() {
   /* const [instrument, setInstrument] = useState("test");
@@ -53,57 +54,70 @@ function Jobs() {
       <div className="jobs-page-description">
         {/* design similarly to https://www.goarmy.com/band/careers-and-jobs.html */}
         <h2>The role of an Army Musician</h2>
-        <p>
+        <p id="roleDescriptions">
           {/* **include musical img here** */}
-          <strong>Job Description: </strong> Musicians specialize in one (or
-          more) of the following instruments/specialties: tuba, trombone,
-          euphonium, bassoon, electric bass guitar, saxophone, flute or piccolo,
-          oboe, clarinet, French horn, percussion, cornet or trumpet, guitar,
-          keyboard, vocalist, and music production. Musicians perform in a
-          variety of ensembles ranging from ceremonial band to jazz band to
-          small ensembles, playing all styles of music. They are primarily
-          responsible for performing and rehearsing as a professional musician
-          within different ensembles of an Army band.
+          <strong>Job Description: </strong> <br />
+          Musicians specialize in one (or more) of the following
+          instruments/specialties: tuba, trombone, euphonium, bassoon, electric
+          bass guitar, saxophone, flute or piccolo, oboe, clarinet, French horn,
+          percussion, cornet or trumpet, guitar, keyboard, vocalist, and music
+          production. Musicians perform in a variety of ensembles ranging from
+          ceremonial band to jazz band to small ensembles, playing all styles of
+          music. They are primarily responsible for performing and rehearsing as
+          a professional musician within different ensembles of an Army band.
         </p>
-        <p>
+        <br />
+        <p id="roleDescriptions">
           {/* **include PT img here** */}
-          <strong>Qualifications: </strong> Sed biodiesel lo-fi do next level
-          dolore meditation woke vexillologist pitchfork vice flexitarian
-          iceland. Fam banjo yr selfies kombucha brunch trust fund distillery
-          seitan man braid ramps authentic tilde enim. Echo park bitters offal,
-          locavore viral tousled swag art party williamsburg schlitz palo santo.
-          Cray art party chia gluten-free meditation post-ironic qui echo park
-          twee.
+          <strong>Qualifications: </strong> <br />• 17-34 years old <br />• U.S.
+          Citizen or permanent resident alien <br />• Have a high school diploma
+          or equivalent
+          <br />
+          • Be in good health and physical condition <br />• Be in good moral
+          standing <br />• Prior service members may require waiver
         </p>
-        <p>
+        <br />
+        <p id="roleDescriptions">
           {/* **include generic friendly band img here** */}
-          <strong>Salary & Benefits: </strong> As a musician in the Army
-          Reserve, you'll receive benefits that allow you to do what you're best
-          at: making great music. Benefits include: <br />
-          <li>Advanced initial rank (E-4 pay grade)</li>
-          <li>Tuition Assistance</li>
-          <li>
-            Professional-quality instruments and supplies provided free of
-            charge
-          </li>
-          <li>
-            Check out all the benefits of being in the Army Reserve{" "}
-            <a href="https://www.goarmy.com/reserve/benefits.html">here.</a>
-          </li>
+          <strong>Salary & Benefits: </strong> <br />
+          As a musician in the Army Reserve, you'll receive benefits that allow
+          you to do what you're best at: making great music. Benefits include:{" "}
+          <br />
+          • Advanced initial rank (E-4 pay grade) <br />
+          • Tuition Assistance <br />
+          • Professional-quality instruments and supplies provided free of
+          charge
+          <br />• Check out all the benefits of being in the Army Reserve{" "}
+          <a
+            id="auditionFontATag"
+            href="https://www.goarmy.com/reserve/benefits.html"
+          >
+            here.
+          </a>
         </p>
-        <p>
+        <br />
+        <p id="roleDescriptions">
           <strong>Audition: </strong> <br />
           1.{" "}
-          <a href="mailto:paul.a.harding6.mil@mail.mil?subject: Request 78th Army Band">
+          <a
+            id="auditionFontATag"
+            href="mailto:78tharmyband@gmail.com?subject: Request 78th Army Band"
+          >
             Reach out to us!
           </a>{" "}
           We'll get you set up and you will{" "}
-          <a href="https://www.bands.army.mil/careers/auditions/form.asp">
+          <a
+            id="auditionFontATag"
+            href="https://www.bands.army.mil/careers/auditions/form.asp"
+          >
             submit an audition request.
           </a>
           <br />
           2.{" "}
-          <a href="https://www.goarmy.com/locate-a-recruiter.html">
+          <a
+            id="auditionFontATag"
+            href="https://www.goarmy.com/locate-a-recruiter.html"
+          >
             Contact your local recruiter.
           </a>
           (We'll help you with this!)
@@ -112,21 +126,17 @@ function Jobs() {
           <br />
           4. Upon successful auditions and are deemed qualified for service, you
           will sign a contract for{" "}
-          <a href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html">
+          <a
+            id="auditionFontATag"
+            href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html"
+          >
             OS 42R (Army Musician)
           </a>
           M and be assigned a training departure date.
         </p>
-        <p>
-          <strong>Who To Contact: </strong> Sed biodiesel
-        </p>
+        <br />
       </div>
-      <div className="jobs-page-vacancies">
-        <h4>Vacancies</h4>
-        <div>instrument</div>
-        <div>instrument</div>
-        <div>instrument</div>
-      </div>
+      <VacanciesComp />
       <div className="instrumentsByName">
         <div className="instrumentAndImg" id="flute">
           <img id="instrumentImg" src={flute} alt="military musician: flute" />

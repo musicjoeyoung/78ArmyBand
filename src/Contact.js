@@ -40,12 +40,13 @@ export class Contact extends Component {
             and indicate the type of support requested. Submit the form to the
             78th Army Band no less than 60 days prior to the scheduled event.
           </p>
-          <a href="mailto:paul.a.harding6.mil@mail.mil?subject: Request 78th Army Band">
+          <br />
+          <a href="mailto:78tharmyband@gmail.com?subject=Request%78th%Army%Band">
             <button>Request the Band</button>
           </a>
         </div>
         <br />
-        <div className="contact-page-newsletter-signup">
+        {/* <div className="contact-page-newsletter-signup">
           <h2>Sign up for our newsletter!</h2>
           <div id="email">
             email:
@@ -58,7 +59,7 @@ export class Contact extends Component {
           </div>
           <br />
           <button>sign up</button>
-        </div>
+        </div> */}
         <div className="contact-page-email-form">
           <h2 id="talkToUs">Talk To Us!</h2>
           <ContactForm />

@@ -218,6 +218,7 @@ html {
 }
 #requestBandPTag {
   width: 50%;
+  font-size: 16px;
   margin: auto;
 }
 .contact-page-newsletter-signup {
@@ -629,7 +630,7 @@ li:hover {
 .ensembles {
   background-color: whitesmoke;
   box-shadow: 10px 6px 16px -5px black;
-  /* border-radius: 7px; */
+  border-radius: 7px;
   max-width: 1280px;
   margin: 5vw auto auto;
   padding-bottom: 3vw;
@@ -785,7 +786,12 @@ li:hover {
   max-width: 1280px;
   margin: 5vw auto auto;
 }
-
+.container {
+  display: flex;
+}
+.mediaChildContainer {
+  width: 33%;
+}
 .mediaVideosPicturesArticles {
   /*  margin-left: 1vw; */
   display: flex;
@@ -793,6 +799,7 @@ li:hover {
 }
 .mediaVideo {
   margin: auto;
+  padding-top: 30px;
 }
 #VidsAndPics {
   display: flex;
@@ -833,10 +840,21 @@ li:hover {
 .jobs {
   background-color: whitesmoke;
   box-shadow: 10px 6px 16px -5px black;
-  /*  border-radius: 7px; */
+  border-radius: 7px;
   max-width: 1280px;
   margin: 5vw auto auto;
   padding-bottom: 3vw;
+}
+#roleDescriptions {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+#auditionFontATag {
+  font-size: 16px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: blue;
 }
 .jobsChildContainer {
   display: flex;
@@ -848,6 +866,7 @@ li:hover {
   border-radius: 7px;
   width: 70%;
   margin: 5vw auto auto;
+  margin-bottom: 4vw;
 }
 .jobs-page-vacancies {
   border-bottom: 1px solid black;
@@ -857,7 +876,7 @@ li:hover {
   margin: 5vw auto auto;
 }
 #pdfLink {
-  color: white;
+  color: #ffcc01;
   font-size: 14px;
 }
 .instrumentsByName {
@@ -970,7 +989,21 @@ select {
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
+
+#vacancyLink {
+  color: white;
+  font-size: 16px;
+}
+#vacancyLink:hover {
+  color: black;
+  background-color: #ffcc01;
+}
+/* #vacanciesH4 {
+  padding-top: 20px;
+} */
 .auditionInfo {
   margin: auto;
   border: 1px solid black;
