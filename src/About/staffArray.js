@@ -10,13 +10,7 @@ export const staff = [
     img: band78,
     section: "Command Team",
   },
-  {
-    name: "1SG Brian Endlein",
-    bio:
-      "1SG Brian Endlein is a native of Lansdale, Pennsylvania where he attended North Penn High School—a highly regarded district for music education. It was his time as part of the NPHS music program that instilled a life-long passion for music and teaching. 1SG Endlein would go on to attend West Chester University where he was awarded his Bachelor of Music Education with a minor in Music History degree. In 2004, 1SG Endlein joined the United States Army Reserve as a saxophonist in the 307th Army Band. Upon completion of basic combat training at Ft. Jackson, South Carolina, 1SG Endlein completed his advanced individual training with the 282nd Army Band. He served with the 307th Army Band until it’s inactivation in 2008 at which time he became a member of the 78th Army Band stationed at Joint Base McGuire-Dix-Lakehurst. 1SG Endlein has held multiple duty assignments to include unit librarian, enlisted conductor, squad leader, drum major, music performance team (MPT) leader, equal opportunity leader, and now as the First Sergeant of the band. ¶ 1SG Endlein’s awards include the Army Commendation Medal (1 OLC), the Army Achievement Medal (1 OLC), Armed Forces Reserve Medal with Bronze Hourglass, Army Reserve Component Achievement Medal (4 OLC), National Defense Medal, Non-Commissioned Officer Professional Development Ribbon (4th award), and Army Service Ribbon. In 2019, he graduated from the Master Leaders Course as the “Distinguished Honor Graduate”—graduating 1st in his class. ¶ In his civilian career, 1SG Endlein has spent the past 17 years as a music educator in the state of Delaware. He is currently the band director at the newly opened Odessa High School on the state of the art Fairview Campus in the Appoquinmink School District. A Grammy-nominated music educator and “Teacher of the Year” in 2019, 1SG Endlein’s student ensembles have earned local, state, national, and international recognition. ¶ 1SG Endlein currently resides in Townsend, Delaware with his wife and two children. ",
-    img: Endlein,
-    section: "Command Team",
-  },
+
   {
     name: "WO1 Hugh Stuart",
     bio:
@@ -29,6 +23,13 @@ export const staff = [
     bio:
       "Meditation +1 eu iPhone, quis sunt tote bag ut vegan dolore organic tattooed. Normcore street art salvia mollit poke banh mi cred taiyaki. Disrupt shabby chic woke slow-carb chartreuse small batch knausgaard sint pop-up dreamcatcher. Street art listicle irony flannel enamel pin twee chambray jean shorts vaporware poutine craft beer woke. Knausgaard qui ethical do occaecat. Gluten-free letterpress aliquip, tumblr literally deep v vape post-ironic velit +1 butcher. Nostrud hammock vegan farm-to-table pour-over PBR&B, la croix thundercats man braid drinking vinegar kinfolk heirloom meggings schlitz readymade. Chambray officia iPhone chillwave schlitz.",
     img: band78,
+    section: "Command Team",
+  },
+  {
+    name: "1SG Brian Endlein",
+    bio:
+      "1SG Brian Endlein is a native of Lansdale, Pennsylvania where he attended North Penn High School—a highly regarded district for music education. It was his time as part of the NPHS music program that instilled a life-long passion for music and teaching. 1SG Endlein would go on to attend West Chester University where he was awarded his Bachelor of Music Education with a minor in Music History degree. In 2004, 1SG Endlein joined the United States Army Reserve as a saxophonist in the 307th Army Band. Upon completion of basic combat training at Ft. Jackson, South Carolina, 1SG Endlein completed his advanced individual training with the 282nd Army Band. He served with the 307th Army Band until it’s inactivation in 2008 at which time he became a member of the 78th Army Band stationed at Joint Base McGuire-Dix-Lakehurst. 1SG Endlein has held multiple duty assignments to include unit librarian, enlisted conductor, squad leader, drum major, music performance team (MPT) leader, equal opportunity leader, and now as the First Sergeant of the band. ¶ 1SG Endlein’s awards include the Army Commendation Medal (1 OLC), the Army Achievement Medal (1 OLC), Armed Forces Reserve Medal with Bronze Hourglass, Army Reserve Component Achievement Medal (4 OLC), National Defense Medal, Non-Commissioned Officer Professional Development Ribbon (4th award), and Army Service Ribbon. In 2019, he graduated from the Master Leaders Course as the “Distinguished Honor Graduate”—graduating 1st in his class. ¶ In his civilian career, 1SG Endlein has spent the past 17 years as a music educator in the state of Delaware. He is currently the band director at the newly opened Odessa High School on the state of the art Fairview Campus in the Appoquinmink School District. A Grammy-nominated music educator and “Teacher of the Year” in 2019, 1SG Endlein’s student ensembles have earned local, state, national, and international recognition. ¶ 1SG Endlein currently resides in Townsend, Delaware with his wife and two children. ",
+    img: Endlein,
     section: "Command Team",
   },
   {
@@ -95,9 +96,9 @@ export const staff = [
     section: "Percussion",
   },
   {
-    name: "SPC Jane Doe",
+    name: "SPC Nicholas Torrado",
     bio:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!",
+      "SPC Nicholas Torrado grew up in Slate Hill, New York, where he began playing percussion at age 10. SPC Torrado was a member of the Minisink Valley Central School District band programs from his 5th grade year through his senior year. After high school, Torrado attended one semester at SUNY Potsdam in Potsdam, New York before shipping off to Fort Sill, Oklahoma to attend Army Basic Combat Training, followed by Advanced Individual Training in Little Creek, Virginia. During that semester at SUNY Potsdam, SPC Torrado continued his musical career with the Potsdam community band. When he returned, Torrado attended SUNY Orange in Middletown, New York, where he received his associate's degree in Math and Science in 2020. He has returned to SUNY Potsdam where currently pursuing a bachelor’s degree in History. SPC Nicholas Torrado joined The U.S. Army Reserve's 78th Army Band in 2018. He currently lives in Middletown, NY and his hobbies include practicing his drumming (and other instruments), bowling, and fishing.",
     img: band78,
     section: "Percussion",
   },
@@ -151,11 +152,11 @@ export const staff = [
     section: "Percussion",
   },
   {
-    name: "SPC Jane Doe",
+    name: "SPC Jorge Ramos",
     bio:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero magni deleniti quod quam consequuntur! Commodi minima excepturi repudiandae velit hic maxime doloremque. Quaerat provident commodi consectetur veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!",
+      "SPC Jorge Ramos grew up in Medellin, Colombia. He joined the 78th Army Band - New York City element in 2019 as a Pianist. He earned a Bachelor Degree in Music Education in 2008 and a Master Degree in Music Performance in 2017 from the Adventist Music School and EAFIT Music School in Medellin, Colombia. In 2021 he received the Army Achievement Medal (AAM) for his music efforts during the Band Annual Training (AT). In his career as a musician he has been part of different kinds of ensembles performing music from Classical to Jazz and Latin Jazz, in different countries like Colombia, Venezuela, Bolivia. As a Music Educator he worked from 2013 to 2017 as part of the Education Faculty at the Adventist University of Colombia. Currently he lives in Philadelphia, PA where he enjoys teaching piano at Settlement Music School.",
     img: band78,
-    section: "Percussion",
+    section: "Piano",
   },
 ];
 console.log(staff[1]);
