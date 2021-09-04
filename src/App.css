@@ -792,6 +792,8 @@ li:hover {
 .mediaChildContainer {
   width: 33%;
 }
+.mediaHomePageChildContainer {
+}
 .mediaVideosPicturesArticles {
   /*  margin-left: 1vw; */
   display: flex;
@@ -837,6 +839,15 @@ li:hover {
   width: 50% !important;
   border: 1px solid white !important;
 } */
+#connect {
+  font-size: 2vw;
+  color: white;
+}
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  margin-top: 5%;
+}
 .jobs {
   background-color: whitesmoke;
   box-shadow: 10px 6px 16px -5px black;
@@ -1073,6 +1084,15 @@ a:active {
 
 li {
   list-style-type: none;
+}
+@media screen and (max-width: 1140px) {
+  .container {
+    flex-direction: column;
+    margin: auto;
+  }
+  .mediaChildContainer {
+    width: auto;
+  }
 }
 @media screen and (max-width: 1140px) {
   .cb-slideshow li div h3 {

@@ -40,6 +40,36 @@ export class Media extends Component {
                     id="selectedMediaVideo"
                     width="auto"
                     height="auto"
+                    src="https://www.youtube.com/embed/mU08DRyhItk"
+                    title="YouTube video player"
+                    frameorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <div className="mediaChildContainer">
+              <div className="mediaVideo">
+                <div>
+                  <iframe
+                    id="selectedMediaVideo"
+                    width="auto"
+                    height="auto"
+                    src="https://www.youtube.com/embed/o2KuVbnZ9FI"
+                    title="YouTube video player"
+                    frameorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+              <div className="mediaVideo">
+                <div>
+                  <iframe
+                    id="selectedMediaVideo"
+                    width="auto"
+                    height="auto"
                     src="https://www.youtube.com/embed/64R69szw6d4"
                     title="YouTube video player"
                     frameorder="0"
@@ -56,7 +86,7 @@ export class Media extends Component {
                     id="selectedMediaVideo"
                     width="auto"
                     height="auto"
-                    src="http://www.youtube.com/embed/?listType=user_uploads&list=78thArmyBand"
+                    src="https://www.youtube.com/embed/G8nR49lf3Uc"
                     title="YouTube video player"
                     frameorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,7 +100,7 @@ export class Media extends Component {
                     id="selectedMediaVideo"
                     width="auto"
                     height="auto"
-                    src="https://www.youtube.com/embed/64R69szw6d4"
+                    src="https://www.youtube.com/embed/H97cUH_GqGA"
                     title="YouTube video player"
                     frameorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -79,36 +109,20 @@ export class Media extends Component {
                 </div>
               </div>
             </div>
-            <div className="mediaChildContainer">
-              <div className="mediaVideo">
-                <div>
-                  <iframe
-                    id="selectedMediaVideo"
-                    width="auto"
-                    height="auto"
-                    src="http://www.youtube.com/embed/?listType=user_uploads&list=78thArmyBand"
-                    title="YouTube video player"
-                    frameorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-              <div className="mediaVideo">
-                <div>
-                  <iframe
-                    id="selectedMediaVideo"
-                    width="auto"
-                    height="auto"
-                    src="https://www.youtube.com/embed/64R69szw6d4"
-                    title="YouTube video player"
-                    frameorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-            </div>
+          </div>
+          <hr className="rounded" />
+          <h2 id="connect">Connect With Us!</h2>
+          <div className="facebook">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F78thArmyBand%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+              width="340"
+              height="500"
+              /* style="border:none;overflow:hidden" */
+              scrolling="no"
+              frameborder="0"
+              allowFullScreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
           </div>
         </div>
 
