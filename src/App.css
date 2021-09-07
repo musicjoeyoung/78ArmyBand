@@ -792,8 +792,8 @@ li:hover {
 .mediaChildContainer {
   width: 33%;
 }
-.mediaHomePageChildContainer {
-}
+/* .mediaHomePageChildContainer {
+} */
 .mediaVideosPicturesArticles {
   /*  margin-left: 1vw; */
   display: flex;

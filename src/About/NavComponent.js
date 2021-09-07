@@ -22,6 +22,9 @@ export default function NavComponent({ setSection }) {
           <li onClick={setSection} id="navbarLinks">
             Piano
           </li>
+          <li onClick={setSection} id="navbarLinks">
+            Vocals
+          </li>
         </div>
       </div>
     </div>
