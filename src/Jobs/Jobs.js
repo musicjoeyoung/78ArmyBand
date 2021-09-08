@@ -43,12 +43,12 @@ function Jobs() {
   return (
     <div>
       <Navbar />
+      <div className="jobs-page-bg-text">
+        <h1>Jobs</h1>
+      </div>
       <div className="jobs-page-pic-and-text">
         <div className="jobs-page-pic">
           <img src={armyband} className="jobs-page-bg-image" alt="" />
-        </div>
-        <div className="jobs-page-bg-text">
-          <h1>Jobs</h1>
         </div>
       </div>
       <div className="jobs-page-description">

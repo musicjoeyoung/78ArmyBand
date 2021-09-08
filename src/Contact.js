@@ -9,18 +9,18 @@ export class Contact extends Component {
     return (
       <div>
         <Navbar />
+        <div className="contact-page-bg-text">
+          <h1>Contact us!</h1>
+          <p id="contact-page-pText">
+            The 78th Army Band wants to give you the best musical experience.
+            <br />
+            Please reach out and let us know what you think. <br />
+          </p>
+          <h2>We want to hear from you!</h2>
+        </div>
         <div className="contact-page-pic-and-text">
           <div className="contact-page-pic">
             <img src={trombones} className="contact-page-bg-image" alt="" />
-          </div>
-          <div className="contact-page-bg-text">
-            <h1>Contact us!</h1>
-            <p id="contact-page-pText">
-              The 78th Army Band wants to give you the best musical experience.
-              <br />
-              Please reach out and let us know what you think. <br />
-            </p>
-            <h2>We want to hear from you!</h2>
           </div>
         </div>
         <div

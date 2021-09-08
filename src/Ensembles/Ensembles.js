@@ -16,15 +16,13 @@ function Ensembles() {
   return (
     <div>
       <Navbar />
+      <div className="ensembles-page-bg-text">
+        <h1>Ensembles</h1>
+        <p id="ensembles-page-pText">The ensembles of the 78th Army Band...</p>
+      </div>
       <div className="ensembles-page-pic-and-text">
         <div className="ensembles-page-pic">
           <img src={armyband} className="ensembles-page-bg-image" alt="" />
-        </div>
-        <div className="ensembles-page-bg-text">
-          <h1>Ensembles</h1>
-          <p id="ensembles-page-pText">
-            The ensembles of the 78th Army Band...
-          </p>
         </div>
       </div>
       <div className="ensemblesList">

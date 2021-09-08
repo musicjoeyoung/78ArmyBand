@@ -18,15 +18,15 @@ function About() {
   return (
     <div>
       <Navbar />
+      <div className="about-page-bg-text">
+        <h1>About Us</h1>
+        <p id="about-page-pText">
+          Meet the members of band and learn about the history of the unit.
+        </p>
+      </div>
       <div className="about-page-pic-and-text">
         <div className="about-page-pic">
           <img src={armyband} className="about-page-bg-image" alt="" />
-        </div>
-        <div className="about-page-bg-text">
-          <h1>About Us</h1>
-          <p id="about-page-pText">
-            Meet the members of band and learn about the history of the unit.
-          </p>
         </div>
       </div>
       <div className="meetTheBand">
