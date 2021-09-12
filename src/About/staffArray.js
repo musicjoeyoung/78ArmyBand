@@ -53,6 +53,13 @@ export const staff = [
     section: "Brass",
   },
   {
+    name: "SPC Joseph Faust",
+    bio:
+      "Specialist Joseph Faust grew up in Northfield, New Jersey. He received his bachelor's degree in music performance from Rowan University in 2012. ¶ He joined the Army in 2014 and spent almost 7 years on active duty serving with the 10th Mountain Division Band in Fort Drum, New York and the 9th Army Band out of Joint Base Elmendorf-Richardson, Alaska. SPC Faust left active duty in November of 2020 and joined the 78th Army Band in February of 2021 where he plays trumpet in the brass quintet. ¶ As a civilian, SPC Faust is a student at Montclair State University where he is pursuing a Master of Arts in Teaching and he hopes to become a music teacher after graduation.",
+    img: band78,
+    section: "Brass",
+  },
+  {
     name: "SSG Andrew Lutter",
     bio:
       "Staff Sergeant Andrew J. Lutter was born in York, Pennsylvania and currently resides in Alexandria, Virginia. He enlisted in the Army in 2012. Before joining the military he attended James Madison University and graduated in 2011 with a BA in Music Education. ¶ SSG Lutter has had numerous performance opportunities, most notably: Performing in the National Trumpet Competition in 2010 and competing in the North American Brass Band Association competitions (2008-2010) as a solo cornet player in the Brass Band at JMU. Army performances of note include: Performing for President Barack Obama, Opening for The Spin Doctors and Smash Mouth, and performing on live tv numerous times on Fox and Friends as well as for the Philadelphia Phillies. ¶ In the 78th Army Band, SSG Lutter currently performs with the brass quintet. He has also has played in the Rock Band, Checkmate, as well as the Fort Dixieland Brass Band. In addition to playing the trumpet in the band SSG Lutter is one of the Drum Majors for the marching band. SSG Lutter’s Army education includes the Basic Leader Course in Fort Indiantown Gap, PA as well as the Advanced Leader Course in Little Creek, VA. ¶ SSG Lutter lives with his wife Johanna and his dog Ellie. He works for Fairfax County Public Schools as an elementary band director. In his free time SSG Lutter enjoys cooking, video games, fishing, and biking.",
@@ -70,6 +77,13 @@ export const staff = [
     name: "SPC Maya Parry",
     bio:
       "SPC Maya Parry was born in London, England, and moved to the United States at 10 years old. She currently resides in South Burlington, VT with a dog, a cat, and a rabbit. She attends Southern New Hampshire University for a bachelors' in Psychology with a concentration in Child and Adolescent Development. She works at a public school as a preschool teacher. ¶ SPC Parry plays horn in the Brass Quintet and the overall band. She is also a member of Lady Liberty. When she is not playing, SPC Parry helps in Supply, organizing and distributing soldiers' equipment. ¶ In her free time, SPC Parry enjoys reading, origami, and hiking the Green Mountains!",
+    img: band78,
+    section: "Brass",
+  },
+  {
+    name: "SPC Matthew Tulsi",
+    bio:
+      "Specialist Matthew Tursi grew up in the small town of Fort Salonga in Long Island, NY.  He started playing trombone at 9 years old.  He attended St. Anthony’s High School, which is where he excelled in his instrument and received the Band Player of the year Award in 2015. ¶ Tursi graduated from Hofstra University in 2019 with a B.S. in Music Business.  In school he interned at Sony Music, Legacy Recordings, KORG USA, Falcon Music, and Unispan Records.  He played Trombone in up to eight bands in college including Symphonic Band, Concert Band, Orchestra, Jazz Band, Trombone Quartet, Brass Ensemble, and Tuba/Euphonium Ensemble. ¶ Since Graduation, Matt has been pursuing an acting career in the TV/Film industry.  He has also taught Acting classes for 6-12th graders throughout 2021.  He works as a freelance Deposition Videographer, and is a Co-Owner for an Entertainment Company where he works at events as a DJ, MC, and/or Photographer.  Matt has also been marching with the Long Beach Seaside Marching Band since 2016, and plays with the Northwind Band since 2019.  Tursi serves as the Chancellor for his Fraternity Alumni Club, and is on the National Board of Directors for his Fraternity. ¶ He has always loved music and entertainment.  He has focused on his trombone, however also sings, dances, acts, is a DJ, and plays the slide trumpet, valve trombone, guitar, and some piano. ¶ Tursi joined the 78th Army Band in 2021.  He completes his training in March of 2022. ",
     img: band78,
     section: "Brass",
   },
@@ -98,6 +112,13 @@ export const staff = [
     name: "SGT Andrew Duong",
     bio:
       "SGT Andrew Duong, from Brockton, MA,  joined the Army Band in 2014. He graduated Brockton High School the same year and enlisted in the Army before actually graduating. In high school he was awarded the Louis Armstrong Jazz Award, was selected to the all-district festival, and won numerous ensemble awards with his high school band. ¶ He attended Basic training at Fort Jackson, Music training at The Army School Of Music at Little Creek, and was assigned to the 319th Army Band in Queens, NY. SGT Duong attended the Basic Leadership Course at Fort Dix, earning a place on the commandant’s list. Following his graduation of the course, he was promoted to SGT.  ¶ While SGT Duong was playing with the 319th Army Band, he was studying at music at Berklee College of Music. In 2018 he earned a bachelor’s degree from the school in professional music.  ¶ SGT Duong continued to perform with the 78th Army Band in Queens, NY after the 319th was retired. He continues to play with the band today and is an active musician in his community.",
+    img: band78,
+    section: "Woodwinds",
+  },
+  {
+    name: "SPC Steven Peralta",
+    bio:
+      "SPC Steven Peralta from Clifton, NJ joined the Army Band in 2019. He began playing flute in 2010 at age 8. He played in the Clifton Community band for 4 years while in high school. He went on to pursue a BA in Music Education at New Jersey City University. ¶ After basic training, Peralta has played at multiple changes of commands and the 2021 graduation at the Army War College in Carlisle, PA. ¶ Peralta still resides in Clifton, NJ with his mother and two sisters. Peralta has been happily married since January 202. In his spare time Peralta likes watching anime and reading manga. A fun fact: Peralta played piccolo and sousaphone is his high school’s marching band.",
     img: band78,
     section: "Woodwinds",
   },
