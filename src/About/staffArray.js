@@ -88,6 +88,13 @@ export const staff = [
     section: "Brass",
   },
   {
+    name: "SFC Leslie Rickert",
+    bio:
+      "SFC Leslie Rickert resides in Bristol, PA, is a trombonist with the Fort Dixieland Brass Band, Concert Band and Drill Band.  She joined the 78th Army Band in 2005, and has been in this unit for 16 years.",
+    img: band78,
+    section: "Brass",
+  },
+  {
     name: "SSG Kyle Murphy",
     bio:
       "Staff Sergeant Kyle Murphy is originally from Ledyard, CT. He started his military service in the Coast Guard Reserve as a Marine Science Technician in 1999.  He transitioned into the Army as a musician in 2009.  ¶ After completing the Army School of Music in Little Creek,  VA, SSG Murphy was stationed at the 77th Army Band at Fort Sill, OK. His next duty assignment was with the 392nd Army Band from Fort Lee,VA. While at Fort Lee he left active duty and joined the Army Reserve in 2015.  ¶ As a Reservist he's served in the 380th Army band, the 94th Army Band, the 319th Army Band and currently serves proudly in the 78th Army Band.  ¶ SSG Murphy holds a BA in Music Theory from Westfield State College and a Certification in Band Instrument Repair from Renton Technical College.  ¶ As a civilian, SSG Murphy works for the Haynes Flute Company as a repair technician.  He currently resides in New Boston, NH. ",
@@ -201,7 +208,14 @@ export const staff = [
   {
     name: "SPC Hallie Koches",
     bio:
-      "Specialist (SPC) Hallie Koches is a vocalist from Kingwood, NJ and is brand new to the 78th Army Band. She enlisted January 12th 2021 and shipped to Fort Jackson, SC for basic combat training on March 29th. She graduated June 10th then shipped to the Army School of Music on June 11th, and graduated August 19th 2021 as a 42R. ¶ SPC Koches is also a full time student at The College of New Jersey and is studying Interactive Multimedia for Music Technology. She produces her own music in her free time and also works at the radio. She is a classically trained pianist, certified DJ, and spends a lot of time in the gym. ¶ At home, SPC Koches has two hardworking parents, a sister, and a dog named Zeppelin. She is grateful for all the support and is excited to start her journey as a member of the Army Band.",
+      "Specialist Hallie Koches is a vocalist from Kingwood, NJ and is brand new to the 78th Army Band. She enlisted January 12th 2021 and shipped to Fort Jackson, SC for basic combat training on March 29th. She graduated June 10th then shipped to the Army School of Music on June 11th, and graduated August 19th 2021 as a 42R. ¶ SPC Koches is also a full time student at The College of New Jersey and is studying Interactive Multimedia for Music Technology. She produces her own music in her free time and also works at the radio. She is a classically trained pianist, certified DJ, and spends a lot of time in the gym. ¶ At home, SPC Koches has two hardworking parents, a sister, and a dog named Zeppelin. She is grateful for all the support and is excited to start her journey as a member of the Army Band.",
+    img: band78,
+    section: "Vocals",
+  },
+  {
+    name: "SPC Samuel Ford",
+    bio:
+      "Specialist Samuel Ford, from Newark Delaware, has served in the 78th Army Band since 2019 as a vocalist. He grew up all across Delaware but spent 10 of his developing years in Middletown. During that time period, SPC Ford attended Middletown High School and used the high school as a platform to pursue his musical career. He was a part of the advanced and select choral ensembles, marching band, jazz band, symphonic band, indoor drum-line, and was a lead in all of his school’s musicals. He was also able to perform in premiere ensembles during this time such as All State, All Eastern, and All National Choral Ensembles, being the first to do so consecutively in his time. ¶ SPC Ford also pursued college at Adelphi University studying Vocal Performance with a concentration of Music Composition. There he studied opera theater, keyboard, choir, as well as many other music courses. During his time after college, SPC Ford wrote a choral piece tiled “Hope” for Middletown High school where it was premiered during their final concert of the year.  ¶ Upon enlisting into the Army Reserves as a vocalist, SPC Ford have been involved in various performance opportunities such as performing live on Fox News, Valley Forge Military Academy Live, and The United States Army Reserve Center. During quarantine, the 78th Army Band took the initiative in making music videos in a virtual setting and SPC Ford was featured in some of those performances. Most notably, “The Prayer”. His time and service with the 78th Army band has earned him an Army Achievement Medal.",
     img: band78,
     section: "Vocals",
   },

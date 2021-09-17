@@ -9,7 +9,7 @@ import MediaComponent from "./HomePageComponents/MediaComponent.js";
 import JobsComponent from "./HomePageComponents/JobsComponent";
 import Footer from "./Footer";
 import logo from "./images/78armybandlyrelogo.png";
-import { Fade } from "react-awesome-reveal";
+//import { Fade } from "react-awesome-reveal";
 
 export class Home extends Component {
   render() {
