@@ -635,7 +635,19 @@ li:hover {
   margin: 5vw auto auto;
   padding-bottom: 3vw;
 }
-
+.ensemblesChildContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3vw;
+}
+.ensemblesText {
+  margin: auto;
+  width: 31vw;
+}
+.ensembleImageContainer {
+  margin: auto;
+  width: 31vw;
+}
 .ensembleNames {
   display: flex;
   flex-direction: column;
@@ -792,6 +804,10 @@ li:hover {
 .mediaChildContainer {
   width: 33%;
 }
+.fbAndVideo {
+  display: flex;
+  margin: auto;
+}
 /* .mediaHomePageChildContainer {
 } */
 .mediaVideosPicturesArticles {
@@ -841,7 +857,7 @@ li:hover {
 } */
 #connect {
   font-size: 2vw;
-  color: white;
+  color: black;
 }
 hr.rounded {
   border-top: 8px solid #bbb;

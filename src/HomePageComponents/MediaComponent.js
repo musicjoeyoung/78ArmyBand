@@ -28,29 +28,31 @@ export class MediaComponent extends Component {
               </a>
             </div>
           </div>
-          <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F78thArmyBand%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-            width="340"
-            height="500"
-            title="Facebook Widget"
-            /* style="border:none;overflow:hidden" */
-            scrolling="no"
-            frameBorder="0"
-            allowFullScreen={true}
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          ></iframe>
-          <div className="mediaVideo">
-            <div>
-              <iframe
-                id="selectedMediaVideo"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/64R69szw6d4"
-                title="YouTube video player"
-                frameorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+          <div className="fbAndVideo">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F78thArmyBand%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+              width="340"
+              height="500"
+              title="Facebook Widget"
+              /* style="border:none;overflow:hidden" */
+              scrolling="no"
+              frameBorder="0"
+              allowFullScreen={true}
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+            <div className="mediaVideo">
+              <div>
+                <iframe
+                  id="selectedMediaVideo"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/64R69szw6d4"
+                  title="YouTube video player"
+                  frameorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
