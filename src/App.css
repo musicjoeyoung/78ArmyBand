@@ -631,18 +631,18 @@ li:hover {
   background-color: whitesmoke;
   box-shadow: 10px 6px 16px -5px black;
   border-radius: 7px;
-  max-width: 1080px;
-  margin: 5vw auto auto;
+  width: 56%;
+  margin: auto;
   padding-bottom: 3vw;
 }
-.ensemblesChildContainer {
+/* .ensemblesChildContainer {
   display: flex;
   flex-direction: row;
   padding-bottom: 3vw;
-}
+} */
 .ensemblesText {
   margin: auto;
-  width: 31vw;
+  width: 90%;
 }
 .ensembleImageContainer {
   margin: auto;
