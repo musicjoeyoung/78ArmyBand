@@ -30,7 +30,9 @@ function About() {
         </div>
       </div>
       <div className="meetTheBand">
-        <a href="#history">→ go to: History</a>
+        <a href="#history" id="historyLink">
+          → go to: History
+        </a>
         <h1 id="meetTheBand">Meet the Band</h1>
         <NavComponent setSection={updateSection}></NavComponent>
         <h2>{section}</h2>

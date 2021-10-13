@@ -2,6 +2,7 @@ import React /* , { useState }  */ from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import armyband from "../images/78armybandrrecording.jpeg";
+import sheetMusic from "../images/sheetMusic.jpeg";
 //import InstrumentPDFs from "./InstrumentPDFs.js";
 //import NavComponent from "./NavComponent";
 import armymusic from "../images/band-overview.jpeg";
@@ -48,7 +49,7 @@ function Jobs() {
       </div>
       <div className="jobs-page-pic-and-text">
         <div className="jobs-page-pic">
-          <img src={armyband} className="jobs-page-bg-image" alt="" />
+          <img src={sheetMusic} className="jobs-page-bg-image" alt="" />
         </div>
       </div>
       <div className="jobs-page-description">
@@ -132,7 +133,7 @@ function Jobs() {
           >
             OS 42R (Army Musician)
           </a>
-          M and be assigned a training departure date.
+          and be assigned a training departure date.
         </p>
         <br />
       </div>

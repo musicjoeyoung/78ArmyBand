@@ -1,6 +1,11 @@
 import band78 from "../images/band78.jpeg";
 import Federico from "../images/Federico.jpg";
 import Endlein from "../images/ENDLEIN.jpg";
+import WO1_Young from "../images/WO1_Young.JPG";
+
+const emptyPic = {
+  display: "none",
+};
 
 export const staff = [
   {
@@ -21,7 +26,7 @@ export const staff = [
     name: "WO1 Joseph Young",
     bio:
       "Meditation +1 eu iPhone, quis sunt tote bag ut vegan dolore organic tattooed. Normcore street art salvia mollit poke banh mi cred taiyaki. Disrupt shabby chic woke slow-carb chartreuse small batch knausgaard sint pop-up dreamcatcher. Street art listicle irony flannel enamel pin twee chambray jean shorts vaporware poutine craft beer woke. Knausgaard qui ethical do occaecat. Gluten-free letterpress aliquip, tumblr literally deep v vape post-ironic velit +1 butcher. Nostrud hammock vegan farm-to-table pour-over PBR&B, la croix thundercats man braid drinking vinegar kinfolk heirloom meggings schlitz readymade. Chambray officia iPhone chillwave schlitz.",
-    img: band78,
+    img: WO1_Young,
     section: "Command Team",
   },
   {
