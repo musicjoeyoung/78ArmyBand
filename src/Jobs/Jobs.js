@@ -1,7 +1,7 @@
 import React /* , { useState }  */ from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import armyband from "../images/78armybandrrecording.jpeg";
+//import armyband from "../images/78armybandrrecording.jpeg";
 import sheetMusic from "../images/sheetMusic.jpeg";
 //import InstrumentPDFs from "./InstrumentPDFs.js";
 //import NavComponent from "./NavComponent";

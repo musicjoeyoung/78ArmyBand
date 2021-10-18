@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import armyband3 from "./images/78armybandtimessquare.jpeg";
+import JobCalendar from "./JobCalendar";
 
 export class Events extends Component {
   render() {
@@ -17,10 +18,11 @@ export class Events extends Component {
           </div>
         </div>
         <div className="eventsList">
-          Divs whose event information changes on hover.
-          <div>Event information</div>
+          <h1>Upcoming Events</h1>
         </div>
-        <div>Calendar here</div>
+        <div className="eventsPageCalendar">
+          <JobCalendar />
+        </div>
         <Footer />
       </div>
     );

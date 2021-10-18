@@ -147,7 +147,7 @@ p {
 }
 .homePageLogoImg {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.356);
+  background-color: rgb(0 0 0 / 62%);
   top: 17vw;
   width: 53vw;
   z-index: 2;
@@ -271,8 +271,8 @@ p {
   /*   left: 50%;
   transform: translate(-50%, -50%); */
 
-  width: 96%;
-  padding: 20px;
+  width: 100%;
+  /* padding: 20px; */
   text-align: center;
 }
 #contact-page-pText,
@@ -282,6 +282,10 @@ p {
 #media-page-pText,
 #jobs-page-pText {
   font-size: 20px;
+}
+.eventsPageCalendar {
+  width: 65%;
+  margin: auto;
 }
 #navbarheader {
   display: flex;
@@ -311,7 +315,7 @@ p {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  top: 35px;
+  top: 102%;
 }
 h6 {
   color: white;
@@ -760,8 +764,129 @@ li:hover {
   display: flex;
   flex-direction: row;
 }
+.react-component {
+  font-family: "rawline", sans-serif;
+  font-weight: 300;
+  box-sizing: border-box;
+  width: calc(100% - 10%);
+  max-width: 1110px;
+  margin-top: calc(var(--component-height) / -2);
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+}
+.react-calendar {
+  border-radius: 4px;
+  width: 65%;
+  height: 285px;
+  margin: auto;
+  max-width: 100%;
+  background: white;
+  font: "rawline", sans-serif;
+  font-weight: 300;
+  line-height: 1.125em;
+  border: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 3px 6px 20px 0px rgb(0 0 0);
+}
+.react-calendar__navigation {
+  font: "rawline", sans-serif;
+  font-weight: 300;
+  line-height: 1.125em;
+  box-sizing: border-box;
+  height: 44px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.react-calendar__navigation__arrow,
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__prev-button {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  outline: none;
+  font: inherit;
+  font-size: 0.8em;
+  min-width: 44px;
+  background: none;
+}
+.react-calendar__navigation__label {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  outline: none;
+  font: inherit;
+  font-size: 0.8em;
+  min-width: 44px;
+  background: none;
+  flex-grow: 1;
+}
+.react-calendar__viewContainer {
+  font: inherit;
+  line-height: 1.125em;
+  box-sizing: border-box;
+}
+.react-calendar__month-view {
+  font: inherit;
+  line-height: 1.125em;
+  box-sizing: border-box;
+}
+.react-calendar__month-view__days {
+  font: inherit;
+  line-height: 1.125em;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.react-calendar__month-view__weekdays {
+  font: inherit;
+  line-height: 1.125em;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+  display: flex;
+}
+.react-calendar__month-view__weekdays__weekday {
+  font: inherit;
+  line-height: 1.125em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+  box-sizing: border-box;
+  padding: 0.5em;
+  flex-basis: 14.2857%;
+  max-width: 14.2857%;
+  overflow: hidden;
+}
+.react-calendar__tile,
+.react-calendar__month-view__days__day,
+.react-calendar__month-view__days__day--weekend,
+.react-calendar__month-view__days__day--neighboringMonth {
+  box-sizing: border-box;
+  color: #757575;
+  text-align: center;
+  padding: 0.75em 0.5em;
+  background: none;
+  margin: 0;
+  border: 0;
+  outline: none;
+  font: inherit;
+  font-size: 0.8em;
+  flex-basis: 14.2857%;
+  max-width: 14.2857%;
+  overflow: hidden;
+}
+
 .eventsNames {
   margin: auto;
+  margin-bottom: 15px;
 }
 .eventsRequestButton {
   margin: auto;
@@ -1019,9 +1144,21 @@ select {
   color: black;
   background-color: #ffcc01;
 }
-/* #vacanciesH4 {
-  padding-top: 20px;
-} */
+#vacanciesH4 {
+  text-decoration: underline;
+}
+#instrumentsH4 {
+  text-decoration: underline;
+}
+#contactPageLink {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.instrumentsJobsATags {
+  padding: 2px 2px !important;
+  margin-top: 2px !important;
+}
 .auditionInfo {
   margin: auto;
   border: 1px solid black;
@@ -1170,8 +1307,8 @@ li {
   .dropdownDiv,
   .dropdown,
   .dropbtn {
-    height: 9vw;
-    width: 9vw;
+    height: 4vw;
+    width: 4vw;
   }
   .signuplink {
     width: 90vw;
