@@ -131,7 +131,7 @@ function Jobs() {
             id="auditionFontATag"
             href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html"
           >
-            OS 42R (Army Musician)
+            MOS 42R (Army Musician)
           </a>
           and be assigned a training departure date.
         </p>
