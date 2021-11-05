@@ -1203,7 +1203,7 @@ hr.rounded {
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
   width: 70%;
-  margin: 5vw auto auto;
+  margin: 2vw auto auto;
   margin-bottom: 4vw;
   background-color: #ffcc01;
 }
@@ -1242,6 +1242,7 @@ hr.rounded {
   margin: auto;
   text-align: left;
   color: white;
+  line-height: 23px;
 }
 #instrumentTitle {
   color: white;

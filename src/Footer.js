@@ -25,7 +25,9 @@ export class Footer extends Component {
                 <a id="footerATags" href="./Contact">
                   Contact Us
                 </a>
-                <a id="footerATags">Calendar</a>
+                <a id="footerATags" href="./Events">
+                  Calendar
+                </a>
                 <a id="footerATags" href="https://www.goarmy.com/band.html">
                   US Army Bands
                 </a>
