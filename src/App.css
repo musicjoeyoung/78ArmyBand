@@ -442,8 +442,8 @@ li:hover {
   width: 37vw;
   /* transition: filter 2s ease; */
   transition: all 1.7s ease-in-out;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+
+  /* filter: grayscale(100%); */
 }
 #armyband7:hover {
   -webkit-filter: grayscale(0%);
