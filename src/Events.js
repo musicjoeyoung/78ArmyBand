@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import armyband3 from "./images/78armybandtimessquare.jpeg";
-import JobCalendar from "./JobCalendar";
+import EventsComponent from "./HomePageComponents/EventsComponent.js";
+//import JobCalendar from "./JobCalendar";
 
 export class Events extends Component {
   render() {
@@ -18,10 +19,7 @@ export class Events extends Component {
           </div>
         </div>
         <div className="eventsList">
-          <h1>Upcoming Events</h1>
-        </div>
-        <div className="eventsPageCalendar">
-          <JobCalendar />
+          <EventsComponent />
         </div>
         <Footer />
       </div>

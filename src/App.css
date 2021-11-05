@@ -417,6 +417,7 @@ li:hover {
 #history¶ {
   color: white;
   text-align: left;
+  line-height: 23px;
 }
 #historyLink {
   font-size: 23px !important;
@@ -605,7 +606,8 @@ li:hover {
 #ensembleImg {
   width: 65%;
 }
-#mainDivTitleEnsemble {
+#mainDivTitleEnsemble,
+#mainDivTitleEvents {
   font-size: 2vw;
   color: black !important;
 }
@@ -756,6 +758,10 @@ li:hover {
   width: 50%;
   margin: 5vw auto auto;
 }
+.eventsNames {
+  margin: auto;
+  margin-bottom: 15px;
+}
 #selectedEventsVideo {
   width: 28vw !important;
   height: 20vw !important;
@@ -764,6 +770,55 @@ li:hover {
   display: flex;
   flex-direction: row;
 }
+#events {
+  margin-top: 1vw;
+  border: solid 1px black;
+  min-width: 40vw;
+  min-height: 100%;
+  background-color: #ffffffbf;
+}
+#eventsAtag {
+  display: flex;
+  flex-direction: row;
+}
+#date {
+  font-size: 30px;
+  margin-left: 7%;
+}
+#date #Day {
+  font-size: 2.4em;
+  font-weight: 100;
+}
+#date #Month {
+  font-size: 1.2em;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.eventsList {
+  margin-top: -50%;
+  top: -100px;
+  position: relative;
+  margin-bottom: 11%;
+}
+#infoContainer {
+  margin-left: 10%;
+  text-align: left;
+}
+#eventTitle {
+  font-weight: 600;
+}
+#eventLocation {
+  font-weight: 400;
+  font-size: 16px;
+}
+#eventCity {
+  font-weight: bolder;
+  font-size: 15px;
+}
+#eventTime {
+  font-size: 14px;
+}
+
 .react-component {
   font-family: "rawline", sans-serif;
   font-weight: 300;
@@ -1031,16 +1086,10 @@ li:hover {
   background-color: #e6e6e6;
 }
 
-.eventsNames {
-  margin: auto;
-  margin-bottom: 15px;
-}
 .eventsRequestButton {
   margin: auto;
 }
-#events {
-  margin-top: 1vw;
-}
+
 .eventsVideoContainer {
   margin: 7%;
 }

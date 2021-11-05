@@ -1,32 +1,62 @@
 import React, { Component } from "react";
-import JobCalendar from "../JobCalendar";
+//import JobCalendar from "../JobCalendar";
 
 export class EventsComponent extends Component {
   render() {
     return (
       <div className="events">
-        <h3 id="mainDivTitle">Events</h3>
+        <h3 id="mainDivTitle">
+          <a href="./Events" id="mainDivTitleEvents">
+            Events
+          </a>
+        </h3>
 
         <div className="eventsChildContainer">
           <div className="eventsNames">
-            {/*  <div id="events">events 1</div>
-            <div id="events">events 2</div>
-            <div id="events">events 3</div>
-            <br /> */}
-            <JobCalendar />
+            <div id="events">
+              <a id="eventsAtag" href="link">
+                <div id="date">
+                  <div id="Day">11</div>
+                  <div id="Month">Nov</div>
+                </div>
+                <div id="infoContainer">
+                  <h2 id="eventTitle">Veterans Day Parade</h2>
+                  <h3 id="eventLocation">Fifth Avenue</h3>
+                  <p id="eventCity">New York, NY</p>
+                  <p id="eventTime">12:00PM</p>
+                </div>
+              </a>
+            </div>
+            <div id="events">
+              <a id="eventsAtag" href="link">
+                <div id="date">
+                  <div id="Day">11</div>
+                  <div id="Month">Nov</div>
+                </div>
+                <div id="infoContainer">
+                  <h2 id="eventTitle">Veterans Day Parade</h2>
+                  <h3 id="eventLocation">Fifth Avenue</h3>
+                  <p id="eventCity">New York, NY</p>
+                  <p id="eventTime">12:00PM</p>
+                </div>
+              </a>
+            </div>
+            <div id="events">
+              <a id="eventsAtag" href="link">
+                <div id="date">
+                  <div id="Day">11</div>
+                  <div id="Month">Nov</div>
+                </div>
+                <div id="infoContainer">
+                  <h2 id="eventTitle">Veterans Day Parade</h2>
+                  <h3 id="eventLocation">Fifth Avenue</h3>
+                  <p id="eventCity">New York, NY</p>
+                  <p id="eventTime">12:00PM</p>
+                </div>
+              </a>
+            </div>
+            {/* <JobCalendar /> */}
           </div>
-          {/* <div className="eventsRequestButton">
-            <p>
-              Click{" "}
-              <a href="/Contact.js" id="contactPageLink">
-                here
-              </a>{" "}
-              for more information.
-            </p>
-            <a href="mailto:78tharmyband@gmail.com?subject=Request%78th%Army%Band">
-              <button id="requestBand">Request the Band</button>
-            </a>
-          </div> */}
         </div>
       </div>
     );
