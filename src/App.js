@@ -27,7 +27,6 @@ class App extends Component {
             <Route path="/about">
               <About />
             </Route>
-
             <Route path="/ensembles">
               <Ensembles />
             </Route>

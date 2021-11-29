@@ -1706,3 +1706,43 @@ li {
     padding-right: 15px;
   }
 }
+
+#submit {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(40, 88, 164, 1) 0%,
+    rgba(1, 1, 108, 1) 100%
+  );
+  box-shadow: 0px 5px 6px 0px #0000003d;
+  margin-bottom: 53 px;
+  font-size: 32px;
+  height: 67 px;
+  text-align: left;
+  border-width: 0 px;
+}
+.bx-row-submit {
+  display: flex;
+}
+.vl {
+  /* border-right: white; */
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(40, 88, 164, 1) 0%,
+    rgba(1, 1, 108, 1) 100%
+  );
+  box-shadow: 0px 5px 6px 0px #0000003d;
+  margin-bottom: 53 px;
+  font-size: 32px;
+  height: 67 px;
+  text-align: left;
+  color: white;
+  border-right-width: 2 px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #ffffff00, rgb(255 255 255)) 1 100%;
+  border-top-width: 0 px;
+  border-left-width: 0 px;
+  border-bottom-width: 0 px;
+}
