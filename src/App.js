@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./Home";
 import About from "./About/About.js";
 import Ensembles from "./Ensembles/Ensembles";
-import Events from "./Events";
+import Events from "./Events/Events";
 import Media from "./Media";
 import Jobs from "./Jobs/Jobs";
 import Contact from "./Contact";

@@ -752,6 +752,16 @@ li:hover {
   margin: auto;
 }
 .events {
+  background-color: #ffcc01ab;
+  box-shadow: 10px 6px 16px 0px black;
+  border-radius: 7px;
+  width: 50%;
+  /* margin: 5vw auto auto; */
+  position: absolute;
+  margin-top: -58%;
+  margin-left: 25%;
+}
+.eventsComponent {
   background-color: #ffcc01;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
@@ -786,11 +796,11 @@ li:hover {
   margin-left: 7%;
 }
 #date #Day {
-  font-size: 2.4em;
+  font-size: 5vw;
   font-weight: 100;
 }
 #date #Month {
-  font-size: 1.2em;
+  font-size: 4vw;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -806,17 +816,18 @@ li:hover {
 }
 #eventTitle {
   font-weight: 600;
+  font-size: 1.5vw;
 }
 #eventLocation {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.4vw;
 }
 #eventCity {
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 1.3vw;
 }
 #eventTime {
-  font-size: 14px;
+  font-size: 1.2vw;
 }
 
 .react-component {

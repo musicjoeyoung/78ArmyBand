@@ -1,0 +1,32 @@
+export const events = [
+  {
+    name: "Holiday Concert",
+    day: "03",
+    month: "Dec",
+    date: new Date("2021-12-03"),
+    ensemble: "Concert Band",
+    location: "Valley Forge Military Academy",
+    cityState: "Wayne, PA",
+    time: "12:00PM",
+  },
+  {
+    name: "Holiday Concert",
+    day: "03",
+    month: "Dec",
+    date: new Date("2021-12-03"),
+    ensemble: "Concert Band",
+    location: "Valley Forge Military Academy",
+    cityState: "Wayne, PA",
+    time: "12:00PM",
+  },
+  {
+    name: "Holiday Concert",
+    day: "03",
+    month: "Dec",
+    date: new Date("2021-12-03"),
+    ensemble: "Concert Band",
+    location: "Valley Forge Military Academy",
+    cityState: "Wayne, PA",
+    time: "12:00PM",
+  },
+];
