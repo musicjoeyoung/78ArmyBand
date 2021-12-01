@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import HomeCarousel from "./HomeCarousel";
 import Navbar from "./Navbar";
 //import SignUpLinkComponent from "./HomePageComponents/SignUpLinkComponent.js";

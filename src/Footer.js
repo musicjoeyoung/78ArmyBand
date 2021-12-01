@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import armylogo from "./images/ArmyLogo.png";
 import band78 from "./images/band78.jpeg";
 import ScrollButton from "./ScrollButton";
