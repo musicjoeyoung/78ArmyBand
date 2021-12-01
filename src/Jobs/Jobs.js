@@ -36,7 +36,7 @@ import _9U from "../Jobs/AMPA Materials/9U.pdf";
 import _9V from "../Jobs/AMPA Materials/9V.pdf";
 import VacanciesComp from "./VacanciesComp";
 
-function Jobs() {
+const Jobs = () => {
   /* const [instrument, setInstrument] = useState("test");
   const updateInstrument = (event) => setInstrument(event.target.innerText);
 
@@ -474,6 +474,6 @@ function Jobs() {
       <Footer />
     </div>
   );
-}
+};
 
 export default Jobs;

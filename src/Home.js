@@ -12,7 +12,7 @@ import logo from "./images/78armybandlyrelogo.png";
 
 //import { Fade } from "react-awesome-reveal";
 
-function Home() {
+const Home = () => {
   return (
     <div>
       <Navbar />
@@ -31,6 +31,6 @@ function Home() {
       <Footer />
     </div>
   );
-}
+};
 
 export default Home;

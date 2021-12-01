@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NavComponent({ setName }) {
+const NavComponent = ({ setName }) => {
   return (
     <div>
       <div className="ensemblesNavComp">
@@ -57,4 +57,6 @@ export default function NavComponent({ setName }) {
       </div>
     </div>
   );
-}
+};
+
+export default NavComponent;

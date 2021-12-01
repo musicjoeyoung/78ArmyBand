@@ -1,7 +1,7 @@
 import React from "react";
 import ConcertBand from "../images/78ConcertBand.jpeg";
 
-export const EnsemblesComponent = () => {
+const EnsemblesComponent = () => {
   return (
     <div className="ensembles">
       <h3 id="mainDivTitleEnsemble">

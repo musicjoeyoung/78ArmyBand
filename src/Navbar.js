@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import dropdownImg from "./images/dropdown.png";
 import headerImg from "./images/78logo.png";
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <div className="mainnavbar">
       <div className="dropdownDiv">
@@ -46,4 +46,6 @@ export default function Navbar() {
       </div>
     </div>
   );
-}
+};
+
+export default Navbar;

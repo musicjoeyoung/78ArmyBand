@@ -5,7 +5,8 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import img1 from "./images/BandParade2.jpg";
 import img2 from "./images/BandFormation.jpg";
 import img3 from "./images/BandParadeNYC.jpeg";
-export default function HomeCarousel() {
+
+const HomeCarousel = () => {
   return (
     <AliceCarousel
       autoPlay
@@ -18,4 +19,6 @@ export default function HomeCarousel() {
       <img src={img2} alt="" className="sliderimg" />
     </AliceCarousel>
   );
-}
+};
+
+export default HomeCarousel;

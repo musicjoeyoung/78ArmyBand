@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Calendar from "react-calendar";
 
-function JobCalendar() {
+const JobCalendar = () => {
   const [value, onChange] = useState(new Date());
   return (
     <Calendar
@@ -11,5 +11,5 @@ function JobCalendar() {
       onClickDay={(value, event) => console.log(`Clicked day: ${value}`)}
     />
   );
-}
+};
 export default JobCalendar;

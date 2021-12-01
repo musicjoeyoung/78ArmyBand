@@ -1,7 +1,7 @@
 import React from "react";
 import dropdownImg from "../images/dropdown.png";
 
-export default function NavComponent({ setSection }) {
+const NavComponent = ({ setSection }) => {
   return (
     <div className="dropdownDiv">
       <div className="dropdown">
@@ -29,4 +29,6 @@ export default function NavComponent({ setSection }) {
       </div>
     </div>
   );
-}
+};
+
+export default NavComponent;

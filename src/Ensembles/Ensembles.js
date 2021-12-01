@@ -6,7 +6,7 @@ import { ensembles } from "./ensemblesArray";
 import EnsemblesProfiles from "./EnsemblesProfiles";
 import NavComponent from "../Ensembles/NavComponent.js";
 
-function Ensembles() {
+const Ensembles = () => {
   const [name, setName] = useState("Concert Band");
   const updateName = (event) => setName(event.target.innerText);
 
@@ -41,6 +41,6 @@ function Ensembles() {
       <Footer />
     </div>
   );
-}
+};
 
 export default Ensembles;

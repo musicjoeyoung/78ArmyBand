@@ -8,7 +8,7 @@ import pdf3 from "./AMPA Materials/9B/Part 2 AMPA 9B.pdf"; */
 //Instead of importing a PDF, do I import a list of the PDFs separated by instrument?
 //And then connect that if the value of an option (in NavComponent) is selected, then the PDF is then changed to that?
 
-function InstrumentPDFs() {
+const InstrumentPDFs = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
@@ -40,5 +40,5 @@ function InstrumentPDFs() {
       </p> */}
     </div>
   );
-}
+};
 export default InstrumentPDFs;

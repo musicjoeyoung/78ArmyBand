@@ -6,7 +6,8 @@ import "react-alice-carousel/lib/alice-carousel.css"; */
 import img1 from "./images/armyband4.jpeg";
 import img2 from "./images/armyband5.jpeg";
 import img3 from "./images/armyband6.jpeg";
-export default function WelcomeCarousel() {
+
+const WelcomeCarousel = () => {
   return (
     <div>
       {/*     <AliceCarousel
@@ -45,4 +46,5 @@ export default function WelcomeCarousel() {
       </Link>
     </div>
   );
-}
+};
+export default WelcomeCarousel;

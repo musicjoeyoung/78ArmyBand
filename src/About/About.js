@@ -7,7 +7,7 @@ import { staff } from "./staffArray.js";
 import armyband from "../images/78armybandparade.jpeg";
 import History from "./History";
 
-function About() {
+const About = () => {
   const [section, setSection] = useState("Command Team");
   const updateSection = (event) => setSection(event.target.innerText);
 
@@ -52,6 +52,6 @@ function About() {
       <Footer />
     </div>
   );
-}
+};
 
 export default About;
