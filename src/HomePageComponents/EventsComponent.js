@@ -15,7 +15,9 @@ const EventsComponent = () => {
       </h3>
 
       <EventsMap events={eventsFirstThree} />
-      <a href="./Events">Click here for more dates</a>
+      <a href="./Events" id="moreEvents">
+        Click here for more dates
+      </a>
     </div>
   );
 };

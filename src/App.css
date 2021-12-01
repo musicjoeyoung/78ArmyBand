@@ -768,6 +768,7 @@ li:hover {
   width: 50%;
   margin: 5vw auto auto;
 }
+
 .eventsNames {
   margin: auto;
   margin-bottom: 15px;
@@ -816,6 +817,10 @@ li:hover {
   text-align: left;
   line-height: 5px;
 }
+#eventEnsemble {
+  color: #024cb1;
+  font-size: 1.1vw;
+}
 #eventTitle {
   font-weight: 600;
   font-size: 1.3vw;
@@ -830,6 +835,9 @@ li:hover {
 }
 #eventTime {
   font-size: 1vw;
+}
+#moreEvents {
+  font-size: 1.3vw;
 }
 
 .react-component {

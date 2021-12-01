@@ -11,6 +11,7 @@ const EventsMap = ({ events }) => {
               <div id="Month">{events.month}</div>
             </div>
             <div id="infoContainer">
+              <h2 id="eventEnsemble">{events.ensemble}</h2>
               <h2 id="eventTitle">{events.name}</h2>
               <h3 id="eventLocation">{events.location}</h3>
               <p id="eventCity">{events.cityState}</p>
