@@ -3,6 +3,8 @@ import React from "react";
 import EventsMap from "../Events/EventsMap";
 import { events } from "../Events/eventsArray";
 
+const eventsFirstThree = events.slice(0, 3);
+
 const EventsComponent = () => {
   return (
     <div className="eventsComponent">
@@ -12,7 +14,8 @@ const EventsComponent = () => {
         </a>
       </h3>
 
-      <EventsMap events={events} />
+      <EventsMap events={eventsFirstThree} />
+      <a href="./Events">Click here for more dates</a>
     </div>
   );
 };

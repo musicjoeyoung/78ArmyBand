@@ -22,4 +22,5 @@ const EventsMap = ({ events }) => {
     </div>
   ));
 };
+
 export default EventsMap;
