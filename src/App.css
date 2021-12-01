@@ -794,13 +794,14 @@ li:hover {
 #date {
   font-size: 30px;
   margin-left: 7%;
+  line-height: 3vw;
 }
 #date #Day {
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 100;
 }
 #date #Month {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -813,21 +814,22 @@ li:hover {
 #infoContainer {
   margin-left: 10%;
   text-align: left;
+  line-height: 5px;
 }
 #eventTitle {
   font-weight: 600;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 #eventLocation {
   font-weight: 400;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 #eventCity {
   font-weight: bolder;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
 }
 #eventTime {
-  font-size: 1.2vw;
+  font-size: 1vw;
 }
 
 .react-component {
