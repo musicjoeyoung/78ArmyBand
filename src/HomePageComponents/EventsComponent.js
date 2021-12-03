@@ -9,13 +9,13 @@ const EventsComponent = () => {
   return (
     <div className="eventsComponent">
       <h3 id="mainDivTitle">
-        <a href="./Events" id="mainDivTitleEvents">
+        <a href="./events" id="mainDivTitleEvents">
           Events
         </a>
       </h3>
 
       <EventsMap events={eventsFirstThree} />
-      <a href="./Events" id="moreEvents">
+      <a href="./events" id="moreEvents">
         Click here for more dates
       </a>
     </div>

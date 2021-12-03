@@ -5,17 +5,17 @@ export default function VacanciesComp() {
     <div className="vacancies">
       <h4 id="vacanciesH4">Vacancies</h4>
       <div>
-        <a id="vacancyLink" href="./Jobs/Jobs.js#bassoon">
+        <a id="vacancyLink" href="./jobs/#bassoon">
           Bassoon
         </a>
       </div>
       <div>
-        <a id="vacancyLink" href="./Jobs/Jobs.js#bass">
+        <a id="vacancyLink" href="./jobs/#bass">
           Bass Guitar
         </a>
       </div>
       <div>
-        <a id="vacancyLink" href="./Jobs/Jobs.js#oboe">
+        <a id="vacancyLink" href="./jobs/#oboe">
           Oboe
         </a>
       </div>

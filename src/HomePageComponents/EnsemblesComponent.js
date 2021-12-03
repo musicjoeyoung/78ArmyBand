@@ -5,7 +5,7 @@ const EnsemblesComponent = () => {
   return (
     <div className="ensembles">
       <h3 id="mainDivTitleEnsemble">
-        <a href="./Ensembles/Ensembles.js" id="mainDivTitleEnsemble">
+        <a href="./ensembles" id="mainDivTitleEnsemble">
           Ensembles
         </a>
       </h3>
@@ -15,7 +15,7 @@ const EnsemblesComponent = () => {
             The 78th Army Band provides musical support for the local community,
             leadership of the United States, and connects the Army to the
             American people. <br />
-            <a id="ensembleslinkReadMore" href="../Ensembles">
+            <a id="ensembleslinkReadMore" href="./ensembles">
               Learn more...
             </a>
           </p>

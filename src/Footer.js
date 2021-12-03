@@ -21,10 +21,10 @@ const Footer = () => {
           <div>
             <h3 id="learnMore">Learn More</h3>
             <div id="footerLinksDiv">
-              <a id="footerATags" href="./Contact">
+              <a id="footerATags" href="./contact">
                 Contact Us
               </a>
-              <a id="footerATags" href="./Events">
+              <a id="footerATags" href="./events">
                 Calendar
               </a>
               <a id="footerATags" href="https://www.goarmy.com/band.html">
@@ -47,7 +47,7 @@ const Footer = () => {
           <div>
             <h3 id="importantLinks">Important Links</h3>
             <div id="footerLinksDiv">
-              <a id="footerATags" href="./TermsOfUse">
+              <a id="footerATags" href="./termsofuse">
                 Terms of Use
               </a>
               <a id="footerATags" href="https://www.goarmy.com/">
