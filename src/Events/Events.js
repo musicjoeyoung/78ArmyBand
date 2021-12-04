@@ -4,7 +4,6 @@ import Footer from "../Footer";
 import armyband3 from "../images/78armybandtimessquare.jpeg";
 import EventsMap from "./EventsMap.js";
 import { events } from "./eventsArray";
-//import JobCalendar from "./JobCalendar";
 
 const Events = () => {
   return (
@@ -21,7 +20,6 @@ const Events = () => {
       <div className="events">
         <EventsMap events={events} />
       </div>
-      <Footer />
     </div>
   );
 };

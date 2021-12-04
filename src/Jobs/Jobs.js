@@ -1,10 +1,7 @@
-import React /* , { useState }  */ from "react";
+import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-//import armyband from "../images/78armybandrrecording.jpeg";
 import sheetMusic from "../images/sheetMusic.jpeg";
-//import InstrumentPDFs from "./InstrumentPDFs.js";
-//import NavComponent from "./NavComponent";
 import armymusic from "../images/band-overview.jpeg";
 import flute from "../images/instruments/78Flute-Piccolo.jpeg";
 import clarinet from "../images/instruments/78Clarinet.jpeg";
@@ -471,7 +468,6 @@ const Jobs = () => {
         <img id="armyMusicImg" src={armymusic} alt="military band" />
       </div>
       <div className="armyCareers">Army Careers</div> */}
-      <Footer />
     </div>
   );
 };

@@ -131,7 +131,6 @@ const Media = () => {
         <div>actual Article</div>
         <div>carousel of Articles</div>
       </div>
-      <Footer />
     </div>
   );
 };

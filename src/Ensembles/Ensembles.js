@@ -38,7 +38,6 @@ const Ensembles = () => {
           <EnsemblesProfiles ensembles={profiles} />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

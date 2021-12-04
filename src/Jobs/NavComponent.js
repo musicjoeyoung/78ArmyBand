@@ -12,49 +12,49 @@ export default function NavComponent() {
       <div className="dropdown">
         <img className="dropbtn" src={dropdownImg} alt="" />
         <div className="navbar">
-          <a href="./jobs/#flute" className="instrumentsJobsATags">
+          <a href="./jobs#flute" className="instrumentsJobsATags">
             Flute
           </a>
-          <a href="./jobs/#oboe" className="instrumentsJobsATags">
+          <a href="./jobs#oboe" className="instrumentsJobsATags">
             Oboe
           </a>
-          <a href="./jobs/#clarinet" className="instrumentsJobsATags">
+          <a href="./jobs#clarinet" className="instrumentsJobsATags">
             Clarinet
           </a>
-          <a href="./jobs/#saxophone" className="instrumentsJobsATags">
+          <a href="./jobs#saxophone" className="instrumentsJobsATags">
             Saxophone
           </a>
-          <a href="./jobs/#horn" className="instrumentsJobsATags">
+          <a href="./jobs#horn" className="instrumentsJobsATags">
             Horn
           </a>
-          <a href="./jobs/#trumpet" className="instrumentsJobsATags">
+          <a href="./jobs#trumpet" className="instrumentsJobsATags">
             Trumpet
           </a>
-          <a href="./jobs/#trombone" className="instrumentsJobsATags">
+          <a href="./jobs#trombone" className="instrumentsJobsATags">
             Trombone
           </a>
-          <a href="./jobs/#euphonium" className="instrumentsJobsATags">
+          <a href="./jobs#euphonium" className="instrumentsJobsATags">
             Euphonium
           </a>
-          <a href="./jobs/#tuba" className="instrumentsJobsATags">
+          <a href="./jobs#tuba" className="instrumentsJobsATags">
             Tuba
           </a>
-          <a href="./jobs/#percussion" className="instrumentsJobsATags">
+          <a href="./jobs#percussion" className="instrumentsJobsATags">
             Percussion
           </a>
-          <a href="./jobs/#keybaord" className="instrumentsJobsATags">
+          <a href="./jobs#keybaord" className="instrumentsJobsATags">
             KeyBoard/Piano
           </a>
-          <a href="./jobs/#guitar" className="instrumentsJobsATags">
+          <a href="./jobs#guitar" className="instrumentsJobsATags">
             Electric Guitar
           </a>
-          <a href="./jobs/#bass" className="instrumentsJobsATags">
+          <a href="./jobs#bass" className="instrumentsJobsATags">
             Electric Bass
           </a>
-          <a href="./jobs/#vocals" className="instrumentsJobsATags">
+          <a href="./jobs#vocals" className="instrumentsJobsATags">
             Vocals
           </a>
-          <a href="./jobs/#engineer" className="instrumentsJobsATags">
+          <a href="./jobs#engineer" className="instrumentsJobsATags">
             Audio Engineer
           </a>
         </div>

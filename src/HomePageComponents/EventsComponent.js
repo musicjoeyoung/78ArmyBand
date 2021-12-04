@@ -1,5 +1,4 @@
 import React from "react";
-//import JobCalendar from "../JobCalendar";
 import EventsMap from "../Events/EventsMap";
 import { events } from "../Events/eventsArray";
 

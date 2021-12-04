@@ -63,7 +63,6 @@ const Contact = () => {
         <h2 id="talkToUs">Talk To Us!</h2>
         <ContactForm />
       </div>
-      <Footer />
     </div>
   );
 };

@@ -2,11 +2,16 @@ import React from "react";
 import YouTube from "../images/YouTube.png";
 import FB from "../images/FB.png";
 import circle78 from "../images/78circle.png";
+import instagram from "../images/instagram.png";
 
 const MediaComponent = () => {
   return (
     <div className="media">
-      <h3 id="mainDivTitleMedia">Media</h3>
+      <h3 id="mainDivTitleMedia">
+        <a href="./media" id="mainDivTitleMedia">
+          Media
+        </a>
+      </h3>
       <div className="mediaHomePageChildContainer">
         <div className="mediaVideosPicturesArticles">
           <div id="mediaVideos">
@@ -21,6 +26,11 @@ const MediaComponent = () => {
             </a>
           </div>
           <br />
+          <div id="mediaInstagram">
+            <a href="https://www.instagram.com/78tharmyband/">
+              <img id="mediaLogo" src={instagram} alt="instgram logo" />
+            </a>
+          </div>
           <div id="mediaArticles">
             <a href="https://www.bands.army.mil/organizations/pages/default.asp?unit=78ABNJ&p=news&NewsID=1201">
               <img id="mediaLogo" src={circle78} alt="99th logo" />

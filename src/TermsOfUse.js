@@ -67,7 +67,6 @@ const TermsOfUse = () => {
           </ul>
         </p>
       </div>
-      <Footer />
     </div>
   );
 };

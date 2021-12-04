@@ -49,7 +49,6 @@ const About = () => {
         allowFullScreen
         frameBorder="0"
       ></iframe>
-      <Footer />
     </div>
   );
 };

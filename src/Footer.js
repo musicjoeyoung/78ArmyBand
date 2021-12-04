@@ -32,7 +32,7 @@ const Footer = () => {
               </a>
               <a
                 id="footerATags"
-                href="./Contact#contact-page-request-the-band"
+                href="./contact#contact-page-request-the-band"
               >
                 Request the Band
               </a>

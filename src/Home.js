@@ -28,7 +28,6 @@ const Home = () => {
       <EventsComponent />
       <MediaComponent />
       <JobsComponent />
-      <Footer />
     </div>
   );
 };
