@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 import armyband from "./images/78armybandlibertyvibes.jpeg";
 
 const Media = () => {

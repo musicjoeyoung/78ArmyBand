@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar";
-import Footer from "../Footer";
 import Profiles from "./Profiles";
 import NavComponent from "./NavComponent";
 import { staff } from "./staffArray.js";

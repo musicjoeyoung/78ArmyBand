@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../Navbar";
-import Footer from "../Footer";
 import sheetMusic from "../images/sheetMusic.jpeg";
 import armymusic from "../images/band-overview.jpeg";
 import flute from "../images/instruments/78Flute-Piccolo.jpeg";
