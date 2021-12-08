@@ -2,7 +2,9 @@ import React from "react";
 import Navbar from "../Navbar";
 import armyband3 from "../images/78armybandtimessquare.jpeg";
 import EventsMap from "./EventsMap.js";
-import { events } from "./eventsArray";
+import { currentOrUpcomingEvents } from "./eventsArray";
+import PastEventsMap from "./PastEventsMap";
+import { pastEvents } from "./eventsArray";
 
 const Events = () => {
   return (
@@ -17,7 +19,12 @@ const Events = () => {
         </div>
       </div>
       <div className="events">
-        <EventsMap events={events} />
+        <h1>Upcoming Events</h1>
+        <EventsMap events={currentOrUpcomingEvents} />
+      </div>
+      <div className="events">
+        <h1>Past Events</h1>
+        <PastEventsMap events={pastEvents} />
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 import React from "react";
 import EventsMap from "../Events/EventsMap";
-import { events } from "../Events/eventsArray";
+import { currentOrUpcomingEvents } from "../Events/eventsArray";
 
-const eventsFirstThree = events.slice(0, 3);
+const eventsFirstThree = currentOrUpcomingEvents.slice(0, 3);
 
 const EventsComponent = () => {
   return (

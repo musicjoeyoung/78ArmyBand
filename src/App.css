@@ -231,7 +231,7 @@ p {
 .contact-page-bg-image,
 .about-page-bg-image,
 .ensembles-page-bg-image,
-.events-page-bg-image,
+/* .events-page-bg-image, */
 .media-page-bg-image,
 .jobs-page-bg-image {
   background-image: url("images/armyband3.jpeg");
@@ -241,6 +241,10 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.events-page-bg-image {
+  display: none;
+}
+
 .contact-page-pic-and-text,
 .about-page-pic-and-text,
 .ensembles-page-pic-and-text,
@@ -752,15 +756,19 @@ li:hover {
   margin: auto;
 }
 .events {
-  background-color: #ffcc01ab;
+  background-color: #ffcc01;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
   width: 50%;
   /* margin: 5vw auto auto; */
-  position: absolute;
-  margin-top: -58%;
+  /*  position: absolute;
+  margin-top: -58%; */
   margin-left: 25%;
+  margin-top: 100px;
 }
+/* .events:nth-child(1) {
+  margin-top: 100px;
+} */
 .eventsComponent {
   background-color: #ffcc01;
   box-shadow: 10px 6px 16px 0px black;
