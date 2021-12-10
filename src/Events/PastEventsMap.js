@@ -2,7 +2,7 @@ import React from "react";
 
 const PastEventsMap = ({ events }) => {
   return events.map((events) => (
-    <div className="eventsChildContainer">
+    <div className="eventsChildContainer" key={events.id}>
       <div className="eventsNames">
         <div id="events">
           <a id="eventsAtag" href="link">

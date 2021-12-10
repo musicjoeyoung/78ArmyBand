@@ -799,11 +799,15 @@ li:hover {
 #eventsAtag {
   display: flex;
   flex-direction: row;
+  font-size: 12px;
+  font-family: "rawline", sans-serif;
+  font-weight: 300;
+  color: black;
 }
 #date {
   font-size: 30px;
   margin-left: 7%;
-  line-height: 3vw;
+  /* line-height: 3vw; */
 }
 #date #Day {
   font-size: 4vw;

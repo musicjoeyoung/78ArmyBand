@@ -2,7 +2,7 @@ import React from "react";
 
 const EventsMap = ({ events }) => {
   return events.map((events) => (
-    <div className="eventsChildContainer">
+    <div className="eventsChildContainer" key={events.id}>
       <div className="eventsNames">
         <div id="events">
           <a id="eventsAtag" href="link">
@@ -16,6 +16,7 @@ const EventsMap = ({ events }) => {
               <h3 id="eventLocation">{events.location}</h3>
               <p id="eventCity">{events.cityState}</p>
               <p id="eventTime">{events.time}</p>
+              {/* <p className="bio">{events.bio}</p> */}
             </div>
           </a>
         </div>
