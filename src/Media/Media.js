@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
-import armyband from "./images/78armybandlibertyvibes.jpeg";
+import Navbar from "../Navbar";
+import armyband from "../images/78armybandlibertyvibes.jpeg";
+import Twitter from "./Twitter";
 
 const Media = () => {
   return (
@@ -111,25 +112,27 @@ const Media = () => {
       </div>
       <br />
       <h2 id="connect">Connect With Us!</h2>
-      <div className="facebook">
-        <iframe
-          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F78thArmyBand%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-          width="340"
-          height="500"
-          title="Facebook Widget"
-          /* style="border:none;overflow:hidden" */
-          scrolling="no"
-          frameborder="0"
-          allowFullScreen="true"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        ></iframe>
+      <div className="mediaHorizontal">
+        <div className="facebook">
+          <iframe
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F78thArmyBand%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            width="340"
+            height="500"
+            title="Facebook Widget"
+            /* style="border:none;overflow:hidden" */
+            scrolling="no"
+            frameborder="0"
+            allowFullScreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          ></iframe>
+        </div>
+        <Twitter />
       </div>
-
-      <div>
+      {/*    <div>
         Articles
         <div>actual Article</div>
         <div>carousel of Articles</div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -5,7 +5,7 @@ import Home from "./Home";
 import About from "./About/About.js";
 import Ensembles from "./Ensembles/Ensembles";
 import Events from "./Events/Events";
-import Media from "./Media";
+import Media from "./Media/Media";
 import Jobs from "./Jobs/Jobs";
 import Contact from "./Contact";
 import ErrorNotFound from "./ErrorNotFound";

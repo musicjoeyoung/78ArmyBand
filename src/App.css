@@ -1139,6 +1139,14 @@ li:hover {
   max-width: 1280px;
   margin: 5vw auto auto;
 }
+.mediaHorizontal {
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+.facebook {
+  margin-right: 10%;
+}
 .container {
   display: flex;
 }
