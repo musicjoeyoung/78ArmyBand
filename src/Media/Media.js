@@ -121,8 +121,9 @@ const Media = () => {
             title="Facebook Widget"
             /* style="border:none;overflow:hidden" */
             scrolling="no"
-            frameborder="0"
-            allowFullScreen="true"
+            frameBorder="0"
+            /* allowFullScreen="true" */
+            allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></iframe>
         </div>

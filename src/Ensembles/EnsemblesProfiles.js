@@ -4,7 +4,7 @@ const reactStringReplace = require("react-string-replace");
 const EnsemblesProfiles = ({ ensembles }) => {
   return ensembles.map((ensemble) => (
     <div>
-      <h2 key={ensembles.name} id="ensembleH2Name">
+      <h2 key={ensembles.id} id="ensembleH2Name">
         {ensemble.name}
       </h2>
       <img
