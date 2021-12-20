@@ -1,6 +1,7 @@
 import React from "react";
 import armyband7 from "../images/armyband7.jpeg";
-import { Fade } from "react-awesome-reveal";
+//import { Fade } from "react-awesome-reveal";
+//removed Fade to avoid a hook order error
 
 const AboutComponent = () => {
   return (
@@ -16,7 +17,7 @@ const AboutComponent = () => {
         </div>
 
         <div className="aboutcarousel">
-          <Fade direction="up">
+          <div direction="up">
             <h3 id="aboutCompLinks">
               <a id="historylink" href="./about#history">
                 History
@@ -45,7 +46,7 @@ const AboutComponent = () => {
                 Read more...
               </a>
             </p>
-          </Fade>
+          </div>
         </div>
       </div>
     </div>

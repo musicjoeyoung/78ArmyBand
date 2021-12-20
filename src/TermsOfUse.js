@@ -7,7 +7,7 @@ const TermsOfUse = () => {
       <Navbar />
 
       <div className="TermsOfUse">
-        <p>
+        <div>
           <h1>Terms of Use</h1>
           The 78th Army Band Web Site is maintained by 78th Army Band's Public
           Affairs team. It is intended to be used by the public for viewing and
@@ -16,10 +16,10 @@ const TermsOfUse = () => {
           punishable under the Computer Fraud and Abuse act of 1986. All
           information on this site is considered public information and may be
           distributed or copied freely except where otherwise noted.
-        </p>
+        </div>
       </div>
       <div className="TermsOfUse">
-        <p>
+        <div>
           <h1>Disclaimer</h1>
           The appearance of external hyperlinks on the 78th Army Band web site
           does not constitute endorsement by the U.S Army for the information,
@@ -38,10 +38,10 @@ const TermsOfUse = () => {
             Use of Copyrighted Material
           </a>{" "}
           policy.
-        </p>
+        </div>
       </div>
       <div className="TermsOfUse">
-        <p>
+        <div>
           <h1>Security Notice</h1>
           <ul>
             1. The 78th Army Band website is provided as a public service by the
@@ -64,7 +64,7 @@ const TermsOfUse = () => {
             </a>{" "}
             and the National Information Infrastructure Protection Act of 1996.
           </ul>
-        </p>
+        </div>
       </div>
     </div>
   );

@@ -595,6 +595,8 @@ li:hover {
   text-align: justify;
   width: 70%;
   margin-left: 15%;
+  font-family: "rawline", sans-serif;
+  font-weight: 300;
 }
 
 #bioImg,
