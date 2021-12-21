@@ -241,5 +241,5 @@ export const staff = [
     section: "Vocals",
   },
 ];
-console.log(staff[1]);
-console.log(Object.values(staff[1]));
+//console.log(staff[1]);
+//console.log(Object.values(staff[1]));

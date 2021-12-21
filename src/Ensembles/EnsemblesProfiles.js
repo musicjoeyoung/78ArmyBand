@@ -3,18 +3,13 @@ const reactStringReplace = require("react-string-replace");
 
 const EnsemblesProfiles = ({ ensembles }) => {
   return ensembles.map((ensemble) => (
-    <div key={ensembles.id}>
+    <div key={ensemble.id}>
       <h2 id="ensembleH2Name">{ensemble.name}</h2>
-      <img
-        key={ensembles.img}
-        id="ensembleImg"
-        alt="bioImage"
-        src={ensemble.img}
-      />
-      <div key={ensembles.bio} id="bioText">
+      <img id="ensembleImg" alt="bioImage" src={ensemble.img} />
+      <div id="bioText">
         {/* {ensemble.bio} */}
         {reactStringReplace(ensemble.bio, "¶", (match, i) => (
-          <div>
+          <div key={i}>
             <br />
           </div>
         ))}

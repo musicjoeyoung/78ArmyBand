@@ -30,7 +30,7 @@ const EventsMap = ({ events }) => {
                       id="eventsAtag"
                       onClick={() => {
                         setShow(true);
-                        setModalData(event);
+                        setModalData(modalData);
                         console.log("Bio:", event.bio, "ID:", event.id);
                       }}
                     >
