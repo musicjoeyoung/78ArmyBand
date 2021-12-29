@@ -3,7 +3,7 @@ import EventsModal from "./EventsModal";
 
 const EventsMap = ({ events }) => {
   const [show, setShow] = useState(false);
-  const [modalData, setModalData] = useState(null);
+  const [modalData, setModalData] = useState(null); //this is not working
 
   return (
     <div>
