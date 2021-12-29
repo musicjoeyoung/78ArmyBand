@@ -1483,6 +1483,9 @@ li {
   .cb-slideshow li div h3 {
     font-size: 140px;
   }
+  #contactus {
+    margin-top: 7%;
+  }
 
   #contactusText {
     font-size: 19px;
@@ -1542,14 +1545,16 @@ li {
     color: white;
   }
   #bandHomePageLogo {
-    width: 25;
+    width: 40vw;
   }
   .dropdownDiv,
   .dropdown,
   .dropbtn {
-    height: 4vw;
-    width: 4vw;
+    height: 6vw;
+    width: 6vw;
+    margin-top: 5.5%;
   }
+
   .signuplink {
     width: 90vw;
   }
@@ -1649,9 +1654,14 @@ li {
     /* height: 23.3vw; */
     margin: auto;
   }
-  #mainDivTitleEnsemble {
+  #mainDivTitleEnsemble,
+  #mainDivTitleEvents {
     font-size: 4.6vw;
     color: black !important;
+  }
+
+  .ensembles {
+    width: 90%;
   }
   .ensembleChildContainer {
     display: flex;
@@ -1747,6 +1757,60 @@ li {
   #history¶ {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .eventsComponent {
+    width: 90%;
+  }
+  #events {
+    width: 77vw;
+  }
+  #date {
+    font-size: 30px;
+    margin-left: 7%;
+    margin-top: 5%;
+    /* line-height: 3vw; */
+  }
+  #date #Day {
+    font-size: 9vw;
+    font-weight: 100;
+  }
+  #date #Month {
+    font-size: 7vw;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .eventsList {
+    margin-top: -50%;
+    top: -100px;
+    position: relative;
+    margin-bottom: 11%;
+  }
+  #infoContainer {
+    margin-left: 10%;
+    text-align: left;
+    line-height: 5px;
+  }
+  #eventEnsemble {
+    color: #024cb1;
+    font-size: 4.1vw;
+  }
+  #eventTitle {
+    font-weight: 600;
+    font-size: 4.3vw;
+  }
+  #eventLocation {
+    font-weight: 400;
+    font-size: 4.2vw;
+  }
+  #eventCity {
+    font-weight: bolder;
+    font-size: 4.1vw;
+  }
+  #eventTime {
+    font-size: 4vw;
+  }
+  #moreEvents {
+    font-size: 3.3vw;
   }
 }
 
