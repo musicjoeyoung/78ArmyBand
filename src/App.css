@@ -1689,6 +1689,9 @@ li {
   #ensemblePageDescription {
     width: 90%;
   }
+  #ensembleImg {
+    width: 90%;
+  }
   .ensembleName {
     border: 1px solid black;
     padding-top: 2vw;
@@ -1763,6 +1766,8 @@ li {
     text-align: justify;
     padding-right: 3vw;
     font-size: 18px;
+    width: 90%;
+    margin: auto;
   }
   .mainProfileDiv {
     display: flex;
