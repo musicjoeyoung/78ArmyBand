@@ -1473,6 +1473,9 @@ li {
 }
 
 @media screen and (max-width: 1140px) {
+  p {
+    font-size: 16px;
+  }
   .container {
     flex-direction: column;
     margin: auto;
@@ -1501,22 +1504,19 @@ li {
   }
 
   .footerLinks {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 3vw;
     color: white;
-    width: 53vw;
-    justify-content: space-evenly;
+    width: 40%;
   }
 
   #learnMore,
   #importantLinks,
   #socialMedia {
-    font-size: 14px;
+    font-size: 20px;
   }
   #armylogo {
     width: 89px;
     height: 129px;
+    margin-right: 50px;
   }
   #band78 {
     width: 89px;
@@ -1584,6 +1584,10 @@ li {
     background: none !important;
     color: white;
   }
+  #historyText,
+  #modalText {
+    font-size: 18px;
+  }
   #mainDivTitle,
   #mainDivTitleMedia {
     font-size: 4.6vw;
@@ -1593,6 +1597,9 @@ li {
     flex-direction: column;
     color: white;
     margin: auto;
+  }
+  #footerATags {
+    font-size: 16px;
   }
   #selectedMediaVideo {
     width: 90%;
@@ -1678,6 +1685,9 @@ li {
     margin: 2vw auto auto;
     height: auto;
   }
+  #ensemblePageDescription {
+    width: 90%;
+  }
   .ensembleName {
     border: 1px solid black;
     padding-top: 2vw;
@@ -1701,9 +1711,11 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
+    margin: auto;
   }
   .ensembleNameNavComp {
-    width: 18.5vw;
+    width: 50.5vw;
     border: 1px solid black;
     padding-top: 2vw;
     margin-top: 2vw;
@@ -1712,23 +1724,36 @@ li {
     color: white;
     border-radius: 22px;
     margin-right: 10px;
+    font-size: 16px;
   }
   .ensembleNameNavComp:hover {
     background-color: #00214e;
     transform: none;
     transition: none;
   }
+  .mediaHorizontal {
+    display: block;
+    width: 100%;
+  }
+  .individualEnsemble {
+    display: block;
+  }
   .kqKUoK {
     display: none;
+  }
+  #navbarLinks {
+    font-size: 20px;
   }
   #bioImg,
   #bioImg1,
   #bioImg2 {
-    width: 200px;
+    width: 250px;
     margin: auto;
+    margin-top: 3%;
   }
   #staffName {
     text-align: center;
+    font-size: 20px;
   }
   #bioText,
   #bioText1,
@@ -1736,6 +1761,7 @@ li {
     color: black;
     text-align: justify;
     padding-right: 3vw;
+    font-size: 18px;
   }
   .mainProfileDiv {
     display: flex;
@@ -1763,6 +1789,10 @@ li {
   }
   #events {
     width: 77vw;
+  }
+  .events {
+    width: 90%;
+    margin-left: 5%;
   }
   #date {
     font-size: 30px;
@@ -1796,11 +1826,11 @@ li {
   }
   #eventTitle {
     font-weight: 600;
-    font-size: 4.3vw;
+    font-size: 3.5vw;
   }
   #eventLocation {
     font-weight: 400;
-    font-size: 4.2vw;
+    font-size: 3.5vw;
   }
   #eventCity {
     font-weight: bolder;
@@ -1811,6 +1841,12 @@ li {
   }
   #moreEvents {
     font-size: 3.3vw;
+  }
+  #connect {
+    font-size: 20px;
+  }
+  .jobs-page-description {
+    width: 90%;
   }
 }
 
