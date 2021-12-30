@@ -57,7 +57,7 @@ const Footer = () => {
                 US Army Reserves
               </a>
               <a id="footerATags" href="https://www.usar.army.mil/99thRD/">
-                99th RSC
+                99th Readiness Division
               </a>
               <a id="footerATags" href="https://www.jbmdl.jb.mil/">
                 Fort Dix
