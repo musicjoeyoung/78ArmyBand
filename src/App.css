@@ -1597,6 +1597,7 @@ li {
     flex-direction: column;
     color: white;
     margin: auto;
+    width: 45%;
   }
   #footerATags {
     font-size: 16px;
@@ -1847,6 +1848,31 @@ li {
   }
   .jobs-page-description {
     width: 90%;
+  }
+  .instrumentAndImg {
+    display: block;
+  }
+  #instrumentDescription {
+    width: 100%;
+  }
+  #oboe,
+  #saxophone,
+  #horn,
+  #euphonium,
+  #tuba,
+  #keyboard,
+  #bass,
+  #engineer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #instrumentImg {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+  }
+  #vacanciesH4 {
+    font-size: 18px;
   }
 }
 
