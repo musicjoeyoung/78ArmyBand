@@ -1874,6 +1874,13 @@ li {
   #vacanciesH4 {
     font-size: 18px;
   }
+  .enoKYn {
+    display: none;
+  }
+
+  #requestBandPTag {
+    width: 90%;
+  }
 }
 
 #submit {
