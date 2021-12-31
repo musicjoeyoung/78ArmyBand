@@ -372,7 +372,9 @@ li:hover {
 
 #mainDivTitleAbout,
 #mainDivTitleFooter,
-#mainDivTitleMedia {
+#mainDivTitleMedia,
+#mainDivTitleHistory,
+#mainDivTitleMeet {
   font-size: 2vw;
   color: white;
 }
@@ -415,7 +417,7 @@ li:hover {
 
   /* max-width: 1280px; */
   margin: auto;
-  padding-bottom: 1%;
+  margin-top: 3%;
 }
 #history¶ {
   color: white;
@@ -425,10 +427,12 @@ li:hover {
 #historyLink {
   font-size: 23px !important;
 }
+#meettheband {
+  color: white;
+}
 .aboutChildContainer {
   display: flex;
   flex-direction: row;
-  padding-bottom: 3vw;
 }
 .aboutimage,
 .aboutcarousel {
@@ -463,7 +467,12 @@ li:hover {
   position: relative;
   top: 28%;
   color: white;
-  font-size: 1.5vw;
+  font-size: 2vw;
+}
+#historyParagraph {
+  text-align: left;
+  width: 90%;
+  margin: auto;
 }
 #meetthebandlinkReadMore,
 #historylinkReadMore {
@@ -1571,7 +1580,7 @@ li {
   #historylink,
   #meetthebandlink,
   #aboutCompLinks {
-    font-size: 4vw;
+    font-size: 18px;
     transition: none;
     transform: none;
     background: none !important;

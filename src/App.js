@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 //import Welcome from "./Welcome";
 import Home from "./Home";
-import About from "./About/About.js";
+import MeetTheBand from "./MeetTheBand/MeetTheBand.js";
+import History from "./History";
 import Ensembles from "./Ensembles/Ensembles";
 import Events from "./Events/Events";
 import Media from "./Media/Media";
@@ -25,8 +26,11 @@ const App = () => {
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/about">
-              <About />
+            <Route path="/meettheband">
+              <MeetTheBand />
+            </Route>
+            <Route path="/history">
+              <History />
             </Route>
             <Route path="/ensembles">
               <Ensembles />

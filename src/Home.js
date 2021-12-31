@@ -2,7 +2,8 @@ import React from "react";
 import HomeCarousel from "./HomeCarousel";
 import Navbar from "./Navbar";
 //import SignUpLinkComponent from "./HomePageComponents/SignUpLinkComponent.js";
-import AboutComponent from "./HomePageComponents/AboutComponent.js";
+import HistoryComponent from "./HomePageComponents/HistoryComponent.js";
+import MeetTheBandComponent from "./HomePageComponents/MeetTheBandComponent";
 import EnsemblesComponent from "./HomePageComponents/EnsemblesComponent.js";
 import EventsComponent from "./HomePageComponents/EventsComponent.js";
 import MediaComponent from "./HomePageComponents/MediaComponent.js";
@@ -21,7 +22,8 @@ const Home = () => {
       {/*  <Fade direction="up">
           <SignUpLinkComponent />
         </Fade> */}
-      <AboutComponent />
+      <HistoryComponent />
+      <MeetTheBandComponent />
       <EnsemblesComponent />
 
       <EventsComponent />

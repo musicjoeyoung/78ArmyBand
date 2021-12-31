@@ -1,13 +1,21 @@
-import React, { Component } from "react";
-import Modal from "./Modal";
+import React from "react";
+import Navbar from "./Navbar";
+import armyband from "./images/78armybandparade.jpeg";
 
-export class History extends Component {
-  modalProps = {
-    triggerText: "Read More",
-  };
-  modalContent = (
-    <React.Fragment>
-      <p id="modalText">
+const History = () => {
+  return (
+    <div>
+      <Navbar />
+      <div className="about-page-bg-text">
+        <h1>History</h1>
+        <p id="about-page-pText">Learn about the history of the unit.</p>
+      </div>
+      <div className="about-page-pic-and-text">
+        <div className="about-page-pic">
+          <img src={armyband} className="about-page-bg-image" alt="" />
+        </div>
+      </div>
+      <p id="historyParagraph">
         <strong>Formation of the Band </strong>
         <br />
         The 78th Infantry Division was formed in August of 1942. One year later,
@@ -55,49 +63,17 @@ export class History extends Component {
         was reorganized and redesignated as the 78th Army Band out of Fort Dix,
         NJ.
       </p>
-    </React.Fragment>
-  ); //
-  render() {
-    return (
-      <>
-        <hr></hr>
-        <h1 id="history">History</h1>
-        <div className="about" id="history">
-          <p id="historyText">
-            The 78th Infantry Division was formed in August of 1942. One year
-            later, the 78th Army Band was formed on the 2nd of August, 1943.
-            During this time, it was known as the 78th Infantry Division Band.
-            The insignia was a lightning strike on a blood red field. The
-            battles that the 78th Infantry fought, according to the French,
-            resembled a lightning strike, leaving the field red.
-          </p>
-
-          <Modal
-            modalProps={this.modalProps}
-            modalContent={this.modalContent}
-          />
-        </div>
-      </>
-    );
-  }
-}
-
+      <iframe
+        title="78th Army Band History"
+        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tXSzTlnmS1IBki00cXKA854YxjnEQtxRM0vXrq1cKnY&font=Default&lang=en&initial_zoom=2&height=650"
+        width="100%"
+        height="650"
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+        allowFullScreen
+        frameBorder="0"
+      ></iframe>
+    </div>
+  );
+};
 export default History;
-
-/*     <div className="about" id="history">
-      <h3 id="mainDivTitleAbout">History</h3>
-
-      <p id="historyText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Justo donec enim
-        diam vulputate ut pharetra sit amet aliquam. Lacus laoreet non curabitur
-        gravida arcu ac tortor dignissim convallis. Quis imperdiet massa
-        tincidunt nunc pulvinar sapien. Lacus suspendisse faucibus interdum
-        posuere lorem ipsum dolor sit. Ut tortor pretium viverra suspendisse
-        potenti nullam ac tortor vitae. Non pulvinar neque laoreet suspendisse
-        interdum consectetur libero id. Aliquet enim tortor at auctor urna nunc
-        id cursus metus. Lectus vestibulum mattis ullamcorper velit sed
-        ullamcorper. Neque ornare aenean euismod elementum nisi quis eleifend
-        quam.
-      </p>
-    </div> */
