@@ -101,6 +101,10 @@ export const staff = [
     img: noPic,
     section: "Brass",
   },
+  { id: 30, 
+    name: "SPC Isabel Jamie", 
+    bio: "SPC Isabel Jaime grew up in the Long Island Nassau Area, where she began playing trumpet at the age of 6. After being a member of school bands such as High school Jazz Ensemble, competitive marching band and big band, she decided to join the 78th Army Band. Other than being active and working out six days a week, Jaime’s favorite thing to do is practice her trumpet. ¶ Jaime attends New Jersey City University, where she is still currently studying to receive her BA in Music performance. During her time as a full time student, Jaime balances working doing funeral honors and making sandwiches at a local deli. ¶ Jaime has already received an Army Achievement Medal from competing in the Army Best Warrior Course. She hopes to keep doing great in her unit and be a SGT one day. ",
+  },
 
   {
     id: 13,
