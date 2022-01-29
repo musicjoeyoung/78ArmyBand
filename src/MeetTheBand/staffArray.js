@@ -94,6 +94,22 @@ export const staff = [
     section: "Brass",
   },
   {
+    id: 32,
+    name: "SGT Brian McIlvaine",
+    bio:
+      "Sergeant Brian McIlvaine was born in NJ and grew up in Altoona PA. He received a Bachelor’s of Music from Rutgers University In 2002.  He joined the Army Reserves in 2009.  He is a Euphonium player that has Served with the 78th Army Band as an Army Bands Man the duration of his Army Career. ¶ For his civilian career, he is a Mason Contractor in Monmouth Country NJ.  He established his company in 2007.  His company does all types of masonry and services the Jersey shore region of NJ.",
+    img: noPic,
+    section: "Brass",
+  },
+  {
+    id: 34,
+    name: "SGT Chad Smith",
+    bio:
+      "SGT Chad Smith, from Harrisburg, PA, joined the 78th Army Band after completing college at West Chester University majoring in Music Education.  He currently plays trumpet in the Fort Dixieland Brass Ensemble and plays French horn in the concert band, ceremonial band and drill band.",
+    img: noPic,
+    section: "Brass",
+  },
+  {
     id: 12,
     name: "SPC Joseph Faust",
     bio:
@@ -131,6 +147,14 @@ export const staff = [
     section: "Woodwinds",
   },
   {
+    id: 35,
+    name: "SFC Paul Harding",
+    bio:
+      "Sergeant First Class Paul A. Harding hails from Clinton, MD.  He enlisted into the District of Columbia Army National Guard (DCARNG) as a Specialist on 26 August 2005 and attended Basic Combat Training at Fort Leonardwood, MO and Advanced Individual Training at Joint Expeditionary Base Little Creek, VA.  After graduation from his Initial Entry Training, he was awarded the military occupational specialty (MOS) of 42R, Musician.  While with the DCARNG, he performed for the inauguration of the 44th President of the United States Barrack Obama. ¶  SFC Harding later transitioned to the Army Reserve and to his current unit of assignment, the 78th Army Band, stationed at Joint Base McGuire-Dix-Lakehurst, NJ on 13 April 2010.  While with the 78th Army Band, he has served in various positions to include, Administration NCO, Supply NCO, Armorer, Physical Security NCO, Assistant Team Leader, Antiterrorism NCO, and currently the Training and Operations NCO as a full-time Active Guard Reserve (AGR) Soldier. ¶ SFC Harding has attended various military schools: Warrior Leader Course, Combat Lifesaver Course, Basic Combatives Course (Level 1), USAR Unit Administrator Basic Course, Advanced Leader Course, USAR Unit Pay Administrator Course, Antiterrorism Officer Basic Course (Level 2), Army Training Requirements and Resource System (ATRRS) Operator Course, Training Plan Development Course, and Battle Staff Non-Commissioned Officer Course. ¶ SFC Harding’s awards and decorations include the Army Commendation Medal (1OLC), Army Achievement Medal (1OLC), Army Good Conduct Medal, Army Reserve Component Achievement Medal (3OLC), Armed Forces Reserve Medal (Bronze Hour Glass), Army Superior Unit Award, Non-Commissioned Officer Professional Development Ribbon (3), and is a recipient of the of the German Armed Forces Marksmanship Badge (Schuetzenschnur). ¶ SFC Harding holds a Bachelors of Music (BM) degree from the University of Maryland, College Park and completed advanced studies in music performance from Towson University, MD. ¶ SFC Harding is married to Leslynn S. Harding and has two amazing sons, Paul AJ Harding and Christian L. Harding.",
+    img: noPic,
+    section: "Woodwinds",
+  },
+  {
     id: 16,
     name: "SSG Sheri Muneno",
     bio:
@@ -151,6 +175,22 @@ export const staff = [
     name: "SGT Andrew Duong",
     bio:
       "Sergeant Andrew Duong, from Brockton, MA,  joined the Army Band in 2014. He graduated Brockton High School the same year and enlisted in the Army before actually graduating. In high school he was awarded the Louis Armstrong Jazz Award, was selected to the all-district festival, and won numerous ensemble awards with his high school band. ¶ He attended Basic training at Fort Jackson, Music training at The Army School Of Music at Little Creek, and was assigned to the 319th Army Band in Queens, NY. SGT Duong attended the Basic Leadership Course at Fort Dix, earning a place on the commandant’s list. Following his graduation of the course, he was promoted to SGT.  ¶ While SGT Duong was playing with the 319th Army Band, he was studying at music at Berklee College of Music. In 2018 he earned a bachelor’s degree from the school in professional music.  ¶ SGT Duong continued to perform with the 78th Army Band in Queens, NY after the 319th was retired. He continues to play with the band today and is an active musician in his community.",
+    img: noPic,
+    section: "Woodwinds",
+  },
+    {
+    id: 33,
+    name: "SGT Emily Green",
+    bio:
+      "SGT Emily Green is from Littlestown, PA and currently resides in Gettysburg, PA. She first enlisted in 2017 and attended basic training at Fort Leonard Wood, the Army School of Music in 2018. Prior to enlisting, she attended West Chester University and attained a Bachelor’s in Music Education in May of 2018. She also graduated from the Basic Leader’s Course in June 2019 at Fort Indiantown Gap and graduated on the Commandant’s List. SGT Green’s awards include 3 AAMs, and 1 ARCOM for 3 years of service. In her civilian career, SGT Green teaches elementary general music for grades K-5 and 4th and 5th grade chorus.",
+    img: noPic,
+    section: "Woodwinds",
+  },
+  {
+    id: 31,
+    name: "SGT A. Guillette",
+    bio:
+      "Sergeant A. Guillette, as a saxophonist, performs with various ensembles.",
     img: noPic,
     section: "Woodwinds",
   },
