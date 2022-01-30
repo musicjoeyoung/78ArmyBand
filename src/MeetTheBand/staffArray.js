@@ -284,6 +284,15 @@ export const staff = [
     img: noPic,
     section: "Vocals",
   },
+  {
+    id: 35,
+    name: "SPC Svetlana Vynnyk",
+    bio:
+      "Specialist Svetlana Vynnyk grew up in Philadelphia, Pennsylvania, and began singing and playing the violin at around ten years old. After graduating from the Creative and Performing Arts High School (CAPA) of Philadelphia in 2012, Vynnyk attended Penn State University, where she received a B.A. in Comparative Literature and a minor in Music Performance. She later received an M.S. in Communication Management from Temple University. ¶ In 2015, Vynnyk joined the Army Reserve as an intelligence analyst. In 2018, she decided to change her military career and auditioned as a vocalist for the 78th. In addition to being a vocalist for the band, Vynnyk is also one of the unit's Public Affair Representatives (UPAR), which involves photography, video recording, editing, and managing the unit's social media pages. ¶ Outside of the military, she works in social media for a mortgage company, enjoys hiking with her dog, photography/videography, and fitness.",
+    img: noPic,
+    section: "Vocals",
+  },
+  
 ];
 //console.log(staff[1]);
 //console.log(Object.values(staff[1]));
