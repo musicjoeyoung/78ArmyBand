@@ -1,4 +1,5 @@
 import React from "react";
+import March78 from "../images/78March.jpeg"
 
 const MeetTheBandComponent = () => {
   return (
@@ -15,6 +16,9 @@ const MeetTheBandComponent = () => {
           Read more...
         </a>
       </p>
+        <div className="ensembleImageContainer">
+          <img id="ensembleImage" alt="" src={March78} />
+        </div>
     </div>
   );
 };
