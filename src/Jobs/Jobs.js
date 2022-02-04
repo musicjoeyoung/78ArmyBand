@@ -41,16 +41,17 @@ const Jobs = () => {
     <div>
       <Navbar />
       <div className="jobs-page-bg-text">
-        <h1>Jobs</h1>
+        <h1>Career Opportunities</h1>
       </div>
       <div className="jobs-page-pic-and-text">
         <div className="jobs-page-pic">
           <img src={sheetMusic} className="jobs-page-bg-image" alt="" />
         </div>
       </div>
+       <VacanciesComp />
       <div className="jobs-page-description">
         {/* design similarly to https://www.goarmy.com/band/careers-and-jobs.html */}
-        <h2>The role of an Army Musician</h2>
+        <h2>The Role of an Army Musician</h2>
         <p id="roleDescriptions">
           {/* **include musical img here** */}
           <strong>Job Description: </strong> <br />
@@ -133,7 +134,7 @@ const Jobs = () => {
         </p>
         <br />
       </div>
-      <VacanciesComp />
+     
       <div className="instrumentsByName">
         <div className="instrumentAndImg" id="flute">
           <img id="instrumentImg" src={flute} alt="military musician: flute" />

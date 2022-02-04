@@ -8,7 +8,7 @@ import EnsemblesComponent from "./HomePageComponents/EnsemblesComponent.js";
 import EventsComponent from "./HomePageComponents/EventsComponent.js";
 import MediaComponent from "./HomePageComponents/MediaComponent.js";
 import JobsComponent from "./HomePageComponents/JobsComponent";
-import logo from "./images/78armybandlyrelogo.png";
+import logo from "./images/78logo.png";
 
 //import { Fade } from "react-awesome-reveal";
 

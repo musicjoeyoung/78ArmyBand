@@ -8,7 +8,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className="contact-page-bg-text">
-        <h1>Contact us!</h1>
+        <h1>Contact us</h1>
         <p id="contact-page-pText">
           The 78th Army Band wants to give you the best musical experience.
           <br />
@@ -59,7 +59,7 @@ const Contact = () => {
           <button>sign up</button>
         </div> */}
       <div className="contact-page-email-form">
-        <h2 id="talkToUs">Talk To Us!</h2>
+        <h2 id="talkToUs">Contact Us</h2>
         <ContactForm />
       </div>
     </div>

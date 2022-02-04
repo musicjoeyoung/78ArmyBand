@@ -111,7 +111,7 @@ const Media = () => {
         </div>
       </div>
       <br />
-      <h2 id="connect">Connect With Us!</h2>
+      <h2 id="connect">Follow Us</h2>
       <div className="mediaHorizontal">
         <div className="facebook">
           <iframe
