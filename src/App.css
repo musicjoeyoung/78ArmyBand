@@ -135,6 +135,10 @@ p {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
 }
+ .horizontalNav{
+    display: none;
+  }
+
 
 #navbarLinks {
   color: black;
@@ -342,6 +346,7 @@ li:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .navbar {
   display: block;
+  z-index: 3;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -356,6 +361,7 @@ li:hover {
   width: 2.1vw;
   height: 2.1vw;
   margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 .alice-carousel {
   /* padding-top: 1vw; */
@@ -474,6 +480,7 @@ li:hover {
   text-align: left;
   width: 90%;
   margin: auto;
+  line-height: 20px;
 }
 #meetthebandlinkReadMore,
 #historylinkReadMore {
@@ -1497,10 +1504,10 @@ li {
   .cb-slideshow li div h3 {
     font-size: 140px;
   }
-  #contactus {
+ /*  #contactus {
     margin-top: 7%;
   }
-
+ */
   #contactusText {
     font-size: 19px;
   }
@@ -1546,6 +1553,34 @@ li {
     margin-left: -26%;
   }
 }
+
+@media screen and (min-width: 1000px)  {
+  .dropdownDiv {
+    display: none;
+  }
+  .dropbtn {
+    width: 3.1vw;
+  }
+  .dropdownDiv {
+    width: 3.1vw;
+    height: 3.1vw;
+  }
+  .horizontalNav{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #horizontalLinks{
+    color:white !important; 
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 1.6vw;
+  }
+  #contactus{
+    display:none;
+  }
+}
 @media screen and (max-width: 600px) {
   .cb-slideshow li div h3 {
     font-size: 80px;
@@ -1563,7 +1598,7 @@ li {
   .dropbtn {
     height: 6vw;
     width: 6vw;
-    margin-top: 5.5%;
+    /* margin-top: 5.5%; */
   }
 
   .signuplink {

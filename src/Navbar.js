@@ -6,6 +6,32 @@ import dropdownImg from "./images/dropdown.png";
 const Navbar = () => {
   return (
     <div className="mainnavbar">
+             <div className="horizontalNav">
+         <Link id="horizontalLinks" to="/home">
+              Home
+            </Link>
+            <Link id="horizontalLinks" to="/history">
+              History
+            </Link>
+            <Link id="horizontalLinks" to="/meettheband">
+              Meet the Band
+            </Link>
+            <Link id="horizontalLinks" to="/ensembles">
+              Ensembles
+            </Link>
+            <Link id="horizontalLinks" to="/events">
+              Events
+            </Link>
+            <Link id="horizontalLinks" to="/media">
+              Media
+            </Link>
+            <Link id="horizontalLinks" to="/jobs">
+              Career Opportunities
+            </Link>
+            <Link id="horizontalLinks" to="/contact">
+              Contact us
+            </Link>
+      </div>
       <div className="dropdownDiv">
         <div className="dropdown">
           <img className="dropbtn" src={dropdownImg} alt="" />
@@ -42,11 +68,13 @@ const Navbar = () => {
           <img src={headerImg} id="bandHomePageLogo" alt="78bandlogo" />
         </a>
       </div> */}
+   
       <div id="contactus">
         <Link to="/contact" id="contactusText">
           Contact us
         </Link>
       </div>
+  
     </div>
   );
 };
