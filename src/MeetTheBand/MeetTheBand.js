@@ -26,7 +26,7 @@ const MeetTheBand = () => {
         </div>
       </div>
       <div className="meetTheBand">
-        <NavComponent setSection={updateSection}></NavComponent>
+        <NavComponent setSection={updateSection} id="meetTheBandNavComp"></NavComponent>
         <h2>{section}</h2>
         <Profiles staff={profiles} />
       </div>

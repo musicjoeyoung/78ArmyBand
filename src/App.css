@@ -299,7 +299,7 @@ p {
   flex-direction: row;
   margin-left: auto;
 }
-.dropbtn {
+.dropbtn, .dropbtn2 {
   color: white;
   font-size: 16px;
   border: none;
@@ -308,14 +308,14 @@ p {
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+.dropdown, .dropdown2 {
   position: relative;
   display: inline-block;
   background-color: #ffcc01;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.navbar {
+.navbar, .navbar2 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -337,24 +337,24 @@ h6 {
 }
 
 /* Change color of dropdown links on hover */
-.navbar a:hover,
+.navbar a:hover, .navbar2 a:hover,
 li:hover {
   background-color: #f1f1f1;
   cursor: pointer;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .navbar {
+.dropdown:hover .navbar, .dropdown2:hover .navbar2 {
   display: block;
   z-index: 3;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+.dropdown:hover, .dropdown2:hover, .dropbtn, .dropbtn2 {
   /* background-color: #00214e; */
   background-color: #ffcc01;
 }
-.dropdownDiv {
+.dropdownDiv, .dropdownDiv2 {
   display: flex;
   background-color: #ffcc01;
   margin-left: 2%;
@@ -604,6 +604,10 @@ li:hover {
   /* width: 850px; */
   margin: auto;
 }
+
+/* #meetTheBandNavComp{
+  display: flex;
+} */
 
 #bioText,
 #bioText1,

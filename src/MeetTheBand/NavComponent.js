@@ -3,10 +3,10 @@ import dropdownImg from "../images/dropdown.png";
 
 const NavComponent = ({ setSection }) => {
   return (
-    <div className="dropdownDiv">
-      <div className="dropdown">
-        <img className="dropbtn" src={dropdownImg} alt="" />
-        <div className="navbar">
+    <div className="dropdownDiv2">
+      <div className="dropdown2">
+        <img className="dropbtn2" src={dropdownImg} alt="" />
+        <div className="navbar2">
           <li onClick={setSection} id="navbarLinks">
             Command Team
           </li>
