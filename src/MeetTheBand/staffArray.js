@@ -79,6 +79,13 @@ export const staff = [
     section: "Brass",
   },
   {
+    id:38, 
+    name: "SSG Joseph Naples",
+    bio:
+      "Senior Musician and Trumpeter/Bugler SSG Joseph Naples, from Long Island, New York became an Army Bandsman in 2011. He earned a Bachelor of Music degree in Music Performance from Portland State University in Portland, Oregon in 2014 and a Master of Science degree in Music Education from Long Island University in Long Island, New York in 2016. ¶ SSG Naples serves within the 78th Army Band as Lead/Secondary Trumpeter/Bugler, and Army Drum Major. He has also served as a Music Educator in public schools since 2016 and enjoys working toward making a difference within his community. ¶ In his free time, SSG Naples enjoys athletics, exercise, writing music, and spending time with his family.",
+    section: "Brass",
+  },
+  {
     id: 11,
     name: "SGT Kathleen Dougherty",
     bio:
@@ -295,5 +302,23 @@ export const staff = [
   },
   
 ];
+
 //console.log(staff[1]);
 //console.log(Object.values(staff[1]));
+
+
+/* staff.forEach(function(item) {
+  let x = item.img;
+  console.log(x)
+
+}); */
+
+/* staff.forEach(function(item) {
+  let x = item.img;
+  if(x === 'noPic'){
+    console.log(x)
+  }
+  else{
+    console.log('false')
+  }
+}); */

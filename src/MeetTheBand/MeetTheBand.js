@@ -18,7 +18,6 @@ const MeetTheBand = () => {
       <Navbar />
       <div className="about-page-bg-text">
         <h1>Meet the Band</h1>
-        <p id="about-page-pText">Meet the members of band.</p>
       </div>
       <div className="about-page-pic-and-text">
         <div className="about-page-pic">
