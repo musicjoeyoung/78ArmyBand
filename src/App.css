@@ -324,6 +324,7 @@ p {
   z-index: 1;
   top: 102%;
 }
+
 h6 {
   color: white;
   margin-bottom: -1.5vw;
@@ -1204,10 +1205,7 @@ li:hover {
     width: 52vw !important;
   height: 35vw !important;
 } */
-#mediaVideos {
-  background-image: url("/YouTube.png");
-  /* background: lightblue; */
-  border-radius: 50%;
+#mediaVideos, #mediaPictures, #mediaInstagram, #mediaArticles {
   width: 5vw;
   height: 5vw;
 }
@@ -1216,17 +1214,12 @@ li:hover {
   height: 5vw;
 }
 #mediaPictures {
-  background: lightblue;
+  /* background: lightblue; */
   border-radius: 50%;
   width: 5vw;
   height: 5vw;
 }
-#mediaArticles {
-  background: lightblue;
-  border-radius: 50%;
-  width: 5vw;
-  height: 5vw;
-}
+
 /* #jobsNavCompHomepage {
   width: 50% !important;
   border: 1px solid white !important;
@@ -1599,7 +1592,10 @@ li {
   }
   .dropdownDiv,
   .dropdown,
-  .dropbtn {
+  .dropbtn,
+  .dropdownDiv2,
+  .dropdown2,
+  .dropbtn2 {
     height: 6vw;
     width: 6vw;
     /* margin-top: 5.5%; */
@@ -1621,7 +1617,7 @@ li {
   #historylink,
   #meetthebandlink,
   #aboutCompLinks {
-    font-size: 18px;
+    font-size: 4.6vw;
     transition: none;
     transform: none;
     background: none !important;
@@ -1795,7 +1791,10 @@ li {
     display: none;
   }
   #navbarLinks {
-    font-size: 20px;
+    font-size: 13px;
+    font-family: "rawline", sans-serif;
+    font-weight: 300;
+    padding: 12px 16px;
   }
   #bioImg,
   #bioImg1,
@@ -1925,7 +1924,7 @@ li {
     height: 100%;
     margin: auto;
   }
-  #vacanciesH4 {
+  #vacanciesH4, #instrumentsH4 {
     font-size: 18px;
   }
   .enoKYn {
@@ -1934,6 +1933,17 @@ li {
 
   #requestBandPTag {
     width: 90%;
+  }
+  .homePageLogoImg {
+    width: 85vw;
+    margin-left: -42%;
+  }
+  #mainDivTitleMeet, #mainDivTitleEvents{
+    font-size: 5vw;
+  }
+  #mediaLogo {
+    width: 11vw ;
+    height: 11vw ;
   }
 }
 
