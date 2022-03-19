@@ -385,6 +385,7 @@ li:hover {
 #mainDivTitleEvents {
   font-size: 2vw;
   color: white;
+      transition: all 0.7s ease-out;
 }
 .signuplink {
   background-color: #ffcc01;
@@ -621,15 +622,16 @@ li:hover {
   font-weight: 300;
 }
 
-#bioImg,
-#bioImg1,
-#bioImg2 {
+#bioImg {
   float: left;
   margin-left: 15%;
   /* height: 200px; */
   width: 200px;
   padding-right: 3%;
   margin-top: 2.9%;
+}
+#bioImg2 {
+  visibility: hidden;
 }
 #ensembleImg {
   width: 65%;
@@ -1568,11 +1570,19 @@ li {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  #horizontalLinks{
+  #horizontalLinks, #navbarLogo{
     color:white !important; 
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 19.5px;
+    margin-left: 19.5px;
     font-size: 1.6vw;
+  }
+  #horizontalLinks:hover {
+    background-color: #ffcc01;
+    color: black !important;
+  }
+  #navbarLogo{
+    width: 5%;
+  
   }
   #contactus{
     display:none;

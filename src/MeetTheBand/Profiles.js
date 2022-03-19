@@ -1,6 +1,6 @@
 import React from "react";
 const reactStringReplace = require("react-string-replace");
-//? put a function here to map a <br/> within the bio every time a ¶ occurs?
+
 
 const Profiles = ({ staff }) => {
   return staff.map((singleStaff) => (
@@ -17,4 +17,5 @@ const Profiles = ({ staff }) => {
     </div>
   ));
 };
+
 export default Profiles;

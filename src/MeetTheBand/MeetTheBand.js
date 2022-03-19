@@ -11,7 +11,7 @@ const MeetTheBand = () => {
 
   const profiles = staff.filter((staff) => staff.section === section);
 
-  console.log({ section });
+  //console.log({ section });
 
   return (
     <div>

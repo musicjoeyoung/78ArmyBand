@@ -120,6 +120,8 @@ export const staff = [
   { id: 30, 
     name: "SPC Isabel Jamie", 
     bio: "SPC Isabel Jaime grew up in the Long Island Nassau Area, where she began playing trumpet at the age of 6. After being a member of school bands such as High school Jazz Ensemble, competitive marching band and big band, she decided to join the 78th Army Band. Other than being active and working out six days a week, Jaime’s favorite thing to do is practice her trumpet. ¶ Jaime attends New Jersey City University, where she is still currently studying to receive her BA in Music performance. During her time as a full time student, Jaime balances working doing funeral honors and making sandwiches at a local deli. ¶ Jaime has already received an Army Achievement Medal from competing in the Army Best Warrior Course. She hopes to keep doing great in her unit and be a SGT one day. ",
+    img: noPic,
+    section: "Brass",
   },
 
   {
@@ -303,22 +305,4 @@ export const staff = [
   
 ];
 
-//console.log(staff[1]);
-//console.log(Object.values(staff[1]));
-
-
-/* staff.forEach(function(item) {
-  let x = item.img;
-  console.log(x)
-
-}); */
-
-/* staff.forEach(function(item) {
-  let x = item.img;
-  if(x === 'noPic'){
-    console.log(x)
-  }
-  else{
-    console.log('false')
-  }
-}); */
+//console.table(staff, ["name", "section", "bio"])

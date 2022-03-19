@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import dropdownImg from "./images/dropdown.png";
-//import headerImg from "./images/78logo.png";
+import logo78 from "./images/band78.jpeg"
 
 const Navbar = () => {
   return (
     <div className="mainnavbar">
-             <div className="horizontalNav">
-         <Link id="horizontalLinks" to="/home">
+        <div className="horizontalNav">
+            <img id="navbarLogo" src={logo78} alt="78th Band logo"/>
+            <Link id="horizontalLinks" to="/home">
               Home
             </Link>
             <Link id="horizontalLinks" to="/history">
