@@ -431,7 +431,7 @@ li:hover {
 #history¶ {
   color: white;
   text-align: left;
-  line-height: 23px;
+  line-height: 31px;
 }
 #historyLink {
   font-size: 23px !important;
@@ -442,6 +442,7 @@ li:hover {
 .aboutChildContainer {
   display: flex;
   flex-direction: row;
+  height: 500px;
 }
 .aboutimage,
 .aboutcarousel {
@@ -455,7 +456,7 @@ li:hover {
   text-align: center;
 } */
 #armyband7 {
-  width: 37vw;
+  width: 100%;
   /* transition: filter 2s ease; */
   transition: all 1.7s ease-in-out;
 
@@ -482,7 +483,7 @@ li:hover {
   text-align: left;
   width: 90%;
   margin: auto;
-  line-height: 20px;
+  line-height: 31px;
 }
 #meetthebandlinkReadMore,
 #historylinkReadMore {
@@ -620,6 +621,7 @@ li:hover {
   margin-left: 15%;
   font-family: "rawline", sans-serif;
   font-weight: 300;
+  line-height: 25px;
 }
 
 #bioImg {
@@ -641,8 +643,8 @@ li:hover {
   color: black !important;
 }
 #staffName {
-  text-align: left;
-  font-weight: 500;
+  /* text-align: left; */
+  font-weight: 600;
 }
 #meetthebandlink {
   position: relative;
@@ -1481,8 +1483,8 @@ a:active {
   height: 239px;
 }
 #band78 {
-  width: 179px;
-  height: 179px;
+  width: 130px;
+  height: 130px;
 }
 
 li {
@@ -1997,3 +1999,10 @@ li {
   border-bottom-width: 0 px;
 }
 /* media max 1024 px have hamburger menu, else full names */
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  #mainDivTitleAbout, #mainDivTitleFooter, #mainDivTitleMedia, #mainDivTitleHistory, #mainDivTitleMeet, #mainDivTitleEvents {
+    font-size: 3vw;
+}
+  
+}

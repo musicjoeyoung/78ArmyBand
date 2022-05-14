@@ -10,7 +10,7 @@ const HomeCarousel = () => {
   return (
     <AliceCarousel
       autoPlay
-      autoPlayInterval="5000"
+      autoPlayInterval="3000"
       infinite
       animationType="fadeout"
     >
