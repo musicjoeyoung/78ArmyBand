@@ -16,7 +16,7 @@ export const staff = [
     id: 2,
     name: "WO1 Hugh Stuart - Executive Officer",
     bio:
-      "Plaid raw denim la croix, thundercats etsy kitsch fingerstache proident roof party. Kombucha vaporware iceland, mumblecore copper mug kale chips VHS vice minim prism plaid meh. Chartreuse photo booth squid, hammock brunch prism veniam put a bird on it aliqua drinking vinegar umami. Mumblecore listicle cray squid lo-fi cold-pressed meditation gluten-free deep v chia shabby chic disrupt salvia. Ugh hammock narwhal tilde typewriter aliqua, 8-bit cronut jean shorts irure hell of letterpress selvage tempor. Quis non plaid cornhole, chillwave leggings officia ethical quinoa meditation dolore ugh whatever blue bottle ea. Duis chicharrones small batch quis wayfarers cornhole officia kogi pabst flannel kombucha fashion axe next level laboris. Portland direct trade mustache jianbing put a bird on it, poke culpa sriracha banjo chicharrones hot chicken excepteur. Sustainable bushwick pitchfork quinoa. Gochujang stumptown pickled jianbing cornhole unicorn. Shaman synth XOXO succulents dolor knausgaard kombucha photo booth tattooed. Shabby chic cloud bread pitchfork, chillwave in et affogato +1 direct trade. Migas pok pok echo park VHS commodo velit.",
+      "(Bio on the way...)",
     img: noPic,
     section: "Command Team",
   },
