@@ -16,7 +16,7 @@ export const staff = [
     id: 2,
     name: "WO1 Hugh Stuart - Executive Officer",
     bio:
-      "(Bio on the way...)",
+      "(Biography on the way...)",
     img: noPic,
     section: "Command Team",
   },
