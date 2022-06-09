@@ -14,7 +14,7 @@ export const staff = [
   },
   {
     id: 2,
-    name: "WO1 Hugh Stuart - Executive Officer",
+    name: "WO1 Hugh M. Stuart - Executive Officer",
     bio:
       "(Biography on the way...)",
     img: noPic,
@@ -22,7 +22,7 @@ export const staff = [
   },
   {
     id: 3,
-    name: "WO1 Joseph Young - Executive Officer",
+    name: "WO1 Joseph M. Young - Executive Officer",
     bio:
       "Warrant Officer 1 Joseph Young was born and raised in Indianapolis, Indiana. His military career began in 2004 at 17 years old when an Army recruiter came into his high school wind ensemble class with a clarinet. Apparently he was the only one in the room who had never known the military had musicians! ¶ From 2004 to 2012 he served as an enlisted trumpeter in the Indiana National Guard’s 38th Infantry Division Band, where he also sang and played guitar in the various rock and jazz ensembles. Of the many wonderful opportunities he had to perform, two of the most special were being selected to render Taps at the Indianapolis 500 race in both 2009 and 2010. It was also during this time that he was a member of funeral honor teams and rendered Taps for many fallen soldiers, and honor and privilege he holds close to his heart.¶From 2012 to 2015, Mr. Young served as a guitarist with the 1st Cavalry Division Band at Fort Hood, TX. There he was a squad leader, guitarist, banjoist, mandolinist, singer, and founding member of country and bluegrass group, “Cav Country.” High in demand, they were tasked with a busy performing schedule throughout the military and civilian community.¶Upon leaving active duty in 2015 he transferred to the Army Reserves with the 319th Army Band in Fort Totten, NY. There he grew as a team leader and participated in a high volume of missions for local and national audiences. He was the US Army Best Warrior Competition winner within the 99th RSC in 2016 and moved on to compete against all Soldiers across the US Army Reserves. When the 319th was disbanded all personnel merged with the 78th Army Band, with whom he serves currently. In 2020 then Staff Sergeant Young attended Warrant Officer Candidate School and was promoted to Warrant Officer 1. ¶Today he serves as an Executive Officer to the Commander, assistant Bandmaster, a Master Resilience Trainer, and the Website Manager for the 78th Army Band.¶ Mr. Young resides in New York with his wonderful wife, daughter, and adorable cat, and enjoys composing, coding, running, and spending time with his loving family.",
     img: WO1_Young,
