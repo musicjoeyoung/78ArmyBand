@@ -135,10 +135,9 @@ p {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
 }
- .horizontalNav{
-    display: none;
-  }
-
+.horizontalNav {
+  display: none;
+}
 
 #navbarLinks {
   color: black;
@@ -299,7 +298,8 @@ p {
   flex-direction: row;
   margin-left: auto;
 }
-.dropbtn, .dropbtn2 {
+.dropbtn,
+.dropbtn2 {
   color: white;
   font-size: 16px;
   border: none;
@@ -308,14 +308,16 @@ p {
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown, .dropdown2 {
+.dropdown,
+.dropdown2 {
   position: relative;
   display: inline-block;
   background-color: #ffcc01;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.navbar, .navbar2 {
+.navbar,
+.navbar2 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -338,24 +340,30 @@ h6 {
 }
 
 /* Change color of dropdown links on hover */
-.navbar a:hover, .navbar2 a:hover,
+.navbar a:hover,
+.navbar2 a:hover,
 li:hover {
   background-color: #f1f1f1;
   cursor: pointer;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .navbar, .dropdown2:hover .navbar2 {
+.dropdown:hover .navbar,
+.dropdown2:hover .navbar2 {
   display: block;
   z-index: 3;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover, .dropdown2:hover, .dropbtn, .dropbtn2 {
+.dropdown:hover,
+.dropdown2:hover,
+.dropbtn,
+.dropbtn2 {
   /* background-color: #00214e; */
   background-color: #ffcc01;
 }
-.dropdownDiv, .dropdownDiv2 {
+.dropdownDiv,
+.dropdownDiv2 {
   display: flex;
   background-color: #ffcc01;
   margin-left: 2%;
@@ -385,7 +393,7 @@ li:hover {
 #mainDivTitleEvents {
   font-size: 2vw;
   color: white;
-      transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
 }
 .signuplink {
   background-color: #ffcc01;
@@ -878,7 +886,7 @@ li:hover {
 }
 #moreEvents {
   font-size: 1.3vw;
-  color:white;
+  color: white;
 }
 
 .react-component {
@@ -1169,7 +1177,7 @@ li:hover {
   margin: 5vw auto auto;
 }
 .mediaHorizontal {
-  display: flex;
+  /* display: flex; */
   margin: auto;
   width: 50%;
 }
@@ -1209,7 +1217,10 @@ li:hover {
     width: 52vw !important;
   height: 35vw !important;
 } */
-#mediaVideos, #mediaPictures, #mediaInstagram, #mediaArticles {
+#mediaVideos,
+#mediaPictures,
+#mediaInstagram,
+#mediaArticles {
   width: 5vw;
   height: 5vw;
 }
@@ -1505,7 +1516,7 @@ li {
   .cb-slideshow li div h3 {
     font-size: 140px;
   }
- /*  #contactus {
+  /*  #contactus {
     margin-top: 7%;
   }
  */
@@ -1555,7 +1566,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1000px)  {
+@media screen and (min-width: 1000px) {
   .dropdownDiv {
     display: none;
   }
@@ -1566,14 +1577,15 @@ li {
     width: 3.1vw;
     height: 3.1vw;
   }
-  .horizontalNav{
+  .horizontalNav {
     display: block;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  #horizontalLinks, #navbarLogo{
-    color:white !important; 
+  #horizontalLinks,
+  #navbarLogo {
+    color: white !important;
     margin-right: 19.5px;
     margin-left: 19.5px;
     font-size: 1.6vw;
@@ -1582,12 +1594,11 @@ li {
     background-color: #ffcc01;
     color: black !important;
   }
-  #navbarLogo{
+  #navbarLogo {
     width: 5%;
-  
   }
-  #contactus{
-    display:none;
+  #contactus {
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1936,7 +1947,8 @@ li {
     height: 100%;
     margin: auto;
   }
-  #vacanciesH4, #instrumentsH4 {
+  #vacanciesH4,
+  #instrumentsH4 {
     font-size: 18px;
   }
   .enoKYn {
@@ -1950,12 +1962,13 @@ li {
     width: 85vw;
     margin-left: -42%;
   }
-  #mainDivTitleMeet, #mainDivTitleEvents{
+  #mainDivTitleMeet,
+  #mainDivTitleEvents {
     font-size: 5vw;
   }
-  #mediaLogo {
-    width: 11vw ;
-    height: 11vw ;
+  #mediaLogo  {
+    width: 11vw;
+    height: 11vw;
   }
 }
 
@@ -2001,8 +2014,12 @@ li {
 /* media max 1024 px have hamburger menu, else full names */
 
 @media screen and (max-width: 900px) and (min-width: 601px) {
-  #mainDivTitleAbout, #mainDivTitleFooter, #mainDivTitleMedia, #mainDivTitleHistory, #mainDivTitleMeet, #mainDivTitleEvents {
+  #mainDivTitleAbout,
+  #mainDivTitleFooter,
+  #mainDivTitleMedia,
+  #mainDivTitleHistory,
+  #mainDivTitleMeet,
+  #mainDivTitleEvents {
     font-size: 3vw;
-}
-  
+  }
 }
