@@ -248,6 +248,13 @@ export const staff = [
     section: "Piano",
   },
   {
+    id: 35,
+    name: "SGT Svetlana Vynnyk",
+    bio: "Sergeant Svetlana Vynnyk grew up in Philadelphia, Pennsylvania, and began singing and playing the violin at around ten years old. After graduating from the Creative and Performing Arts High School (CAPA) of Philadelphia in 2012, Vynnyk attended Penn State University, where she received a B.A. in Comparative Literature and a minor in Music Performance. She later received an M.S. in Communication Management from Temple University. ¶ In 2015, Vynnyk joined the Army Reserve as an intelligence analyst. In 2018, she decided to change her military career and auditioned as a vocalist for the 78th. In addition to being a vocalist for the band, Vynnyk is also one of the unit's Public Affair Representatives (UPAR), which involves photography, video recording, editing, and managing the unit's social media pages. ¶ Outside of the military, she works in social media for a mortgage company, enjoys hiking with her dog, photography/videography, and fitness.",
+    img: noPic,
+    section: "Vocals",
+  },
+  {
     id: 28,
     name: "SPC Samuel Ford",
     bio: "Specialist Samuel Ford, from Newark Delaware, has served in the 78th Army Band since 2019 as a vocalist. He grew up all across Delaware but spent 10 of his developing years in Middletown. During that time period, SPC Ford attended Middletown High School and used the high school as a platform to pursue his musical career. He was a part of the advanced and select choral ensembles, marching band, jazz band, symphonic band, indoor drum-line, and was a lead in all of his school’s musicals. He was also able to perform in premiere ensembles during this time such as All State, All Eastern, and All National Choral Ensembles, being the first to do so consecutively in his time. ¶ SPC Ford also pursued college at Adelphi University studying Vocal Performance with a concentration of Music Composition. There he studied opera theater, keyboard, choir, as well as many other music courses. During his time after college, SPC Ford wrote a choral piece tiled “Hope” for Middletown High school where it was premiered during their final concert of the year.  ¶ Upon enlisting into the Army Reserves as a vocalist, SPC Ford have been involved in various performance opportunities such as performing live on Fox News, Valley Forge Military Academy Live, and The United States Army Reserve Center. During quarantine, the 78th Army Band took the initiative in making music videos in a virtual setting and SPC Ford was featured in some of those performances. Most notably, “The Prayer”. His time and service with the 78th Army band has earned him an Army Achievement Medal.",
@@ -258,13 +265,6 @@ export const staff = [
     id: 29,
     name: "SPC Hallie Koches",
     bio: "Specialist Hallie Koches is a vocalist from Kingwood, NJ and is brand new to the 78th Army Band. She enlisted January 12th 2021 and shipped to Fort Jackson, SC for basic combat training on March 29th. She graduated June 10th then shipped to the Army School of Music on June 11th, and graduated August 19th 2021 as a 42R. ¶ SPC Koches is also a full time student at The College of New Jersey and is studying Interactive Multimedia for Music Technology. She produces her own music in her free time and also works at the radio. She is a classically trained pianist, certified DJ, and spends a lot of time in the gym. ¶ At home, SPC Koches has two hardworking parents, a sister, and a dog named Zeppelin. She is grateful for all the support and is excited to start her journey as a member of the Army Band.",
-    img: noPic,
-    section: "Vocals",
-  },
-  {
-    id: 35,
-    name: "SGT Svetlana Vynnyk",
-    bio: "Sergeant Svetlana Vynnyk grew up in Philadelphia, Pennsylvania, and began singing and playing the violin at around ten years old. After graduating from the Creative and Performing Arts High School (CAPA) of Philadelphia in 2012, Vynnyk attended Penn State University, where she received a B.A. in Comparative Literature and a minor in Music Performance. She later received an M.S. in Communication Management from Temple University. ¶ In 2015, Vynnyk joined the Army Reserve as an intelligence analyst. In 2018, she decided to change her military career and auditioned as a vocalist for the 78th. In addition to being a vocalist for the band, Vynnyk is also one of the unit's Public Affair Representatives (UPAR), which involves photography, video recording, editing, and managing the unit's social media pages. ¶ Outside of the military, she works in social media for a mortgage company, enjoys hiking with her dog, photography/videography, and fitness.",
     img: noPic,
     section: "Vocals",
   },
