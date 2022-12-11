@@ -25,6 +25,9 @@ const NavComponent = ({ setSection }) => {
           <li onClick={setSection} id="navbarLinks">
             Vocals
           </li>
+          <li onClick={setSection} id="navbarLinks">
+            Bass Guitar
+          </li>
         </div>
       </div>
     </div>

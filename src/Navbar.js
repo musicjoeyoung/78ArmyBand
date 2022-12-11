@@ -1,37 +1,37 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import dropdownImg from "./images/dropdown.png";
-import logo78 from "./images/band78.jpeg"
+import logo78 from "./images/band78.jpeg";
 
 const Navbar = () => {
   return (
     <div className="mainnavbar">
-        <div className="horizontalNav">
-            <img id="navbarLogo" src={logo78} alt="78th Band logo"/>
-            <Link id="horizontalLinks" to="/home">
-              Home
-            </Link>
-            <Link id="horizontalLinks" to="/history">
-              History
-            </Link>
-            <Link id="horizontalLinks" to="/meettheband">
-              Meet the Band
-            </Link>
-            <Link id="horizontalLinks" to="/ensembles">
-              Ensembles
-            </Link>
-            <Link id="horizontalLinks" to="/events">
-              Events
-            </Link>
-            <Link id="horizontalLinks" to="/media">
-              Media
-            </Link>
-            <Link id="horizontalLinks" to="/jobs">
-              Career Opportunities
-            </Link>
-            <Link id="horizontalLinks" to="/contact">
-              Contact us
-            </Link>
+      <div className="horizontalNav">
+        <img id="navbarLogo" src={logo78} alt="78th Band logo" />
+        <Link id="horizontalLinks" to="/home">
+          Home
+        </Link>
+        <Link id="horizontalLinks" to="/history">
+          History
+        </Link>
+        <Link id="horizontalLinks" to="/meettheband">
+          Meet the Band
+        </Link>
+        <Link id="horizontalLinks" to="/ensembles">
+          Ensembles
+        </Link>
+        <Link id="horizontalLinks" to="/events">
+          Events
+        </Link>
+        <Link id="horizontalLinks" to="/media">
+          Media
+        </Link>
+        <Link id="horizontalLinks" to="/jobs">
+          Career Opportunities
+        </Link>
+        <Link id="horizontalLinks" to="/contact">
+          Contact us
+        </Link>
       </div>
       <div className="dropdownDiv">
         <div className="dropdown">
@@ -64,18 +64,17 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    {/*   <div id="navbarheader">
+      {/*   <div id="navbarheader">
         <a href="/home">
           <img src={headerImg} id="bandHomePageLogo" alt="78bandlogo" />
         </a>
       </div> */}
-   
+
       <div id="contactus">
         <Link to="/contact" id="contactusText">
           Contact us
         </Link>
       </div>
-  
     </div>
   );
 };

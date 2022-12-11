@@ -25,7 +25,6 @@ const Home = () => {
       <HistoryComponent />
       <MeetTheBandComponent />
       <EnsemblesComponent />
-
       <EventsComponent />
       <MediaComponent />
       <JobsComponent />

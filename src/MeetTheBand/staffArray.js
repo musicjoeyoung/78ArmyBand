@@ -110,11 +110,17 @@ export const staff = [
     img: noPic,
     section: "Brass",
   },
-
   {
     id: 13,
     name: "SPC Maya Parry",
     bio: "Specialist Maya Parry was born in London, England, and moved to the United States at 10 years old. She currently resides in Vermont with a dog, a cat, and a rabbit. She attends Southern New Hampshire University for a bachelors' in Psychology with a concentration in Child and Adolescent Development. She works at a public school as a preschool teacher. ¶ SPC Parry plays horn in the Brass Quintet and the overall band. She is also a member of Lady Liberty. When she is not playing, SPC Parry helps in Supply, organizing and distributing soldiers' equipment. ¶ In her free time, SPC Parry enjoys reading, origami, and hiking the Green Mountains!",
+    img: noPic,
+    section: "Brass",
+  },
+  {
+    id: 40,
+    name: "SPC  Peterson",
+    bio: "Biography coming soon!",
     img: noPic,
     section: "Brass",
   },
@@ -268,6 +274,22 @@ export const staff = [
     img: noPic,
     section: "Vocals",
   },
+  {
+    id: 39,
+    name: "SGT Webb",
+    bio: "Biography coming soon!",
+    img: noPic,
+    section: "Bass Guitar",
+  },
 ];
 
-//console.table(staff, ["name", "section", "bio"])
+//log the id numbers in order (since they will not always appear in order--top to bottom--in this file. New soldiers are
+//add to sections so I number them there.)
+let idsArr = [];
+staff.forEach((element, index, array) => {
+  idsArr.push(element.id);
+  idsArr.sort(function (a, b) {
+    return a - b;
+  });
+});
+console.log(idsArr);
