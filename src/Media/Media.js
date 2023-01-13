@@ -113,7 +113,7 @@ const Media = () => {
       <br />
       <h2 id="connect">Follow Us</h2>
       <div className="mediaHorizontal">
-        <div className="facebook">
+        <div className="social">
           <iframe
             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F78thArmyBand%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
             width="340"
@@ -127,7 +127,9 @@ const Media = () => {
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></iframe>
         </div>
-        <Twitter />
+        <div className="social">
+          <Twitter />
+        </div>
       </div>
       {/*    <div>
         Articles

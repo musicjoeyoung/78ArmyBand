@@ -35,9 +35,9 @@ const App = () => {
             <Route path="/ensembles">
               <Ensembles />
             </Route>
-            <Route path="/events">
+            {/*    <Route path="/events">
               <Events />
-            </Route>
+            </Route> */}
             <Route path="/media">
               <Media />
             </Route>

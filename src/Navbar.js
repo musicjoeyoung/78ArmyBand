@@ -20,9 +20,9 @@ const Navbar = () => {
         <Link id="horizontalLinks" to="/ensembles">
           Ensembles
         </Link>
-        <Link id="horizontalLinks" to="/events">
+        {/*  <Link id="horizontalLinks" to="/events">
           Events
-        </Link>
+        </Link> */}
         <Link id="horizontalLinks" to="/media">
           Media
         </Link>
@@ -49,9 +49,9 @@ const Navbar = () => {
             <Link id="navbarLinks" to="/ensembles">
               Ensembles
             </Link>
-            <Link id="navbarLinks" to="/events">
+            {/* <Link id="navbarLinks" to="/events">
               Events
-            </Link>
+            </Link> */}
             <Link id="navbarLinks" to="/media">
               Media
             </Link>
