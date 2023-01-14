@@ -21,7 +21,7 @@ const Footer = () => {
           <div id="footerLinksDiv">
             <h3 id="learnMore">Learn More</h3>
             <a id="footerATags" href="./contact">
-              Contact Us
+              Contact
             </a>
             {/*  <a id="footerATags" href="./events">
               Calendar
@@ -29,7 +29,7 @@ const Footer = () => {
             <a id="footerATags" href="https://www.goarmy.com/band.html">
               US Army Bands
             </a>
-            <a id="footerATags" href="./contact#contact-page-request-the-band">
+            <a id="footerATags" href="./request">
               Request the Band
             </a>
             <a

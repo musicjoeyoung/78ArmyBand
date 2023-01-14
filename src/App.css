@@ -167,10 +167,7 @@ p {
 }
 
 #contactus {
-  color: white;
-  margin-top: 2%;
-  margin-left: auto;
-  margin-right: 1%;
+  display: none;
 }
 #contactusText {
   font-size: 1.1vw;
@@ -1177,9 +1174,7 @@ li:hover {
   margin: 5vw auto auto;
 }
 .mediaHorizontal {
-  /* display: flex; */
-  margin: auto;
-  width: 50%;
+  display: flex;
 }
 .facebook {
   /* margin-right: 10%; */
@@ -1496,6 +1491,13 @@ li {
 }
 .milLogoDiv {
   text-align: center;
+}
+.social {
+  width: 50%;
+}
+.twitterContainer {
+  width: 50%;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1140px) {

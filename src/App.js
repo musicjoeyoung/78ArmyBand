@@ -9,6 +9,7 @@ import Events from "./Events/Events";
 import Media from "./Media/Media";
 import Jobs from "./Jobs/Jobs";
 import Contact from "./Contact";
+import Request from "./Request";
 import ErrorNotFound from "./ErrorNotFound";
 import TermsOfUse from "./TermsOfUse";
 import Footer from "./Footer";
@@ -46,6 +47,9 @@ const App = () => {
             </Route>
             <Route path="/contact">
               <Contact />
+            </Route>
+            <Route path="/request">
+              <Request />
             </Route>
             <Route path="/termsofuse">
               <TermsOfUse />

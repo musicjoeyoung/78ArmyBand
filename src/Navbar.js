@@ -27,10 +27,13 @@ const Navbar = () => {
           Media
         </Link>
         <Link id="horizontalLinks" to="/jobs">
-          Career Opportunities
+          Careers
         </Link>
         <Link id="horizontalLinks" to="/contact">
-          Contact us
+          Contact
+        </Link>
+        <Link id="horizontalLinks" to="/request">
+          Request
         </Link>
       </div>
       <div className="dropdownDiv">
@@ -56,10 +59,13 @@ const Navbar = () => {
               Media
             </Link>
             <Link id="navbarLinks" to="/jobs">
-              Career Opportunities
+              Careers
             </Link>
             <Link id="navbarLinks" to="/contact">
-              Contact us
+              Contact
+            </Link>
+            <Link id="navbarLinks" to="/request">
+              Request
             </Link>
           </div>
         </div>
@@ -72,7 +78,7 @@ const Navbar = () => {
 
       <div id="contactus">
         <Link to="/contact" id="contactusText">
-          Contact us
+          Contact
         </Link>
       </div>
     </div>
