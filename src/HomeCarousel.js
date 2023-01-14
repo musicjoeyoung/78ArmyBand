@@ -2,9 +2,9 @@ import React from "react";
 import "./App.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import img1 from "./images/BandParade2.jpg";
-import img2 from "./images/BandFormation.jpg";
-import img3 from "./images/BandParadeNYC.jpeg";
+import img1 from "./images/BandParade2.webp";
+import img2 from "./images/BandFormation.webp";
+import img3 from "./images/BandParadeNYC.webp";
 
 const HomeCarousel = () => {
   return (

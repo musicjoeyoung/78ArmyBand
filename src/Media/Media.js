@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import armyband from "../images/78armybandlibertyvibes.jpeg";
+import armyband from "../images/78armybandlibertyvibes.webp";
 import Twitter from "./Twitter";
 
 const Media = () => {

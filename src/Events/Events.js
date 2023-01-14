@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
-import armyband3 from "../images/78armybandtimessquare.jpeg";
+import armyband3 from "../images/78armybandtimessquare.webp";
 import EventsMap from "./EventsMap.js";
 import { currentOrUpcomingEvents } from "./eventsArray";
 import PastEventsMap from "./PastEventsMap";

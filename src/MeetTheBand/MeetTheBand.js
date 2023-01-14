@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 import Profiles from "./Profiles";
 import NavComponent from "./NavComponent";
 import { staff } from "./staffArray.js";
-import armyband from "../images/78March.jpeg";
+import armyband from "../images/78March.webp";
 
 const MeetTheBand = () => {
   const [section, setSection] = useState("Command Team");
@@ -25,7 +25,10 @@ const MeetTheBand = () => {
         </div>
       </div>
       <div className="meetTheBand">
-        <NavComponent setSection={updateSection} id="meetTheBandNavComp"></NavComponent>
+        <NavComponent
+          setSection={updateSection}
+          id="meetTheBandNavComp"
+        ></NavComponent>
         <h2>{section}</h2>
         <Profiles staff={profiles} />
       </div>

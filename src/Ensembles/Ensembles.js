@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar";
-import armyband from "../images/78armybandgreenwayrockin.jpeg";
+import armyband from "../images/78armybandgreenwayrockin.webp";
 import { ensembles } from "./ensemblesArray";
 import EnsemblesProfiles from "./EnsemblesProfiles";
 import NavComponent from "../Ensembles/NavComponent.js";

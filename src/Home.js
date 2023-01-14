@@ -2,7 +2,7 @@ import React from "react";
 import HomeCarousel from "./HomeCarousel";
 import Navbar from "./Navbar";
 
-import logo from "./images/78logo.png";
+import logo from "./images/78logo.webp";
 
 //import { Fade } from "react-awesome-reveal";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import dropdownImg from "./images/dropdown.png";
-import logo78 from "./images/band78.jpeg";
+import logo78 from "./images/band78.webp";
 
 const Navbar = () => {
   return (

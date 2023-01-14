@@ -1,6 +1,6 @@
 import React from "react";
-import armylogo from "./images/ArmyLogo.png";
-import band78 from "./images/band78.jpeg";
+import armylogo from "./images/ArmyLogo.webp";
+import band78 from "./images/band78.webp";
 import ScrollButton from "./ScrollButton";
 
 const Footer = () => {

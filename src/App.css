@@ -52,7 +52,7 @@ p {
 }
 .cb-slideshow:after {
   content: "";
-  background: transparent url(./images/armyband5.jpeg) repeat top left;
+  background: transparent url(./images/armyband5.webp) repeat top left;
 }
 .cb-slideshow li span {
   width: 100%;
@@ -86,14 +86,14 @@ p {
   line-height: 200px;
 }
 .cb-slideshow li:nth-child(1) span {
-  background-image: url(./images/armyband4.jpeg);
+  background-image: url(./images/armyband4.webp);
 }
 .cb-slideshow li:nth-child(2) span {
-  background-image: url(./images/armyband5.jpeg);
+  background-image: url(./images/armyband5.webp);
   animation-delay: 6s;
 }
 .cb-slideshow li:nth-child(3) span {
-  background-image: url(./images/armyband6.jpeg);
+  background-image: url(./images/armyband6.webp);
   animation-delay: 12s;
 }
 
@@ -169,6 +169,9 @@ p {
 #contactus {
   display: none;
 }
+.contact-page-request-the-band {
+  margin-bottom: 25px;
+}
 #contactusText {
   font-size: 1.1vw;
   color: white;
@@ -236,7 +239,7 @@ p {
 /* .events-page-bg-image, */
 .media-page-bg-image,
 .jobs-page-bg-image {
-  background-image: url("images/armyband3.jpeg");
+  background-image: url("images/armyband3.webp");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -710,6 +713,7 @@ li:hover {
 }
 .individualEnsemble {
   display: flex;
+  min-height: 900px;
 }
 .ensemblesNavComp {
   display: flex;
@@ -1182,9 +1186,7 @@ li:hover {
 .container {
   display: flex;
 }
-.mediaChildContainer {
-  width: 33%;
-}
+
 .fbAndVideo {
   display: flex;
   margin: auto;
@@ -1435,7 +1437,7 @@ select {
 .footerChildContainer {
   display: flex;
   flex-direction: row;
-  padding-top: 10px;
+  padding-top: 25px;
   padding-bottom: 10px;
 }
 .footerLogos {
@@ -1492,12 +1494,13 @@ li {
 .milLogoDiv {
   text-align: center;
 }
-.social {
-  width: 50%;
+
+.socialLogo {
+  width: 40px;
 }
-.twitterContainer {
-  width: 50%;
-  margin: 0 auto;
+.socialContainer {
+  justify-content: space-evenly;
+  display: flex;
 }
 
 @media screen and (max-width: 1140px) {
@@ -1508,9 +1511,7 @@ li {
     flex-direction: column;
     margin: auto;
   }
-  .mediaChildContainer {
-    width: auto;
-  }
+
   .cb-slideshow li div h3 {
     font-size: 140px;
   }
@@ -1661,11 +1662,7 @@ li {
     width: 90%;
     height: 80%;
   }
-  .mediaChildContainer {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
+
   .mediaVideosPicturesArticles {
     display: flex;
     justify-content: space-evenly;
@@ -1682,7 +1679,7 @@ li {
   .footerChildContainer {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
   }
 

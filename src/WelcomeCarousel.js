@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
-import img1 from "./images/armyband4.jpeg";
-import img2 from "./images/armyband5.jpeg";
-import img3 from "./images/armyband6.jpeg";
+import img1 from "./images/armyband4.webp";
+import img2 from "./images/armyband5.webp";
+import img3 from "./images/armyband6.webp";
 
 const WelcomeCarousel = () => {
   return (
