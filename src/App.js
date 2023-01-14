@@ -5,7 +5,7 @@ import Home from "./Home";
 import MeetTheBand from "./MeetTheBand/MeetTheBand.js";
 import History from "./History";
 import Ensembles from "./Ensembles/Ensembles";
-import Events from "./Events/Events";
+//import Events from "./Events/Events";
 import Media from "./Media/Media";
 import Jobs from "./Jobs/Jobs";
 import Contact from "./Contact";

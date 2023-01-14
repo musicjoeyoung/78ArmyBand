@@ -1,5 +1,5 @@
 import React from "react";
-import dropdownImg from "../images/dropdown.png";
+//import dropdownImg from "../images/dropdown.png";
 
 const NavComponent = ({ setSection }) => {
   return (
