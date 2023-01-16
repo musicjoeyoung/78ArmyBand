@@ -2,7 +2,7 @@ import React from "react";
 import instagram from "./images/instagram.png";
 import twitter from "./images/twitter.png";
 import facebook from "./images/facebook.png";
-import youtube from "./images/youtube.png";
+import youtube from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/images/youtube.png";
 
 const SocialContainer = () => {
   return (
