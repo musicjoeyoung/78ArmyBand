@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import trombones from "./images/trombones.webp";
 import ContactForm from "./ContactForm.js";
 
 const Contact = () => {

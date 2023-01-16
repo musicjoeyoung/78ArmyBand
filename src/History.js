@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import armyband from "./images/78armybandparade.webp";
 
 const History = () => {
   return (

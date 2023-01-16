@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../Navbar";
-import sheetMusic from "../images/sheetMusic.webp";
 import armymusic from "../images/band-overview.webp";
 import flute from "../images/instruments/78Flute-Piccolo.jpeg";
 import clarinet from "../images/instruments/78Clarinet.jpeg";
