@@ -1,8 +1,8 @@
 import React from "react";
-import instagram from "./images/instagram.png";
-import twitter from "./images/twitter.png";
-import facebook from "./images/facebook.png";
-import youtube from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/images/youtube.png";
+import instagram from "./instagram.png";
+import twitter from "./twitter.png";
+import facebook from "./facebook.png";
+import youtube from "./youtube.png";
 
 const SocialContainer = () => {
   return (
