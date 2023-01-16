@@ -15,17 +15,12 @@ const MeetTheBand = () => {
   return (
     <div>
       <Navbar />
-      <h1>Meet the Band</h1>
-      {/*   <div className="about-page-bg-text">
-      </div> */}
-      {/*  <div className="about-page-pic-and-text">
-        <div className="about-page-pic">
-          <img src={armyband} className="about-page-bg-image" alt="" />
-        </div>
-      </div> */}
+
       <div className="individualEnsemble">
+        <h1 className="mobileH1">Meet the Band</h1>
         <NavComponent setSection={updateSection}></NavComponent>
-        <div>
+        <div className="profileContainer">
+          <h1 className="desktopH1">Meet the Band</h1>
           <h2>{section}</h2>
           <Profiles staff={profiles} />
         </div>

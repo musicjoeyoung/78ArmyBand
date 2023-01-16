@@ -14,6 +14,7 @@ import ErrorNotFound from "./ErrorNotFound";
 import TermsOfUse from "./TermsOfUse";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SocialContainer from "./SocialContainer";
 
 const App = () => {
   return (
@@ -58,6 +59,7 @@ const App = () => {
           </Switch>
         </div>
       </Router>
+      <SocialContainer />
       <Footer />
     </>
   );

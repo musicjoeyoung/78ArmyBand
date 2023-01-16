@@ -29,27 +29,14 @@ import _9N from "../Jobs/AMPA Materials/9N.pdf";
 import _9T from "../Jobs/AMPA Materials/9T.pdf";
 import _9U from "../Jobs/AMPA Materials/9U.pdf";
 import _9V from "../Jobs/AMPA Materials/9V.pdf";
-import VacanciesComp from "./VacanciesComp";
 
 const Jobs = () => {
-  /* const [instrument, setInstrument] = useState("test");
-  const updateInstrument = (event) => setInstrument(event.target.innerText);
-
-  console.log({ instrument }); */
   return (
     <div>
       <Navbar />
       <h1>Careers</h1>
-      {/* <div className="jobs-page-bg-text">
-      </div> */}
-      {/* <div className="jobs-page-pic-and-text">
-        <div className="jobs-page-pic">
-          <img src={sheetMusic} className="jobs-page-bg-image" alt="" />
-        </div>
-      </div> */}
-      <VacanciesComp />
+
       <div className="jobs-page-description">
-        {/* design similarly to https://www.goarmy.com/band/careers-and-jobs.html */}
         <h2>The Role of an Army Musician</h2>
         <p id="roleDescriptions">
           {/* **include musical img here** */}

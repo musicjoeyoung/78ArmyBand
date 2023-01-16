@@ -14,27 +14,11 @@ const Ensembles = () => {
   return (
     <div>
       <Navbar />
-      <h1>Ensembles</h1>
 
-      {/*  <div className="ensembles-page-bg-text">
-      </div> */}
-      {/* <div className="ensembles-page-pic-and-text">
-        <div className="ensembles-page-pic">
-          <img src={armyband} className="ensembles-page-bg-image" alt="" />
-        </div>
-      </div> */}
-      <div className="ensemblesList">
-        <p id="ensemblePageDescription">
-          The 78th Army Band's many ensembles perform throughout the larger
-          tri-state area for all communities. They play a vital role in the Army
-          by providing musical support for various troops, units, and branches,
-          entertaining civilians, and serving as musical ambassadors of the
-          Army.
-        </p>
-        <div className="individualEnsemble">
-          <NavComponent setName={updateName} />
-          <EnsemblesProfiles ensembles={profiles} />
-        </div>
+      <h1 className="mobileH1">Ensembles</h1>
+      <div className="individualEnsemble">
+        <NavComponent setName={updateName} />
+        <EnsemblesProfiles ensembles={profiles} />
       </div>
     </div>
   );

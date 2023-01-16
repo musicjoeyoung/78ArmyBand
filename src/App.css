@@ -4,7 +4,9 @@ html {
 .App {
   text-align: center;
 }
-h1,
+h1 {
+  font-weight: 600;
+}
 h2,
 h3,
 h4,
@@ -203,11 +205,10 @@ p {
 .contact-page-email-form {
   font: 400 15px/1.8 "Raleway", sans-serif;
   text-align: justify;
-  width: 50%;
+  width: 80%;
   margin: auto;
   border: 1px solid;
   margin-top: 1vw;
-  border-radius: 50px;
   background-color: #00214e;
 }
 #user_name,
@@ -492,7 +493,7 @@ li:hover {
 }
 #historyParagraph {
   text-align: left;
-  width: 90%;
+  width: 80%;
   margin: auto;
   line-height: 31px;
 }
@@ -627,7 +628,7 @@ li:hover {
 #bioText1,
 #bioText2 {
   color: black;
-  text-align: justify;
+  text-align: left;
   font-family: "rawline", sans-serif;
   font-weight: 300;
   line-height: 25px;
@@ -724,12 +725,11 @@ li:hover {
   margin-left: 7vw;
 }
 #ensemblePageDescription {
-  width: 50%;
+  width: 95%;
   margin: auto;
-  margin-top: 3vw;
 }
 .ensembleNameNavComp {
-  width: 18.5vw;
+  width: 200px;
   border: 1px solid black;
   padding-top: 2vw;
   margin-top: 2vw;
@@ -737,7 +737,6 @@ li:hover {
   transition: all 0.4s ease-in-out;
   color: white;
   border-radius: 22px;
-  margin-right: 10px;
 }
 .ensembleNameNavComp:hover {
   background-color: #ffcc01;
@@ -1173,20 +1172,16 @@ li:hover {
 .media {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
-  padding-bottom: 3vw;
-  border-radius: 7px;
-  width: 90%;
+  width: 100%;
   max-width: 1280px;
-  margin: 5vw auto auto;
 }
 .mediaHorizontal {
   display: flex;
 }
-.facebook {
-  /* margin-right: 10%; */
-}
+
 .container {
-  padding: 55px;
+  padding: 15px 10px 15px 10px;
+  display: block;
 }
 
 .fbAndVideo {
@@ -1274,18 +1269,12 @@ hr.rounded {
   border-bottom: 1px solid black;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
-  width: 70%;
+  width: 80%;
   margin: 2vw auto auto;
-  margin-bottom: 4vw;
-  background-color: #ffcc01;
+  /* margin-bottom: 4vw; */
+  background-color: white;
 }
-.jobs-page-vacancies {
-  border-bottom: 1px solid black;
-  box-shadow: 10px 6px 16px 0px black;
-  border-radius: 7px;
-  width: 40%;
-  margin: 5vw auto auto;
-}
+
 #pdfLink {
   color: #ffcc01;
   font-size: 14px;
@@ -1296,14 +1285,15 @@ hr.rounded {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
   border-radius: 7px;
-  width: 90%;
+  width: 80%;
   margin: 4vw auto auto;
   padding: 2vw;
 }
 .instrumentAndImg {
   display: flex;
-  flex-direction: row;
-  margin-bottom: 7vw;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 #instrumentImg {
   width: 40%;
@@ -1392,18 +1382,6 @@ select {
   height: 8vw;
   margin: auto;
 }
-.vacancies {
-  margin: auto;
-  /* border: 1px solid black; */
-  width: 30%;
-  height: 150px;
-  background-color: #00214e;
-  box-shadow: 10px 6px 16px 0px black;
-  border-radius: 7px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
 
 #vacancyLink {
   color: white;
@@ -1413,9 +1391,7 @@ select {
   color: black;
   background-color: #ffcc01;
 }
-#vacanciesH4 {
-  text-decoration: underline;
-}
+
 #instrumentsH4 {
   text-decoration: underline;
 }
@@ -1434,11 +1410,14 @@ select {
 }
 .footer {
   background-color: black;
+  height: 100vh;
 }
 .footerChildContainer {
   display: flex;
   flex-direction: row;
   padding-top: 25px;
+  width: 96%;
+  margin: 0 auto;
 }
 .footerLogos {
   display: flex;
@@ -1495,34 +1474,42 @@ li {
   text-align: center;
 }
 
-.socialLogo {
-  width: 40px;
-}
-.socialContainer {
-  justify-content: space-evenly;
+.iconContainer {
+  position: fixed;
+  bottom: 15px;
   display: flex;
+  flex-direction: column;
+  margin-left: -5px;
+  background-color: #00000087;
+  border-radius: 27px;
 }
-/* .home {
-  background-color: #00214e;
-  height: 100vh;
-} */
+.socialLogo {
+  width: 30px;
+  margin: 10px;
+}
+.profileContainer,
+.ensembleContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+.profileContainer h1,
+h2,
+.ensembleContainer h1 {
+  font-weight: 600;
+}
+.mobileH1 {
+  display: none;
+}
 
 @media screen and (max-width: 1140px) {
   p {
     font-size: 16px;
   }
-  .container {
-    flex-direction: column;
-    margin: auto;
-  }
 
   .cb-slideshow li div h3 {
     font-size: 140px;
   }
-  /*  #contactus {
-    margin-top: 7%;
-  }
- */
+
   #contactusText {
     font-size: 19px;
   }
@@ -1692,6 +1679,21 @@ li {
 .menuToggle input:checked ~ ul {
   transform: none;
   opacity: 1;
+}
+.mobileMedia {
+  width: 50%;
+  margin: 0 auto;
+}
+.mobileMedia img {
+  width: 100%;
+}
+.mobileMedia p {
+  color: white !important;
+  font-size: 16px !important;
+}
+.mobileMedia a {
+  color: yellow;
+  font-size: 16px !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -1910,14 +1912,12 @@ li {
     text-align: center;
   }
   .ensemblesNavComp {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+    display: inline;
+
     margin: auto;
   }
   .ensembleNameNavComp {
-    width: 50.5vw;
+    width: 200px;
     border: 1px solid black;
     padding-top: 2vw;
     margin-top: 2vw;
@@ -1925,8 +1925,7 @@ li {
     transition: none;
     color: white;
     border-radius: 22px;
-    margin-right: 10px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .ensembleNameNavComp:hover {
     background-color: #00214e;
@@ -1959,7 +1958,7 @@ li {
   #bioText1,
   #bioText2 {
     color: black;
-    text-align: justify;
+    text-align: left;
     font-size: 14px;
     margin: auto;
     padding: 10px 20px 0px 20px;
@@ -1979,7 +1978,7 @@ li {
     text-align: justify;
     margin: 1vw auto auto;
     border: 1px solid;
-    width: auto;
+    width: 80%;
   }
   #history¶ {
     padding-left: 15px;
@@ -2047,7 +2046,7 @@ li {
     font-size: 20px;
   }
   .jobs-page-description {
-    width: 90%;
+    width: 80%;
   }
   .instrumentAndImg {
     display: block;
@@ -2071,7 +2070,7 @@ li {
     height: 100%;
     margin: auto;
   }
-  #vacanciesH4,
+
   #instrumentsH4 {
     font-size: 18px;
   }
@@ -2093,6 +2092,12 @@ li {
   #mediaLogo  {
     width: 11vw;
     height: 11vw;
+  }
+  .mobileH1 {
+    display: block;
+  }
+  .desktopH1 {
+    display: none;
   }
 }
 
@@ -2167,9 +2172,58 @@ li {
     top: 0;
     left: 0;
   }
+  .timeline {
+    display: none;
+  }
+  .iconContainer {
+    display: none;
+  }
+  .profileContainer,
+  .ensembleContainer {
+    width: 100%;
+  }
+  .jobs-page-description {
+    width: 100%;
+  }
+  .instrumentsByName {
+    display: flex;
+    flex-direction: column;
+    background-color: #00214e;
+    box-shadow: 10px 6px 16px 0px black;
+    width: 100%;
+    margin: 4vw auto auto;
+  }
+  .contact-page-email-form {
+    font: 400 15px/1.8 "Raleway", sans-serif;
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+    border: 1px solid;
+    margin-top: 1vw;
+    /* border-radius: 50px; */
+    background-color: #00214e;
+  }
+  #contact-page-pText {
+    font-size: 16px;
+  }
+  .youtube {
+    display: none;
+  }
+  .mobileMedia {
+    display: block;
+    width: 100%;
+  }
 }
 @media screen and (min-width: 480px) {
   .mobileHomeImg {
+    display: none;
+  }
+}
+@media screen and (min-width: 601px) {
+  .desktopH1 {
+    display: block;
+  }
+  .mobileH1 {
     display: none;
   }
 }
