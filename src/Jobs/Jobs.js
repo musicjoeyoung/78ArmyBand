@@ -40,14 +40,14 @@ const Jobs = () => {
   return (
     <div>
       <Navbar />
-      <div className="jobs-page-bg-text">
-        <h1>Careers</h1>
-      </div>
-      <div className="jobs-page-pic-and-text">
+      <h1>Careers</h1>
+      {/* <div className="jobs-page-bg-text">
+      </div> */}
+      {/* <div className="jobs-page-pic-and-text">
         <div className="jobs-page-pic">
           <img src={sheetMusic} className="jobs-page-bg-image" alt="" />
         </div>
-      </div>
+      </div> */}
       <VacanciesComp />
       <div className="jobs-page-description">
         {/* design similarly to https://www.goarmy.com/band/careers-and-jobs.html */}

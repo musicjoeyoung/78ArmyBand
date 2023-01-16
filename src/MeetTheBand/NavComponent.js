@@ -3,7 +3,47 @@ import React from "react";
 
 const NavComponent = ({ setSection }) => {
   return (
-    <div className="sections">
+    <div>
+      <div className="ensemblesNavComp">
+        <button className="ensembleNameNavComp" onMouseOver={setSection}>
+          Command Team
+        </button>
+        <button className="ensembleNameNavComp" onMouseOver={setSection}>
+          Brass
+        </button>
+        <button className="ensembleNameNavComp" onMouseOver={setSection}>
+          Woodwinds
+        </button>
+        <button className="ensembleNameNavComp" onMouseOver={setSection}>
+          Percussion
+        </button>
+        <button className="ensembleNameNavComp" onMouseOver={setSection}>
+          Piano
+        </button>
+        <button className="ensembleNameNavComp" onMouseOver={setSection}>
+          Vocals
+        </button>
+        <button className="ensembleNameNavComp" onMouseOver={setSection}>
+          Bass Guitar
+        </button>
+      </div>
+    </div>
+
+    /*     <div className="dropdownDiv2">
+      <div className="dropdown2">
+        <img className="dropbtn2" src={dropdownImg} alt="" />
+        <div className="navbar2">
+          
+        </div>
+      </div>
+    </div> */
+  );
+};
+
+export default NavComponent;
+
+{
+  /* <div className="sections">
       <li onClick={setSection} id="navbarLinks">
         Command Team
       </li>
@@ -25,16 +65,5 @@ const NavComponent = ({ setSection }) => {
       <li onClick={setSection} id="navbarLinks">
         Bass Guitar
       </li>
-    </div>
-    /*     <div className="dropdownDiv2">
-      <div className="dropdown2">
-        <img className="dropbtn2" src={dropdownImg} alt="" />
-        <div className="navbar2">
-          
-        </div>
-      </div>
     </div> */
-  );
-};
-
-export default NavComponent;
+}

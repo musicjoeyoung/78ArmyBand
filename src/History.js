@@ -6,15 +6,26 @@ const History = () => {
   return (
     <div>
       <Navbar />
-      <div className="about-page-bg-text">
-        <h1>History</h1>
-        <p id="about-page-pText">Learn about the history of the unit.</p>
-      </div>
-      <div className="about-page-pic-and-text">
+      <h1>History</h1>
+      <p id="about-page-pText">Learn about the history of the unit.</p>
+      {/*   <div className="about-page-bg-text">
+      </div> */}
+      {/* <div className="about-page-pic-and-text">
         <div className="about-page-pic">
           <img src={armyband} className="about-page-bg-image" alt="" />
         </div>
-      </div>
+      </div> */}
+
+      <iframe
+        title="78th Army Band History"
+        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tXSzTlnmS1IBki00cXKA854YxjnEQtxRM0vXrq1cKnY&font=Default&lang=en&initial_zoom=2&height=650"
+        width="100%"
+        height="650"
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+        allowFullScreen
+        frameBorder="0"
+      ></iframe>
       <p id="historyParagraph">
         <br />
         <strong>Formation of the Band </strong>
@@ -69,16 +80,6 @@ const History = () => {
         was reorganized and redesignated as the 78th Army Band out of Fort Dix,
         NJ.
       </p>
-      <iframe
-        title="78th Army Band History"
-        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tXSzTlnmS1IBki00cXKA854YxjnEQtxRM0vXrq1cKnY&font=Default&lang=en&initial_zoom=2&height=650"
-        width="100%"
-        height="650"
-        webkitallowfullscreen="true"
-        mozallowfullscreen="true"
-        allowFullScreen
-        frameBorder="0"
-      ></iframe>
     </div>
   );
 };

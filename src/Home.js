@@ -8,9 +8,8 @@ import logo from "./images/78logo.webp";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Navbar />
-      <br />
       <img src={logo} className="homePageLogoImg" alt="logo" />
       <HomeCarousel />
     </div>
