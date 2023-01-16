@@ -1,12 +1,10 @@
 import React from "react";
 import armylogo from "./images/ArmyLogo.webp";
 import band78 from "./images/band78.webp";
-import ScrollButton from "./ScrollButton";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <ScrollButton />
       {/* <h3 id="mainDivTitleFooter">About</h3> */}
       <div className="footerChildContainer">
         <div className="footerLogos">
