@@ -13,28 +13,7 @@ const Contact = () => {
         Please reach out and let us know what you think. <br />
       </p>
       <h2>We want to hear from you!</h2>
-      {/*   <div className="contact-page-bg-text">
-      </div> */}
-      {/* <div className="contact-page-pic-and-text">
-        <div className="contact-page-pic">
-          <img src={trombones} className="contact-page-bg-image" alt="" />
-        </div>
-      </div> */}
 
-      {/* <div className="contact-page-newsletter-signup">
-          <h2>Sign up for our newsletter!</h2>
-          <div id="email">
-            email:
-            <input></input>
-          </div>
-          <div id="firstAndLastName">
-            first:
-            <input></input>
-            last: <input></input>
-          </div>
-          <br />
-          <button>sign up</button>
-        </div> */}
       <div className="contact-page-email-form">
         <ContactForm />
       </div>
