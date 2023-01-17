@@ -34,9 +34,9 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div class="dropdown">
+      <div className="dropdown">
         <img src={dropdown} alt="dropdown button" />
-        <div class="dropdown-content">
+        <div className="dropdown-content">
           <ul className="menu">
             <li className="li">
               <a href="/home">Home</a>
@@ -66,43 +66,6 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {/* <div className="body">
-        <div className="menuToggle">
-          <input type="checkbox" />
-
-          <span></span>
-          <span></span>
-          <span></span>
-
-          <ul className="menu">
-            <li className="li">
-              <a href="/home">Home</a>
-            </li>
-            <li className="li">
-              <a href="/history">History</a>
-            </li>
-            <li className="li">
-              <a href="/meettheband">Meet the Band</a>
-            </li>
-            <li className="li">
-              <a href="/ensembles">Ensembles</a>
-            </li>
-            <li className="li">
-              <a href="/media">Media</a>
-            </li>
-            <li className="li">
-              <a href="/jobs">Careers</a>
-            </li>
-            <li className="li">
-              <a href="/contact">Contact</a>
-            </li>
-
-            <li className="li">
-              <a href="/request">Request</a>
-            </li>
-          </ul>
-        </div>
-      </div> */}
 
       <div id="contactus">
         <Link to="/contact" id="contactusText">

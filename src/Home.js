@@ -17,6 +17,7 @@ const Home = () => {
         <img src={logo} className="homePageLogoImg" alt="logo" />
       </div>
       <HomeCarousel />
+      <div id="homePage"></div>
     </>
   );
 };

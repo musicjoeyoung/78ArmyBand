@@ -3,9 +3,10 @@ import armylogo from "./images/ArmyLogo.webp";
 import band78 from "./images/band78.webp";
 
 const Footer = () => {
+  //height: calc(100vh - 374px);
+  //let divStyle = { height: "calc(100vh - 374px)" };
   return (
-    <div className="footer">
-      {/* <h3 id="mainDivTitleFooter">About</h3> */}
+    <div className="footer" /* style={divStyle} */>
       <div className="footerChildContainer">
         <div className="footerLogos">
           <a href="https://www.goarmy.com/" className="milLogoDiv">
@@ -21,9 +22,7 @@ const Footer = () => {
             <a id="footerATags" href="./contact">
               Contact
             </a>
-            {/*  <a id="footerATags" href="./events">
-              Calendar
-            </a> */}
+
             <a id="footerATags" href="https://www.goarmy.com/band.html">
               US Army Bands
             </a>

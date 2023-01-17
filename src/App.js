@@ -1,11 +1,9 @@
 import React from "react";
 import "./App.css";
-//import Welcome from "./Welcome";
 import Home from "./Home";
 import MeetTheBand from "./MeetTheBand/MeetTheBand.js";
 import History from "./History";
 import Ensembles from "./Ensembles/Ensembles";
-//import Events from "./Events/Events";
 import Media from "./Media/Media";
 import Jobs from "./Jobs/Jobs";
 import Contact from "./Contact";
@@ -37,9 +35,7 @@ const App = () => {
             <Route path="/ensembles">
               <Ensembles />
             </Route>
-            {/*    <Route path="/events">
-              <Events />
-            </Route> */}
+
             <Route path="/media">
               <Media />
             </Route>
