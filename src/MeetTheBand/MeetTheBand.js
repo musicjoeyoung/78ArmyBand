@@ -15,7 +15,6 @@ const MeetTheBand = () => {
   return (
     <div>
       <Navbar />
-
       <div className="individualEnsemble">
         <h1 className="mobileH1">Meet the Band</h1>
         <NavComponent setSection={updateSection}></NavComponent>

@@ -35,7 +35,6 @@ const Jobs = () => {
     <div>
       <Navbar />
       <h1>Careers</h1>
-
       <div className="jobs-page-description">
         <h2>The Role of an Army Musician</h2>
         <p id="roleDescriptions">
@@ -120,7 +119,6 @@ const Jobs = () => {
         </p>
         <br />
       </div>
-
       <div className="instrumentsByName">
         <div className="instrumentAndImg" id="flute">
           <img id="instrumentImg" src={flute} alt="military musician: flute" />

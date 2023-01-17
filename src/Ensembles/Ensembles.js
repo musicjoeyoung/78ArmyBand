@@ -14,7 +14,6 @@ const Ensembles = () => {
   return (
     <div>
       <Navbar />
-
       <h1 className="mobileH1">Ensembles</h1>
       <div className="individualEnsemble">
         <NavComponent setName={updateName} />

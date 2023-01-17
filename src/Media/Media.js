@@ -8,7 +8,6 @@ const Media = () => {
     <div>
       <Navbar />
       <h1>Watch & Listen</h1>
-
       <div className="media">
         <div className="container">
           <iframe
