@@ -1,6 +1,6 @@
 import React from "react";
 import armylogo from "./images/ArmyLogo.webp";
-import band78 from "./images/band78.webp";
+//import band78 from "./images/band78.webp";
 
 const Footer = () => {
   //height: calc(100vh - 374px);
@@ -12,9 +12,9 @@ const Footer = () => {
           <a href="https://www.goarmy.com/" className="milLogoDiv">
             <img src={armylogo} alt="armylogo" id="milLogo" />
           </a>
-          <a href="/home" className="milLogoDiv">
+          {/*  <a href="/home" className="milLogoDiv">
             <img src={band78} alt="band78" id="milLogo" />
-          </a>
+          </a> */}
         </div>
         <div className="footerLinks">
           <div id="footerLinksDiv">
@@ -26,7 +26,7 @@ const Footer = () => {
             <a id="footerATags" href="https://www.goarmy.com/band.html">
               US Army Bands
             </a>
-            <a id="footerATags" href="./request">
+            <a id="footerATags" href="./contact">
               Request the Band
             </a>
             <a

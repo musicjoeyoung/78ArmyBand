@@ -29,9 +29,6 @@ const Navbar = () => {
         <Link id="horizontalLinks" to="/contact">
           Contact
         </Link>
-        <Link id="horizontalLinks" to="/request">
-          Request
-        </Link>
       </div>
 
       <div className="dropdown">
@@ -58,10 +55,6 @@ const Navbar = () => {
             </li>
             <li className="li">
               <a href="/contact">Contact</a>
-            </li>
-
-            <li className="li">
-              <a href="/request">Request</a>
             </li>
           </ul>
         </div>

@@ -138,7 +138,7 @@ p {
 .mainnavbar {
   display: flex;
   background-color: #00214e;
-  box-shadow: 10px 6px 16px 0px black;
+  /* box-shadow: 10px 6px 16px 0px black; */
   height: 85px;
 }
 .horizontalNav {
@@ -183,6 +183,9 @@ p {
   width: 145px;
   height: 40px;
   border-radius: 25px;
+  color: black;
+  font-size: 14px;
+  margin-top: 15px;
 }
 #contactusText {
   font-size: 1.1vw;
@@ -1413,6 +1416,7 @@ select {
 }
 .footer {
   background-color: #00214e;
+  margin-top: 15px;
 }
 .footerChildContainer {
   display: flex;
@@ -1724,7 +1728,7 @@ h2,
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 50%;
+    width: 30%;
   }
 
   .footerChildContainer {
@@ -2057,7 +2061,7 @@ h2,
   }
   .homePageLogoImg {
     position: absolute;
-    top: 30px;
+    top: 125px;
     left: 30px;
     margin: 0 auto;
   }
@@ -2112,6 +2116,13 @@ h2,
   .mobileMedia {
     display: block;
     width: 100%;
+  }
+  .mobileMedia p {
+    color: white !important;
+    font-size: 16px !important;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
   }
 }
 @media screen and (min-width: 480px) {

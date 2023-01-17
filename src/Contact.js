@@ -1,6 +1,10 @@
 import React from "react";
 import Navbar from "./Navbar";
 import ContactForm from "./ContactForm.js";
+import instagram from "./images/instagram.png";
+import twitter from "./images/twitter.png";
+import facebook from "./images/facebook.png";
+import youtube from "./images/youtube.png";
 
 const Contact = () => {
   return (
@@ -15,6 +19,21 @@ const Contact = () => {
       <h2>We want to hear from you!</h2>
       <div className="contact-page-email-form">
         <ContactForm />
+      </div>
+
+      <div className="contactSocialContainer">
+        <a href="https://www.instagram.com/78tharmyband/">
+          <img src={instagram} className="socialLogo" alt="Instagram" />
+        </a>
+        <a href="https://twitter.com/78tharmyband">
+          <img src={twitter} className="socialLogo" alt="Twitter" />
+        </a>
+        <a href="https://www.facebook.com/78thArmyBand">
+          <img src={facebook} className="socialLogo" alt="Facebook" />
+        </a>
+        <a href="https://www.youtube.com/@78thArmyBand">
+          <img src={youtube} className="socialLogo" alt="Youtube" />
+        </a>
       </div>
       <div
         className="contact-page-request-the-band"
@@ -33,7 +52,7 @@ const Contact = () => {
           and indicate the type of support requested. Submit the form to the
           78th Army Band no less than 60 days prior to the scheduled event.
         </p>
-        <br />
+
         <a href="mailto:78tharmyband@gmail.com?subject=Request%78th%Army%Band">
           <button>Request the Band</button>
         </a>
