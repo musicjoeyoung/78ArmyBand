@@ -21,7 +21,7 @@ const Navbar = () => {
           Ensembles
         </Link>
         <Link id="horizontalLinks" to="/media">
-          Media
+          Watch & Listen
         </Link>
         <Link id="horizontalLinks" to="/jobs">
           Careers
@@ -48,7 +48,7 @@ const Navbar = () => {
               <a href="/ensembles">Ensembles</a>
             </li>
             <li className="li">
-              <a href="/media">Media</a>
+              <a href="/media">Watch & Listen</a>
             </li>
             <li className="li">
               <a href="/jobs">Careers</a>
@@ -58,12 +58,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
-
-      <div id="contactus">
-        <Link to="/contact" id="contactusText">
-          Contact
-        </Link>
       </div>
     </div>
   );

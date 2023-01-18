@@ -11,30 +11,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <h1>Contact</h1>
-      <p id="contact-page-pText">
-        The 78th Army Band wants to give you the best musical experience.
-        <br />
-        Please reach out and let us know what you think. <br />
-      </p>
-      <h2>We want to hear from you!</h2>
-      <div className="contact-page-email-form">
-        <ContactForm />
-      </div>
 
-      <div className="contactSocialContainer">
-        <a href="https://www.instagram.com/78tharmyband/">
-          <img src={instagram} className="socialLogo" alt="Instagram" />
-        </a>
-        <a href="https://twitter.com/78tharmyband">
-          <img src={twitter} className="socialLogo" alt="Twitter" />
-        </a>
-        <a href="https://www.facebook.com/78thArmyBand">
-          <img src={facebook} className="socialLogo" alt="Facebook" />
-        </a>
-        <a href="https://www.youtube.com/@78thArmyBand">
-          <img src={youtube} className="socialLogo" alt="Youtube" />
-        </a>
-      </div>
       <div
         className="contact-page-request-the-band"
         id="contact-page-request-the-band"
@@ -59,6 +36,33 @@ const Contact = () => {
         <p>
           Or copy/paste our email and reach out to us at: 78tharmyband@gmail.com
         </p>
+      </div>
+      <div className="emailContainer">
+        <p id="contact-page-pText2">
+          The 78th Army Band wants to give you the best musical experience.
+          <br />
+          Please reach out and let us know what you think. <br />
+        </p>
+
+        <div className="contactSocialContainer">
+          <a href="https://www.instagram.com/78tharmyband/">
+            <img src={instagram} className="socialLogo" alt="Instagram" />
+          </a>
+          <a href="https://twitter.com/78tharmyband">
+            <img src={twitter} className="socialLogo" alt="Twitter" />
+          </a>
+          <a href="https://www.facebook.com/78thArmyBand">
+            <img src={facebook} className="socialLogo" alt="Facebook" />
+          </a>
+          <a href="https://www.youtube.com/@78thArmyBand">
+            <img src={youtube} className="socialLogo" alt="Youtube" />
+          </a>
+        </div>
+
+        <h2>We want to hear from you!</h2>
+        <div className="contact-page-email-form">
+          <ContactForm />
+        </div>
       </div>
     </div>
   );
