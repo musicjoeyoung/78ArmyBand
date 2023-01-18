@@ -1172,7 +1172,6 @@ li:hover {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
   width: 100%;
-  max-width: 1280px;
 }
 .mediaHorizontal {
   display: flex;
@@ -1267,9 +1266,7 @@ hr.rounded {
   flex-direction: row;
 }
 .jobs-page-description {
-  width: 96%;
-  background-color: lightgrey;
-  padding: 8px;
+  width: 100%;
   background-color: #00214e;
 }
 .jobs-page-description h2,
@@ -1285,8 +1282,7 @@ p {
   display: flex;
   flex-direction: column;
   background-color: #00214e;
-  width: 96%;
-  padding: 8px;
+  width: 100%;
   margin-top: 15px;
 }
 .instrumentAndImg {
