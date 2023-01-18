@@ -13,6 +13,7 @@ import TermsOfUse from "./TermsOfUse";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SocialContainer from "./SocialContainer";
+import UpArrow from "./UpArrow";
 
 const App = () => {
   return (
@@ -54,6 +55,7 @@ const App = () => {
       </Router>
       <SocialContainer />
       <Footer />
+      <UpArrow />
     </>
   );
 };

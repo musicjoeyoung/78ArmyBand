@@ -59,6 +59,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      <a href="/" id="navbarLogoMobileA">
+        <img id="navbarLogoMobile" src={logo78} alt="78th Band logo" />
+      </a>
     </div>
   );
 };
