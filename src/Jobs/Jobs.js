@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar";
 import armymusic from "../images/band-overview.webp";
 import flute from "../images/instruments/78Flute-Piccolo.jpeg";
 import clarinet from "../images/instruments/78Clarinet.jpeg";
@@ -33,7 +32,6 @@ import _9V from "../Jobs/AMPA Materials/9V.pdf";
 const Jobs = () => {
   return (
     <div>
-      <Navbar />
       <h1>Careers</h1>
       <div className="jobs-page-description">
         <h2>The Role of an Army Musician</h2>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar";
 import { staff } from "./staffArray.js";
 import NavComponent from "./NavComponent";
 import Profiles from "./Profiles";
+import band from "../images/78armybandparade.webp";
 
 const MeetTheBand = () => {
   const [section, setSection] = useState("Command Team");
@@ -14,12 +14,12 @@ const MeetTheBand = () => {
 
   return (
     <div>
-      <Navbar />
       <div className="individualEnsemble">
         <h1 className="mobileH1">Meet the Band</h1>
         <NavComponent setSection={updateSection}></NavComponent>
         <div className="profileContainer">
           <h1 className="desktopH1">Meet the Band</h1>
+          <img src={band} alt="marching band" />
           <h2>{section}</h2>
           <Profiles staff={profiles} />
         </div>

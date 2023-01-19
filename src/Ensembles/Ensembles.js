@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar";
 import { ensembles } from "./ensemblesArray";
 import NavComponent from "../Ensembles/NavComponent.js";
 import EnsemblesProfiles from "./EnsemblesProfiles";
@@ -13,7 +12,6 @@ const Ensembles = () => {
   console.log({ name });
   return (
     <div>
-      <Navbar />
       <h1 className="mobileH1">Ensembles</h1>
       <div className="individualEnsemble">
         <NavComponent setName={updateName} />

@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
 
 const History = () => {
   return (
     <div>
-      <Navbar />
       <h1>History</h1>
       <p id="about-page-pText">Learn about the history of the unit.</p>
       <iframe

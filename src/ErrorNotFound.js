@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
 
 const ErrorNotFound = () => {
   return (
     <div>
-      <Navbar />
       <h2>You have found this page in error. </h2>
       <h1>But since you're here...</h1>
       <h3>Consider joining the band today!</h3>

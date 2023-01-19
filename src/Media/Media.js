@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../Navbar";
 import bq from "../images/BQ-MyShot.png";
 import checkmate from "../images/Checkmate-ElisaSmith.png";
 
 const Media = () => {
   return (
     <div>
-      <Navbar />
       <h1>Watch & Listen</h1>
       <div className="media">
         <div className="container">

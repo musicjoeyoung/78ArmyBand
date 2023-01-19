@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
 
 const TermsOfUse = () => {
   return (
     <div>
-      <Navbar />
       <div className="TermsOfUse">
         <div>
           <h1>Terms of Use</h1>

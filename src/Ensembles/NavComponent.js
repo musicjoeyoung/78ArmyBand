@@ -6,21 +6,21 @@ const NavComponent = ({ setName }) => {
       <div className="ensemblesNavComp">
         <button
           className="ensembleNameNavComp"
-          onMouseOver={setName}
+          onClick={setName}
           id="ConcertBand"
         >
           Concert Band
         </button>
         <button
           className="ensembleNameNavComp"
-          onMouseOver={setName}
+          onClick={setName}
           id="MarchingCeremonialBand"
         >
           Marching/Ceremonial Band
         </button>
         <button
           className="ensembleNameNavComp"
-          onMouseOver={setName}
+          onClick={setName}
           id="BrassQuintet"
         >
           Brass Quintet
@@ -28,28 +28,28 @@ const NavComponent = ({ setName }) => {
 
         <button
           className="ensembleNameNavComp"
-          onMouseOver={setName}
+          onClick={setName}
           id="Checkmate"
         >
           Checkmate
         </button>
         <button
           className="ensembleNameNavComp"
-          onMouseOver={setName}
+          onClick={setName}
           id="FortDixielandBrassBand"
         >
           Fort Dix-ieland Brass Band
         </button>
         <button
           className="ensembleNameNavComp"
-          onMouseOver={setName}
+          onClick={setName}
           id="FortDixielandBrassBand"
         >
           Lady Liberty
         </button>
         <button
           className="ensembleNameNavComp"
-          onMouseOver={setName}
+          onClick={setName}
           id="FortDixielandBrassBand"
         >
           Liberty Vibes

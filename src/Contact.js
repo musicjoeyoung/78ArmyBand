@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import ContactForm from "./ContactForm.js";
 import instagram from "./images/instagram.png";
 import twitter from "./images/twitter.png";
@@ -9,7 +8,6 @@ import youtube from "./images/youtube.png";
 const Contact = () => {
   return (
     <div>
-      <Navbar />
       <h1>Contact</h1>
 
       <div

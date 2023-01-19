@@ -7,17 +7,18 @@ import Ensembles from "./Ensembles/Ensembles";
 import Media from "./Media/Media";
 import Jobs from "./Jobs/Jobs";
 import Contact from "./Contact";
-
 import ErrorNotFound from "./ErrorNotFound";
 import TermsOfUse from "./TermsOfUse";
 import Footer from "./Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SocialContainer from "./SocialContainer";
 import UpArrow from "./UpArrow";
+import Navbar from "./Navbar";
 
 const App = () => {
   return (
     <>
+      <Navbar />
       <Router>
         <div className="App">
           <Switch>
@@ -36,7 +37,6 @@ const App = () => {
             <Route path="/ensembles">
               <Ensembles />
             </Route>
-
             <Route path="/media">
               <Media />
             </Route>

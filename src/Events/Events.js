@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar";
 import armyband3 from "../images/78armybandtimessquare.webp";
 import EventsMap from "./EventsMap.js";
 import { currentOrUpcomingEvents } from "./eventsArray";
@@ -9,7 +8,6 @@ import { pastEvents } from "./eventsArray";
 const Events = () => {
   return (
     <div>
-      <Navbar />
       <div className="events-page-bg-text">
         <h1>Events</h1>
       </div>
