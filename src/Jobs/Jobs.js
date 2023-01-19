@@ -139,6 +139,7 @@ const Jobs = () => {
         </div>
       </div>
       <div className="instrumentsByName">
+        <h2>Instruments</h2>
         <div className="instruments">
           <p>Use the dropdown menu to jump to an instrument:</p>
           <select name="instruments" id="instruments">

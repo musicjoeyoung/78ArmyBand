@@ -1344,11 +1344,16 @@ p {
   width: 100%;
   padding-top: 15px;
 }
+.instrumentsByName h2 {
+  color: white;
+  margin-bottom: -35px;
+}
 .instrumentAndImg {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  scroll-margin-top: 50px;
 }
 #instrumentImg {
   width: 40%;
