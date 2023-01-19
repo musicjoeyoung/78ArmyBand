@@ -1,10 +1,11 @@
 html {
   background-color: rgba(175, 175, 175, 0.247);
+  scroll-behavior: smooth;
 }
 .App {
   text-align: center;
   background-color: lightgray;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 h1 {
   font-weight: 600;
@@ -139,7 +140,7 @@ p {
 .mainnavbar {
   display: flex;
   background-color: #00214e;
-  height: 85px;
+  height: 65px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -157,6 +158,9 @@ p {
 
 .horizontalNav {
   display: none;
+}
+.horizontalNav a {
+  margin-top: -10px !important;
 }
 
 #navbarLinks {
@@ -203,6 +207,10 @@ p {
   color: black;
   font-size: 14px;
   margin-top: 15px;
+}
+#copyPaste {
+  margin-block-end: -1em;
+  padding-bottom: 40px;
 }
 
 #requestBandInfo {
@@ -1299,6 +1307,8 @@ p {
 }
 .jobs-page-description div ul li {
   list-style-type: disc;
+  font-weight: 300;
+  font-size: 16px;
 }
 .jobs-page-description div ul li:hover {
   background-color: #00214e;
@@ -1306,6 +1316,22 @@ p {
 }
 #roleDescriptions .audition li {
   list-style-type: auto;
+}
+#roleDescriptions strong {
+  font-size: 17px;
+}
+.audition {
+  margin-block-end: -2em;
+  padding-bottom: 30px;
+}
+.instruments {
+  border: 4px solid #ffcc01;
+  width: 50%;
+  margin: 50px auto;
+  padding: 25px;
+}
+.instruments select {
+  margin-bottom: 50px;
 }
 #pdfLink {
   color: #ffcc01;
@@ -1348,9 +1374,7 @@ p {
   border: solid 1px black;
   width: 7vw;
 }
-select {
-  width: 15vw;
-}
+
 .audition-dropdown {
   border-bottom: 1px solid black;
   box-shadow: 10px 6px 16px 0px black;
@@ -1699,6 +1723,7 @@ h2,
 }
 .mobileMedia img {
   width: 100%;
+  margin-top: 15px;
 }
 .mobileMedia p {
   color: white !important;
@@ -1963,7 +1988,9 @@ h2,
     font-size: 12px;
   }
   select {
-    width: 21vw;
+    width: 130px;
+    font-size: 15px;
+    font-family: "rawline", sans-serif;
   }
 
   .aboutimage,

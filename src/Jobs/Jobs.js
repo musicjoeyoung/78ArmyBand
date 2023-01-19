@@ -28,8 +28,14 @@ import _9N from "../Jobs/AMPA Materials/9N.pdf";
 import _9T from "../Jobs/AMPA Materials/9T.pdf";
 import _9U from "../Jobs/AMPA Materials/9U.pdf";
 import _9V from "../Jobs/AMPA Materials/9V.pdf";
+import $ from "jquery/";
 
 const Jobs = () => {
+  $(function () {
+    $("#instruments").change(function () {
+      window.location.hash = "#" + $(this).val();
+    });
+  });
   return (
     <div>
       <h1>Careers</h1>
@@ -133,6 +139,27 @@ const Jobs = () => {
         </div>
       </div>
       <div className="instrumentsByName">
+        <div className="instruments">
+          <p>Use the dropdown menu to jump to an instrument:</p>
+          <select name="instruments" id="instruments">
+            <option value="flute"> Flute/Piccolo</option>
+            <option value="oboe">Oboe</option>
+            <option value="clarinet">Clarinet</option>
+            <option value="saxophone">Saxophone</option>
+            <option value="bassoon">Bassoon</option>
+            <option value="horn">Horn</option>
+            <option value="trumpet">Trumpet</option>
+            <option value="euphonium">Euphonium</option>
+            <option value="trombone">Trombone</option>
+            <option value="tuba">Tuba</option>
+            <option value="percussion">Percussion</option>
+            <option value="keyboard">Keyboard/Piano</option>
+            <option value="guitar">Electric Guitar</option>
+            <option value="bass">Electric Bass</option>
+            <option value="vocals">Vocals</option>
+            <option value="engineer">Audio Engineer</option>
+          </select>
+        </div>
         <div className="instrumentAndImg" id="flute">
           <img id="instrumentImg" src={flute} alt="military musician: flute" />
           <div>

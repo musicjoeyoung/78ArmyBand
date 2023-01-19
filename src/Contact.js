@@ -31,7 +31,7 @@ const Contact = () => {
         <a href="mailto:78tharmyband@gmail.com?subject=Request%78th%Army%Band">
           <button>Request the Band</button>
         </a>
-        <p>
+        <p id="copyPaste">
           Or copy/paste our email and reach out to us at: 78tharmyband@gmail.com
         </p>
       </div>
