@@ -35,87 +35,102 @@ const Jobs = () => {
       <h1>Careers</h1>
       <div className="jobs-page-description">
         <h2>The Role of an Army Musician</h2>
-        <p id="roleDescriptions">
+        <div id="roleDescriptions">
           {/* **include musical img here** */}
-          <strong>Job Description: </strong> <br />
-          Musicians specialize in one (or more) of the following
-          instruments/specialties: tuba, trombone, euphonium, bassoon, electric
-          bass guitar, saxophone, flute or piccolo, oboe, clarinet, French horn,
-          percussion, cornet or trumpet, guitar, keyboard, vocalist, and music
-          production. Musicians perform in a variety of ensembles ranging from
-          ceremonial band to jazz band to small ensembles, playing all styles of
-          music. They are primarily responsible for performing and rehearsing as
-          a professional musician within different ensembles of an Army band.
-        </p>
-        <br />
-        <p id="roleDescriptions">
-          {/* **include PT img here** */}
-          <strong>Qualifications: </strong> <br />• 17-34 years old <br />• U.S.
-          Citizen or permanent resident alien <br />• Have a high school diploma
-          or equivalent
-          <br />
-          • Be in good health and physical condition <br />• Be in good moral
-          standing <br />• Prior service members may require waiver
-        </p>
-        <br />
-        <p id="roleDescriptions">
+          <strong>Job Description: </strong>
+          <p>
+            Musicians specialize in one (or more) of the following
+            instruments/specialties: tuba, trombone, euphonium, bassoon,
+            electric bass guitar, saxophone, flute or piccolo, oboe, clarinet,
+            French horn, percussion, cornet or trumpet, guitar, keyboard,
+            vocalist, and music production. Musicians perform in a variety of
+            ensembles ranging from ceremonial band to jazz band to small
+            ensembles, playing all styles of music. They are primarily
+            responsible for performing and rehearsing as a professional musician
+            within different ensembles of an Army band.
+          </p>
+        </div>
+
+        <div id="roleDescriptions">
+          <strong>Qualifications: </strong>
+          <ul>
+            <li>17-34 years old</li>
+            <li>U.S. Citizen or permanent resident alien</li>
+            <li>Have a high school diploma or equivalent</li>
+            <li>Be in good health and physical condition</li>
+            <li>Be in good moral standing</li>
+            <li>Prior service members may require waiver</li>
+          </ul>
+        </div>
+
+        <div id="roleDescriptions">
           {/* **include generic friendly band img here** */}
-          <strong>Salary & Benefits: </strong> <br />
-          As a musician in the Army Reserve, you'll receive benefits that allow
-          you to do what you're best at: making great music. Benefits include:{" "}
-          <br />
-          • Advanced initial rank (E-4 pay grade) <br />
-          • Tuition Assistance <br />
-          • Professional-quality instruments and supplies provided free of
-          charge
-          <br />• Check out all the benefits of being in the Army Reserve{" "}
+          <strong>Salary & Benefits: </strong>
+          <p>
+            As a musician in the Army Reserve, you'll receive benefits that
+            allow you to do what you're best at: making great music. Benefits
+            include:
+          </p>
+          <ul>
+            <li>Advanced initial rank (E-4 pay grade)</li>
+            <li>Tuition Assistance </li>
+            <li>
+              Professional-quality instruments and supplies provided free of
+              charge
+            </li>
+            <li>Check out all the benefits of being in the Army Reserve</li>
+          </ul>
           <a
             id="auditionFontATag"
             href="https://www.goarmy.com/reserve/benefits.html"
           >
             here.
           </a>
-        </p>
-        <br />
-        <p id="roleDescriptions">
-          <strong>Audition: </strong> <br />
-          1.{" "}
-          <a
-            id="auditionFontATag"
-            href="mailto:78tharmyband@gmail.com?subject: Request 78th Army Band"
-          >
-            Reach out to us!
-          </a>{" "}
-          We'll get you set up and you will{" "}
-          <a
-            id="auditionFontATag"
-            href="https://www.bands.army.mil/careers/auditions/form.asp"
-          >
-            submit an audition request.
-          </a>
-          <br />
-          2.{" "}
-          <a
-            id="auditionFontATag"
-            href="https://www.goarmy.com/locate-a-recruiter.html"
-          >
-            Contact your local recruiter.
-          </a>
-          (We'll help you with this!)
-          <br />
-          3. Schedule your audition with us.
-          <br />
-          4. Upon successful auditions and are deemed qualified for service, you
-          will sign a contract for{" "}
-          <a
-            id="auditionFontATag"
-            href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html"
-          >
-            MOS 42R (Army Musician)
-          </a>
-          and be assigned a training departure date.
-        </p>
-        <br />
+        </div>
+
+        <div id="roleDescriptions">
+          <strong>Audition: </strong>
+          <ul className="audition">
+            <li>
+              {" "}
+              <a
+                id="auditionFontATag"
+                href="mailto:78tharmyband@gmail.com?subject: Request 78th Army Band"
+              >
+                Reach out to us!
+              </a>{" "}
+              We'll get you set up and you will{" "}
+              <a
+                id="auditionFontATag"
+                href="https://www.bands.army.mil/careers/auditions/form.asp"
+              >
+                submit an audition request.
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                id="auditionFontATag"
+                href="https://www.goarmy.com/locate-a-recruiter.html"
+              >
+                Contact your local recruiter.{" "}
+              </a>
+              (We'll help you with this!){" "}
+            </li>
+            <li>Schedule your audition with us. </li>
+            <li>
+              Upon successful auditions and are deemed qualified for service,
+              you will sign a contract for{" "}
+              <a
+                id="auditionFontATag"
+                href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html"
+              >
+                MOS 42R (Army Musician){" "}
+              </a>
+              and be assigned a training departure date.
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="instrumentsByName">
         <div className="instrumentAndImg" id="flute">
@@ -128,7 +143,7 @@ const Jobs = () => {
               concert band, ceremonial band, woodwind quintet and other small
               ensembles based on their strengths and the needs of the band.
             </p>
-            <br />
+
             <a href={_9G} id="pdfLink">
               Click here for resources
             </a>
@@ -144,7 +159,7 @@ const Jobs = () => {
               another instrument, such as clarinet or saxophone (though this is
               not required).{" "}
             </p>
-            <br />
+
             <a href={_9H} id="pdfLink">
               Click here for resources
             </a>
@@ -169,7 +184,7 @@ const Jobs = () => {
               Clarinet players may also be asked to perform on bass clarinet or
               E-flat clarinet, depending on the piece of music.{" "}
             </p>
-            <br />
+
             <a href={_9J} id="pdfLink">
               Click here for resources
             </a>
@@ -186,7 +201,7 @@ const Jobs = () => {
               and to perform on all members of the sax family. While not
               required, improvisational skill is valued and rewarded.{" "}
             </p>
-            <br />
+
             <a href={_9L} id="pdfLink">
               Click here for resources
             </a>
@@ -211,7 +226,7 @@ const Jobs = () => {
               marching band, bassoonists often double on another instrument,
               such as clarinet or saxophone (though this is not required).{" "}
             </p>
-            <br />
+
             <a href={_9K} id="pdfLink">
               Click here for resources
             </a>
@@ -225,7 +240,7 @@ const Jobs = () => {
               band, ceremonial band, and brass or woodwind quintet. Ability to
               play in multiple styles, and chamber music experience are valued.{" "}
             </p>
-            <br />
+
             <a href={_9D} id="pdfLink">
               Click here for resources
             </a>
@@ -248,7 +263,7 @@ const Jobs = () => {
               performing as a bugler during military ceremonies, and performing
               Taps at military funerals.{" "}
             </p>
-            <br />
+
             <a href={_9B} id="pdfLink">
               Click here for resources
             </a>
@@ -264,7 +279,7 @@ const Jobs = () => {
               required, some euphonium players are also very proficient on
               trombone.{" "}
             </p>
-            <br />
+
             <a href={_9C} id="pdfLink">
               Click here for resources
             </a>
@@ -293,7 +308,7 @@ const Jobs = () => {
               may be asked to perform on either depending on the needs of the
               ensemble.{" "}
             </p>
-            <br />
+
             <a href={_9E} id="pdfLink">
               Click here for resources
             </a>
@@ -308,7 +323,7 @@ const Jobs = () => {
               required to perform on sousaphone during marching performances and
               some outdoor ceremonies.{" "}
             </p>
-            <br />
+
             <a href={_9F} id="pdfLink">
               Click here for resources
             </a>
@@ -331,7 +346,7 @@ const Jobs = () => {
               snare and bass drum in the ceremonial band and concert snare,
               mallets, and auxiliary percussion in the concert band.{" "}
             </p>
-            <br />
+
             <a href={_9M} id="pdfLink">
               Click here for resources
             </a>
@@ -350,7 +365,7 @@ const Jobs = () => {
               different styles, and should be very familiar with digital
               keyboards as well as the piano.{" "}
             </p>
-            <br />
+
             <a href={_9N} id="pdfLink">
               Click here for resources
             </a>
@@ -375,7 +390,7 @@ const Jobs = () => {
               country band. All guitar players must be skilled in electric
               guitar, as well as acoustic.{" "}
             </p>
-            <br />
+
             <a href={_9T} id="pdfLink">
               Click here for resources
             </a>
@@ -390,7 +405,7 @@ const Jobs = () => {
               players must play bass guitar proficiently, with additional
               consideration given to those also proficient on upright bass.{" "}
             </p>
-            <br />
+
             <a href={_9U} id="pdfLink">
               Click here for resources
             </a>
@@ -414,7 +429,7 @@ const Jobs = () => {
               experienced solo performer with excellent stage presence and
               professional demeanor.{" "}
             </p>
-            <br />
+
             <a href={_9V} id="pdfLink">
               Click here for resources
             </a>
@@ -430,7 +445,7 @@ const Jobs = () => {
               techniques, you will be trained on the operation of lighting
               systems.{" "}
             </p>
-            <br />
+
             {/* <a href={trumpetPDF} id="pdfLink">
               Click here for resources
             </a> */}

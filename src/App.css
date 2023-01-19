@@ -1268,7 +1268,10 @@ hr.rounded {
   width: 90%;
   margin: auto;
   text-align: left;
+  margin-bottom: 20px;
+  color: white;
 }
+
 #auditionFontATag {
   font-size: 16px;
   text-decoration-line: underline;
@@ -1283,8 +1286,10 @@ hr.rounded {
   width: 100%;
   background-color: #00214e;
 }
-.jobs-page-description p {
+/* .jobs-page-description p {
   margin-block-end: -1em;
+} */
+.jobs-page-description #roleDescriptions:nth-child(1) {
   padding-bottom: 40px;
 }
 .jobs-page-description h2,
@@ -1292,7 +1297,16 @@ p {
   color: white;
   padding-top: 15px;
 }
-
+.jobs-page-description div ul li {
+  list-style-type: disc;
+}
+.jobs-page-description div ul li:hover {
+  background-color: #00214e;
+  cursor: auto;
+}
+#roleDescriptions .audition li {
+  list-style-type: auto;
+}
 #pdfLink {
   color: #ffcc01;
   font-size: 14px;
@@ -1582,6 +1596,8 @@ h2,
 .desktopMenu a {
   color: white;
   font-size: 18px;
+  padding: 15px 0px 15px 0;
+  vertical-align: -webkit-baseline-middle;
 }
 .desktopMenu li {
   margin: 0px 20px 0px 20px;
