@@ -1586,6 +1586,9 @@ h2,
 .desktopMenu li {
   margin: 0px 20px 0px 20px;
 }
+.desktopMenu li:hover a {
+  color: black;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
