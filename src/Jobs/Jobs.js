@@ -84,14 +84,16 @@ const Jobs = () => {
               Professional-quality instruments and supplies provided free of
               charge
             </li>
-            <li>Check out all the benefits of being in the Army Reserve</li>
+            <li>
+              Check out all the benefits of being in the Army Reserve{" "}
+              <a
+                id="auditionFontATag"
+                href="https://www.goarmy.com/reserve/benefits.html"
+              >
+                here.
+              </a>
+            </li>
           </ul>
-          <a
-            id="auditionFontATag"
-            href="https://www.goarmy.com/reserve/benefits.html"
-          >
-            here.
-          </a>
         </div>
 
         <div id="roleDescriptions">
@@ -172,7 +174,12 @@ const Jobs = () => {
               ensembles based on their strengths and the needs of the band.
             </p>
 
-            <a href={_9G} id="pdfLink">
+            <a
+              href={_9G}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -188,7 +195,12 @@ const Jobs = () => {
               not required).{" "}
             </p>
 
-            <a href={_9H} id="pdfLink">
+            <a
+              href={_9H}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -213,7 +225,12 @@ const Jobs = () => {
               E-flat clarinet, depending on the piece of music.{" "}
             </p>
 
-            <a href={_9J} id="pdfLink">
+            <a
+              href={_9J}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -230,7 +247,12 @@ const Jobs = () => {
               required, improvisational skill is valued and rewarded.{" "}
             </p>
 
-            <a href={_9L} id="pdfLink">
+            <a
+              href={_9L}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -255,7 +277,12 @@ const Jobs = () => {
               such as clarinet or saxophone (though this is not required).{" "}
             </p>
 
-            <a href={_9K} id="pdfLink">
+            <a
+              href={_9K}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -269,7 +296,12 @@ const Jobs = () => {
               play in multiple styles, and chamber music experience are valued.{" "}
             </p>
 
-            <a href={_9D} id="pdfLink">
+            <a
+              href={_9D}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -292,7 +324,12 @@ const Jobs = () => {
               Taps at military funerals.{" "}
             </p>
 
-            <a href={_9B} id="pdfLink">
+            <a
+              href={_9B}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -308,7 +345,12 @@ const Jobs = () => {
               trombone.{" "}
             </p>
 
-            <a href={_9C} id="pdfLink">
+            <a
+              href={_9C}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -337,7 +379,12 @@ const Jobs = () => {
               ensemble.{" "}
             </p>
 
-            <a href={_9E} id="pdfLink">
+            <a
+              href={_9E}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -352,7 +399,12 @@ const Jobs = () => {
               some outdoor ceremonies.{" "}
             </p>
 
-            <a href={_9F} id="pdfLink">
+            <a
+              href={_9F}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -375,7 +427,12 @@ const Jobs = () => {
               mallets, and auxiliary percussion in the concert band.{" "}
             </p>
 
-            <a href={_9M} id="pdfLink">
+            <a
+              href={_9M}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -394,7 +451,12 @@ const Jobs = () => {
               keyboards as well as the piano.{" "}
             </p>
 
-            <a href={_9N} id="pdfLink">
+            <a
+              href={_9N}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -419,7 +481,12 @@ const Jobs = () => {
               guitar, as well as acoustic.{" "}
             </p>
 
-            <a href={_9T} id="pdfLink">
+            <a
+              href={_9T}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -434,7 +501,12 @@ const Jobs = () => {
               consideration given to those also proficient on upright bass.{" "}
             </p>
 
-            <a href={_9U} id="pdfLink">
+            <a
+              href={_9U}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -458,7 +530,12 @@ const Jobs = () => {
               professional demeanor.{" "}
             </p>
 
-            <a href={_9V} id="pdfLink">
+            <a
+              href={_9V}
+              id="pdfLink"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Click here for resources
             </a>
           </div>
@@ -473,10 +550,6 @@ const Jobs = () => {
               techniques, you will be trained on the operation of lighting
               systems.{" "}
             </p>
-
-            {/* <a href={trumpetPDF} id="pdfLink">
-              Click here for resources
-            </a> */}
           </div>
           <img
             id="instrumentImg"
@@ -485,14 +558,6 @@ const Jobs = () => {
           />
         </div>
       </div>
-      {/* <div className="general-audition-info">General Audition Info</div>
-      <div className="armyMusicCareers">
-        <a href="https://www.goarmy.com/band.html" id="jobText">
-          Army Music Careers
-        </a>
-        <img id="armyMusicImg" src={armymusic} alt="military band" />
-      </div>
-      <div className="armyCareers">Army Careers</div> */}
     </div>
   );
 };

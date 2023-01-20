@@ -5,10 +5,10 @@ import dropdown from "./images/dropdown.png";
 const Navbar = () => {
   return (
     <div className="mainnavbar">
+      <a href="/home">
+        <img id="navbarLogo" src={logo78} alt="78th Band logo" />
+      </a>
       <div className="horizontalNav">
-        <a href="/home">
-          <img id="navbarLogo" src={logo78} alt="78th Band logo" />
-        </a>
         <ul className="desktopMenu">
           <li className="li">
             <a href="/home">Home</a>

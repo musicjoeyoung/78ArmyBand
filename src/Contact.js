@@ -1,9 +1,9 @@
 import React from "react";
 import ContactForm from "./ContactForm.js";
-import instagram from "./images/instagram.png";
-import twitter from "./images/twitter.png";
-import facebook from "./images/facebook.png";
-import youtube from "./images/youtube.png";
+import instagram from "./instagram.png";
+import twitter from "./twitter.png";
+import facebook from "./facebook.png";
+import youtube from "./youtube.png";
 
 const Contact = () => {
   return (
@@ -20,6 +20,8 @@ const Contact = () => {
           <a
             id="requestBandInfo"
             href="https://www.usar.army.mil/Portals/98/Documents/For_Commands/dd2536.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             DD Form 2536 - Request for Armed Forces Participation in Public
             Events
@@ -31,15 +33,14 @@ const Contact = () => {
         <a href="mailto:78tharmyband@gmail.com?subject=Request%78th%Army%Band">
           <button>Request the Band</button>
         </a>
-        <p id="copyPaste">
-          Or copy/paste our email and reach out to us at: 78tharmyband@gmail.com
-        </p>
       </div>
       <div className="emailContainer">
         <p id="contact-page-pText2">
           The 78th Army Band wants to give you the best musical experience.
-          <br />
-          Please reach out and let us know what you think. <br />
+        </p>
+        <p>
+          {" "}
+          Please follow us on social media let us know what you think. <br />
         </p>
 
         <div className="contactSocialContainer">
