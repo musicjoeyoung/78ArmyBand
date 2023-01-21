@@ -40,7 +40,8 @@ const Contact = () => {
         </p>
         <p>
           {" "}
-          Please follow us on social media let us know what you think. <br />
+          Please follow us on social media and let us know what you think.{" "}
+          <br />
         </p>
 
         <div className="contactSocialContainer">

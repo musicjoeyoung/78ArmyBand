@@ -39,6 +39,9 @@ button {
 li {
   list-style-type: none;
 }
+input {
+  margin-left: 5px;
+}
 .no-cssanimations .cb-slideshow li span {
   opacity: 1;
 }
@@ -218,6 +221,12 @@ li {
   margin: auto;
   color: white;
 }
+#messageLabel {
+  margin: 15px 0 10px 0;
+}
+#user_name {
+  display: flex;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -245,6 +254,7 @@ li {
 #jobs-page-pText {
   font-size: 20px;
   color: #00214e;
+  padding: 0px;
 }
 #contact-page-pText2 {
   color: white;
@@ -412,6 +422,7 @@ li:hover {
   background-color: #00214e;
   box-shadow: 10px 6px 16px 0px black;
   width: 100%;
+  padding-bottom: 15px;
 }
 .container {
   padding: 15px 10px 15px 10px;
@@ -446,7 +457,6 @@ li:hover {
 .jobs-page-description h2,
 p {
   color: white;
-  padding-top: 15px;
 }
 .jobs-page-description div ul li {
   list-style-type: disc;
@@ -497,6 +507,7 @@ p {
   align-items: center;
   margin-bottom: 20px;
   scroll-margin-top: 50px;
+  padding: 0px 55px 0px 55px;
 }
 #instrumentImg {
   width: 40%;
@@ -1025,6 +1036,7 @@ h2,
   }
   .instrumentAndImg {
     display: block;
+    padding: 0px;
   }
   #instrumentDescription {
     width: 100%;
