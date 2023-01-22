@@ -791,6 +791,13 @@ h2,
 .dropdown-content a {
   color: #00214e;
 }
+.dropdown-content li {
+  padding: 0px 0px 0px 7px;
+}
+.dropdown-content li:hover {
+  border-radius: 10px;
+  padding: 0px 0px 0px 7px;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
