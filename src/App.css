@@ -216,6 +216,7 @@ input {
   font-size: 16px;
   margin: auto;
   padding-bottom: 50px;
+  line-height: 19px;
 }
 #requestBandPTag a {
   text-decoration: underline;
@@ -274,6 +275,7 @@ input {
   color: white;
   width: 50%;
   margin: 0 auto;
+  line-height: 19px;
 }
 .dropbtn {
   color: white;
@@ -460,6 +462,15 @@ li:hover {
   margin-bottom: 20px;
   color: white;
 }
+#roleDescriptions .audition li {
+  list-style-type: auto;
+}
+#roleDescriptions strong {
+  font-size: 17px;
+}
+#roleDescriptions p {
+  line-height: 19px;
+}
 #auditionFontATag {
   font-size: 16px;
   text-decoration-line: underline;
@@ -489,15 +500,11 @@ p {
   background-color: #00214e;
   cursor: auto;
 }
-#roleDescriptions .audition li {
-  list-style-type: auto;
-}
-#roleDescriptions strong {
-  font-size: 17px;
-}
+
 .audition {
   margin-block-end: -2em;
   padding-bottom: 30px;
+  line-height: 19px;
 }
 .instruments {
   border: 4px solid #ffcc01;
@@ -607,6 +614,10 @@ p {
 #footerLinksDiv a {
   margin-top: 4px;
   color: white;
+}
+#footerLinksDiv a:hover {
+  margin-top: 4px;
+  color: #ffcc01;
 }
 #milLogo {
   width: 55%;
