@@ -4,7 +4,9 @@ const History = () => {
   return (
     <div>
       <h1>History</h1>
-      <p id="about-page-pText">Learn about the history of the unit.</p>
+      <p id="about-page-pText">
+        Learn about the history of the 78th Army Band.
+      </p>
       <iframe
         title="78th Army Band History"
         src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tXSzTlnmS1IBki00cXKA854YxjnEQtxRM0vXrq1cKnY&font=Default&lang=en&initial_zoom=2&height=650"

@@ -9,7 +9,12 @@ const Footer = () => {
     <div className="footer" /* style={divStyle} */>
       <div className="footerChildContainer">
         <div className="footerLogos">
-          <a href="https://www.goarmy.com/" className="milLogoDiv">
+          <a
+            href="https://www.goarmy.com/"
+            className="milLogoDiv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={armylogo} alt="armylogo" id="milLogo" />
           </a>
           {/*  <a href="/home" className="milLogoDiv">
@@ -23,7 +28,12 @@ const Footer = () => {
               Contact
             </a>
 
-            <a id="footerATags" href="https://www.goarmy.com/band.html">
+            <a
+              id="footerATags"
+              href="https://www.goarmy.com/band.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               US Army Bands
             </a>
             <a id="footerATags" href="./contact">
@@ -31,9 +41,9 @@ const Footer = () => {
             </a>
             <a
               id="footerATags"
-              href="mailto:joseph.m.young72.mil@mail.mil?subject: 78th Army Band Website"
+              href="mailto:joseph.m.young72.mil@mail.mil?subject=78th Army Band Website"
             >
-              Webmaster Contact
+              Contact Webmaster
             </a>
           </div>
 
@@ -42,16 +52,36 @@ const Footer = () => {
             <a id="footerATags" href="./termsofuse">
               Terms of Use
             </a>
-            <a id="footerATags" href="https://www.goarmy.com/">
+            <a
+              id="footerATags"
+              href="https://www.goarmy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               US Army
             </a>
-            <a id="footerATags" href="https://www.usar.army.mil/">
-              US Army Reserves
+            <a
+              id="footerATags"
+              href="https://www.usar.army.mil/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              US Army Reserve
             </a>
-            <a id="footerATags" href="https://www.usar.army.mil/99thRD/">
+            <a
+              id="footerATags"
+              href="https://www.usar.army.mil/99thRD/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               99th RD
             </a>
-            <a id="footerATags" href="https://www.jbmdl.jb.mil/">
+            <a
+              id="footerATags"
+              href="https://www.jbmdl.jb.mil/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Fort Dix
             </a>
             {/* <a>Fort Totten</a> */}
@@ -62,16 +92,33 @@ const Footer = () => {
             <a
               id="footerATags"
               href="https://www.youtube.com/user/78thArmyBand"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               YouTube
             </a>
-            <a id="footerATags" href="https://www.instagram.com/78tharmyband/">
+            <a
+              id="footerATags"
+              href="https://www.instagram.com/78tharmyband/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Instagram
             </a>
-            <a id="footerATags" href="https://www.facebook.com/78thArmyBand">
+            <a
+              id="footerATags"
+              href="https://www.facebook.com/78thArmyBand"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Facebook
             </a>
-            <a id="footerATags" href="https://twitter.com/78thArmyBand?s=20">
+            <a
+              id="footerATags"
+              href="https://twitter.com/78thArmyBand?s=20"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Twitter
             </a>
           </div>

@@ -31,7 +31,12 @@ const TermsOfUse = () => {
           external site memberships that are not managed or maintained by the
           78th Army Band or The U.S. Army. <br />
           View The U.S. Army’s{" "}
-          <a href="https://www.army.mil/terms/" id="TermsPageEmbeddedLink">
+          <a
+            href="https://www.army.mil/terms/"
+            id="TermsPageEmbeddedLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Use of Copyrighted Material
           </a>{" "}
           policy.
@@ -56,6 +61,8 @@ const TermsOfUse = () => {
             <a
               href="https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ccmanual.pdf"
               id="TermsPageEmbeddedLink"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Computer Fraud and Abuse Act of 1986
             </a>{" "}

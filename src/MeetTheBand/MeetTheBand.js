@@ -14,9 +14,9 @@ const MeetTheBand = () => {
 
   return (
     <div>
+      <NavComponent setSection={updateSection}></NavComponent>
       <div className="individualEnsemble">
         <h1 className="mobileH1">Meet the Band</h1>
-        <NavComponent setSection={updateSection}></NavComponent>
         <div className="profileContainer">
           <h1 className="desktopH1">Meet the Band</h1>
           <img src={band} alt="marching band" />

@@ -13,8 +13,8 @@ const Ensembles = () => {
   return (
     <div>
       <h1 className="mobileH1">Ensembles</h1>
+      <NavComponent setName={updateName} />
       <div className="individualEnsemble">
-        <NavComponent setName={updateName} />
         <EnsemblesProfiles ensembles={profiles} />
       </div>
     </div>

@@ -7,16 +7,32 @@ import youtube from "./youtube.png";
 const SocialContainer = () => {
   return (
     <div className="iconContainer">
-      <a href="https://www.instagram.com/78tharmyband/">
+      <a
+        href="https://www.instagram.com/78tharmyband/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={instagram} className="socialLogo" alt="Instagram" />
       </a>
-      <a href="https://twitter.com/78tharmyband">
+      <a
+        href="https://twitter.com/78tharmyband"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={twitter} className="socialLogo" alt="Twitter" />
       </a>
-      <a href="https://www.facebook.com/78thArmyBand">
+      <a
+        href="https://www.facebook.com/78thArmyBand"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={facebook} className="socialLogo" alt="Facebook" />
       </a>
-      <a href="https://www.youtube.com/@78thArmyBand">
+      <a
+        href="https://www.youtube.com/@78thArmyBand"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={youtube} className="socialLogo" alt="Youtube" />
       </a>
     </div>

@@ -38,7 +38,7 @@ const Jobs = () => {
   });
   return (
     <div>
-      <h1>Careers</h1>
+      <h1>Join the 78th Army Band</h1>
       <div className="jobs-page-description">
         <h2>The Role of an Army Musician</h2>
         <div id="roleDescriptions">
@@ -89,6 +89,8 @@ const Jobs = () => {
               <a
                 id="auditionFontATag"
                 href="https://www.goarmy.com/reserve/benefits.html"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 here.
               </a>
@@ -103,7 +105,7 @@ const Jobs = () => {
               {" "}
               <a
                 id="auditionFontATag"
-                href="mailto:78tharmyband@gmail.com?subject: Request 78th Army Band"
+                href="mailto:78tharmyband@gmail.com?subject=Request Audition Information"
               >
                 Reach out to us!
               </a>{" "}
@@ -111,6 +113,8 @@ const Jobs = () => {
               <a
                 id="auditionFontATag"
                 href="https://www.bands.army.mil/careers/auditions/form.asp"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 submit an audition request.
               </a>
@@ -120,6 +124,8 @@ const Jobs = () => {
               <a
                 id="auditionFontATag"
                 href="https://www.goarmy.com/locate-a-recruiter.html"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Contact your local recruiter.{" "}
               </a>
@@ -127,11 +133,13 @@ const Jobs = () => {
             </li>
             <li>Schedule your audition with us. </li>
             <li>
-              Upon successful auditions and are deemed qualified for service,
-              you will sign a contract for{" "}
+              Upon a successful audition and if you are deemed qualified for
+              service, you will sign a contract for{" "}
               <a
                 id="auditionFontATag"
                 href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 MOS 42R (Army Musician){" "}
               </a>

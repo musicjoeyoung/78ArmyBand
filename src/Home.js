@@ -1,6 +1,6 @@
 import React from "react";
 import HomeCarousel from "./HomeCarousel";
-import logo from "./images/78logo.webp";
+import logo from "./images/78logo.png";
 import parade from "./images/78MarchMobile.jpg";
 
 const Home = () => {

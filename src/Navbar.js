@@ -26,7 +26,7 @@ const Navbar = () => {
             <a href="/media">Watch & Listen</a>
           </li>
           <li className="li">
-            <a href="/jobs">Careers</a>
+            <a href="/jobs">Audition</a>
           </li>
           <li className="li">
             <a href="/contact">Contact</a>
@@ -54,7 +54,7 @@ const Navbar = () => {
               <a href="/media">Watch & Listen</a>
             </li>
             <li className="li">
-              <a href="/jobs">Careers</a>
+              <a href="/jobs">Audition</a>
             </li>
             <li className="li">
               <a href="/contact">Contact</a>

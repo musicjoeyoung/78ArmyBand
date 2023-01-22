@@ -24,29 +24,45 @@ const Media = () => {
           <p>
             A few months ago, Elisa Smith reached out to the 78th Army Band's
             MPT,
-            <a href="https://www.youtube.com/watch?v=fKENYjbsVBU"> Checkmate</a>
+            <a
+              href="https://www.youtube.com/watch?v=fKENYjbsVBU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Checkmate
+            </a>
             , to invite them to record a song she wrote about a child growing up
-            to join the service and the emotions regarding it.
+            to join the service and the emotions regarding it. It was an
+            inspiring project, and we loved working with an artist who wanted to
+            share our stories and our families stories. We are grateful that
+            Elisa included us in this project and trusted us with her music.
           </p>
-          <p>
-            It was an inspiring project, and we loved working with an artist who
-            wanted to share our stories and our families stories. We are
-            grateful that Elisa included us in this project and trusted us with
-            her music.
-          </p>
-          <a href="https://www.youtube.com/watch?v=fKENYjbsVBU">
+          <a
+            href="https://www.youtube.com/watch?v=fKENYjbsVBU"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Click to watch
           </a>
           ,
           <img src={bq} alt="Brass Quintet " />
           <p>
             Check out our playlist{" "}
-            <a href="https://www.youtube.com/playlist?list=PLT32rVKdeANw8uz8BGSPy88gdv8UQwal2">
+            <a
+              href="https://www.youtube.com/playlist?list=PLT32rVKdeANw8uz8BGSPy88gdv8UQwal2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               #quarantunes{" "}
             </a>
             a collection of tunes we performed during the pandemic of 2020.
           </p>
-          <a href="https://www.youtube.com/playlist?list=PLT32rVKdeANw8uz8BGSPy88gdv8UQwal2">
+          <a
+            href="https://www.youtube.com/playlist?list=PLT32rVKdeANw8uz8BGSPy88gdv8UQwal2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Click to watch
           </a>
         </div>

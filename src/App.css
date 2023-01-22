@@ -1,5 +1,5 @@
 html {
-  background-color: rgba(175, 175, 175, 0.247);
+  background-color: lightgray;
   scroll-behavior: smooth;
 }
 .App {
@@ -38,6 +38,12 @@ button {
 }
 li {
   list-style-type: none;
+}
+.active {
+  color: red;
+}
+.inactive {
+  color: yellow;
 }
 input {
   margin-left: 5px;
@@ -198,6 +204,7 @@ input {
   color: black;
   font-size: 14px;
   margin-top: 15px;
+  margin-bottom: 50px;
   cursor: pointer;
 }
 #requestBandInfo {
@@ -208,6 +215,12 @@ input {
   width: 50%;
   font-size: 16px;
   margin: auto;
+  padding-bottom: 50px;
+}
+#requestBandPTag a {
+  text-decoration: underline;
+  font-size: 16px;
+  color: #ffcc01;
 }
 .emailContainer {
   background-color: #00214e;
@@ -255,9 +268,12 @@ input {
   font-size: 20px;
   color: #00214e;
   padding: 0px;
+  margin-top: -10px;
 }
 #contact-page-pText2 {
   color: white;
+  width: 50%;
+  margin: 0 auto;
 }
 .dropbtn {
   color: white;
@@ -390,12 +406,15 @@ li:hover {
 .individualEnsemble {
   display: flex;
   min-height: 900px;
+  margin-left: 200px;
 }
 .ensemblesNavComp {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 7vw;
+  position: fixed;
+  margin-top: 100px;
 }
 #ensemblePageDescription {
   width: 95%;
@@ -407,7 +426,7 @@ li:hover {
   width: 200px;
   border: 1px solid black;
   padding: 4px 0 4px 0;
-  margin-top: 2vw;
+  margin-top: 20px;
   background-color: #00214e;
   transition: all 0.4s ease-in-out;
   color: white;
@@ -420,9 +439,9 @@ li:hover {
 }
 .media {
   background-color: #00214e;
-  box-shadow: 10px 6px 16px 0px black;
   width: 100%;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+  margin-block-end: -2em;
 }
 .container {
   padding: 15px 10px 15px 10px;
@@ -457,6 +476,9 @@ li:hover {
 .jobs-page-description h2,
 p {
   color: white;
+}
+.jobs-page-description h2 {
+  padding-top: 15px;
 }
 .jobs-page-description div ul li {
   list-style-type: disc;
@@ -507,7 +529,7 @@ p {
   align-items: center;
   margin-bottom: 20px;
   scroll-margin-top: 50px;
-  padding: 0px 55px 0px 55px;
+  padding: 35px 90px 35px 90px;
 }
 #instrumentImg {
   width: 40%;
@@ -678,8 +700,11 @@ h2,
   margin: 0px 20px 0px 20px;
   padding-bottom: 30px;
 }
+.desktopMenu li:hover {
+  background-color: #00214e !important;
+}
 .desktopMenu li:hover a {
-  color: black;
+  color: #ffcc01;
 }
 @keyframes fadeIn {
   0% {
@@ -763,6 +788,9 @@ h2,
   z-index: 3;
   margin-top: -3px;
 }
+.dropdown-content a {
+  color: #00214e;
+}
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -779,12 +807,12 @@ h2,
   font-size: 16px !important;
 }
 .mobileMedia a {
-  color: yellow;
+  color: #ffcc01;
   font-size: 16px !important;
 }
 .img {
-  width: 50px;
-  height: 75px;
+  width: 30px;
+  height: 50px;
 }
 .scrollToTop {
   position: fixed;
@@ -912,7 +940,8 @@ h2,
     color: black !important;
   }
   #navbarLogo {
-    width: 65px;
+    width: 50px;
+    padding-top: 5px;
   }
   #navbarLogoMobile {
     display: none;
@@ -988,9 +1017,10 @@ h2,
     text-align: center;
   }
   .ensemblesNavComp {
-    display: inline;
-
-    margin: auto;
+    display: flex;
+    margin: 0 auto;
+    position: inherit;
+    align-items: center;
   }
   .ensembleNameNavComp {
     width: 200px;
@@ -1013,6 +1043,7 @@ h2,
   }
   .individualEnsemble {
     display: block;
+    margin-left: 0;
   }
   #bioImg {
     width: 250px;
