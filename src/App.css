@@ -1251,6 +1251,9 @@ h2,
   .ensembleNameNavComp {
     margin-top: 15px;
   }
+  .menu {
+    line-height: 33px;
+  }
 }
 @media screen and (max-height: 414px) {
   .iconContainer {
