@@ -33,6 +33,12 @@ a:active {
   color: black;
   margin-top: 11px;
 }
+.fixed {
+  position: relative;
+  top: -25px;
+  margin-left: 720px;
+}
+/* background-color: #0f0 !important; */
 button {
   cursor: pointer;
 }
@@ -630,7 +636,7 @@ p {
   bottom: 15px;
   display: flex;
   flex-direction: column;
-  margin-left: -5px;
+  margin-left: 1px;
   background-color: #00000087;
   border-radius: 27px;
 }

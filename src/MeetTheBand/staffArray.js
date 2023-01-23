@@ -124,7 +124,7 @@ export const staff = [
   {
     id: 14,
     name: "SPC Matthew Tulsi",
-    bio: "Specialist Matthew Tursi grew up in the small town of Fort Salonga in Long Island, NY.  He started playing trombone at 9 years old.  He attended St. Anthony’s High School, which is where he excelled in his instrument and received the Band Player of the year Award in 2015. ¶ Tursi graduated from Hofstra University in 2019 with a B.S. in Music Business.  In school he interned at Sony Music, Legacy Recordings, KORG USA, Falcon Music, and Unispan Records.  He played Trombone in up to eight bands in college including Symphonic Band, Concert Band, Orchestra, Jazz Band, Trombone Quartet, Brass Ensemble, and Tuba/Euphonium Ensemble. ¶ Since Graduation, Matt has been pursuing an acting career in the TV/Film industry.  He has also taught Acting classes for 6-12th graders throughout 2021.  He works as a freelance Deposition Videographer, and is a Co-Owner for an Entertainment Company where he works at events as a DJ, MC, and/or Photographer.  Matt has also been marching with the Long Beach Seaside Marching Band since 2016, and plays with the Northwind Band since 2019.  Tursi serves as the Chancellor for his Fraternity Alumni Club, and is on the National Board of Directors for his Fraternity. ¶ He has always loved music and entertainment.  He has focused on his trombone, however also sings, dances, acts, is a DJ, and plays the slide trumpet, valve trombone, guitar, and some piano. ¶ Tursi joined the 78th Army Band in 2021.  He completes his training in March of 2022. ",
+    bio: "Specialist Matthew Tursi grew up in the small town of Fort Salonga in Long Island, NY.  He started playing trombone at 9 years old.  He attended St. Anthony’s High School, which is where he excelled in his instrument and received the Band Player of the year Award in 2015. ¶ Tursi graduated from Hofstra University in 2019 with a B.S. in Music Business.  In school he interned at Sony Music, Legacy Recordings, KORG USA, Falcon Music, and Unispan Records.  He played Trombone in up to eight bands in college including Symphonic Band, Concert Band, Orchestra, Jazz Band, Trombone Quartet, Brass Ensemble, and Tuba/Euphonium Ensemble. ¶ Since Graduation, Matt has been pursuing an acting career in the TV/Film industry.  He has also taught Acting classes for 6-12th graders throughout 2021.  He works as a freelance Deposition Videographer, and is a Co-Owner for an Entertainment Company where he works at events as a DJ, MC, and/or Photographer.  Matt has also been marching with the Long Beach Seaside Marching Band since 2016, and plays with the Northwind Band since 2019.  Tursi serves as the Chancellor for his Fraternity Alumni Club, and is on the National Board of Directors for his Fraternity. ¶ He has always loved music and entertainment.  He has focused on his trombone, however also sings, dances, acts, is a DJ, and plays the slide trumpet, valve trombone, guitar, and some piano. ¶ Tursi joined the 78th Army Band in 2021.  He completed his training in March of 2022. ",
     img: noPic,
     section: "Brass",
   },
@@ -149,13 +149,13 @@ export const staff = [
     img: noPic,
     section: "Woodwinds",
   },
-  {
+  /*   {
     id: 17,
     name: "SSG Kyle Murphy",
     bio: "Staff Sergeant Kyle Murphy is originally from Ledyard, CT. He started his military service in the Coast Guard Reserve as a Marine Science Technician in 1999.  He transitioned into the Army as a musician in 2009.  ¶ After completing the Army School of Music in Little Creek,  VA, SSG Murphy was stationed at the 77th Army Band at Fort Sill, OK. His next duty assignment was with the 392nd Army Band from Fort Lee,VA. While at Fort Lee he left active duty and joined the Army Reserve in 2015.  ¶ As a Reservist he's served in the 380th Army band, the 94th Army Band, the 319th Army Band and currently serves proudly in the 78th Army Band.  ¶ SSG Murphy holds a BA in Music Theory from Westfield State College and a Certification in Band Instrument Repair from Renton Technical College.  ¶ As a civilian, SSG Murphy works for the Haynes Flute Company as a repair technician.  He currently resides in New Hampshire. ",
     img: noPic,
     section: "Woodwinds",
-  },
+  }, */
   {
     id: 18,
     name: "SGT Andrew Duong",
@@ -209,7 +209,7 @@ export const staff = [
   {
     id: 23,
     name: "SFC Ed Kennedy",
-    bio: "Sergeant First Class",
+    bio: "Bio coming soon!",
     img: noPic,
     section: "Percussion",
   },
@@ -217,13 +217,13 @@ export const staff = [
   {
     id: 24,
     name: "SFC Phillip Kiamie",
-    bio: "Sergeant First Class Phillip Kiamie grew up in the New York City area, where he began playing piano and percussion at age 5. He attended Boston University where received his BFA in Percussion Performance in 1996. He later received a Graduate Performance Certificate at New England Conservatory of Music in Boston in 1998.  ¶ During his time as a student, Kiamie performed with the Aspen Music Festival Orchestra, the College Light Opera Company Orchestra in Falmouth, MA, and the American Russian Youth Orchestra where he toured extensively throughout both the United States and Russia. Kiamie later performed in the Schleswig-Holstein Music Festival Orchestra in Germany.  ¶ Kiamie was a member of the Civic Orchestra of Chicago from 1998-2000 where he worked under legendary conductors such as Daniel Barenboim and Pierre Boulez. ¶ He joined The U.S. Army Field  Band in 2003 as an Active Duty Member of the Army from 2003-14.  During that time, he performed concerts in 49 US states and multiple foreign countries.  ¶ He joined the USAR as a member of the 78th Army Band in 2014 and currently lives in New York with his wife Adrienne Kiamie and school aged children Grace and Alice Kiamie.   ¶ SFC Kiamie has performed with other professional ensembles such as the Chicago Symphony Orchestra, the Baltimore Symphony Orchestra, the Kennedy Center Opera Orchestra and the Harrisburg Symphony Orchestra in Pennsylvania. ",
+    bio: "Sergeant First Class Phillip Kiamie grew up in the New York City area, where he began playing piano and percussion at age 5. He attended Boston University where he received his BFA in Percussion Performance in 1996. He later received a Graduate Performance Certificate at New England Conservatory of Music in Boston in 1998.  ¶ During his time as a student, Kiamie performed with the Aspen Music Festival Orchestra, the College Light Opera Company Orchestra in Falmouth, MA, and the American Russian Youth Orchestra where he toured extensively throughout both the United States and Russia. Kiamie later performed in the Schleswig-Holstein Music Festival Orchestra in Germany.  ¶ Kiamie was a member of the Civic Orchestra of Chicago from 1998-2000 where he worked under legendary conductors such as Daniel Barenboim and Pierre Boulez. ¶ He joined The U.S. Army Field  Band in 2003 as an Active Duty Member of the Army from 2003-14.  During that time, he performed concerts in 49 US states and multiple foreign countries.  ¶ He joined the USAR as a member of the 78th Army Band in 2014 and currently lives in New York with his wife Adrienne Kiamie and school aged children Grace and Alice Kiamie.   ¶ SFC Kiamie has performed with other professional ensembles such as the Chicago Symphony Orchestra, the Baltimore Symphony Orchestra, the Kennedy Center Opera Orchestra and the Harrisburg Symphony Orchestra in Pennsylvania. ",
     img: noPic,
     section: "Percussion",
   },
   {
     id: 37,
-    name: "SFC Julian Pardo",
+    name: "SGT Julian Pardo",
     bio: "Born in Tucson, AZ and raised in Hermosillo, Mexico, Sergeant Julian Pardo currently the percussionist and MPT Leader for the Liberty Vibes MPT as part of the New York detachment of the 78th Army Band. ¶ SGT Pardo began his Army career in 2015 as a 42R. Since then he's earned a Charlie rating at AIT, 2 Army Achievement Medals and 2 Army Reserve Components Achievement Medals as well as multiple PT badges and a runner-up for Soldier of the Year in 2021. SGT Pardo attended Berklee College of Music and has performed with a wide array of musicians from Ralph Peterson jr., Jason Palmer, Donald Harrison jr. to Toto la Momposina and Alexander Acha among others. ¶ He currently is based out of Brooklyn, NY where he works as a music educator and freelance musician on the civilian side.",
     img: noPic,
     section: "Percussion",
