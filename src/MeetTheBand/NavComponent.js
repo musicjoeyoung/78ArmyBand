@@ -3,11 +3,9 @@ import $ from "jquery";
 
 const NavComponent = ({ setSection }) => {
   $(document).ready(function () {
-    // check where the shoppingcart-div is
     let offset = $(".ensemblesNavComp").offset();
     $(window).scroll(function () {
       let scrollTop = $(window).scrollTop();
-      // check the visible top of the browser
       if (offset.top < scrollTop) {
         $(".ensemblesNavComp").addClass("fixed");
       } else {
