@@ -449,7 +449,6 @@ li:hover {
   background-color: #00214e;
   width: 100%;
   padding-bottom: 30px;
-  margin-block-end: -2em;
 }
 .container {
   padding: 15px 10px 15px 10px;
@@ -1021,7 +1020,14 @@ h2,
     width: 90%;
   }
   #ensemblePageDescription {
-    width: 90%;
+    /* width: 90%; */
+    display: none;
+  }
+  #ensemblePageDescriptionMobile {
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    color: #00214e;
   }
   #ensembleImg {
     width: 90%;
@@ -1096,7 +1102,7 @@ h2,
   }
   .instrumentAndImg {
     display: block;
-    padding: 0px;
+    padding: 5px;
   }
   #instrumentDescription {
     width: 100%;
@@ -1202,8 +1208,8 @@ h2,
     display: flex;
     flex-direction: column;
     background-color: #00214e;
-    width: 96%;
-    padding: 8px;
+    width: 100%;
+    /* padding: 8px; */
   }
   .youtube {
     display: none;
@@ -1234,5 +1240,8 @@ h2,
   }
   .footer {
     height: calc(85vh - 374px);
+  }
+  #ensemblePageDescriptionMobile {
+    display: none;
   }
 }
