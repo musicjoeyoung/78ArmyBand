@@ -640,6 +640,11 @@ p {
   background-color: #00000087;
   border-radius: 27px;
 }
+@media (pointer: none), (pointer: coarse) {
+  .iconContainer {
+    display: none;
+  }
+}
 .socialLogo {
   width: 30px;
   margin: 10px;
