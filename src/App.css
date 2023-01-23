@@ -190,6 +190,11 @@ input {
   margin-left: -26%;
   border-radius: 40px;
   padding: 0px 10px 0px 0px;
+  animation: fadeIn 3.5s;
+  -webkit-animation: fadeIn 3.5s;
+  -moz-animation: fadeIn 3.5s;
+  -o-animation: fadeIn 3.5s;
+  -ms-animation: fadeIn 3.5s;
 }
 .contact-page-request-the-band {
   width: 100%;
