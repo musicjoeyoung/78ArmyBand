@@ -9,7 +9,7 @@ const Home = () => {
       <div className="imgContainer">
         <img src={parade} className="mobileHomeImg" alt="Band marching" />
         <img
-          src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674497974/78logo_si1qys.png"
+          src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674498250/78logo_1_fsqjox.png"
           className="homePageLogoImg"
           alt="logo"
         />
