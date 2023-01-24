@@ -17,11 +17,13 @@ const NavComponent = ({ setName }) => {
   });
   return (
     <div>
-      <div className="ensemblesNavComp">
+      <div className="ensemblesNavComp" role="navigation" aria-live="polite">
         <button
           className="ensembleNameNavComp"
           onClick={setName}
           id="ConcertBand"
+          aria-label="Concert Band"
+          aria-pressed={false}
         >
           Concert Band
         </button>
@@ -29,6 +31,8 @@ const NavComponent = ({ setName }) => {
           className="ensembleNameNavComp"
           onClick={setName}
           id="MarchingCeremonialBand"
+          aria-label="Marching Ceremonial Band"
+          aria-pressed={false}
         >
           Marching/Ceremonial Band
         </button>
@@ -36,6 +40,8 @@ const NavComponent = ({ setName }) => {
           className="ensembleNameNavComp"
           onClick={setName}
           id="BrassQuintet"
+          aria-label="Brass Quintet"
+          aria-pressed={false}
         >
           Brass Quintet
         </button>
@@ -44,6 +50,8 @@ const NavComponent = ({ setName }) => {
           className="ensembleNameNavComp"
           onClick={setName}
           id="Checkmate"
+          aria-label="Checkmate rock band"
+          aria-pressed={false}
         >
           Checkmate
         </button>
@@ -51,6 +59,8 @@ const NavComponent = ({ setName }) => {
           className="ensembleNameNavComp"
           onClick={setName}
           id="FortDixielandBrassBand"
+          aria-label="Fort Dixieland Brass Band"
+          aria-pressed={false}
         >
           Fort Dix-ieland Brass Band
         </button>
@@ -58,6 +68,8 @@ const NavComponent = ({ setName }) => {
           className="ensembleNameNavComp"
           onClick={setName}
           id="FortDixielandBrassBand"
+          aria-label="Lady Liberty musical group"
+          aria-pressed={false}
         >
           Lady Liberty
         </button>
@@ -65,6 +77,8 @@ const NavComponent = ({ setName }) => {
           className="ensembleNameNavComp"
           onClick={setName}
           id="FortDixielandBrassBand"
+          aria-label="Liberty Vibes Latin/jazz group"
+          aria-pressed={false}
         >
           Liberty Vibes
         </button>
