@@ -10,38 +10,62 @@ const Navbar = () => {
       </a>
       <div className="horizontalNav">
         <ul className="desktopMenu">
-          <li className="li">
-            <a aria-label="Link to home page" href="/home">
+          <li className="li" role="none">
+            <a aria-label="Link to home page" role="menuItem" href="/home">
               Home
             </a>
           </li>
-          <li className="li">
-            <a aria-label="Link to History page" href="/history">
+          <li className="li" role="none">
+            <a
+              aria-label="Link to History page"
+              role="menuItem"
+              href="/history"
+            >
               History
             </a>
           </li>
-          <li className="li">
-            <a aria-label="Link to Meet the Band apge" href="/meettheband">
+          <li className="li" role="none">
+            <a
+              aria-label="Link to Meet the Band apge"
+              role="menuItem"
+              href="/meettheband"
+            >
               Meet the Band
             </a>
           </li>
-          <li className="li">
-            <a aria-label="Link to Ensembles page" href="/ensembles">
+          <li className="li" role="none">
+            <a
+              aria-label="Link to Ensembles page"
+              role="menuItem"
+              href="/ensembles"
+            >
               Ensembles
             </a>
           </li>
-          <li className="li">
-            <a aria-label="Link to Watch & Listen/Media page" href="/media">
+          <li className="li" role="none">
+            <a
+              aria-label="Link to Watch & Listen/Media page"
+              role="menuItem"
+              href="/media"
+            >
               Watch & Listen
             </a>
           </li>
-          <li className="li">
-            <a aria-label="Link to Audition/Jobs page" href="/jobs">
+          <li className="li" role="none">
+            <a
+              aria-label="Link to Audition/Jobs page"
+              role="menuItem"
+              href="/jobs"
+            >
               Audition
             </a>
           </li>
-          <li className="li">
-            <a aria-label="Link to Contact page" href="/contact">
+          <li className="li" role="none">
+            <a
+              aria-label="Link to Contact page"
+              role="menuItem"
+              href="/contact"
+            >
               Contact
             </a>
           </li>
@@ -52,38 +76,62 @@ const Navbar = () => {
         <img src={dropdown} alt="dropdown button" />
         <div className="dropdown-content">
           <ul className="menu">
-            <li className="li">
-              <a aria-label="Link to home page" href="/home">
+            <li className="li" role="none">
+              <a aria-label="Link to home page" role="menuItem" href="/home">
                 Home
               </a>
             </li>
-            <li className="li">
-              <a aria-label="Link to History page" href="/history">
+            <li className="li" role="none">
+              <a
+                aria-label="Link to History page"
+                role="menuItem"
+                href="/history"
+              >
                 History
               </a>
             </li>
-            <li className="li">
-              <a aria-label="Link to Meet the Band page" href="/meettheband">
+            <li className="li" role="none">
+              <a
+                aria-label="Link to Meet the Band page"
+                role="menuItem"
+                href="/meettheband"
+              >
                 Meet the Band
               </a>
             </li>
-            <li className="li">
-              <a aria-label="Link to Ensembles page" href="/ensembles">
+            <li className="li" role="none">
+              <a
+                aria-label="Link to Ensembles page"
+                role="menuItem"
+                href="/ensembles"
+              >
                 Ensembles
               </a>
             </li>
-            <li className="li">
-              <a aria-label="Link to Watch & Listen/Media page" href="/media">
+            <li className="li" role="none">
+              <a
+                aria-label="Link to Watch & Listen/Media page"
+                role="menuItem"
+                href="/media"
+              >
                 Watch & Listen
               </a>
             </li>
-            <li className="li">
-              <a aria-label="Link to Auditions/Jobs page" href="/jobs">
+            <li className="li" role="none">
+              <a
+                aria-label="Link to Auditions/Jobs page"
+                role="menuItem"
+                href="/jobs"
+              >
                 Audition
               </a>
             </li>
-            <li className="li">
-              <a aria-label="Link to Contact page" href="/contact">
+            <li className="li" role="none">
+              <a
+                aria-label="Link to Contact page"
+                role="menuItem"
+                href="/contact"
+              >
                 Contact
               </a>
             </li>

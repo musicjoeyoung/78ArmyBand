@@ -9,7 +9,7 @@ const Ensembles = () => {
 
   const profiles = ensembles.filter((ensembles) => ensembles.name === name);
 
-  console.log({ name });
+  //console.log({ name });
   return (
     <div>
       <h1 className="mobileH1">Ensembles</h1>

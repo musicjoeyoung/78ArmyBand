@@ -18,7 +18,7 @@ const History = () => {
         frameBorder="0"
         className="timeline"
       ></iframe>
-      <p id="historyParagraph">
+      <div id="historyParagraph">
         <h3>
           <strong>Formation of the Band </strong>
         </h3>
@@ -72,7 +72,7 @@ const History = () => {
         78th Division (Training Support). On the 16th of October, 2008, the Band
         was reorganized and redesignated as the 78th Army Band out of Fort Dix,
         NJ.
-      </p>
+      </div>
     </div>
   );
 };
