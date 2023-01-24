@@ -21,7 +21,6 @@ const NavComponent = ({ setSection }) => {
     <div>
       <div className="ensemblesNavComp" role="navigation" aria-live="polite">
         <button
-          tabIndex={1}
           className="ensembleNameNavComp"
           onClick={setSection}
           aria-label="Command Team"
@@ -30,7 +29,6 @@ const NavComponent = ({ setSection }) => {
           Command Team
         </button>
         <button
-          tabIndex={2}
           className="ensembleNameNavComp"
           onClick={setSection}
           aria-label="Brass"
@@ -39,7 +37,6 @@ const NavComponent = ({ setSection }) => {
           Brass
         </button>
         <button
-          tabIndex={3}
           className="ensembleNameNavComp"
           onClick={setSection}
           aria-label="Woodwinds"
@@ -48,7 +45,6 @@ const NavComponent = ({ setSection }) => {
           Woodwinds
         </button>
         <button
-          tabIndex={4}
           className="ensembleNameNavComp"
           onClick={setSection}
           aria-label="Percussion"
@@ -57,7 +53,6 @@ const NavComponent = ({ setSection }) => {
           Percussion
         </button>
         <button
-          tabIndex={5}
           className="ensembleNameNavComp"
           onClick={setSection}
           aria-label="Piano"
@@ -66,7 +61,6 @@ const NavComponent = ({ setSection }) => {
           Piano
         </button>
         <button
-          tabIndex={6}
           className="ensembleNameNavComp"
           onClick={setSection}
           aria-label="Vocals"
@@ -75,7 +69,6 @@ const NavComponent = ({ setSection }) => {
           Vocals
         </button>
         <button
-          tabIndex={7}
           className="ensembleNameNavComp"
           onClick={setSection}
           aria-label="Bass Guitar"
