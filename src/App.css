@@ -595,11 +595,7 @@ p {
   background-color: #00214e;
   margin-top: 15px;
 }
-.fixed-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+
 .footerChildContainer {
   display: flex;
   flex-direction: row;
