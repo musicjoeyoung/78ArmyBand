@@ -28,6 +28,7 @@ const Media = () => {
               href="https://www.youtube.com/watch?v=fKENYjbsVBU"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to a Youtube video"
             >
               {" "}
               Checkmate
@@ -42,6 +43,7 @@ const Media = () => {
             href="https://www.youtube.com/watch?v=fKENYjbsVBU"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to a Youtube video"
           >
             Click to watch
           </a>
@@ -53,6 +55,7 @@ const Media = () => {
               href="https://www.youtube.com/playlist?list=PLT32rVKdeANw8uz8BGSPy88gdv8UQwal2"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to a Youtube playlist"
             >
               #quarantunes{" "}
             </a>
@@ -62,6 +65,7 @@ const Media = () => {
             href="https://www.youtube.com/playlist?list=PLT32rVKdeANw8uz8BGSPy88gdv8UQwal2"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to a Youtube playlist"
           >
             Click to watch
           </a>

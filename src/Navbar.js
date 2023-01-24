@@ -5,31 +5,45 @@ import dropdown from "./images/dropdown.png";
 const Navbar = () => {
   return (
     <div className="mainnavbar">
-      <a href="/home">
+      <a aria-label="Link to home page" href="/home">
         <img id="navbarLogo" src={logo78} alt="78th Band logo" />
       </a>
       <div className="horizontalNav">
         <ul className="desktopMenu">
           <li className="li">
-            <a href="/home">Home</a>
+            <a aria-label="Link to home page" href="/home">
+              Home
+            </a>
           </li>
           <li className="li">
-            <a href="/history">History</a>
+            <a aria-label="Link to History page" href="/history">
+              History
+            </a>
           </li>
           <li className="li">
-            <a href="/meettheband">Meet the Band</a>
+            <a aria-label="Link to Meet the Band apge" href="/meettheband">
+              Meet the Band
+            </a>
           </li>
           <li className="li">
-            <a href="/ensembles">Ensembles</a>
+            <a aria-label="Link to Ensembles page" href="/ensembles">
+              Ensembles
+            </a>
           </li>
           <li className="li">
-            <a href="/media">Watch & Listen</a>
+            <a aria-label="Link to Watch & Listen/Media page" href="/media">
+              Watch & Listen
+            </a>
           </li>
           <li className="li">
-            <a href="/jobs">Audition</a>
+            <a aria-label="Link to Audition/Jobs page" href="/jobs">
+              Audition
+            </a>
           </li>
           <li className="li">
-            <a href="/contact">Contact</a>
+            <a aria-label="Link to Contact page" href="/contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
@@ -39,30 +53,44 @@ const Navbar = () => {
         <div className="dropdown-content">
           <ul className="menu">
             <li className="li">
-              <a href="/home">Home</a>
+              <a aria-label="Link to home page" href="/home">
+                Home
+              </a>
             </li>
             <li className="li">
-              <a href="/history">History</a>
+              <a aria-label="Link to History page" href="/history">
+                History
+              </a>
             </li>
             <li className="li">
-              <a href="/meettheband">Meet the Band</a>
+              <a aria-label="Link to Meet the Band page" href="/meettheband">
+                Meet the Band
+              </a>
             </li>
             <li className="li">
-              <a href="/ensembles">Ensembles</a>
+              <a aria-label="Link to Ensembles page" href="/ensembles">
+                Ensembles
+              </a>
             </li>
             <li className="li">
-              <a href="/media">Watch & Listen</a>
+              <a aria-label="Link to Watch & Listen/Media page" href="/media">
+                Watch & Listen
+              </a>
             </li>
             <li className="li">
-              <a href="/jobs">Audition</a>
+              <a aria-label="Link to Auditions/Jobs page" href="/jobs">
+                Audition
+              </a>
             </li>
             <li className="li">
-              <a href="/contact">Contact</a>
+              <a aria-label="Link to Contact page" href="/contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
       </div>
-      <a href="/" id="navbarLogoMobileA">
+      <a aria-label="Link to home page" href="/" id="navbarLogoMobileA">
         <img id="navbarLogoMobile" src={logo78} alt="78th Band logo" />
       </a>
     </div>

@@ -17,25 +17,34 @@ const TermsOfUse = () => {
       </div>
       <div className="TermsOfUse">
         <div>
-          <h1>Disclaimer</h1>
-          The appearance of external hyperlinks on the 78th Army Band web site
-          does not constitute endorsement by the U.S Army for the information,
-          products or services contained therein. <br />
-          For other than authorized activities such as military exchanges and
-          Morale, Welfare and Recreation sites, the U.S. Army does not exercise
-          any editorial control over the information you find at these
-          locations. <br />
-          Such links are provided consistent with the stated purpose of this
-          site. <br />
-          Access to 78th Army Band’s Facebook and Twitter pages may require
-          external site memberships that are not managed or maintained by the
-          78th Army Band or The U.S. Army. <br />
+          <h2>Disclaimer</h2>
+          <p>
+            The appearance of external hyperlinks on the 78th Army Band web site
+            does not constitute endorsement by the U.S Army for the information,
+            products or services contained therein.{" "}
+          </p>
+          <p>
+            For other than authorized activities such as military exchanges and
+            Morale, Welfare and Recreation sites, the U.S. Army does not
+            exercise any editorial control over the information you find at
+            these locations.{" "}
+          </p>
+          <p>
+            Such links are provided consistent with the stated purpose of this
+            site.{" "}
+          </p>
+          <p>
+            Access to 78th Army Band’s Facebook and Twitter pages may require
+            external site memberships that are not managed or maintained by the
+            78th Army Band or The U.S. Army.{" "}
+          </p>
           View The U.S. Army’s{" "}
           <a
             href="https://www.army.mil/terms/"
             id="TermsPageEmbeddedLink"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Link to US Army website"
           >
             Use of Copyrighted Material
           </a>{" "}
@@ -44,7 +53,7 @@ const TermsOfUse = () => {
       </div>
       <div className="TermsOfUse">
         <div>
-          <h1>Security Notice</h1>
+          <h2>Security Notice</h2>
           <ul>
             1. The 78th Army Band website is provided as a public service by the
             78th Army Band's Public Affairs team.
@@ -63,6 +72,7 @@ const TermsOfUse = () => {
               id="TermsPageEmbeddedLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to Computer Fraud and Abuse Act of 1986 manual"
             >
               Computer Fraud and Abuse Act of 1986
             </a>{" "}

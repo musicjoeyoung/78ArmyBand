@@ -91,6 +91,7 @@ const Jobs = () => {
                 href="https://www.goarmy.com/reserve/benefits.html"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Link to US Army benefits"
               >
                 here.
               </a>
@@ -106,6 +107,7 @@ const Jobs = () => {
               <a
                 id="auditionFontATag"
                 href="mailto:78tharmyband@gmail.com?subject=Request Audition Information"
+                aria-label="Link to email the 78th Army Band"
               >
                 Reach out to us!
               </a>{" "}
@@ -115,6 +117,7 @@ const Jobs = () => {
                 href="https://www.bands.army.mil/careers/auditions/form.asp"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Link to Army Bands careers form"
               >
                 submit an audition request.
               </a>
@@ -126,6 +129,7 @@ const Jobs = () => {
                 href="https://www.goarmy.com/locate-a-recruiter.html"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Link to US Army recruiters"
               >
                 Contact your local recruiter.{" "}
               </a>
@@ -140,6 +144,7 @@ const Jobs = () => {
                 href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Link to US Army musician job description"
               >
                 MOS 42R (Army Musician){" "}
               </a>
@@ -187,6 +192,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to flute"
             >
               Click here for resources
             </a>
@@ -208,6 +214,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to oboe"
             >
               Click here for resources
             </a>
@@ -238,6 +245,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to clarinet"
             >
               Click here for resources
             </a>
@@ -260,6 +268,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to saxophone"
             >
               Click here for resources
             </a>
@@ -290,6 +299,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to bassoon"
             >
               Click here for resources
             </a>
@@ -309,6 +319,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to horn"
             >
               Click here for resources
             </a>
@@ -337,6 +348,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to trumpet"
             >
               Click here for resources
             </a>
@@ -358,6 +370,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to euphonium"
             >
               Click here for resources
             </a>
@@ -392,6 +405,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to trombone"
             >
               Click here for resources
             </a>
@@ -412,6 +426,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to tuba"
             >
               Click here for resources
             </a>
@@ -440,6 +455,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to percussion"
             >
               Click here for resources
             </a>
@@ -464,6 +480,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to keyboard/piano"
             >
               Click here for resources
             </a>
@@ -494,6 +511,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to electric guitar"
             >
               Click here for resources
             </a>
@@ -514,6 +532,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to electric bass"
             >
               Click here for resources
             </a>
@@ -543,6 +562,7 @@ const Jobs = () => {
               id="pdfLink"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="scroll to vocals"
             >
               Click here for resources
             </a>

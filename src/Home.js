@@ -1,6 +1,5 @@
 import React from "react";
 import HomeCarousel from "./HomeCarousel";
-//import logo from "./images/78logo.png";
 import parade from "./images/78MarchMobile.jpg";
 
 const Home = () => {
@@ -11,7 +10,7 @@ const Home = () => {
         <img
           src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674498250/78logo_1_fsqjox.png"
           className="homePageLogoImg"
-          alt="logo"
+          alt="US Army Reserve; 78th Army Band; Fort Dix, NJ; Fort Totten, NY"
         />
       </div>
       <HomeCarousel />

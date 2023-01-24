@@ -263,6 +263,7 @@ input {
   margin: auto;
   height: 143px;
   width: 84%;
+  margin-bottom: 15px;
 }
 #submitButton {
   background-color: #ffcc01;
@@ -349,6 +350,9 @@ li:hover {
   font-weight: 300;
   line-height: 1.8em;
   text-align: left;
+}
+.TermsOfUse p {
+  color: black;
 }
 #TermsPageEmbeddedLink {
   font-size: 18px !important;
@@ -573,23 +577,6 @@ p {
 #singlePDF-option {
   border: solid 1px black;
   width: 7vw;
-}
-.audition-dropdown {
-  border-bottom: 1px solid black;
-  box-shadow: 10px 6px 16px 0px black;
-  border-radius: 7px;
-  width: 30%;
-  height: 150px;
-  margin: auto;
-  background-color: #00214e;
-  color: white;
-}
-#instrumentsH4 {
-  text-decoration: underline;
-}
-.instrumentsJobsATags {
-  padding: 2px 2px !important;
-  margin-top: 2px !important;
 }
 .footer {
   background-color: #00214e;
@@ -1130,9 +1117,6 @@ h2,
     width: 75%;
     height: 100%;
     margin: auto;
-  }
-  #instrumentsH4 {
-    font-size: 18px;
   }
   #requestBandPTag {
     width: 90%;

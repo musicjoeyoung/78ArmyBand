@@ -1,7 +1,6 @@
 import React from "react";
 const reactStringReplace = require("react-string-replace");
 
-
 const Profiles = ({ staff }) => {
   return staff.map((singleStaff) => (
     <div className="mainProfileDiv" key={singleStaff.id}>
