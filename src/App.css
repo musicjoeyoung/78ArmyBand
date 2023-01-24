@@ -434,6 +434,7 @@ li:hover {
   margin-left: 7vw;
   position: fixed;
   margin-top: 100px;
+  margin-bottom: 0px !important;
 }
 #ensemblePageDescription {
   width: 95%;
