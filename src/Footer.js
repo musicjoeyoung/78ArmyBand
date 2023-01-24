@@ -1,12 +1,9 @@
 import React from "react";
 import armylogo from "./images/ArmyLogo.webp";
-//import band78 from "./images/band78.webp";
 
 const Footer = () => {
-  //height: calc(100vh - 374px);
-  //let divStyle = { height: "calc(100vh - 374px)" };
   return (
-    <div className="footer" /* style={divStyle} */>
+    <div className="footer fixed-footer">
       <div className="footerChildContainer">
         <div className="footerLogos">
           <a
@@ -15,11 +12,8 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={armylogo} alt="armylogo" id="milLogo" />
+            <img src={armylogo} alt="army logo" id="milLogo" />
           </a>
-          {/*  <a href="/home" className="milLogoDiv">
-            <img src={band78} alt="band78" id="milLogo" />
-          </a> */}
         </div>
         <div className="footerLinks">
           <div id="footerLinksDiv">
