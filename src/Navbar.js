@@ -8,7 +8,7 @@ const Navbar = () => {
       <a aria-label="Link to home page" href="/home">
         <img id="navbarLogo" src={logo78} alt="78th Band logo" />
       </a>
-      <div className="horizontalNav">
+      <nav className="horizontalNav">
         <ul className="desktopMenu">
           <li className="li" role="none">
             <a aria-label="Link to home page" role="menuItem" href="/home">
@@ -70,11 +70,11 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
 
       <div className="dropdown">
         <img src={dropdown} alt="dropdown button" />
-        <div className="dropdown-content">
+        <nav className="dropdown-content">
           <ul className="menu">
             <li className="li" role="none">
               <a aria-label="Link to home page" role="menuItem" href="/home">
@@ -136,7 +136,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
       <a aria-label="Link to home page" href="/" id="navbarLogoMobileA">
         <img id="navbarLogoMobile" src={logo78} alt="78th Band logo" />
