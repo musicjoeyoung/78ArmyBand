@@ -1,10 +1,9 @@
 import React from "react";
 import bq from "../images/BQ-MyShot.png";
-import checkmate from "../images/Checkmate-ElisaSmith.png";
 
 const Media = () => {
   return (
-    <div>
+    <div className="parentDiv">
       <h1>Watch & Listen</h1>
       <div className="media">
         <div className="container">
@@ -20,7 +19,10 @@ const Media = () => {
           ></iframe>
         </div>
         <div className="mobileMedia">
-          <img src={checkmate} alt="Checkmate band with Elisa Smith" />
+          <img
+            src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674596968/Checkmate-ElisaSmith_25_h0odem.png"
+            alt="Checkmate band with Elisa Smith"
+          />
           <p>
             A few months ago, Elisa Smith reached out to the 78th Army Band's
             MPT,

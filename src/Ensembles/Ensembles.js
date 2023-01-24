@@ -11,7 +11,7 @@ const Ensembles = () => {
 
   //console.log({ name });
   return (
-    <div>
+    <div className="parentDiv">
       <h1 className="mobileH1">Ensembles</h1>
       <p id="ensemblePageDescriptionMobile">
         The 78th Army Band's many ensembles perform throughout the larger

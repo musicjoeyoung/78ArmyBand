@@ -7,7 +7,7 @@ import youtube from "./youtube.png";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="parentDiv">
       <h1>Contact</h1>
 
       <div

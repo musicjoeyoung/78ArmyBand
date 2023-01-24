@@ -2,7 +2,7 @@ import React from "react";
 
 const TermsOfUse = () => {
   return (
-    <div>
+    <div className="parentDiv">
       <div className="TermsOfUse">
         <div>
           <h1>Terms of Use</h1>

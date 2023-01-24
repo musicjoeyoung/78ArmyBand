@@ -37,7 +37,7 @@ const Jobs = () => {
     });
   });
   return (
-    <div>
+    <div className="parentDiv">
       <h1>Join the 78th Army Band</h1>
       <div className="jobs-page-description">
         <h2>The Role of an Army Musician</h2>
