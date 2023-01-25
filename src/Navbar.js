@@ -81,61 +81,6 @@ const Navbar = () => {
               >
                 Contact
               </NavLink>
-
-              {/* <NavLink className="li" role="none">
-                <a
-                  aria-label="Link to History page"
-                  role="menuItem"
-                  href="/history"
-                >
-                  History
-                </a>
-              </NavLink>
-              <NavLink className="li" role="none">
-                <a
-                  aria-label="Link to Meet the Band apge"
-                  role="menuItem"
-                  href="/meettheband"
-                >
-                  Meet the Band
-                </a>
-              </NavLink>
-              <NavLink className="li" role="none">
-                <a
-                  aria-label="Link to Ensembles page"
-                  role="menuItem"
-                  href="/ensembles"
-                >
-                  Ensembles
-                </a>
-              </NavLink>
-              <NavLink className="li" role="none">
-                <a
-                  aria-label="Link to Watch & Listen/Media page"
-                  role="menuItem"
-                  href="/media"
-                >
-                  Watch & Listen
-                </a>
-              </NavLink>
-              <NavLink className="li" role="none">
-                <a
-                  aria-label="Link to Audition/Jobs page"
-                  role="menuItem"
-                  href="/jobs"
-                >
-                  Audition
-                </a>
-              </NavLink>
-              <NavLink className="li" role="none">
-                <a
-                  aria-label="Link to Contact page"
-                  role="menuItem"
-                  href="/contact"
-                >
-                  Contact
-                </a>
-              </NavLink> */}
             </ul>
           </nav>
 
