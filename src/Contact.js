@@ -33,7 +33,7 @@ const Contact = () => {
             aria-label="Link to email the 78th Army Band"
             href="mailto:78tharmyband@gmail.com?subject=Request 78th Army Band"
           >
-            78tharmyband@gmail
+            78tharmyband@gmail.com
           </a>{" "}
           no less than 60 days prior to the scheduled event.
         </p>
