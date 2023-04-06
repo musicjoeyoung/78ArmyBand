@@ -15,7 +15,7 @@ import logo78 from "./images/band78.webp";
 import dropdown from "./images/dropdown.png";
 import SocialContainer from "./SocialContainer";
 import UpArrow from "./UpArrow";
-import PressKit from "./PressKit";
+//import PressKit from "./PressKit";
 
 const App = () => {
   return (
@@ -171,7 +171,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/termsofuse" element={<TermsOfUse />} />
           <Route path="*" element={<ErrorNotFound />} />
-          <Route path="presskit" element={<PressKit />} />
+          {/* <Route path="/epk" element={<PressKit />} /> */}
         </Routes>
       </BrowserRouter>
       <SocialContainer />

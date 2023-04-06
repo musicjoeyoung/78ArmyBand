@@ -860,6 +860,21 @@ h2,
 #navbarLogoMobileA {
   margin-top: 2px;
 }
+
+/* .pressKit {
+  background-color: black;
+  color: white;
+}
+.pressKit h1,
+h2 {
+  color: white;
+}
+.pressKitDiv {
+  min-height: 400px;
+}
+.pressKit img {
+  width: 60%;
+} */
 @keyframes glowing {
   0% {
     background-position: 0 0;
