@@ -64,7 +64,7 @@ const NavComponent = ({ setName }) => {
         >
           Fort Dix-ieland Brass Band
         </button>
-        <button
+{/*         <button
           className="ensembleNameNavComp"
           onClick={setName}
           id="FortDixielandBrassBand"
@@ -72,7 +72,7 @@ const NavComponent = ({ setName }) => {
           aria-pressed={false}
         >
           Lady Liberty
-        </button>
+        </button> */}
         <button
           className="ensembleNameNavComp"
           onClick={setName}

@@ -39,12 +39,12 @@ export const ensembles = [
     bio: "The Fort Dixieland Brass Band is one of the Music Performance Teams of the 78th Army Band, US Army Reserve, located at Joint Base McGuire-Dix-Lakehurst NJ and Fort Totten, Queens, NY. ¶ Formed in 2013, the ensemble performs an eclectic mix of popular music in the energetic style of a New Orleans Brass Band. Since its inception, the team has performed regularly at the Rehoboth Beach Bandstand Summer Concert Series, the Power in the Pines Air Show, the Milton (DE) Theater and for various civilian and military communities in the Northeast.",
     img: FortDixielandBrassBand,
   },
-  {
+/*   {
     id: 6,
     name: "Lady Liberty",
     bio: "The premiere all-female rock/pop ensemble leads the way in high-energy performances and musicality.",
     img: LadyLiberty,
-  },
+  }, */
   {
     id: 7,
     name: "Liberty Vibes",
