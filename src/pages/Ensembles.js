@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { ensembles } from "./ensemblesArray";
-import NavComponent from "../Ensembles/NavComponent.js";
-import EnsemblesProfiles from "./EnsemblesProfiles";
+import { ensembles } from "../assets/ensembles/ensemblesArray";
+import EnsembleNav from "../components/EnsembleNav.js";
+import EnsemblesProfiles from "../components/EnsemblesProfiles";
 
 const Ensembles = () => {
   const [name, setName] = useState("Concert Band");
@@ -19,7 +19,7 @@ const Ensembles = () => {
         by providing musical support for various troops, units and branches,
         entertaining civilians, and serving as musical ambassadors of the Army.
       </p>
-      <NavComponent setName={updateName} />
+      <EnsembleNav setName={updateName} />
       <div className="individualEnsemble">
         <EnsemblesProfiles ensembles={profiles} />
       </div>

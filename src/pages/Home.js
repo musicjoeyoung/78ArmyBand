@@ -1,6 +1,6 @@
 import React from "react";
-import HomeCarousel from "./HomeCarousel";
-import parade from "./images/78MarchMobile.jpg";
+import HomeCarousel from "../components/HomeCarousel";
+import parade from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/78MarchMobile.jpg";
 
 const Home = () => {
   return (

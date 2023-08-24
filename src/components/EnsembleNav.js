@@ -1,7 +1,7 @@
 import React from "react";
 import $ from "jquery";
 
-const NavComponent = ({ setName }) => {
+const EnsembleNav = ({ setName }) => {
   $(document).ready(function () {
     // check where the shoppingcart-div is
     let offset = $(".ensemblesNavComp").offset();
@@ -87,4 +87,4 @@ const NavComponent = ({ setName }) => {
   );
 };
 
-export default NavComponent;
+export default EnsembleNav;

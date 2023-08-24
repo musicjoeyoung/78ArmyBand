@@ -1,5 +1,5 @@
 import React from "react";
-import armylogo from "./images/ArmyLogo.webp";
+import armylogo from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/ArmyLogo.webp";
 
 const Footer = () => {
   return (

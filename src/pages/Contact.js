@@ -1,9 +1,9 @@
 import React from "react";
-import ContactForm from "./ContactForm.js";
-import instagram from "./instagram.png";
-import twitter from "./twitter.png";
-import facebook from "./facebook.png";
-import youtube from "./youtube.png";
+import ContactForm from "../components/ContactForm.js";
+import instagram from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/instagram.png";
+import twitter from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/twitter.png";
+import facebook from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/facebook.png";
+import youtube from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/youtube.png";
 
 const Contact = () => {
   return (

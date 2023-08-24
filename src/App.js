@@ -1,20 +1,20 @@
 import React from "react";
 import "./App.css";
-import Home from "./Home";
-import MeetTheBand from "./MeetTheBand/MeetTheBand.js";
-import History from "./History";
-import Ensembles from "./Ensembles/Ensembles";
-import Media from "./Media/Media";
-import Jobs from "./Jobs/Jobs";
-import Contact from "./Contact";
-import ErrorNotFound from "./ErrorNotFound";
-import TermsOfUse from "./TermsOfUse";
-import Footer from "./Footer";
+import Home from "./pages/Home";
+import MeetTheBand from "./pages/MeetTheBand.js";
+import History from "./pages/History";
+import Ensembles from "./pages/Ensembles";
+import Media from "./pages/Media";
+import Jobs from "./pages/Jobs";
+import Contact from "./pages/Contact";
+import ErrorNotFound from "./pages/ErrorNotFound";
+import TermsOfUse from "./pages/TermsOfUse";
+import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import logo78 from "./images/band78.webp";
 import dropdown from "./images/dropdown.png";
-import SocialContainer from "./SocialContainer";
-import UpArrow from "./UpArrow";
+import SocialContainer from "./components/SocialContainer";
+import UpArrow from "./components/UpArrow";
 //import PressKit from "./PressKit";
 
 const App = () => {

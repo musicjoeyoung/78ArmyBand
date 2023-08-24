@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import arrow from "./images/arrow.png";
+import arrow from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/arrow.png";
+
 
 const UpArrow = () => {
   const [isVisible, setIsVisible] = useState(false);
