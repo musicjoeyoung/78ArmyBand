@@ -100,15 +100,15 @@ export const staff = [
   },
   {
     id: 12,
-    name: "SPC Joseph Faust",
+    name: "SGT Joseph Faust",
     bio: "Specialist Joseph Faust grew up in Northfield, New Jersey. He received his bachelor's degree in music performance from Rowan University in 2012. ¶ He joined the Army in 2014 and spent almost 7 years on active duty serving with the 10th Mountain Division Band in Fort Drum, New York and the 9th Army Band out of Joint Base Elmendorf-Richardson, Alaska. SPC Faust left active duty in November of 2020 and joined the 78th Army Band in February of 2021 where he plays trumpet in the brass quintet. ¶ As a civilian, SPC Faust is a student at Montclair State University where he is pursuing a Master of Arts in Teaching and he hopes to become a music teacher after graduation.",
     img: noPic,
     section: "Brass",
   },
   {
     id: 30,
-    name: "SPC Isabel Jamie",
-    bio: "SPC Isabel Jaime grew up in the Long Island Nassau Area, where she began playing trumpet at the age of 6. After being a member of school bands such as High school Jazz Ensemble, competitive marching band and big band, she decided to join the 78th Army Band. Other than being active and working out six days a week, Jaime’s favorite thing to do is practice her trumpet. ¶ Jaime attends New Jersey City University, where she is still currently studying to receive her BA in Music performance. During her time as a full time student, Jaime balances working doing funeral honors and making sandwiches at a local deli. ¶ Jaime has already received an Army Achievement Medal from competing in the Army Best Warrior Course. She hopes to keep doing great in her unit and be a SGT one day. ",
+    name: "CPL Isabel Jamie",
+    bio: "Corporal Isabel Jaime grew up in the Long Island Nassau Area, where she began playing trumpet at the age of 6. After being a member of school bands such as High school Jazz Ensemble, competitive marching band and big band, she decided to join the 78th Army Band. Other than being active and working out six days a week, Jaime’s favorite thing to do is practice her trumpet. ¶ Jaime attends New Jersey City University, where she is still currently studying to receive her BA in Music performance. During her time as a full time student, Jaime balances working doing funeral honors and making sandwiches at a local deli. ¶ Jaime has already received an Army Achievement Medal from competing in the Army Best Warrior Course. She hopes to keep doing great in her unit and be a SGT one day. ",
     img: noPic,
     section: "Brass",
   },
@@ -121,7 +121,7 @@ export const staff = [
   },
   {
     id: 40,
-    name: "SPC  Peterson",
+    name: "SPC Peterson",
     bio: "Biography coming soon!",
     img: noPic,
     section: "Brass",
@@ -163,8 +163,8 @@ export const staff = [
   }, */
   {
     id: 18,
-    name: "SGT Andrew Duong",
-    bio: "Sergeant Andrew Duong, from Brockton, MA,  joined the Army Band in 2014. He graduated Brockton High School the same year and enlisted in the Army before actually graduating. In high school he was awarded the Louis Armstrong Jazz Award, was selected to the all-district festival, and won numerous ensemble awards with his high school band. ¶ He attended Basic training at Fort Jackson, Music training at The Army School Of Music at Little Creek, and was assigned to the 319th Army Band in Queens, NY. SGT Duong attended the Basic Leadership Course at Fort Dix, earning a place on the commandant’s list. Following his graduation of the course, he was promoted to SGT.  ¶ While SGT Duong was playing with the 319th Army Band, he was studying at music at Berklee College of Music. In 2018 he earned a bachelor’s degree from the school in professional music.  ¶ SGT Duong continued to perform with the 78th Army Band in Queens, NY after the 319th was retired. He continues to play with the band today and is an active musician in his community.",
+    name: "SSG Andrew Duong",
+    bio: "Staff Sergeant Andrew Duong, from Brockton, MA, joined the Army Band in 2014. He graduated Brockton High School the same year and enlisted in the Army before actually graduating. In high school he was awarded the Louis Armstrong Jazz Award, was selected to the all-district festival, and won numerous ensemble awards with his high school band. ¶ He attended Basic training at Fort Jackson, Music training at The Army School Of Music at Little Creek, and was assigned to the 319th Army Band in Queens, NY. SGT Duong attended the Basic Leadership Course at Fort Dix, earning a place on the commandant’s list. Following his graduation of the course, he was promoted to SGT.  ¶ While SGT Duong was playing with the 319th Army Band, he was studying at music at Berklee College of Music. In 2018 he earned a bachelor’s degree from the school in professional music.  ¶ SGT Duong continued to perform with the 78th Army Band in Queens, NY after the 319th was retired. He continues to play with the band today and is an active musician in his community.",
     img: noPic,
     section: "Woodwinds",
   },
@@ -203,14 +203,14 @@ export const staff = [
     img: noPic,
     section: "Woodwinds",
   },
-
+/* 
   {
     id: 22,
     name: "SFC David Federico",
     bio: "Originally from Gilbertsville PA, Sergeant First Class Federico enlisted in the Missouri National Guard Band as a percussionist in 1995. In 1996 he enlisted in active-duty service and graduated from the Navy-Army Element School of Music in 1997. His first duty assignment was the Infantry Band in Ft. Benning Ga. During his assignment, his unit received a unit meritorious award for performing countless ceremonies such as graduations for Basic Training, Infantry Officer Basic and Advance courses, Basic Leader Course, Officer Basic Course, Ranger, and Airborne school. The mission highlight of his assignment was performing for Vice President Gore for his visit to the School of Americas Training Center. During his assignment SFC Federico was also the proud recipient of “Soldier of the Month” for the post and then continued to compete in other advanced competition boards. ¶ SFC Federico attended and graduated from the Primary Leadership Development Course – now referred to the Basic Leader’s course—at Ft. Benning’s NCO Academy. For his achievements, SFC Federico received the Army Achievement Award for high musical performance for numerous high-profile missions and an Army Commendation Medal as a PCS award for his performance as a percussionist, Supply Clerk, and Operations Clerk.  ¶ In 2000 SFC Federico was reassigned to Ft. Lee Army Band in Virginia. During his assignment he was promoted to Sergeant and was charged with the roles of Operations NCOIC, squad leader, and Dixie MPT leader.  During his three-year tour, he provided operations for over 1000 missions. In the aftermath of 9/11, the band was reassigned to its secondary duty of augmenting Military Police force and assigned to providing perimeter security for the base. Additionally, he had the distinct honor to perform for President George W. Bush with the Ft. Lee Jazz Combo for a dining-in, honoring the President’s achievements. There he received an ARCOM as a PCS award for his duties as Percussionist, Dixie MPT leader, squad leader, and Operations NCOIC. ¶ In 2003, SFC Federico was reassigned to the 1st Infantry Division Band in Bamberg, Germany. During his time there the unit was deployed to Iraq in support of Operations Iraqi Freedom II. In 2004 the unit was assigned to Forward Operating Base Danger, the 1st ID Headquarters for the campaign. In addition to providing morale and welfare for troops through musical entertainment, he was tasked with providing perimeter security for the Tactical Operations Center. During the campaign SFC Federico earned the 1st ID combat patch, Global War on Terrorism Expeditionary Medal, and the Global War on Terrorism Service Medal. He was selected to Staff Sergeant and promoted while assigned to Camp Udari, Kuwait. One of the highlights of the tour was performing for the Change of Command from 3rd ID to 1st ID in Tikrit Iraq. For their service the 1st ID band earned a Unit Meritorious medal. ¶ In 2006 SFC Federico transitioned to the Army Reserve and joined the 307th Army Band, which was later restructured into his current assignment, the 78th Army Band. A graduate from the Army School of Music Advance Leader Course and the Senior Leader Course as well as the Master Resiliency Trainer Course in 2012 (University of Pennsylvania), SFC Federico currently serves as the unit’s Operations NCOIC, MPT leader for the rock combo “Checkmate”, squad leader, and Master Resilience Trainer. ¶ Promoted to Sergeant First Class In 2014, performance highlights include performing the National Anthem for multiple Phillies Games, half-time performances for the Philadelphia Eagles, the Philadelphia 4th of July parade, the Washington DC National Memorial Day Parade, and a performance for President Obama at McGuire Airforce Base. ¶ SFC Federico is a graduate of the University of Maryland with a degree in psychology. In his civilian career he is a licensed principal for the Vanguard group, supervising ultra-high net-worth relationship managers. ¶ SFC Federico is married to Jill Walker and has 2 children, Brianna (20) and Joshua (16).",
 
     section: "Percussion",
-  },
+  }, */
   {
     id: 23,
     name: "SFC Ed Kennedy",
@@ -249,19 +249,19 @@ export const staff = [
   },
   {
     id: 26,
-    name: "SPC Nicholas Torrado",
-    bio: "Specialist Nicholas Torrado grew up in Slate Hill, New York, where he began playing percussion at age 10. SPC Torrado was a member of the Minisink Valley Central School District band programs from his 5th grade year through his senior year.  ¶ After high school, Torrado attended one semester at SUNY Potsdam in Potsdam, New York before shipping off to Fort Sill, Oklahoma to attend Army Basic Combat Training, followed by Advanced Individual Training in Little Creek, Virginia. During that semester at SUNY Potsdam, SPC Torrado continued his musical career with the Potsdam community band.  ¶ When he returned, Torrado attended SUNY Orange in Middletown, New York, where he received his associate's degree in Math and Science in 2020. He has returned to SUNY Potsdam where currently pursuing a bachelor’s degree in History.  ¶ SPC Nicholas Torrado joined The U.S. Army Reserve's 78th Army Band in 2018. He currently lives in New York and his hobbies include practicing his drumming (and other instruments), bowling, and fishing.",
+    name: "SGT Nicholas Torrado",
+    bio: "Sergeant Nicholas Torrado grew up in Slate Hill, New York, where he began playing percussion at age 10. SGT Torrado was a member of the Minisink Valley Central School District band programs from his 5th grade year through his senior year.  ¶ After high school, Torrado attended one semester at SUNY Potsdam in Potsdam, New York before shipping off to Fort Sill, Oklahoma to attend Army Basic Combat Training, followed by Advanced Individual Training in Little Creek, Virginia. During that semester at SUNY Potsdam, SGT Torrado continued his musical career with the Potsdam community band.  ¶ When he returned, Torrado attended SUNY Orange in Middletown, New York, where he received his associate's degree in Math and Science in 2020. He has returned to SUNY Potsdam where currently pursuing a bachelor’s degree in History.  ¶ SGT Nicholas Torrado joined The U.S. Army Reserve's 78th Army Band in 2018. He currently lives in New York and his hobbies include practicing his drumming (and other instruments), bowling, and fishing.",
     img: noPic,
     section: "Percussion",
   },
 
-  {
+/*   {
     id: 27,
     name: "SPC Jorge Ramos",
     bio: "Specialist Jorge Ramos grew up in Medellin, Colombia. He joined the 78th Army Band - New York City element in 2019 as a Pianist. He earned a Bachelor Degree in Music Education in 2008 and a Master Degree in Music Performance in 2017 from the Adventist Music School and EAFIT Music School in Medellin, Colombia.  ¶ In 2021 he received the Army Achievement Medal (AAM) for his music efforts during the Band Annual Training. In his career as a musician he has been part of different kinds of ensembles performing music from Classical to Jazz and Latin Jazz, in different countries like Colombia, Venezuela, Bolivia. As a Music Educator he worked from 2013 to 2017 as part of the Education Faculty at the Adventist University of Colombia.  ¶ Currently he lives in Pennsylvania where he enjoys teaching piano at Settlement Music School.",
     img: noPic,
     section: "Piano",
-  },
+  }, */
   {
     id: 35,
     name: "SGT Svetlana Vynnyk",
