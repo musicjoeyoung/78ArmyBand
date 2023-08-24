@@ -114,14 +114,14 @@ export const staff = [
   },
   {
     id: 13,
-    name: "SPC Maya Parry",
-    bio: "Specialist Maya Parry was born in London, England, and moved to the United States at 10 years old. She currently resides in Vermont with a dog, a cat, and a rabbit. She attends Southern New Hampshire University for a bachelors' in Psychology with a concentration in Child and Adolescent Development. She works at a public school as a preschool teacher. ¶ SPC Parry plays horn in the Brass Quintet and the overall band. She is also a member of Lady Liberty. When she is not playing, SPC Parry helps in Supply, organizing and distributing soldiers' equipment. ¶ In her free time, SPC Parry enjoys reading, origami, and hiking the Green Mountains!",
+    name: "SGT Maya Parry",
+    bio: "Sergeant Maya Parry was born in London, England, and moved to the United States at 10 years old. She currently resides in Vermont with a dog, a cat, and a rabbit. She attends Southern New Hampshire University for a bachelors' in Psychology with a concentration in Child and Adolescent Development. She works at a public school as a preschool teacher. ¶ SGT Parry plays horn in the Brass Quintet and the overall band. She is also a member of Lady Liberty. When she is not playing, SGT Parry helps in Supply, organizing and distributing soldiers' equipment. ¶ In her free time, SGT Parry enjoys reading, origami, and hiking the Green Mountains!",
     img: noPic,
     section: "Brass",
   },
   {
     id: 40,
-    name: "SPC Peterson",
+    name: "SPC Sean Peterson",
     bio: "Biography coming soon!",
     img: noPic,
     section: "Brass",
@@ -130,6 +130,13 @@ export const staff = [
     id: 14,
     name: "SPC Matthew Tulsi",
     bio: "Specialist Matthew Tursi grew up in the small town of Fort Salonga in Long Island, NY.  He started playing trombone at 9 years old.  He attended St. Anthony’s High School, which is where he excelled in his instrument and received the Band Player of the year Award in 2015. ¶ Tursi graduated from Hofstra University in 2019 with a B.S. in Music Business.  In school he interned at Sony Music, Legacy Recordings, KORG USA, Falcon Music, and Unispan Records.  He played Trombone in up to eight bands in college including Symphonic Band, Concert Band, Orchestra, Jazz Band, Trombone Quartet, Brass Ensemble, and Tuba/Euphonium Ensemble. ¶ Since Graduation, Matt has been pursuing an acting career in the TV/Film industry.  He has also taught Acting classes for 6-12th graders throughout 2021.  He works as a freelance Deposition Videographer, and is a Co-Owner for an Entertainment Company where he works at events as a DJ, MC, and/or Photographer.  Matt has also been marching with the Long Beach Seaside Marching Band since 2016, and plays with the Northwind Band since 2019.  Tursi serves as the Chancellor for his Fraternity Alumni Club, and is on the National Board of Directors for his Fraternity. ¶ He has always loved music and entertainment.  He has focused on his trombone, however also sings, dances, acts, is a DJ, and plays the slide trumpet, valve trombone, guitar, and some piano. ¶ Tursi joined the 78th Army Band in 2021.  He completed his training in March of 2022. ",
+    img: noPic,
+    section: "Brass",
+  },
+  {
+    id: 22,
+    name: "SPC Weza Jamison-Neto",
+    bio: "Biography coming soon!",
     img: noPic,
     section: "Brass",
   },
@@ -301,4 +308,4 @@ staff.forEach((element, index, array) => {
     return a - b;
   });
 });
-console.log(idsArr);
+/* console.log(idsArr); */

@@ -3,7 +3,7 @@ import MarchingCeremonialBand from "../images/armyband1.webp";
 import BrassQuintet from "../images/armyband7.webp";
 import Checkmate from "../images/Checkmate.webp";
 import FortDixielandBrassBand from "../images/FortDixielandBrassBand.webp";
-import LadyLiberty from "../images/LadyLiberty.webp";
+//import LadyLiberty from "../images/LadyLiberty.webp";
 import LibertyVibes from "../images/LibertyVibes.webp";
 
 export const ensembles = [
