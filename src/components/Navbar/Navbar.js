@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import logo78 from "./images/band78.webp";
-import dropdown from "./images/dropdown.png";
-import Home from "./Home.js";
-import History from "./History";
-import MeetTheBand from "./MeetTheBand/MeetTheBand";
-import Ensembles from "./Ensembles/Ensembles";
-import Media from "./Media/Media";
-import Jobs from "./Jobs/Jobs";
-import Contact from "./Contact";
+import logo78 from "../../assets/images/band78.webp";
+import dropdown from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/dropdown.png";
+import Home from "../../pages/Home/Home";
+import History from "../../pages/History/History";
+import MeetTheBand from "../../pages/MeetTheBand/MeetTheBand";
+import Ensembles from "../../pages/Ensembles/Ensembles";
+import Media from "../../pages/Media/Media";
+import Jobs from "../../pages/Jobs/Jobs";
+import Contact from "../../pages/Contact/Contact.js";
 
 const Navbar = () => {
   return (
@@ -28,7 +28,7 @@ const Navbar = () => {
               <NavLink
                 to="/"
                 style={({ isActive }) => ({
-                  color: isActive ? "greenyellow" : "white",
+                  color: isActive ? "#ffcc01" : "white",
                 })}
               >
                 Home
@@ -36,7 +36,7 @@ const Navbar = () => {
               <NavLink
                 to="/history"
                 style={({ isActive }) => ({
-                  color: isActive ? "greenyellow" : "white",
+                  color: isActive ? "#ffcc01" : "white",
                 })}
               >
                 History
@@ -44,7 +44,7 @@ const Navbar = () => {
               <NavLink
                 to="/meettheband"
                 style={({ isActive }) => ({
-                  color: isActive ? "greenyellow" : "white",
+                  color: isActive ? "#ffcc01" : "white",
                 })}
               >
                 Meet the Band
@@ -52,7 +52,7 @@ const Navbar = () => {
               <NavLink
                 to="/ensembles"
                 style={({ isActive }) => ({
-                  color: isActive ? "greenyellow" : "white",
+                  color: isActive ? "#ffcc01" : "white",
                 })}
               >
                 Ensembles
@@ -60,7 +60,7 @@ const Navbar = () => {
               <NavLink
                 to="/media"
                 style={({ isActive }) => ({
-                  color: isActive ? "greenyellow" : "white",
+                  color: isActive ? "#ffcc01" : "white",
                 })}
               >
                 Watch & Listen
@@ -68,7 +68,7 @@ const Navbar = () => {
               <NavLink
                 to="/jobs"
                 style={({ isActive }) => ({
-                  color: isActive ? "greenyellow" : "white",
+                  color: isActive ? "#ffcc01" : "white",
                 })}
               >
                 Auditions
@@ -76,7 +76,7 @@ const Navbar = () => {
               <NavLink
                 to="/contact"
                 style={({ isActive }) => ({
-                  color: isActive ? "greenyellow" : "white",
+                  color: isActive ? "#ffcc01" : "white",
                 })}
               >
                 Contact
