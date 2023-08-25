@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { staff } from "../assets/meetTheBand/staffArray.js";
-import NavComponent from "../components/NavComponent.js";
-import Profiles from "../components/Profiles.js";
+import { staff } from "../../assets/meetTheBand/staffArray.js";
+import NavComponent from "../../components/NavComponent/NavComponent.js";
+import Profiles from "../../components/Profiles/Profiles.js";
 
 const MeetTheBand = () => {
   const [section, setSection] = useState("Command Team");

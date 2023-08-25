@@ -1,5 +1,5 @@
 import React from "react";
-import HomeCarousel from "../components/HomeCarousel";
+import HomeCarousel from "../../components/HomeCarousel/HomeCarousel";
 import parade from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/78MarchMobile.jpg";
 
 const Home = () => {

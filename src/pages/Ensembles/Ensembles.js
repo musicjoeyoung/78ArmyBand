@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { ensembles } from "../assets/ensembles/ensemblesArray";
-import EnsembleNav from "../components/EnsembleNav.js";
-import EnsemblesProfiles from "../components/EnsemblesProfiles";
+import { ensembles } from "../../assets/ensembles/ensemblesArray";
+import EnsembleNav from "../../components/EnsembleNav/EnsembleNav.js";
+import EnsemblesProfiles from "../../components/EnsemblesProfiles/EnsemblesProfiles";
 
 const Ensembles = () => {
   const [name, setName] = useState("Concert Band");

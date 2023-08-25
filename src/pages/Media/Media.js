@@ -1,5 +1,5 @@
 import React from "react";
-import bq from "../images/BQ-MyShot.png";
+import bq from "../../assets/images/BQ-MyShot.png";
 
 const Media = () => {
   return (
