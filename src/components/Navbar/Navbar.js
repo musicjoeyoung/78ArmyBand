@@ -9,12 +9,14 @@ import Ensembles from "../../pages/Ensembles/Ensembles";
 import Media from "../../pages/Media/Media";
 import Jobs from "../../pages/Jobs/Jobs";
 import Contact from "../../pages/Contact/Contact.js";
+//import "./Navbar.scss"
 
 const Navbar = () => {
   return (
     <>
       <BrowserRouter>
         <div className="mainnavbar">
+          <p className="test">test</p>
           <a aria-label="Link to home page" href="/home">
             <img id="navbarLogo" src={logo78} alt="78th Band logo" />
           </a>
