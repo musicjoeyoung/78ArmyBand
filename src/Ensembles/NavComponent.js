@@ -64,15 +64,15 @@ const NavComponent = ({ setName }) => {
         >
           Fort Dix-ieland Brass Band
         </button>
-{/*         <button
+        <button
           className="ensembleNameNavComp"
           onClick={setName}
-          id="FortDixielandBrassBand"
-          aria-label="Lady Liberty musical group"
+          id="9x9"
+          aria-label="Nine By Nine"
           aria-pressed={false}
         >
-          Lady Liberty
-        </button> */}
+          9x9
+        </button>
         <button
           className="ensembleNameNavComp"
           onClick={setName}

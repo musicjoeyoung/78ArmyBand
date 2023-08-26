@@ -3,7 +3,7 @@ import MarchingCeremonialBand from "../images/armyband1.webp";
 import BrassQuintet from "../images/armyband7.webp";
 import Checkmate from "../images/Checkmate.webp";
 import FortDixielandBrassBand from "../images/FortDixielandBrassBand.webp";
-//import LadyLiberty from "../images/LadyLiberty.webp";
+import NineByNine from "../images/9x9.jpg";
 import LibertyVibes from "../images/LibertyVibes.webp";
 
 export const ensembles = [
@@ -39,12 +39,12 @@ export const ensembles = [
     bio: "The Fort Dixieland Brass Band is one of the Music Performance Teams of the 78th Army Band, US Army Reserve, located at Joint Base McGuire-Dix-Lakehurst NJ and Fort Totten, Queens, NY. ¶ Formed in 2013, the ensemble performs an eclectic mix of popular music in the energetic style of a New Orleans Brass Band. Since its inception, the team has performed regularly at the Rehoboth Beach Bandstand Summer Concert Series, the Power in the Pines Air Show, the Milton (DE) Theater and for various civilian and military communities in the Northeast.",
     img: FortDixielandBrassBand,
   },
-/*   {
+  {
     id: 6,
-    name: "Lady Liberty",
-    bio: "The premiere all-female rock/pop ensemble leads the way in high-energy performances and musicality.",
-    img: LadyLiberty,
-  }, */
+    name: "9x9",
+    bio: "Formed by some of the newest members of the 78th Army Band, 9 x 9 is a tribute to the greatest pop punk acts of the 90's and early 2000's. Drawing on the experience of its members, 9 x 9 seeks to authentically capture the excitement and raw energy of a genre that dominated popular music  for nearly 20 years. Delivering fast-paced, dynamic performances, the band has won the hearts of audiences of all ages. If you enjoy the music of Fall Out Boy, Blink 182, and Paramore - be sure to check them out! ",
+    img: NineByNine,
+  },
   {
     id: 7,
     name: "Liberty Vibes",
