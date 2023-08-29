@@ -24,7 +24,7 @@ a:visited,
 a:hover,
 a:active {
   text-decoration: none;
-  font-size: 12px;
+  /* font-size: 12px; */
   font-family: "rawline", sans-serif;
   font-weight: 300;
   color: black;
@@ -38,7 +38,6 @@ a:active {
 .fixed {
   position: relative;
   top: -25px;
-  /* margin-left: 720px; */
 }
 button {
   cursor: pointer;
@@ -84,19 +83,6 @@ input {
   width: 5vw;
   height: 5vw;
 }
-.mainnavbar {
-  display: flex;
-  background-color: #00214e;
-  height: 65px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-}
-.mainnavbar a {
-  position: inherit;
-  margin-top: 0 !important;
-}
 .navbarHomePage {
   background-color: red;
 }
@@ -109,12 +95,12 @@ input {
   top: 0;
   width: 100%;
 }
-.horizontalNav {
+/* .horizontalNav {
   display: none;
 }
 .horizontalNav a {
   margin-top: -10px !important;
-}
+} */
 #navbarLinks {
   color: black;
   line-height: 40px;
@@ -124,22 +110,7 @@ input {
   margin: auto;
   width: 15vw;
 }
-/* .homePageLogoImg {
-  position: absolute;
-  background-color: rgb(0 0 0 / 62%);
-  top: 17vw;
-  width: 53vw;
-  z-index: 2;
-  margin: auto;
-  margin-left: 23%;
-  border-radius: 40px;
-  padding: 0px 10px 0px 0px;
-  animation: fadeIn 3.5s;
-  -webkit-animation: fadeIn 3.5s;
-  -moz-animation: fadeIn 3.5s;
-  -o-animation: fadeIn 3.5s;
-  -ms-animation: fadeIn 3.5s;
-} */
+
 .contact-page-request-the-band {
   width: 100%;
   margin: 0 auto;
@@ -333,14 +304,6 @@ li:hover {
   flex-direction: column;
   margin: auto;
 }
-#bioText {
-  color: #00214e;
-  text-align: left;
-  font-family: "rawline", sans-serif;
-  font-weight: 300;
-  line-height: 25px;
-  padding: 1px 20px 0px 12px;
-}
 #bioImg {
   float: left;
   margin-left: 15%;
@@ -351,15 +314,7 @@ li:hover {
 #ensembleImg {
   width: 65%;
 }
-#staffName {
-  font-weight: 600;
-}
-.ensembleNameNavComp:hover {
-  background-color: #ffcc01;
-  transform: scale(1.1);
-  transition: all 0.4s ease-in-out;
-  color: #00214e;
-}
+
 #ensembleH2Name {
   text-align: center;
 }
@@ -368,36 +323,13 @@ li:hover {
   min-height: 900px;
   margin-left: 200px;
 }
-.ensemblesNavComp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 7vw;
-  position: fixed;
-  margin-top: 100px;
-  margin-bottom: 0px !important;
-}
 #ensemblePageDescription {
   width: 95%;
   margin: auto;
   margin-top: 15px;
   color: #00214e;
 }
-.ensembleNameNavComp {
-  width: 200px;
-  border: 1px solid black;
-  padding: 4px 0 4px 0;
-  margin-top: 15px;
-  background-color: #00214e;
-  transition: all 0.4s ease-in-out;
-  color: white;
-  border-radius: 22px;
-}
-.ensembleNameNavComp:hover {
-  background-color: #ffcc01;
-  transform: scale(1.1);
-  transition: all 0.4s ease-in-out;
-}
+
 .media {
   background-color: #00214e;
   width: 100%;
@@ -568,25 +500,7 @@ p {
 .milLogoDiv {
   text-align: center;
 }
-.iconContainer {
-  position: fixed;
-  bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 1px;
-  background-color: #00000087;
-  border-radius: 27px;
-}
-@media (pointer: none), (pointer: coarse) {
-  .iconContainer {
-    display: none;
-  }
-}
-.socialLogo {
-  width: 30px;
-  height: 30px;
-  margin: 10px;
-}
+
 .profileContainer,
 .ensembleContainer {
   width: 80%;
@@ -624,14 +538,7 @@ h2,
     font-size: 15px;
     color: white;
   }
-/*   .homePageLogoImg {
-    position: absolute;
-    top: 23vw;
-    width: 53vw;
-    z-index: 2;
-    margin: auto;
-    margin-left: 23%;
-  } */
+
 }
 
 .li a {
@@ -645,7 +552,7 @@ h2,
   line-height: 40px;
   padding-inline-start: 0;
 }
-.desktopMenu {
+/* .desktopMenu {
   display: flex;
   flex-direction: row;
 }
@@ -664,7 +571,7 @@ h2,
 }
 .desktopMenu a:hover {
   color: #ffcc01 !important;
-}
+} */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -673,56 +580,7 @@ h2,
     opacity: 1;
   }
 }
-/* .desktopMenu li:nth-child(1) {
-  animation: fadeIn 2.5s;
-  -webkit-animation: fadeIn 2.5s;
-  -moz-animation: fadeIn 2.5s;
-  -o-animation: fadeIn 2.5s;
-  -ms-animation: fadeIn 2.5s;
-}
 
-.desktopMenu li:nth-child(2) {
-  animation: fadeIn 3s;
-  -webkit-animation: fadeIn 3s;
-  -moz-animation: fadeIn 3s;
-  -o-animation: fadeIn 3s;
-  -ms-animation: fadeIn 3s;
-}
-.desktopMenu li:nth-child(3) {
-  animation: fadeIn 3.5s;
-  -webkit-animation: fadeIn 3.5s;
-  -moz-animation: fadeIn 3.5s;
-  -o-animation: fadeIn 3.5s;
-  -ms-animation: fadeIn 3.5s;
-}
-.desktopMenu li:nth-child(4) {
-  animation: fadeIn 4s;
-  -webkit-animation: fadeIn 4s;
-  -moz-animation: fadeIn 4s;
-  -o-animation: fadeIn 4s;
-  -ms-animation: fadeIn 4s;
-}
-.desktopMenu li:nth-child(5) {
-  animation: fadeIn 4.5s;
-  -webkit-animation: fadeIn 4.5s;
-  -moz-animation: fadeIn 4.5s;
-  -o-animation: fadeIn 4.5s;
-  -ms-animation: fadeIn 4.5s;
-}
-.desktopMenu li:nth-child(6) {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-}
-.desktopMenu li:nth-child(7) {
-  animation: fadeIn 5.5s;
-  -webkit-animation: fadeIn 5.5s;
-  -moz-animation: fadeIn 5.5s;
-  -o-animation: fadeIn 5.5s;
-  -ms-animation: fadeIn 5.5s;
-} */
 .dropdown {
   width: 40px;
   height: 40px;
@@ -776,77 +634,7 @@ h2,
   color: #ffcc01;
   font-size: 16px !important;
 }
-.img {
-  width: 30px;
-  height: 50px;
-}
-.scrollToTop {
-  position: fixed;
-  bottom: 20px;
-  right: 0;
-}
-.upContainer {
-  float: right;
-  display: flex;
-  flex-direction: column;
-  border: none;
-  outline: none;
-  background: #00000000;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 35px;
-  padding: 5px;
-  text-align: center;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
-}
-.upContainer:before {
-  content: "";
-  background: linear-gradient(45deg, #00214e, #ffcc01, black, lightgray);
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing 20s linear infinite;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 35px;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
-}
-.upContainer:active {
-  color: #000;
-}
-.upContainer:active:after {
-  background: transparent;
-}
-.upContainer:hover:before {
-  opacity: 1;
-}
-.upContainer:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* background: #111111b5; */
-  left: 0;
-  top: 0;
-  border-radius: 35px;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
-}
+
 #navbarLogoMobile {
   position: absolute;
   right: 10px;
@@ -858,20 +646,7 @@ h2,
   margin-top: 2px;
 }
 
-/* .pressKit {
-  background-color: black;
-  color: white;
-}
-.pressKit h1,
-h2 {
-  color: white;
-}
-.pressKitDiv {
-  min-height: 400px;
-}
-.pressKit img {
-  width: 60%;
-} */
+
 @keyframes glowing {
   0% {
     background-position: 0 0;
@@ -910,8 +685,7 @@ h2 {
     flex-direction: row;
     margin: 0 auto;
   }
-  #horizontalLinks,
-  #navbarLogo {
+  #horizontalLinks {
     color: white !important;
     margin-right: 19.5px;
     margin-left: 19.5px;
@@ -920,11 +694,6 @@ h2 {
   #horizontalLinks:hover {
     background-color: #ffcc01;
     color: black !important;
-  }
-  #navbarLogo {
-    width: 50px;
-    height: 50px;
-    padding-top: 5px;
   }
   #navbarLogoMobile {
     display: none;
@@ -978,7 +747,6 @@ h2 {
     width: 90%;
   }
   #ensemblePageDescription {
-    /* width: 90%; */
     display: none;
   }
   #ensemblePageDescriptionMobile {
@@ -999,8 +767,7 @@ h2 {
     color: white;
     border-radius: 22px;
   }
-  .ensembleName:hover,
-  .ensembleNameNavComp:hover {
+  .ensembleName:hover {
     background-color: #00214e;
     transform: none;
     transition: none;
@@ -1008,31 +775,6 @@ h2 {
   }
   #ensembleH2Name {
     text-align: center;
-  }
-  .ensemblesNavComp {
-    display: flex;
-    margin: 0 auto;
-    position: inherit;
-    align-items: center;
-  }
-  .ensembleNameNavComp {
-    width: 200px;
-    border: 1px solid black;
-    padding: 4px 0 4px 0;
-    margin-top: 2vw;
-    background-color: #00214e;
-    transition: none;
-    color: white;
-    border-radius: 22px;
-    font-size: 13px;
-  }
-  .ensembleNameNavComp:nth-child(7) {
-    margin-bottom: 15px;
-  }
-  .ensembleNameNavComp:hover {
-    background-color: #00214e;
-    transform: none;
-    transition: none;
   }
   .individualEnsemble {
     display: block;
@@ -1043,21 +785,7 @@ h2 {
     margin: auto;
     margin-top: 3%;
   }
-  #staffName {
-    text-align: center;
-    font-size: 15px;
-  }
-  #bioText {
-    color: black;
-    text-align: left;
-    font-size: 14px;
-    margin: auto;
-    padding: 10px 20px 0px 20px;
-  }
-  .mainProfileDiv {
-    display: flex;
-    flex-direction: column;
-  }
+ 
   .instrumentAndImg {
     display: block;
     padding: 5px;
@@ -1124,9 +852,7 @@ h2 {
   .mainnavbar a {
     position: initial;
   }
-  #navbarLogo {
-    display: none;
-  }
+
   .App {
     padding-top: 50px;
   }
@@ -1135,29 +861,11 @@ h2 {
   .alice-carousel {
     display: none;
   }
-/*   .homePageLogoImg {
-    position: absolute;
-    top: 125px;
-    left: 30px;
-    margin-left: 14%;
-  } */
-/*   .mobileHomeImg {
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-  } */
-/*   .imgContainer {
-    position: relative;
-    top: 0;
-    left: 0;
-  } */
+
   .timeline {
     display: none;
   }
-  .iconContainer {
-    display: none;
-  }
+
   .profileContainer,
   .ensembleContainer {
     width: 100%;
@@ -1167,7 +875,7 @@ h2 {
     flex-direction: column;
     background-color: #00214e;
     width: 100%;
-    /* padding: 8px; */
+
   }
   .youtube {
     display: none;
@@ -1184,11 +892,7 @@ h2 {
     padding-bottom: 15px;
   }
 }
-@media screen and (min-width: 480px) {
-/*   .mobileHomeImg {
-    display: none;
-  } */
-}
+
 @media screen and (min-width: 601px) {
   .desktopH1 {
     display: block;
@@ -1207,24 +911,9 @@ h2 {
   }
 }
 @media screen and (max-height: 360px) {
-  .ensemblesNavComp {
-    margin-top: 64px;
-  }
-  .ensembleNameNavComp {
-    margin-top: 15px;
-  }
+
   .menu {
     line-height: 33px;
   }
 }
-@media screen and (max-height: 414px) {
-  .iconContainer {
-    display: none;
-  }
-}
 
-/* @media screen and (min-height: 390px) and (max-height: 413px) {
-  .ensemblesNavComp.fixed .ensembleNameNavComp {
-    margin-top: 15px !important;
-  }
-} */

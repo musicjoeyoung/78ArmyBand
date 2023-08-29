@@ -1,27 +1,27 @@
-import React from "react";
 import $ from "jquery";
+import "./NavComponent.scss"
 
 const NavComponent = ({ setSection }) => {
   $(document).ready(function () {
-    let offset = $(".ensemblesNavComp").offset();
+    let offset = $(".ensemblesNavContainer").offset();
     $(window).scroll(function () {
       let scrollTop = $(window).scrollTop();
       if (offset.top < scrollTop) {
-        $(".ensemblesNavComp").addClass("fixed");
+        $(".ensemblesNavContainer").addClass("fixed");
       } else {
-        $(".ensemblesNavComp").removeClass("fixed");
+        $(".ensemblesNavContainer").removeClass("fixed");
       }
     });
   });
   $(document).ready(function () {
     let footerHeight = $(".fixed-footer").outerHeight();
-    $(".ensemblesNavComp").css("margin-bottom", footerHeight);
+    $(".ensemblesNavContainer").css("margin-bottom", footerHeight);
   });
   return (
     <div>
-      <div className="ensemblesNavComp" role="navigation" aria-live="polite">
+      <div className="ensemblesNavContainer" role="navigation" aria-live="polite">
         <button
-          className="ensembleNameNavComp"
+          className="ensemblesNavContainer__ensemble"
           onClick={setSection}
           aria-label="Command Team"
           aria-pressed={true}
@@ -29,7 +29,7 @@ const NavComponent = ({ setSection }) => {
           Command Team
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensemblesNavContainer__ensemble"
           onClick={setSection}
           aria-label="Brass"
           aria-pressed={false}
@@ -37,7 +37,7 @@ const NavComponent = ({ setSection }) => {
           Brass
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensemblesNavContainer__ensemble"
           onClick={setSection}
           aria-label="Woodwinds"
           aria-pressed={false}
@@ -45,7 +45,7 @@ const NavComponent = ({ setSection }) => {
           Woodwinds
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensemblesNavContainer__ensemble"
           onClick={setSection}
           aria-label="Percussion"
           aria-pressed={false}
@@ -53,7 +53,7 @@ const NavComponent = ({ setSection }) => {
           Percussion
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensemblesNavContainer__ensemble"
           onClick={setSection}
           aria-label="Piano"
           aria-pressed={false}
@@ -61,7 +61,7 @@ const NavComponent = ({ setSection }) => {
           Piano
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensemblesNavContainer__ensemble"
           onClick={setSection}
           aria-label="Vocals"
           aria-pressed={false}
@@ -69,7 +69,7 @@ const NavComponent = ({ setSection }) => {
           Vocals
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensemblesNavContainer__ensemble"
           onClick={setSection}
           aria-label="Bass Guitar"
           aria-pressed={false}

@@ -1,0 +1,28 @@
+.iconContainer {
+  position: fixed;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  background-color: #00000087;
+  border-radius: 27px;
+
+    @media (pointer: none), (pointer: coarse) {
+        display: none;
+    }
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+    @media screen and (max-height: 414px) {
+        display: none;
+    }
+
+  &__socialLogo {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    }
+}
+
+
+

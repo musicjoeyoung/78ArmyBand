@@ -1,0 +1,66 @@
+.ensemblesNavContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 7vw;
+  position: fixed;
+  margin-top: 100px;
+  margin-bottom: 0px !important;
+
+  @media screen and (max-width: 600px) {
+     display: flex;
+    margin: 0 auto;
+    position: inherit;
+    align-items: center;
+  }
+
+  @media screen and (max-height: 360px) {
+    margin-top: 64px;
+  }
+
+  &__ensemble {
+    width: 200px;
+    border: 1px solid black;
+    padding: 4px 0 4px 0;
+    margin-top: 15px;
+    background-color: #00214e;
+    transition: all 0.4s ease-in-out;
+    color: white;
+    border-radius: 22px;
+
+    &:hover {
+        background-color: #ffcc01;
+        transform: scale(1.1);
+        transition: all 0.4s ease-in-out;
+        color: #00214e;
+    }
+
+    @media screen and (max-width: 600px) {
+        width: 200px;
+        border: 1px solid black;
+        padding: 4px 0 4px 0;
+        margin-top: 2vw;
+        background-color: #00214e;
+        transition: none;
+        color: white;
+        border-radius: 22px;
+        font-size: 13px;
+
+        &:hover{
+            background-color: #00214e;
+            transform: none;
+            transition: none;
+            color: white;
+        }
+        &:nth-child(7) {
+            margin-bottom: 15px;
+        }
+    }
+
+    @media screen and (max-height: 360px) {
+        margin-top: 15px;
+    }
+}
+}
+
+

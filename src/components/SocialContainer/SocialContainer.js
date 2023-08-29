@@ -1,8 +1,8 @@
-import React from "react";
 import instagram from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/instagram.png";
 import twitter from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/twitter.png";
 import facebook from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/facebook.png";
 import youtube from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/youtube.png";
+import "./SocialContainer.scss"
 
 const SocialContainer = () => {
   return (
@@ -13,7 +13,7 @@ const SocialContainer = () => {
         rel="noopener noreferrer"
         aria-label="Link to the 78th Army Band's Instagram account"
       >
-        <img src={instagram} className="socialLogo" alt="Instagram" />
+        <img src={instagram} className="iconContainer__socialLogo" alt="Instagram" />
       </a>
       <a
         href="https://twitter.com/78tharmyband"
@@ -21,7 +21,7 @@ const SocialContainer = () => {
         rel="noopener noreferrer"
         aria-label="Link to the 78th Army Band's Twitter account"
       >
-        <img src={twitter} className="socialLogo" alt="Twitter" />
+        <img src={twitter} className="iconContainer__socialLogo" alt="Twitter" />
       </a>
       <a
         href="https://www.facebook.com/78thArmyBand"
@@ -29,7 +29,7 @@ const SocialContainer = () => {
         rel="noopener noreferrer"
         aria-label="Link to the 78th Army Band's Facebook page"
       >
-        <img src={facebook} className="socialLogo" alt="Facebook" />
+        <img src={facebook} className="iconContainer__socialLogo" alt="Facebook" />
       </a>
       <a
         href="https://www.youtube.com/@78thArmyBand"
@@ -37,7 +37,7 @@ const SocialContainer = () => {
         rel="noopener noreferrer"
         aria-label="Link to the 78th Army Band's Youtube channel"
       >
-        <img src={youtube} className="socialLogo" alt="Youtube" />
+        <img src={youtube} className="iconContainer__socialLogo" alt="Youtube" />
       </a>
     </div>
   );

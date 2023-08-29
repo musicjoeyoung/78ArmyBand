@@ -1,4 +1,4 @@
-.container{
+.homeContainer{
     position: relative;
     top: 0;
     left: 0;
@@ -14,10 +14,10 @@
   
 
   &__homePageLogoImg {
-    position: absolute;
-    background-color: rgb(0 0 0 / 62%);
-    top: 17vw;
-    width: 53vw;
+     position: absolute;
+    background-color: rgba(0, 0, 0, 0.62);
+    top: 5rem;
+    width: 21rem;
     z-index: 2;
     margin: auto;
     margin-left: 23%;

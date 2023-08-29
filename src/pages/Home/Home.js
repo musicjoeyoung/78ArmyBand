@@ -6,11 +6,11 @@ import "./Home.scss"
 const Home = () => {
   return (
     <>
-      <div className="container">
-        <img src={parade} className="container__mobileHomeImg" alt="Band marching" />
+      <div className="homeContainer">
+        <img src={parade} className="homeContainer__mobileHomeImg" alt="Band marching" />
         <img
           src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674498250/78logo_1_fsqjox.png"
-          className="container__homePageLogoImg"
+          className="homeContainer__homePageLogoImg"
           alt="US Army Reserve; 78th Army Band; Fort Dix, NJ; Fort Totten, NY"
         />
       </div>

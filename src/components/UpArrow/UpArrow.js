@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import arrow from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/arrow.png";
+import "./UpArrow.scss"
 
 
 const UpArrow = () => {
@@ -33,10 +34,10 @@ const UpArrow = () => {
   return (
     <div className="scrollToTop">
       {isVisible && (
-        <div onClick={scrollToTop} className="upContainer">
+        <div onClick={scrollToTop} className="scrollToTop__upContainer">
           <img
             src={arrow}
-            className="img"
+            className="scrollToTop__img"
             alt="Scroll up arrow"
             width={60}
             height={60}

@@ -1,6 +1,57 @@
-@use "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/partials/_variables.scss" as *;
+.mainnavbar {
+  display: flex;
+  background-color: #00214e;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 
-/* .test{
-    color: $yellow !important;
-    font-size: 5rem;
-} */
+    &__a {
+        position: inherit;
+        margin-top: 0 !important;
+        }
+
+    &__logo {
+        width: 50px;
+        height: 50px;
+        padding-top: 5px;
+        color: white !important;
+        margin-right: 19.5px;
+        margin-left: 19.5px;
+        font-size: 1.6vw;
+
+        @media screen and (max-width: 999px) {
+          display: none;
+        }
+      }
+}
+
+.horizontalNav {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+
+    @media screen and (max-width: 999px) {
+        display: none;
+    }
+}
+
+
+
+.desktopMenu {
+  display: flex;
+  flex-direction: row;
+
+    &__a {
+        margin-top: -10px !important;
+        color: white;
+        font-size: 18px;
+        padding: 15px 15px 15px 15px;
+        vertical-align: -webkit-baseline-middle;
+
+        &:hover{
+            color: #ffcc01 !important;
+        }
+    }
+}

@@ -16,18 +16,14 @@ const Navbar = () => {
     <>
       <BrowserRouter>
         <div className="mainnavbar">
-          {/* <p className="test">test</p> */}
-          <a aria-label="Link to home page" href="/home">
-            <img id="navbarLogo" src={logo78} alt="78th Band logo" />
+          <a aria-label="Link to home page" href="/home" className="mainnavbar__a">
+            <img className="mainnavbar__logo" src={logo78} alt="78th Band logo" />
           </a>
           <nav className="horizontalNav">
             <ul className="desktopMenu">
-              {/*       <NavLink className="li" role="none">
-                <a aria-label="Link to home page" role="menuItem" href="/home">
-                  Home
-                </a>
-              </NavLink> */}
+
               <NavLink
+              className="desktopMenu__a"
                 to="/"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -36,6 +32,7 @@ const Navbar = () => {
                 Home
               </NavLink>
               <NavLink
+              className="desktopMenu__a"
                 to="/history"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -44,6 +41,7 @@ const Navbar = () => {
                 History
               </NavLink>
               <NavLink
+              className="desktopMenu__a"
                 to="/meettheband"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -52,6 +50,7 @@ const Navbar = () => {
                 Meet the Band
               </NavLink>
               <NavLink
+              className="desktopMenu__a"
                 to="/ensembles"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -60,6 +59,7 @@ const Navbar = () => {
                 Ensembles
               </NavLink>
               <NavLink
+              className="desktopMenu__a"
                 to="/media"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -68,6 +68,7 @@ const Navbar = () => {
                 Watch & Listen
               </NavLink>
               <NavLink
+              className="desktopMenu__a"
                 to="/jobs"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -76,6 +77,7 @@ const Navbar = () => {
                 Auditions
               </NavLink>
               <NavLink
+              className="desktopMenu__a"
                 to="/contact"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
