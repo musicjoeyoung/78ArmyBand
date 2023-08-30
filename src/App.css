@@ -95,12 +95,7 @@ input {
   top: 0;
   width: 100%;
 }
-/* .horizontalNav {
-  display: none;
-}
-.horizontalNav a {
-  margin-top: -10px !important;
-} */
+
 #navbarLinks {
   color: black;
   line-height: 40px;
@@ -234,7 +229,7 @@ li:hover {
   cursor: pointer;
 }
 /* Show the dropdown menu on hover */
-.dropdown:hover .navbar {
+.navbar {
   display: block;
   z-index: 3;
   height: 100vh;
@@ -547,31 +542,7 @@ h2,
 .current-page {
   text-decoration: underline #ff0000 0.15rem;
 }
-.menu {
-  margin: 0 auto;
-  line-height: 40px;
-  padding-inline-start: 0;
-}
-/* .desktopMenu {
-  display: flex;
-  flex-direction: row;
-}
-.desktopMenu a {
-  color: white;
-  font-size: 18px;
-  padding: 15px 15px 15px 15px;
-  vertical-align: -webkit-baseline-middle;
-}
-.desktopMenu li {
-  margin: 0px 20px 0px 20px;
-  padding-bottom: 30px;
-}
-.desktopMenu li:hover {
-  background-color: #00214e !important;
-}
-.desktopMenu a:hover {
-  color: #ffcc01 !important;
-} */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -579,44 +550,6 @@ h2,
   100% {
     opacity: 1;
   }
-}
-
-.dropdown {
-  width: 40px;
-  height: 40px;
-  padding: 6px;
-}
-.dropdown img {
-  width: 40px;
-}
-
-.dropdown span {
-  width: 20px;
-  height: 20px;
-  background-color: black;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 3;
-  margin-top: -3px;
-}
-.dropdown-content a {
-  color: #00214e;
-}
-.dropdown-content li {
-  padding: 0px 0px 0px 7px;
-}
-.dropdown-content li:hover {
-  border-radius: 10px;
-  padding: 0px 0px 0px 7px;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 .mobileMedia {
   width: 50%;
@@ -635,16 +568,8 @@ h2,
   font-size: 16px !important;
 }
 
-#navbarLogoMobile {
-  position: absolute;
-  right: 10px;
-  width: 40px;
-  height: 40px;
-  top: 5px;
-}
-#navbarLogoMobileA {
-  margin-top: 2px;
-}
+
+
 
 
 @keyframes glowing {
@@ -677,9 +602,6 @@ h2,
     width: 3.1vw;
   }
 
-  .dropdown {
-    display: none;
-  }
   .horizontalNav {
     display: flex;
     flex-direction: row;
@@ -695,9 +617,7 @@ h2,
     background-color: #ffcc01;
     color: black !important;
   }
-  #navbarLogoMobile {
-    display: none;
-  }
+ 
 }
 @media screen and (max-width: 600px) {
   #desktopImg {
@@ -706,7 +626,7 @@ h2,
   #mobileImg {
     width: 75%;
   }
-  .dropdown,
+
   .dropbtn {
     height: 40px;
     width: 40px;

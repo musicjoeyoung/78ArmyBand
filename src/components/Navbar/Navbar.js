@@ -89,11 +89,12 @@ const Navbar = () => {
           </nav>
 
           <div className="dropdown">
-            <img src={dropdown} alt="dropdown button" />
-            <nav className="dropdown-content">
-              <ul className="menu">
-                <li className="li" role="none">
+            <img src={dropdown} alt="dropdown button" className="dropdown__img"/>
+            <nav className="dropdown__nav">
+              <ul className="dropdown__menu">
+                <li className="dropdown__li" role="none">
                   <a
+                    className="dropdown__a"
                     aria-label="Link to home page"
                     role="menuItem"
                     href="/home"
@@ -101,8 +102,9 @@ const Navbar = () => {
                     Home
                   </a>
                 </li>
-                <li className="li" role="none">
+                <li className="dropdown__li" role="none">
                   <a
+                    className="dropdown__a"
                     aria-label="Link to History page"
                     role="menuItem"
                     href="/history"
@@ -110,8 +112,9 @@ const Navbar = () => {
                     History
                   </a>
                 </li>
-                <li className="li" role="none">
+                <li className="dropdown__li" role="none">
                   <a
+                    className="dropdown__a"
                     aria-label="Link to Meet the Band page"
                     role="menuItem"
                     href="/meettheband"
@@ -119,8 +122,9 @@ const Navbar = () => {
                     Meet the Band
                   </a>
                 </li>
-                <li className="li" role="none">
+                <li className="dropdown__li" role="none">
                   <a
+                    className="dropdown__a"
                     aria-label="Link to Ensembles page"
                     role="menuItem"
                     href="/ensembles"
@@ -128,8 +132,9 @@ const Navbar = () => {
                     Ensembles
                   </a>
                 </li>
-                <li className="li" role="none">
+                <li className="dropdown__li" role="none">
                   <a
+                    className="dropdown__a"
                     aria-label="Link to Watch & Listen/Media page"
                     role="menuItem"
                     href="/media"
@@ -137,8 +142,9 @@ const Navbar = () => {
                     Watch & Listen
                   </a>
                 </li>
-                <li className="li" role="none">
+                <li className="dropdown__li" role="none">
                   <a
+                    className="dropdown__a"
                     aria-label="Link to Auditions/Jobs page"
                     role="menuItem"
                     href="/jobs"
@@ -146,8 +152,9 @@ const Navbar = () => {
                     Audition
                   </a>
                 </li>
-                <li className="li" role="none">
+                <li className="dropdown__li" role="none">
                   <a
+                    className="dropdown__a"
                     aria-label="Link to Contact page"
                     role="menuItem"
                     href="/contact"
@@ -159,7 +166,7 @@ const Navbar = () => {
             </nav>
           </div>
           <a aria-label="Link to home page" href="/" id="navbarLogoMobileA">
-            <img id="navbarLogoMobile" src={logo78} alt="78th Band logo" />
+            <img className="navbarLogoMobile" src={logo78} alt="78th Band logo" />
           </a>
         </div>
         <Routes>
