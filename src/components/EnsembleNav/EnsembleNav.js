@@ -1,25 +1,26 @@
 import React from "react";
 import $ from "jquery";
+import "./EnsembleNav.scss"
 
 const EnsembleNav = ({ setName }) => {
   $(document).ready(function () {
     // check where the shoppingcart-div is
-    let offset = $(".ensemblesNavComp").offset();
+    let offset = $(".ensembles-container").offset();
     $(window).scroll(function () {
       let scrollTop = $(window).scrollTop();
       // check the visible top of the browser
       if (offset.top < scrollTop) {
-        $(".ensemblesNavComp").addClass("fixed");
+        $(".ensembles-container").addClass("fixed");
       } else {
-        $(".ensemblesNavComp").removeClass("fixed");
+        $(".ensembles-container").removeClass("fixed");
       }
     });
   });
   return (
     <div>
-      <div className="ensemblesNavComp" role="navigation" aria-live="polite">
+      <div className="ensembles-container" role="navigation" aria-live="polite">
         <button
-          className="ensembleNameNavComp"
+          className="ensembles-container__ensemble-button"
           onClick={setName}
           id="ConcertBand"
           aria-label="Concert Band"
@@ -28,7 +29,7 @@ const EnsembleNav = ({ setName }) => {
           Concert Band
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensembles-container__ensemble-button"
           onClick={setName}
           id="MarchingCeremonialBand"
           aria-label="Marching Ceremonial Band"
@@ -37,7 +38,7 @@ const EnsembleNav = ({ setName }) => {
           Marching/Ceremonial Band
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensembles-container__ensemble-button"
           onClick={setName}
           id="BrassQuintet"
           aria-label="Brass Quintet"
@@ -47,7 +48,7 @@ const EnsembleNav = ({ setName }) => {
         </button>
 
         <button
-          className="ensembleNameNavComp"
+          className="ensembles-container__ensemble-button"
           onClick={setName}
           id="Checkmate"
           aria-label="Checkmate rock band"
@@ -56,7 +57,7 @@ const EnsembleNav = ({ setName }) => {
           Checkmate
         </button>
         <button
-          className="ensembleNameNavComp"
+          className="ensembles-container__ensemble-button"
           onClick={setName}
           id="FortDixielandBrassBand"
           aria-label="Fort Dixieland Brass Band"
@@ -64,17 +65,8 @@ const EnsembleNav = ({ setName }) => {
         >
           Fort Dix-ieland Brass Band
         </button>
-{/*         <button
-          className="ensembleNameNavComp"
-          onClick={setName}
-          id="FortDixielandBrassBand"
-          aria-label="Lady Liberty musical group"
-          aria-pressed={false}
-        >
-          Lady Liberty
-        </button> */}
         <button
-          className="ensembleNameNavComp"
+          className="ensembles-container__ensemble-button"
           onClick={setName}
           id="FortDixielandBrassBand"
           aria-label="Liberty Vibes Latin/jazz group"

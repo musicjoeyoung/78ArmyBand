@@ -30,10 +30,7 @@ a:active {
   color: black;
   margin-top: 11px;
 }
-.parentDiv {
-  text-align: center;
-  margin-top: 84px;
-}
+
 
 .fixed {
   position: relative;
@@ -149,40 +146,7 @@ input {
 .emailContainer h2 {
   color: white;
 }
-#user_name,
-#user_email,
-#messageLabel {
-  margin: auto;
-  color: white;
-}
-#messageLabel {
-  margin: 15px 0 10px 0;
-}
-#user_name {
-  display: flex;
-}
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-#messageInput {
-  margin: auto;
-  height: 143px;
-  width: 84%;
-  margin-bottom: 15px;
-}
-#submitButton {
-  background-color: #ffcc01;
-  width: 145px;
-  height: 40px;
-  border-radius: 25px;
-  color: black;
-  font-size: 14px;
-  cursor: pointer;
-  margin: 0px auto;
-  margin-bottom: 75px;
-}
+
 #about-page-pText,
 #ensembles-page-pText,
 #media-page-pText,
@@ -306,24 +270,11 @@ li:hover {
   padding-right: 3%;
   margin-top: 2.9%;
 }
-#ensembleImg {
-  width: 65%;
-}
 
-#ensembleH2Name {
-  text-align: center;
-}
-.individualEnsemble {
-  display: flex;
-  min-height: 900px;
-  margin-left: 200px;
-}
-#ensemblePageDescription {
-  width: 95%;
-  margin: auto;
-  margin-top: 15px;
-  color: #00214e;
-}
+
+
+
+
 
 .media {
   background-color: #00214e;
@@ -446,22 +397,18 @@ p {
 
 
 
-.profileContainer,
-.ensembleContainer {
+.profileContainer{
   width: 80%;
   margin: 0 auto;
 }
 .profileContainer h1,
-h2,
-.ensembleContainer h1 {
+h2 {
   font-weight: 600;
 }
 .profileContainer img {
   width: 90%;
 }
-.mobileH1 {
-  display: none;
-}
+
 
 @media screen and (max-width: 1140px) {
   p {
@@ -579,21 +526,12 @@ h2,
     font-size: 15px;
     font-family: "rawline", sans-serif;
   }
-  .ensembles {
+  /* .ensembles {
     width: 90%;
-  }
-  #ensemblePageDescription {
-    display: none;
-  }
-  #ensemblePageDescriptionMobile {
-    width: 95%;
-    margin: auto;
-    margin-top: 15px;
-    color: #00214e;
-  }
-  #ensembleImg {
-    width: 90%;
-  }
+  } */
+
+
+ 
   .ensembleName {
     border: 1px solid black;
     padding-top: 2vw;
@@ -609,13 +547,7 @@ h2,
     transition: none;
     color: white;
   }
-  #ensembleH2Name {
-    text-align: center;
-  }
-  .individualEnsemble {
-    display: block;
-    margin-left: 0;
-  }
+
   #bioImg {
     width: 250px;
     margin: auto;
@@ -648,12 +580,8 @@ h2,
   #requestBandPTag {
     width: 90%;
   }
-  .mobileH1 {
-    display: block;
-  }
-  .desktopH1 {
-    display: none;
-  }
+ 
+ 
 }
 #submit {
   background: rgb(2, 0, 36);
@@ -679,9 +607,6 @@ h2,
   }
 }
 @media screen and (max-width: 999px) {
-  .parentDiv {
-    margin-top: 70px;
-  }
   .mainnavbar {
     height: 52px;
   }
@@ -702,8 +627,7 @@ h2,
     display: none;
   }
 
-  .profileContainer,
-  .ensembleContainer {
+  .profileContainer {
     width: 100%;
   }
   .instrumentsByName {
@@ -730,16 +654,7 @@ h2,
 }
 
 @media screen and (min-width: 601px) {
-  .desktopH1 {
-    display: block;
-  }
-  .mobileH1 {
-    display: none;
-  }
- 
-  #ensemblePageDescriptionMobile {
-    display: none;
-  }
+
   #mobileImg {
     display: none;
   }

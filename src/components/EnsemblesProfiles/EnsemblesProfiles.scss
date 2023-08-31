@@ -1,0 +1,62 @@
+.ensemble{
+  width: 80%;
+  margin: 0 auto;
+  
+    &__h1 {
+        font-weight: 600;
+
+        @media screen and (max-width: 600px) {
+          display: none;
+        }
+    }
+    &__description {
+        width: 95%;
+        margin: auto;
+        margin-top: 15px;
+        color: #00214e;
+
+        @media screen and (max-width: 600px) {
+          display: none;
+        }
+    }
+    &__h2 {
+        text-align: center;
+    }
+    &__img {
+        width: 65%;
+    }
+    &__bio{
+        color: #00214e;
+        text-align: left;
+        font-family: rawline,sans-serif;
+        font-weight: 300;
+        line-height: 25px;
+        padding: 1px 20px 0 12px;
+    }
+}
+
+
+//max 480
+/* .ensemble{
+    width: 100%;
+} */
+  //max 600
+ /*   &__h1 {
+    display: none;
+  } */
+
+  //min 601
+/*     .desktopH1 {
+    display: block;
+  } */
+
+//max 600
+/*   &__description {
+    display: none;
+  } */
+
+
+//max 600
+/*  #ensembleImg {
+    width: 90%;
+  } */

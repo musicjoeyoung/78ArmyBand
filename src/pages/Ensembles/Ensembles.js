@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ensembles } from "../../assets/ensembles/ensemblesArray";
 import EnsembleNav from "../../components/EnsembleNav/EnsembleNav.js";
 import EnsemblesProfiles from "../../components/EnsemblesProfiles/EnsemblesProfiles";
+import "./Ensembles.scss"
 
 const Ensembles = () => {
   const [name, setName] = useState("Concert Band");
@@ -11,16 +12,16 @@ const Ensembles = () => {
 
   //console.log({ name });
   return (
-    <div className="parentDiv">
-      <h1 className="mobileH1">Ensembles</h1>
-      <p id="ensemblePageDescriptionMobile">
+    <div className="ensembles">
+      <h1 className="ensembles__h1-mobile">Ensembles</h1>
+      <p className="ensembles__description-mobile">
         The 78th Army Band's many ensembles perform throughout the larger
         tri-state area for all communities. They play a vital role in the Army
         by providing musical support for various troops, units and branches,
         entertaining civilians, and serving as musical ambassadors of the Army.
       </p>
       <EnsembleNav setName={updateName} />
-      <div className="individualEnsemble">
+      <div className="ensembles__ensemble">
         <EnsemblesProfiles ensembles={profiles} />
       </div>
     </div>
