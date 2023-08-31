@@ -1,26 +1,23 @@
 import React from "react";
 import armylogo from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/ArmyLogo.webp";
+import "./Footer.scss"
 
 const Footer = () => {
   return (
-    <div className="footer fixed-footer">
-      <div className="footerChildContainer">
-        <div className="footerLogos">
+        <div className="footer">
           <a
             href="https://www.goarmy.com/"
-            className="milLogoDiv"
+            className="footer__img-a"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to goarmy.com website"
           >
-            <img src={armylogo} alt="army logo" id="milLogo" />
+            <img src={armylogo} alt="army logo" className="footer__img" />
           </a>
-        </div>
-        <div className="footerLinks">
-          <div id="footerLinksDiv">
-            <h3 id="learnMore">Learn More</h3>
+          <div className="footer__links-div">
+            <h3 className="footer__h3">Learn More</h3>
             <a
-              id="footerATags"
+              className="footer__a"
               href="./contact"
               rel="noopener noreferrer"
               aria-label="Link to Contact page"
@@ -29,7 +26,7 @@ const Footer = () => {
             </a>
 
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.goarmy.com/band.html"
               target="_blank"
               rel="noopener noreferrer"
@@ -38,14 +35,14 @@ const Footer = () => {
               US Army Bands
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="./contact"
               aria-label="Link to Contact page"
             >
               Request the Band
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="mailto:joseph.m.young72.mil@mail.mil?subject=78th Army Band Website"
               aria-label="Link to email the Webmaster"
             >
@@ -53,17 +50,17 @@ const Footer = () => {
             </a>
           </div>
 
-          <div id="footerLinksDiv">
-            <h3 id="importantLinks">Important Links</h3>
+          <div className="footer__links-div">
+            <h3 className="footer__h3">Important Links</h3>
             <a
-              id="footerATags"
+              className="footer__a"
               href="./termsofuse"
               aria-label="Link to Terms of Use page"
             >
               Terms of Use
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.goarmy.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +69,7 @@ const Footer = () => {
               US Army
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.usar.army.mil/"
               target="_blank"
               rel="noopener noreferrer"
@@ -81,7 +78,7 @@ const Footer = () => {
               US Army Reserve
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.usar.army.mil/99thRD/"
               target="_blank"
               rel="noopener noreferrer"
@@ -90,7 +87,7 @@ const Footer = () => {
               99th RD
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.jbmdl.jb.mil/"
               target="_blank"
               rel="noopener noreferrer"
@@ -101,10 +98,10 @@ const Footer = () => {
             {/* <a>Fort Totten</a> */}
           </div>
 
-          <div id="footerLinksDiv">
-            <h3 id="socialMedia">Social Media</h3>
+          <div className="footer__links-div">
+            <h3 className="footer__h3">Social Media</h3>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.youtube.com/user/78thArmyBand"
               target="_blank"
               rel="noopener noreferrer"
@@ -113,7 +110,7 @@ const Footer = () => {
               YouTube
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.instagram.com/78tharmyband/"
               target="_blank"
               rel="noopener noreferrer"
@@ -122,7 +119,7 @@ const Footer = () => {
               Instagram
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://www.facebook.com/78thArmyBand"
               target="_blank"
               rel="noopener noreferrer"
@@ -131,7 +128,7 @@ const Footer = () => {
               Facebook
             </a>
             <a
-              id="footerATags"
+              className="footer__a"
               href="https://twitter.com/78thArmyBand?s=20"
               target="_blank"
               rel="noopener noreferrer"
@@ -141,8 +138,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
-    </div>
+
   );
 };
 

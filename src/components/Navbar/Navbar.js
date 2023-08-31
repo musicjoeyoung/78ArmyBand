@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       <BrowserRouter>
         <div className="mainnavbar">
-          <a aria-label="Link to home page" href="/home" className="mainnavbar__a">
+          <a href="/home" className="mainnavbar__a" >
             <img className="mainnavbar__logo" src={logo78} alt="78th Band logo" />
           </a>
           <nav className="horizontalNav">
@@ -95,8 +95,6 @@ const Navbar = () => {
                 <li className="dropdown__li" role="none">
                   <a
                     className="dropdown__a"
-                    aria-label="Link to home page"
-                    role="menuItem"
                     href="/home"
                   >
                     Home
@@ -105,8 +103,6 @@ const Navbar = () => {
                 <li className="dropdown__li" role="none">
                   <a
                     className="dropdown__a"
-                    aria-label="Link to History page"
-                    role="menuItem"
                     href="/history"
                   >
                     History
@@ -115,8 +111,6 @@ const Navbar = () => {
                 <li className="dropdown__li" role="none">
                   <a
                     className="dropdown__a"
-                    aria-label="Link to Meet the Band page"
-                    role="menuItem"
                     href="/meettheband"
                   >
                     Meet the Band
@@ -125,8 +119,6 @@ const Navbar = () => {
                 <li className="dropdown__li" role="none">
                   <a
                     className="dropdown__a"
-                    aria-label="Link to Ensembles page"
-                    role="menuItem"
                     href="/ensembles"
                   >
                     Ensembles
@@ -135,8 +127,6 @@ const Navbar = () => {
                 <li className="dropdown__li" role="none">
                   <a
                     className="dropdown__a"
-                    aria-label="Link to Watch & Listen/Media page"
-                    role="menuItem"
                     href="/media"
                   >
                     Watch & Listen
@@ -145,8 +135,6 @@ const Navbar = () => {
                 <li className="dropdown__li" role="none">
                   <a
                     className="dropdown__a"
-                    aria-label="Link to Auditions/Jobs page"
-                    role="menuItem"
                     href="/jobs"
                   >
                     Audition
@@ -155,8 +143,6 @@ const Navbar = () => {
                 <li className="dropdown__li" role="none">
                   <a
                     className="dropdown__a"
-                    aria-label="Link to Contact page"
-                    role="menuItem"
                     href="/contact"
                   >
                     Contact
@@ -165,7 +151,7 @@ const Navbar = () => {
               </ul>
             </nav>
           </div>
-          <a aria-label="Link to home page" href="/" id="navbarLogoMobileA">
+          <a href="/home">
             <img className="navbarLogoMobile" src={logo78} alt="78th Band logo" />
           </a>
         </div>

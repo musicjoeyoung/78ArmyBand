@@ -334,12 +334,7 @@ li:hover {
   padding: 15px 10px 15px 10px;
   display: block;
 }
-#learnMore,
-#importantLinks,
-#socialMedia {
-  font-size: 15px;
-  color: white;
-}
+
 #roleDescriptions {
   width: 90%;
   margin: auto;
@@ -447,54 +442,9 @@ p {
   border: solid 1px black;
   width: 7vw;
 }
-.footer {
-  background-color: #00214e;
-  margin-top: 15px;
-}
 
-.footerChildContainer {
-  display: flex;
-  flex-direction: row;
-  padding-top: 25px;
-  width: 96%;
-  margin: 0 auto;
-  background-color: #00214e;
-}
-.footerLogos {
-  display: flex;
-  flex-direction: row;
-}
-.footerLinks {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 3vw;
-  color: white;
-  width: 100%;
-  justify-content: space-evenly;
-}
-#footerLinksDiv {
-  display: flex;
-  flex-direction: column;
-}
-#footerLinksDiv h3 {
-  font-weight: 600;
-  margin-block-end: 5px;
-}
-#footerLinksDiv a {
-  margin-top: 4px;
-  color: white;
-}
-#footerLinksDiv a:hover {
-  margin-top: 4px;
-  color: #ffcc01;
-}
-#milLogo {
-  width: 55%;
-  height: auto;
-}
-.milLogoDiv {
-  text-align: center;
-}
+
+
 
 .profileContainer,
 .ensembleContainer {
@@ -518,21 +468,7 @@ h2,
     font-size: 16px;
   }
 
-  .footerLogos {
-    display: flex;
-    flex-direction: row;
-  }
 
-  .footerLinks {
-    color: white;
-    width: 100%;
-  }
-  #learnMore,
-  #importantLinks,
-  #socialMedia {
-    font-size: 15px;
-    color: white;
-  }
 
 }
 
@@ -631,27 +567,7 @@ h2,
     height: 40px;
     width: 40px;
   }
-  .footerLinks {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    margin: auto;
-    width: 100%;
-  }
-  #footerATags {
-    font-size: 12px;
-  }
-  .footerLogos {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 30%;
-  }
-  .footerChildContainer {
-    display: flex;
-    flex-direction: column;
-    padding-top: 25px;
-  }
+  
   .sliderimg {
     filter: none;
   }
@@ -820,9 +736,7 @@ h2,
   .mobileH1 {
     display: none;
   }
-  .footer {
-    height: calc(85vh - 374px);
-  }
+ 
   #ensemblePageDescriptionMobile {
     display: none;
   }

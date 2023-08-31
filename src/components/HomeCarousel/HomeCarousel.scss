@@ -1,0 +1,14 @@
+.sliderimg {
+  transition: filter 2s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px;
+  
+  &:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+}
