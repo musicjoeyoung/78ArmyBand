@@ -4,21 +4,21 @@ import instagram from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/a
 import twitter from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/twitter.png";
 import facebook from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/facebook.png";
 import youtube from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/youtube.png";
+import "./Contact.scss"
 
 const Contact = () => {
   return (
-    <div className="parentDiv">
-      <h1>Contact</h1>
+    <div className="contact-container">
+      <h1 className="contact-container__h1">Contact</h1>
 
       <div
-        className="contact-page-request-the-band"
-        id="contact-page-request-the-band"
+        className="request"
       >
-        <h2>Request the Band</h2>
-        <p id="requestBandPTag">
+        <h2 className="request__h2">Request the Band</h2>
+        <p className="request__p">
           To request the 78th Army Band, complete a{" "}
           <a
-            id="requestBandInfo"
+            className="request__info"
             href="https://www.usar.army.mil/Portals/98/Documents/For_Commands/dd2536.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -30,6 +30,7 @@ const Contact = () => {
           and indicate the type of support requested. Email the form to the 78th
           Army Band at{" "}
           <a
+            className="request__info"
             aria-label="Link to email the 78th Army Band"
             href="mailto:78tharmyband@gmail.com?subject=Request 78th Army Band"
           >
@@ -38,13 +39,13 @@ const Contact = () => {
           no less than 60 days prior to the scheduled event.
         </p>
       </div>
-      <div className="emailContainer">
-        <p id="contact-page-pText2">
+      <div className="email">
+        <p className="email__p">
           The 78th Army Band wants to give you the best musical experience.
           Please follow us on social media and let us know what you think.
         </p>
 
-        <div className="contactSocialContainer">
+        <div >
           <a
             href="https://www.instagram.com/78tharmyband/"
             target="_blank"
@@ -79,7 +80,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <h2>We want to hear from you!</h2>
+        <h2 className="email__h2">We want to hear from you!</h2>
         <div className="contact-page-email-form">
           <ContactForm />
         </div>

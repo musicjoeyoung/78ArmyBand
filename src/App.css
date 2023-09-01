@@ -103,49 +103,7 @@ input {
   width: 15vw;
 }
 
-.contact-page-request-the-band {
-  width: 100%;
-  margin: 0 auto;
-  background-color: #00214e;
-  margin-block-end: -1em;
-}
-.contact-page-request-the-band h2 {
-  color: white;
-  padding-top: 15px;
-}
-.contact-page-request-the-band button {
-  background-color: #ffcc01;
-  width: 145px;
-  height: 40px;
-  border-radius: 25px;
-  color: black;
-  font-size: 14px;
-  margin-top: 15px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-#requestBandInfo {
-  color: #ffcc01;
-  font-size: 16px;
-}
-#requestBandPTag {
-  width: 50%;
-  font-size: 16px;
-  margin: auto;
-  padding-bottom: 50px;
-  line-height: 19px;
-}
-#requestBandPTag a {
-  text-decoration: underline;
-  font-size: 16px;
-  color: #ffcc01;
-}
-.emailContainer {
-  background-color: #00214e;
-}
-.emailContainer h2 {
-  color: white;
-}
+
 
 #about-page-pText,
 #ensembles-page-pText,
@@ -156,12 +114,7 @@ input {
   padding: 0px;
   margin-top: -10px;
 }
-#contact-page-pText2 {
-  color: white;
-  width: 50%;
-  margin: 0 auto;
-  line-height: 19px;
-}
+
 .dropbtn {
   color: white;
   font-size: 16px;

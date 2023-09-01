@@ -1,0 +1,52 @@
+.contact-container{
+    text-align: center;
+    margin-top: 84px;
+
+    &__h1 {
+        font-weight: 600;
+        color: #00214e;
+    }
+}
+.request {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #00214e;
+    margin-block-end: -1em;
+
+    &__h2 {
+        color: white;
+        padding-top: 15px;
+    }
+  
+    &__p {
+        width: 50%;
+        font-size: 16px;
+        margin: auto;
+        padding-bottom: 50px;
+        line-height: 19px;
+    }
+    &__info {
+        color: #ffcc01 !important;
+        font-size: 16px;
+        text-decoration: underline !important;
+    }
+}
+
+.email{
+  background-color: #00214e;
+
+    &__h2 {
+        color: white;
+    }
+    &__p {
+        color: white;
+        width: 50%;
+        margin: 0 auto;
+        line-height: 19px;
+    }
+}
+
+.socialLogo{
+    width: 2rem;
+    margin: 10px;
+}
