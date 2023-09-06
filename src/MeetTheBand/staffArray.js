@@ -136,7 +136,7 @@ export const staff = [
   {
     id: 22,
     name: "SPC Weza Jamison-Neto",
-    bio: "Biography coming soon!",
+    bio: "Born in Honolulu, Hawaii & raised in Bonaire, Georgia, SPC Weza T. Jamison-Neto is the newest Bass Trombone player in the Fort Totten, NY Detachment under the 78th Army Band. Born to Debra D. Jamison and Gil A. Neto, SPC Jamison-Neto is the youngest of five siblings. ¶ From a young age, Weza has always been witty, ecstatic, zealous and affectionate. Voted Veterans Highschool’s “Most likely to have a good day” and titled “Undying Sun” by Boston’s New England Conservatory of Music, his presence is always felt by others around him; building camaraderie in all the ways he can. ¶ Being the son of the renowned Air Force vocalist, (Retired) Senior Master Sergeant Jamison, he was exposed and enticed by high quality musicianship every day. As early as 4 years old, Weza’s favorite thing to do was be in rehearsal and perform for others. Learning Tenor Trombone under directorship of Leah Williams and the assistance of Jamie Blanchett at BMS, then, later transitioning and refining his skill on Bass Trombone from Jonathan Baker (FPDS) and Jeremy Fermin (VHS). It was clear to see his love and passion was music and the people that make it. In 2020, SPC Jamison-Neto was accepted at the New England Conservatory of Music for Jazz Performance, where he now expands his studies . He is additionally learning free improvisation, contemporary music, world music, and choral/instrumental conducting. ¶ SPC Jamison-Neto aspires to become a 42C (Band Officer) after graduating from NEC. Leading and developing more in his musicianship, but most importantly, as a person.",
     img: noPic,
     section: "Brass",
   },
@@ -161,13 +161,13 @@ export const staff = [
     img: noPic,
     section: "Woodwinds",
   },
-  /*   {
+    {
     id: 17,
-    name: "SSG Kyle Murphy",
-    bio: "Staff Sergeant Kyle Murphy is originally from Ledyard, CT. He started his military service in the Coast Guard Reserve as a Marine Science Technician in 1999.  He transitioned into the Army as a musician in 2009.  ¶ After completing the Army School of Music in Little Creek,  VA, SSG Murphy was stationed at the 77th Army Band at Fort Sill, OK. His next duty assignment was with the 392nd Army Band from Fort Lee,VA. While at Fort Lee he left active duty and joined the Army Reserve in 2015.  ¶ As a Reservist he's served in the 380th Army band, the 94th Army Band, the 319th Army Band and currently serves proudly in the 78th Army Band.  ¶ SSG Murphy holds a BA in Music Theory from Westfield State College and a Certification in Band Instrument Repair from Renton Technical College.  ¶ As a civilian, SSG Murphy works for the Haynes Flute Company as a repair technician.  He currently resides in New Hampshire. ",
+    name: "Specialist Michael Feliciano-Vidot",
+    bio: "Specialist Michael Feliciano-Vidot is from York, PA. He graduated from Eastern York High School in 2022 and enlisted in the US Army Reserves that same year. In high school, SPC Feliciano took part in every musical group he could. He was drum major of his marching band, played trombone in orchestra, sang in chamber choir, made All-State concert band on bari sax, and even took a trip to Europe playing in a county wide jazz band. ¶ SPC Feliciano left for Basic Combat Training on January 10th 2023 to Fort Jackson, SC. After completing basic training, he then went to Advanced Individual Training at Joint Expeditionary Base Little Creek, VA. ¶ SPC Feliciano now attends West Chester University majoring in music performance on saxophone. After graduating college, he plans on going active duty in the army with the hopes of one day making a premier ensemble.",
     img: noPic,
     section: "Woodwinds",
-  }, */
+  },
   {
     id: 18,
     name: "SSG Andrew Duong",
@@ -257,18 +257,18 @@ export const staff = [
   {
     id: 26,
     name: "SGT Nicholas Torrado",
-    bio: "Sergeant Nicholas Torrado grew up in Slate Hill, New York, where he began playing percussion at age 10. SGT Torrado was a member of the Minisink Valley Central School District band programs from his 5th grade year through his senior year.  ¶ After high school, Torrado attended one semester at SUNY Potsdam in Potsdam, New York before shipping off to Fort Sill, Oklahoma to attend Army Basic Combat Training, followed by Advanced Individual Training in Little Creek, Virginia. During that semester at SUNY Potsdam, SGT Torrado continued his musical career with the Potsdam community band.  ¶ When he returned, Torrado attended SUNY Orange in Middletown, New York, where he received his associate's degree in Math and Science in 2020. He has returned to SUNY Potsdam where currently pursuing a bachelor’s degree in History.  ¶ SGT Nicholas Torrado joined The U.S. Army Reserve's 78th Army Band in 2018. He currently lives in New York and his hobbies include practicing his drumming (and other instruments), bowling, and fishing.",
+    bio: "Sergeant Nicholas Torrado grew up in Slate Hill, New York, where he began playing percussion at age 10. SGT Torrado was a member of the Minisink Valley Central School District band programs from his 5th grade year through his senior year. ¶ After high school, Torrado attended one semester at SUNY Potsdam in Potsdam, New York before shipping off to Fort Sill, Oklahoma to attend Army Basic Combat Training, followed by Advanced Individual Training in Little Creek, Virginia. During that semester at SUNY Potsdam, SGT Torrado continued his musical career with the Potsdam community band.  ¶ When he returned, Torrado attended SUNY Orange in Middletown, New York, where he received his associate's degree in Math and Science in 2020. He has returned to SUNY Potsdam where currently pursuing a bachelor’s degree in History.  ¶ SGT Nicholas Torrado joined The U.S. Army Reserve's 78th Army Band in 2018. He currently lives in New York and his hobbies include practicing his drumming (and other instruments), bowling, and fishing.",
     img: noPic,
     section: "Percussion",
   },
 
-/*   {
+  {
     id: 27,
-    name: "SPC Jorge Ramos",
-    bio: "Specialist Jorge Ramos grew up in Medellin, Colombia. He joined the 78th Army Band - New York City element in 2019 as a Pianist. He earned a Bachelor Degree in Music Education in 2008 and a Master Degree in Music Performance in 2017 from the Adventist Music School and EAFIT Music School in Medellin, Colombia.  ¶ In 2021 he received the Army Achievement Medal (AAM) for his music efforts during the Band Annual Training. In his career as a musician he has been part of different kinds of ensembles performing music from Classical to Jazz and Latin Jazz, in different countries like Colombia, Venezuela, Bolivia. As a Music Educator he worked from 2013 to 2017 as part of the Education Faculty at the Adventist University of Colombia.  ¶ Currently he lives in Pennsylvania where he enjoys teaching piano at Settlement Music School.",
+    name: "SPC Gabriel Marcano",
+    bio: "Born in Caracas, Venezuela SPC Marcano is currently one of the vocalists for Liberty Vibes MPT and sound engineer for the 78th Army Band. ¶ SPC Marcano began his Army career in 2016 as a 42R. SPC Marcano attended Finger Lakes Community College where he obtained an Associate’s Degree in Music Recording Technology. ¶ Some of SPC Marcano’s hobbies include Powerlifting, Chainsaw Wood Carving, Chess Boxing, Hiking with his dogs, and listening to Creed. ",
     img: noPic,
-    section: "Piano",
-  }, */
+    section: "Vocals",
+  },
   {
     id: 35,
     name: "SGT Svetlana Vynnyk",
