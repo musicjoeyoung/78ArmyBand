@@ -103,9 +103,6 @@ input {
   width: 15vw;
 }
 
-
-
-#about-page-pText,
 #ensembles-page-pText,
 #media-page-pText,
 #jobs-page-pText {
@@ -188,13 +185,7 @@ li:hover {
   width: 300px;
   margin: auto;
 }
-#historyParagraph {
-  text-align: left;
-  width: 80%;
-  margin: auto;
-  line-height: 31px;
-  color: #00214e;
-}
+
 ._hide-visual {
   border: 0 !important;
   clip: rect(0 0 0 0) !important;
@@ -573,10 +564,6 @@ h2 {
 }
 @media screen and (max-width: 480px) {
   .alice-carousel {
-    display: none;
-  }
-
-  .timeline {
     display: none;
   }
 

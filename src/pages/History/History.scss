@@ -1,0 +1,29 @@
+.history {
+    text-align: center;
+    margin-top: 84px;
+
+    @media screen and (max-width: 999px){   
+        margin-top: 70px;
+    }
+
+}
+#about-page-pText{
+      font-size: 20px;
+  color: #00214e;
+  padding: 0px;
+  margin-top: -10px;
+}
+
+//max 480 none
+/* .timeline {
+    display: none;
+  }
+ */
+
+ #historyParagraph {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  line-height: 31px;
+  color: #00214e;
+}

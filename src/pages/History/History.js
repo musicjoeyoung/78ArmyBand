@@ -2,7 +2,7 @@ import React from "react";
 
 const History = () => {
   return (
-    <div className="parentDiv">
+    <div className="history">
       <h1>History</h1>
       <p id="about-page-pText">
         Learn about the history of the 78th Army Band.
