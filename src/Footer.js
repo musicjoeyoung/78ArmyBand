@@ -13,7 +13,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="Link to goarmy.com website"
           >
-            <img src={armylogo} alt="army logo" id="milLogo" />
+            <img src='https://res.cloudinary.com/dfbuwtl5q/image/upload/v1694789738/army-reserve-white.png' alt="army logo" id="milLogo" />
           </a>
         </div>
         <div className="footerLinks">

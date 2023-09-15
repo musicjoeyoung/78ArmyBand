@@ -11,7 +11,7 @@ import ErrorNotFound from "./ErrorNotFound";
 import TermsOfUse from "./TermsOfUse";
 import Footer from "./Footer";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import logo78 from "./images/band78.webp";
+import logo78 from "./images/band78.jpg";
 import dropdown from "./images/dropdown.png";
 import SocialContainer from "./SocialContainer";
 import UpArrow from "./UpArrow";
