@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import logo78 from "../../assets/images/band78.webp";
-import dropdown from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/dropdown.png";
+import dropdown from "../../assets/images/dropdown.png";
 import Home from "../../pages/Home/Home";
 import History from "../../pages/History/History";
 import MeetTheBand from "../../pages/MeetTheBand/MeetTheBand";
@@ -23,7 +23,7 @@ const Navbar = () => {
             <ul className="desktopMenu">
 
               <NavLink
-              className="desktopMenu__a"
+                className="desktopMenu__a"
                 to="/"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -32,7 +32,7 @@ const Navbar = () => {
                 Home
               </NavLink>
               <NavLink
-              className="desktopMenu__a"
+                className="desktopMenu__a"
                 to="/history"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -41,7 +41,7 @@ const Navbar = () => {
                 History
               </NavLink>
               <NavLink
-              className="desktopMenu__a"
+                className="desktopMenu__a"
                 to="/meettheband"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -50,7 +50,7 @@ const Navbar = () => {
                 Meet the Band
               </NavLink>
               <NavLink
-              className="desktopMenu__a"
+                className="desktopMenu__a"
                 to="/ensembles"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -59,7 +59,7 @@ const Navbar = () => {
                 Ensembles
               </NavLink>
               <NavLink
-              className="desktopMenu__a"
+                className="desktopMenu__a"
                 to="/media"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -68,7 +68,7 @@ const Navbar = () => {
                 Watch & Listen
               </NavLink>
               <NavLink
-              className="desktopMenu__a"
+                className="desktopMenu__a"
                 to="/jobs"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -77,7 +77,7 @@ const Navbar = () => {
                 Auditions
               </NavLink>
               <NavLink
-              className="desktopMenu__a"
+                className="desktopMenu__a"
                 to="/contact"
                 style={({ isActive }) => ({
                   color: isActive ? "#ffcc01" : "white",
@@ -89,7 +89,7 @@ const Navbar = () => {
           </nav>
 
           <div className="dropdown">
-            <img src={dropdown} alt="dropdown button" className="dropdown__img"/>
+            <img src={dropdown} alt="dropdown button" className="dropdown__img" />
             <nav className="dropdown__nav">
               <ul className="dropdown__menu">
                 <li className="dropdown__li" role="none">

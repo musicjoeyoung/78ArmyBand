@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import arrow from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/arrow.png";
+import arrow from "../../assets/images/arrow.png";
 import "./UpArrow.scss"
 
 

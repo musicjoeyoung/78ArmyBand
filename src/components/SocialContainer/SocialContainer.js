@@ -1,7 +1,7 @@
-import instagram from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/instagram.png";
-import twitter from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/twitter.png";
-import facebook from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/facebook.png";
-import youtube from "/Users/musicjoeyoung/Desktop/Coding/Army/78armyband/src/assets/images/youtube.png";
+import instagram from "../../assets/images/instagram.png";
+import twitter from "../../assets/images/twitter.png";
+import facebook from "../../assets/images/facebook.png";
+import youtube from "../../assets/images/youtube.png";
 import "./SocialContainer.scss"
 
 const SocialContainer = () => {
