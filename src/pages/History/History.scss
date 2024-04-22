@@ -1,29 +1,25 @@
 .history {
-    text-align: center;
-    margin-top: 84px;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-top: 84px;
 
-    @media screen and (max-width: 999px){   
-        margin-top: 70px;
-    }
+  &__description {
+    font-size: 1.2rem;
+  }
 
+  &__paragraph {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    line-height: 31px;
+    color: #00214e;
+  }
 }
-#about-page-pText{
-      font-size: 20px;
+#about-page-pText {
+  font-size: 20px;
   color: #00214e;
   padding: 0px;
   margin-top: -10px;
-}
-
-//max 480 none
-/* .timeline {
-    display: none;
-  }
- */
-
- #historyParagraph {
-  text-align: left;
-  width: 80%;
-  margin: auto;
-  line-height: 31px;
-  color: #00214e;
 }

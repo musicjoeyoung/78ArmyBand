@@ -1,9 +1,9 @@
-@use "../../assets/partials/_mixins" as *;
+@use "../../styles/partials/mixins" as *;
 
-//Note-to-self: Footer on Home page vs. all other pages still needs fixing. 
+//Note-to-self: Footer on Home page vs. all other pages still needs fixing.
 
 .footer {
-  /*   position: absolute;
+    /*   position: absolute;
     bottom: 0; */
     width: 100%;
     background-color: #00214e;
@@ -15,37 +15,33 @@
     &__logos {
         display: flex;
         flex-direction: row;
-        }
+    }
 
     &__a {
-        color:white !important;
-        font-size: .75rem;
+        color: white !important;
+        font-size: 0.75rem;
 
         &:hover {
             color: #ffcc01 !important;
         }
     }
-    &__img-a{
-        margin-left: 4rem;
+    &__img-a {
         align-items: center;
-        display: flex;  
+        display: flex;
         width: 25%;
-
 
         @media screen and (max-width: 480px) {
             margin-left: 0;
         }
-        @include tablet{
-            width: 15%
+        @include tablet {
+            width: 15%;
         }
-        @include desktop{
+        @include desktop {
             width: 15%;
         }
     }
-    &__img{
-        width: 55%;
-        height: auto;
-        margin: 0 auto;
+    &__img {
+        width: 10rem;
     }
 
     &__links-div {
@@ -59,8 +55,3 @@
         font-size: 1rem;
     }
 }
-
-
-
-
-

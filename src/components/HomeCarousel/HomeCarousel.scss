@@ -6,9 +6,20 @@
   height: 100%;
   object-fit: cover;
   border: 2px;
-  
+
   &:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+  }
+}
+
+.alice-carousel {
+  margin-top: 4rem !important;
+  box-shadow: 10px 6px 16px 0 #000;
+
+  &__dots,
+  &__prev-btn,
+  &__next-btn {
+    display: none !important;
   }
 }

@@ -11,7 +11,6 @@ const SocialContainer = () => {
         href="https://www.instagram.com/78tharmyband/"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Link to the 78th Army Band's Instagram account"
       >
         <img src={instagram} className="iconContainer__socialLogo" alt="Instagram" />
       </a>
@@ -19,7 +18,6 @@ const SocialContainer = () => {
         href="https://twitter.com/78tharmyband"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Link to the 78th Army Band's Twitter account"
       >
         <img src={twitter} className="iconContainer__socialLogo" alt="Twitter" />
       </a>
@@ -27,7 +25,6 @@ const SocialContainer = () => {
         href="https://www.facebook.com/78thArmyBand"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Link to the 78th Army Band's Facebook page"
       >
         <img src={facebook} className="iconContainer__socialLogo" alt="Facebook" />
       </a>
@@ -35,7 +32,6 @@ const SocialContainer = () => {
         href="https://www.youtube.com/@78thArmyBand"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Link to the 78th Army Band's Youtube channel"
       >
         <img src={youtube} className="iconContainer__socialLogo" alt="Youtube" />
       </a>

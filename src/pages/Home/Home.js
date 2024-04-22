@@ -9,7 +9,7 @@ const Home = () => {
       <div className="homeContainer">
         <img src={parade} className="homeContainer__mobileHomeImg" alt="Band marching" />
         <img
-          src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674498250/78logo_1_fsqjox.png"
+          src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1694789478/imageedit_29_5556127462_focexx.png"
           className="homeContainer__homePageLogoImg"
           alt="US Army Reserve; 78th Army Band; Fort Dix, NJ; Fort Totten, NY"
         />

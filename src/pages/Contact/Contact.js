@@ -22,7 +22,6 @@ const Contact = () => {
             href="https://www.usar.army.mil/Portals/98/Documents/For_Commands/dd2536.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Link to Request the Band PDF"
           >
             DD Form 2536 - Request for Armed Forces Participation in Public
             Events
@@ -31,7 +30,6 @@ const Contact = () => {
           Army Band at{" "}
           <a
             className="request__info"
-            aria-label="Link to email the 78th Army Band"
             href="mailto:78tharmyband@gmail.com?subject=Request 78th Army Band"
           >
             78tharmyband@gmail.com
@@ -50,7 +48,6 @@ const Contact = () => {
             href="https://www.instagram.com/78tharmyband/"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Link to the 78th Army Band's Instagram account"
           >
             <img src={instagram} className="socialLogo" alt="Instagram" />
           </a>
@@ -58,7 +55,6 @@ const Contact = () => {
             href="https://twitter.com/78tharmyband"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Link to the 78th Army Band's Twitter account"
           >
             <img src={twitter} className="socialLogo" alt="Twitter" />
           </a>
@@ -66,7 +62,6 @@ const Contact = () => {
             href="https://www.facebook.com/78thArmyBand"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Link to the 78th Army Band's Facebook page"
           >
             <img src={facebook} className="socialLogo" alt="Facebook" />
           </a>
@@ -74,7 +69,6 @@ const Contact = () => {
             href="https://www.youtube.com/@78thArmyBand"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Link to the 78th Army Band's Youtube channel"
           >
             <img src={youtube} className="socialLogo" alt="Youtube" />
           </a>

@@ -1,4 +1,4 @@
-.contact-container{
+.contact-container {
     text-align: center;
     margin-top: 84px;
 
@@ -17,13 +17,14 @@
         color: white;
         padding-top: 15px;
     }
-  
+
     &__p {
         width: 50%;
         font-size: 16px;
         margin: auto;
         padding-bottom: 50px;
         line-height: 19px;
+        color: white;
     }
     &__info {
         color: #ffcc01 !important;
@@ -32,8 +33,8 @@
     }
 }
 
-.email{
-  background-color: #00214e;
+.email {
+    background-color: #00214e;
 
     &__h2 {
         color: white;
@@ -46,7 +47,7 @@
     }
 }
 
-.socialLogo{
+.socialLogo {
     width: 2rem;
     margin: 10px;
 }

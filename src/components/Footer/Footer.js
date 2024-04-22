@@ -1,5 +1,3 @@
-import React from "react";
-import armylogo from "../../assets/images/ArmyLogo.webp";
 import "./Footer.scss"
 
 const Footer = () => {
@@ -10,9 +8,8 @@ const Footer = () => {
         className="footer__img-a"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Link to goarmy.com website"
       >
-        <img src={armylogo} alt="army logo" className="footer__img" />
+        <img src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1694789738/army-reserve-white.png" alt="army logo" className="footer__img" />
       </a>
       <div className="footer__links-div">
         <h3 className="footer__h3">Learn More</h3>
@@ -20,7 +17,7 @@ const Footer = () => {
           className="footer__a"
           href="./contact"
           rel="noopener noreferrer"
-          aria-label="Link to Contact page"
+
         >
           Contact
         </a>
@@ -30,21 +27,21 @@ const Footer = () => {
           href="https://www.goarmy.com/band.html"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to goarmy.com/band website"
+
         >
           US Army Bands
         </a>
         <a
           className="footer__a"
           href="./contact"
-          aria-label="Link to Contact page"
+
         >
           Request the Band
         </a>
         <a
           className="footer__a"
           href="mailto:joseph.m.young72.mil@mail.mil?subject=78th Army Band Website"
-          aria-label="Link to email the Webmaster"
+
         >
           Contact Webmaster
         </a>
@@ -55,7 +52,7 @@ const Footer = () => {
         <a
           className="footer__a"
           href="./termsofuse"
-          aria-label="Link to Terms of Use page"
+
         >
           Terms of Use
         </a>
@@ -64,7 +61,7 @@ const Footer = () => {
           href="https://www.goarmy.com/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to goarmy.com website"
+
         >
           US Army
         </a>
@@ -73,7 +70,7 @@ const Footer = () => {
           href="https://www.usar.army.mil/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to Army Reserve website"
+
         >
           US Army Reserve
         </a>
@@ -82,7 +79,7 @@ const Footer = () => {
           href="https://www.usar.army.mil/99thRD/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to 99th Readiness Division's website"
+
         >
           99th RD
         </a>
@@ -91,7 +88,7 @@ const Footer = () => {
           href="https://www.jbmdl.jb.mil/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to Joint Base McGuire-Dix-Lakehurst's website"
+
         >
           Fort Dix
         </a>
@@ -105,7 +102,7 @@ const Footer = () => {
           href="https://www.youtube.com/user/78thArmyBand"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to the 78th Army Band's Youtube channel"
+
         >
           YouTube
         </a>
@@ -114,7 +111,7 @@ const Footer = () => {
           href="https://www.instagram.com/78tharmyband/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to the 78th Army Band's Instragram account"
+
         >
           Instagram
         </a>
@@ -123,7 +120,7 @@ const Footer = () => {
           href="https://www.facebook.com/78thArmyBand"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to the 78th Army Band's Facebook page"
+
         >
           Facebook
         </a>
@@ -132,7 +129,7 @@ const Footer = () => {
           href="https://twitter.com/78thArmyBand?s=20"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Link to the 78th Army Band's Twitter account"
+
         >
           Twitter
         </a>
