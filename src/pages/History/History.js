@@ -9,15 +9,11 @@ const History = () => {
       </p>
       <iframe
         title="78th Army Band History"
-        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tXSzTlnmS1IBki00cXKA854YxjnEQtxRM0vXrq1cKnY&font=Default&lang=en&initial_zoom=2&height=650"
-        width="100%"
-        height="650"
-        webkitallowfullscreen="true"
+        src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1EoI-0-NAQK07TfNAtBfQl2nJn5elmTyeHTwL1AEci-I&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen="true"
         mozallowfullscreen="true"
         allowFullScreen
         frameBorder="0"
-        className="timeline"
-      ></iframe>
+        className="timeline"></iframe>
       <div className="history__paragraph">
         <h3>
           <strong>Formation of the Band </strong>
