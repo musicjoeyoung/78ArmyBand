@@ -1,0 +1,24 @@
+@use "../../styles/partials/mixins" as *;
+
+.meet-the-band {
+    margin-top: 5rem;
+    text-align: center;
+    background-color: white;
+
+    &__img {
+        width: 75%;
+    }
+}
+
+.member {
+    text-align: center;
+
+    &__bio {
+        text-align: left;
+        padding: 0rem 1rem;
+
+        @include tablet {
+            padding: 0 3rem 0 3rem;
+        }
+    }
+}

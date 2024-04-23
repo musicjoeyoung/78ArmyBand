@@ -1,0 +1,21 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.homeContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  &__homePageLogoImg {
+    position: absolute;
+    top: 3rem;
+    margin-left: 23%;
+    background-color: rgba(0, 0, 0, 0.62);
+    width: 50%;
+    z-index: 2;
+    border-radius: 2rem;
+    padding: 0px 10px 0px 0px;
+    animation: fadeIn 3.5s;
+    -webkit-animation: fadeIn 3.5s;
+  }
+}

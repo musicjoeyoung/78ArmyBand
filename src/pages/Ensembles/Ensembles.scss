@@ -1,0 +1,41 @@
+@use "../../styles/partials/mixins" as *;
+
+.ensembles {
+    margin-top: 5rem;
+    background-color: white;
+
+    h1 {
+        text-align: center;
+    }
+
+    &__description {
+        padding: 0rem 1rem;
+
+        @include tablet {
+            padding: 0rem 10rem;
+        }
+    }
+}
+.section-selector {
+    text-align: center;
+}
+.ensemble {
+    text-align: center;
+
+    &__bio {
+        text-align: left;
+        padding: 0rem 1rem;
+
+        @include tablet {
+            padding: 0rem 7rem;
+        }
+    }
+
+    &__img {
+        width: 95%;
+
+        @include tablet {
+            width: 75%;
+        }
+    }
+}
