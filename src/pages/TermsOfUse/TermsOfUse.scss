@@ -1,15 +1,6 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-section {
-    background-color: $yellow;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-    margin-bottom: 2rem;
-}
 .terms-of-use {
     margin-top: 5rem;
     text-align: center;
@@ -21,6 +12,16 @@ section {
     }
     @include desktop {
         padding: 0rem 7rem;
+    }
+
+    &__section {
+        background-color: $yellow;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+        margin-bottom: 2rem;
     }
 }
 

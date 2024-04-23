@@ -5,7 +5,7 @@ const TermsOfUse = () => {
     <main className="terms-of-use">
       <h1>Terms of Use</h1>
 
-      <section>
+      <section className="terms-of-use__section">
         <h2>Terms of Use</h2>
         <p className="terms-description">The 78th Army Band Web Site is maintained by in a civilian capacity. (Contact the webmaster for any questions.) It is intended to be used by the public for viewing and
           retrieving information only. Unauthorized attempts to upload or change
@@ -17,7 +17,7 @@ const TermsOfUse = () => {
       </section>
 
 
-      <section>
+      <section className="terms-of-use__section">
         <h2>Disclaimer</h2>
         <p className="terms-description">
           The appearance of external hyperlinks on the 78th Army Band web site
@@ -52,7 +52,7 @@ const TermsOfUse = () => {
       </section>
 
 
-      <section>
+      <section className="terms-of-use__section">
         <h2>Security Notice</h2>
         <ol className="terms-list">
           <li>Information presented on this website is considered public

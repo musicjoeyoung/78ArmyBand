@@ -110,14 +110,14 @@ const Jobs = () => {
             <li>
               {" "}
               <a
-                className="jobs__link"
+                className="audition__link"
                 href="mailto:78tharmyband@gmail.com?subject=Request Audition Information"
               >
                 Reach out to us!
               </a>{" "}
               We'll get you set up and you will{" "}
               <a
-                className="jobs__link"
+                className="audition__link"
                 href="https://www.bands.army.mil/careers/auditions/form.asp"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -128,7 +128,7 @@ const Jobs = () => {
             <li>
               {" "}
               <a
-                className="jobs__link"
+                className="audition__link"
                 href="https://www.goarmy.com/locate-a-recruiter.html"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -142,7 +142,7 @@ const Jobs = () => {
               Upon a successful audition and if you are deemed qualified for
               service, you will sign a contract for{" "}
               <a
-                className="jobs__link"
+                className="audition__link"
                 href="https://www.goarmy.com/careers-and-jobs/career-match/support-logistics/creative/42r-musician.html"
                 target="_blank"
                 rel="noopener noreferrer"

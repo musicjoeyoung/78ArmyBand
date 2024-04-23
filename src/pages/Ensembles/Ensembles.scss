@@ -24,7 +24,11 @@
 
     &__bio {
         text-align: left;
-        padding: 0rem 7rem;
+        padding: 0rem 1rem;
+
+        @include tablet {
+            padding: 0rem 7rem;
+        }
     }
 
     &__img {
