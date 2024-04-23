@@ -3,7 +3,7 @@ import MarchingCeremonialBand from "../images/armyband1.webp";
 import BrassQuintet from "../images/armyband7.webp";
 import Checkmate from "../images/Checkmate.webp";
 import FortDixielandBrassBand from "../images/FortDixielandBrassBand.webp";
-import LadyLiberty from "../images/LadyLiberty.webp";
+import NineByNine from "../images/9x9.jpg";
 import LibertyVibes from "../images/LibertyVibes.webp";
 
 export const ensembles = [
@@ -42,8 +42,8 @@ export const ensembles = [
   {
     id: 6,
     name: "9x9",
-    bio: "punk acts of the 90's and early 2000's. Drawing on the experience of its members, 9 x 9 seeks to authentically capture the excitement and raw energy of a genre that dominated popular music for nearly 20 years. Delivering fast-paced, dynamic performances, the band has won the hearts of audiences of all ages. If you enjoy the music of Fall Out Boy, Blink 182, and Paramore - be sure to check them out!",
-    img: LadyLiberty,
+    bio: "Formed by some of the newest members of the 78th Army Band, 9 x 9 is a tribute to the greatest pop punk acts of the 90's and early 2000's. Drawing on the experience of its members, 9 x 9 seeks to authentically capture the excitement and raw energy of a genre that dominated popular music  for nearly 20 years. Delivering fast-paced, dynamic performances, the band has won the hearts of audiences of all ages. If you enjoy the music of Fall Out Boy, Blink 182, and Paramore - be sure to check them out! ",
+    img: NineByNine,
   },
   {
     id: 7,
