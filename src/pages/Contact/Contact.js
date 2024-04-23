@@ -1,4 +1,3 @@
-import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm.js";
 import instagram from "../../assets/images/instagram.png";
 import twitter from "../../assets/images/twitter.png";

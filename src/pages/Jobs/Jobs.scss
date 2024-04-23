@@ -3,6 +3,7 @@
 
 .jobs-main {
     margin-top: 5rem;
+    background-color: white;
 
     h1 {
         text-align: center;
@@ -14,10 +15,14 @@
     }
 }
 .jobs {
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 1rem;
     background: #00214e;
     color: #fff;
+
+    @include tablet {
+        padding: 1rem 5rem;
+    }
 
     h2 {
         text-align: center;
@@ -36,7 +41,7 @@
 }
 
 .instruments {
-    margin: 2rem;
+    margin: 1rem;
 
     h2 {
         text-align: center;

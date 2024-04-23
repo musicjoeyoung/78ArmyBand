@@ -11,6 +11,7 @@ import Contact from './pages/Contact/Contact'
 import ErrorNotFound from './pages/ErrorNotFound/ErrorNotFound'
 import Footer from './components/Footer/Footer'
 import TermsOfUse from './pages/TermsOfUse/TermsOfUse'
+import UpArrow from './components/UpArrow/UpArrow'
 
 console.log(
   '%c🌐 Want a stunning website?? 🚀 %cReach out to%c Joe Young %cjoseph.m.young2@gmail.com',
@@ -38,6 +39,7 @@ function App() {
         <Route path="termsofuse" element={<TermsOfUse />} />
       </Routes>
       <Footer />
+      <UpArrow />
     </BrowserRouter>
 
   )

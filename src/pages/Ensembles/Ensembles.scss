@@ -1,13 +1,19 @@
+@use "../../styles/partials/mixins" as *;
+
 .ensembles {
     margin-top: 5rem;
+    background-color: white;
 
     h1 {
         text-align: center;
     }
 
     &__description {
-        width: 60%;
-        margin: 1rem auto;
+        padding: 0rem 1rem;
+
+        @include tablet {
+            padding: 0rem 10rem;
+        }
     }
 }
 .section-selector {
@@ -18,10 +24,14 @@
 
     &__bio {
         text-align: left;
-        padding: 0 3rem 0 3rem;
+        padding: 0rem 7rem;
     }
 
     &__img {
-        width: 75%;
+        width: 95%;
+
+        @include tablet {
+            width: 75%;
+        }
     }
 }

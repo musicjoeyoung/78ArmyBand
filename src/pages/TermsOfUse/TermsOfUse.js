@@ -7,7 +7,7 @@ const TermsOfUse = () => {
 
       <section>
         <h2>Terms of Use</h2>
-        <p className="terms-description">The 100th Army Band Web Site is maintained by in a civilian capacity. (Contact the webmaster for any questions.) It is intended to be used by the public for viewing and
+        <p className="terms-description">The 78th Army Band Web Site is maintained by in a civilian capacity. (Contact the webmaster for any questions.) It is intended to be used by the public for viewing and
           retrieving information only. Unauthorized attempts to upload or change
           information on this service are strictly prohibited and may be
           punishable under the Computer Fraud and Abuse act of 1986. All
@@ -20,7 +20,7 @@ const TermsOfUse = () => {
       <section>
         <h2>Disclaimer</h2>
         <p className="terms-description">
-          The appearance of external hyperlinks on the 100th Army Band web site
+          The appearance of external hyperlinks on the 78th Army Band web site
           does not constitute endorsement by the U.S Army for the information,
           products or services contained therein.
         </p>
@@ -35,9 +35,9 @@ const TermsOfUse = () => {
           site.
         </p>
         <p className="terms-description">
-          Access to 100th Army Band’s Facebook and Twitter pages may require
+          Access to 78th Army Band’s Facebook and Twitter pages may require
           external site memberships that are not managed or maintained by the
-          100th Army Band or The U.S. Army.
+          78th Army Band or The U.S. Army.
         </p>
         <h3>View The U.S. Army’s{" "}
           <a className="link"

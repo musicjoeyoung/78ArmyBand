@@ -1,41 +1,21 @@
-.homeContainer{
-    position: relative;
-    top: 0;
-    left: 0;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
-    &__mobileHomeImg {
-    width: 100%;
-
-    @media screen and (min-width: 481px){
-        display: none;
-    }
-  }
+.homeContainer {
+  position: relative;
+  top: 0;
+  left: 0;
 
   &__homePageLogoImg {
-     position: absolute;
+    position: absolute;
+    top: 3rem;
+    margin-left: 23%;
     background-color: rgba(0, 0, 0, 0.62);
-    top: 5rem;
     width: 50%;
     z-index: 2;
-    margin: auto;
-    margin-left: 23%;
-    border-radius: 40px;
+    border-radius: 2rem;
     padding: 0px 10px 0px 0px;
     animation: fadeIn 3.5s;
     -webkit-animation: fadeIn 3.5s;
-    -moz-animation: fadeIn 3.5s;
-    -o-animation: fadeIn 3.5s;
-    -ms-animation: fadeIn 3.5s;
-
-    @media screen and (max-width:480px) {
-
-    position: absolute;
-    top: 125px;
-    left: 30px;
-    margin-left: 14%;
-
-        
-    }
   }
 }
-

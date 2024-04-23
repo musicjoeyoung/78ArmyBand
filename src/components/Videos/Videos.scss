@@ -1,0 +1,39 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.videos-container {
+    padding: 1rem;
+
+    @include mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    @include tablet {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    &__video {
+        width: 100%;
+
+        @include mobile {
+            height: auto;
+        }
+
+        @include desktop {
+            height: revert-layer;
+        }
+    }
+
+    &__button {
+        font-size: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        background-color: $yellow;
+    }
+}

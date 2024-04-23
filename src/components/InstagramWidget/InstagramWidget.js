@@ -1,3 +1,4 @@
+import "./InstagramWidget.scss"
 import { useEffect } from 'react';
 
 const BeholdWidget = () => {
@@ -11,7 +12,15 @@ const BeholdWidget = () => {
         }
     }, []);
 
-    return <behold-widget feed-id="XgBVNYTughxOk5j3XA6N"></behold-widget>;
+    return (
+        <>
+            <h2>Instagram</h2>
+            <div className="widget-container">
+                <behold-widget feed-id="XgBVNYTughxOk5j3XA6N"></behold-widget>
+            </div>
+        </>
+    )
+        ;
 };
 
 export default BeholdWidget;
