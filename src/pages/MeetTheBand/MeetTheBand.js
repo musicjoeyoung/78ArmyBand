@@ -43,10 +43,9 @@ const MeetTheBand = () => {
         </select>
       </div>
       <h2>{section}</h2>
-      {filteredStaff.map((member, index) => {
+      {filteredStaff.map((member) => {
         return (
-          <div key={index} className="member">
-            {/* <h2>{member.section}</h2> */}
+          <div key={member.id} className="member">
             <div >
               <h3>{member.name}</h3>
               <div className="member__bio">{renderBio(member.bio)}</div>
