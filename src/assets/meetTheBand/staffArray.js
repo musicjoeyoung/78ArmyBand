@@ -317,4 +317,14 @@ export const staff = [
     img: noPic,
     section: "Woodwind",
   },
+  {
+    id: uuidv4(),
+    name: "SSG Diana P. Jimenez",
+    bio: "SSG Diana P. Jimenez, was born and raised in Cali, Colombia. Her interest in music began in elementary school, where she performed regularly.  In her hometown, she sang in the church quire supporting Catholic children receiving their First Holy Communion.  As a teenager she attended the Conservatory Antonio Maria Valencia in Cali, Colombia for vocal coaching. ¶ She immigrated to the United States in 2003 and attended LaGuardia Community College, NY.She graduated with an associate degree in liberal arts in 2007. She graduated cum laude in 2010, receiving an undergraduate degree from Queens College, NY.She was a dual Major in Economics and International Business.She later obtained an associate degree in intelligence Operations from Coachise College, AZ in 2017. ¶ SSG Jimenez, enlisted in September of 2016 as Intelligence Analyst, and in 2021 she reclassified as a Human Resources Specialist.She is currently seeking to become a 42R(Army Vocalist). ¶ Today SSG Jimenez is a Military Technician as a Human Resources Specialist for the 99 Readiness Division.Additionally, she is appointed as the Human resources Sergeant for the 78th Army Band. ¶ SSG Jimenez, loves spending time with her family.She lives in Burlington, NJ.She also enjoys sketching, painting, and attending open mike in local areas.",
+    img: noPic,
+    section: "Vocals",
+  },
+
+
+
 ];
