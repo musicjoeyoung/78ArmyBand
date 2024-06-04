@@ -310,4 +310,11 @@ export const staff = [
     img: noPic,
     section: "Brass",
   },
+  {
+    id: uuidv4(),
+    name: "SPC Brianna Stackhouse",
+    bio: "SPC Brianna Stackhouse was born and grew up in New York, where she learned to play the flute. She currently resides in New Jersey.  SPC Stackhouse enlisted in January of 2023, and graduated AIT in November of 2023. She is currently a flute player for the 78th army band.",
+    img: noPic,
+    section: "Woodwind",
+  },
 ];
