@@ -5,11 +5,19 @@ import "./MeetTheBand.scss";
 const MeetTheBand = () => {
   const [section, setSection] = useState("Command Team");
 
+  const rankOrder = ["CW4", "CW3", "CW2", "WO1", "1SG", "MSG", "SFC", "SSG", "SGT", "SPC", "PFC", "PV2", "PV1"]
+
   const handleSectionChange = (event) => {
     setSection(event.target.value);
   };
 
   const filteredStaff = section === "All" ? staff : staff.filter(member => member.section === section);
+
+  const orderedStaff = filteredStaff.sort((a, b) => {
+    const rankA = rankOrder.indexOf(a.rank);
+    const rankB = rankOrder.indexOf(b.rank);
+    return rankA - rankB;
+  })
 
   const renderBio = (bio) => {
     const paragraphs = bio.split("¶");
@@ -43,11 +51,11 @@ const MeetTheBand = () => {
         </select>
       </div>
       <h2>{section}</h2>
-      {filteredStaff.map((member) => {
+      {orderedStaff.map((member) => {
         return (
           <div key={member.id} className="member">
             <div >
-              <h3>{member.name}</h3>
+              <h3>{member.rank} {member.name}</h3>
               <div className="member__bio">{renderBio(member.bio)}</div>
             </div>
           </div>
