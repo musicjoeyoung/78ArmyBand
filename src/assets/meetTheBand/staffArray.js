@@ -324,6 +324,13 @@ export const staff = [
     img: noPic,
     section: "Vocals",
   },
+  {
+    id: uuidv4(),
+    name: "SPC Anthony Daniel",
+    bio: "Specialist Anthony Daniel, a native of Oxon Hill, MD, began his Army career in 2021 with the 392nd Expeditionary Signal Battalion as a Multichannel Transmission System Operator Maintainer (25Q). In late 2023, he transitioned into the 78th Army Band, serving as a trumpet player. ¶ With a civilian education rooted in music, Anthony holds a BM in trumpet performance from Howard University, where he honed his craft and developed his passion for composition and arrangement. ¶ Outside of his military service, Anthony serves as the musical director, composer, producer, and arranger for DuPont Brass--a brass driven Hip Hop & R & B fusion group based in Washington, D.C.He also serves as the Undergraduate Academic Advisor at the Peabody Institute of Johns Hopkins University, where he shares his expertise and passion for music with the next generation of musicians.",
+    img: noPic,
+    section: "Brass",
+  },
 
 
 
