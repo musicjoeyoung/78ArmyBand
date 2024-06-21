@@ -1,5 +1,5 @@
 import './App.scss'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 import History from './pages/History/History'
@@ -12,6 +12,7 @@ import ErrorNotFound from './pages/ErrorNotFound/ErrorNotFound'
 import Footer from './components/Footer/Footer'
 import TermsOfUse from './pages/TermsOfUse/TermsOfUse'
 import UpArrow from './components/UpArrow/UpArrow'
+import Landing from './pages/Landing/Landing'
 
 console.log(
   '%c🌐 Want a stunning website?? 🚀 %cReach out to%c Joe Young %cjoseph.m.young2@gmail.com',
@@ -22,12 +23,15 @@ console.log(
 );
 
 function App() {
-
+  /*   const location = useLocation();
+  
+    const show78ABLayout = location.pathname !== '/welcome';
+   */
   return (
-
-    <BrowserRouter>
-      <Navbar />
+    <>
+      {/* {show78ABLayout && */} <Navbar />{/* } */}
       <Routes>
+        <Route path="/welcome" element={<Landing />} />
         <Route path="/" element={<Home />} />
         <Route path="/history" element={<History />} />
         <Route path="/meettheband" element={<MeetTheBand />} />
@@ -40,9 +44,18 @@ function App() {
       </Routes>
       <Footer />
       <UpArrow />
-    </BrowserRouter>
-
-  )
+      {/*       {show78ABLayout && <Footer />}
+      {show78ABLayout && <UpArrow />} */}
+    </>
+  );
 }
 
-export default App
+function AppWrapper() {
+  return (
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+}
+
+export default AppWrapper;

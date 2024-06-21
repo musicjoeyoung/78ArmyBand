@@ -5,7 +5,7 @@ import "./MeetTheBand.scss";
 const MeetTheBand = () => {
   const [section, setSection] = useState("Command Team");
 
-  const rankOrder = ["CW4", "CW3", "CW2", "WO1", "1SG", "MSG", "SFC", "SSG", "SGT", "SPC", "PFC", "PV2", "PV1"]
+  const rankOrder = ["CW4", "CW3", "CW2", "WO1", "1SG", "MSG", "SFC", "SSG", "SGT", "SPC", "PFC", "PV2", "PV1", "CDT"]
 
   const handleSectionChange = (event) => {
     setSection(event.target.value);
