@@ -341,6 +341,14 @@ export const staff = [
     bio: "SPC Michelle Sanchez, from Elizabeth NJ, joined the Army Band in 2023. She attended Basic Combat Training at Fort Jackson, SC, and then went to Advanced Individual Training at Joint Expeditionary Base Little Creek, VA. ¶ SPC Sanchez is a graduate of SUNY Fredonia and earned a degree in Saxophone Performance.In her civilian life she is a clarinet repair technician and teaches privately.In her free time she enjoys hiking, baking, and journaling.",
     section: "Brass",
   },
+  {
+    id: uuidv4(),
+    rank: "SPC",
+    name: "Mercedes Pollett Martinez Arroyo",
+    bio: "My name is Mercedes Pollett Martinez Arroyo. I grew up in a home of musicians–-my father is a musician and plays several instruments and my mother is a singer. It was inevitable that I would dedicate myself to the art of singing. When I was little my father always used to accompany me on the guitar and he would sing music and teach me percussion so that I wouldn't get out of key. He was very funny, almost always present at family gatherings and all kinds of activities singing. ¶ When I was already a teenager I started working in a rock group singing songs from the 70's, 80's, in Spanish and English. Then I entered the University of San Martín de Porres in Peru where I developed a degree in Tourism and Hospitality Administration, a career that allowed me to learn a little more about managing administration and operation. Currently I continue to spread music with the salsa genre that allowed me to be known in my country PERU. ¶ I am currently about to finish my cosmetology degree and I am very excited about it because I will be able to pursue my third degree. As a member of the United States 78th Army Band, I am able to develop as a singer and have been able to meet a wonderful and very professional, high-level team.",
+    section: "Vocals",
+  },
+
 
 
 
