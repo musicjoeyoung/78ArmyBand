@@ -1,11 +1,12 @@
-import { useState } from "react";
-import { staff } from "../../assets/meetTheBand/staffArray.js";
 import "./MeetTheBand.scss";
+
+import { staff } from "../../assets/meetTheBand/staffArray.js";
+import { useState } from "react";
 
 const MeetTheBand = () => {
   const [section, setSection] = useState("Command Team");
 
-  const rankOrder = ["CW4", "CW3", "CW2", "WO1", "1SG", "MSG", "SFC", "SSG", "SGT", "SPC", "PFC", "PV2", "PV1", "CDT"]
+  const rankOrder = ["1SG (Acting Commander)", "CW5", "CW4", "CW3", "CW2", "WO1", "1SG", "MSG", "SFC", "SSG", "SGT", "SPC", "PFC", "PV2", "PV1", "CDT"]
 
   const handleSectionChange = (event) => {
     setSection(event.target.value);
