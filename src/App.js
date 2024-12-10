@@ -1,18 +1,20 @@
 import './App.scss'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import Navbar from './components/Navbar/Navbar'
-import History from './pages/History/History'
-import MeetTheBand from './pages/MeetTheBand/MeetTheBand'
-import Ensembles from './pages/Ensembles/Ensembles'
-import Media from './pages/Media/Media'
-import Jobs from './pages/Jobs/Jobs'
+
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
+
 import Contact from './pages/Contact/Contact'
+import Ensembles from './pages/Ensembles/Ensembles'
 import ErrorNotFound from './pages/ErrorNotFound/ErrorNotFound'
 import Footer from './components/Footer/Footer'
+import History from './pages/History/History'
+import Home from './pages/Home/Home'
+import Jobs from './pages/Jobs/Jobs'
+import Landing from './pages/Landing/Landing'
+import Media from './pages/Media/Media'
+import MeetTheBand from './pages/MeetTheBand/MeetTheBand'
+import Navbar from './components/Navbar/Navbar'
 import TermsOfUse from './pages/TermsOfUse/TermsOfUse'
 import UpArrow from './components/UpArrow/UpArrow'
-import Landing from './pages/Landing/Landing'
 
 console.log(
   '%c🌐 Want a stunning website?? 🚀 %cReach out to%c Joe Young %cjoseph.m.young2@gmail.com',

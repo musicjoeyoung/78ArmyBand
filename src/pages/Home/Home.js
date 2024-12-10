@@ -1,6 +1,7 @@
-import React from "react";
-import HomeCarousel from "../../components/HomeCarousel/HomeCarousel";
 import "./Home.scss"
+
+import HomeCarousel from "../../components/HomeCarousel/HomeCarousel";
+import React from "react";
 
 const Home = () => {
   return (
