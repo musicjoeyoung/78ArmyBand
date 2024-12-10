@@ -1,7 +1,8 @@
-import React from "react";
 import "./HomeCarousel.scss";
-import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+
+import AliceCarousel from "react-alice-carousel";
+import React from "react";
 
 const HomeCarousel = () => {
   return (
@@ -11,6 +12,21 @@ const HomeCarousel = () => {
       infinite
       animationType="fadeout"
     >
+      <img
+        src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674700058/BandParadeNYC_v1cnja.webp"
+        alt=""
+        className="sliderimg"
+      />
+      <img
+        src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674700059/BandParade2_sn83kd.webp"
+        alt=""
+        className="sliderimg"
+      />
+      <img
+        src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674700058/BandFormation_ftintj.webp"
+        alt=""
+        className="sliderimg"
+      />
       <img
         src="https://res.cloudinary.com/dfbuwtl5q/image/upload/v1674700058/BandParadeNYC_v1cnja.webp"
         alt=""
