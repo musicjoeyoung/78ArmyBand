@@ -11,7 +11,7 @@ import Home from './pages/Home/Home'
 import Jobs from './pages/Jobs/Jobs'
 import Landing from './pages/Landing/Landing'
 import Media from './pages/Media/Media'
-import MeetTheBand from './pages/MeetTheBand/MeetTheBand'
+/* import MeetTheBand from './pages/MeetTheBand/MeetTheBand' */
 import Navbar from './components/Navbar/Navbar'
 import TermsOfUse from './pages/TermsOfUse/TermsOfUse'
 import UpArrow from './components/UpArrow/UpArrow'
@@ -36,7 +36,7 @@ function App() {
         <Route path="/welcome" element={<Landing />} />
         <Route path="/" element={<Home />} />
         <Route path="/history" element={<History />} />
-        <Route path="/meettheband" element={<MeetTheBand />} />
+        {/* <Route path="/meettheband" element={<MeetTheBand />} /> */}
         <Route path="/ensembles" element={<Ensembles />} />
         <Route path="/media" element={<Media />} />
         <Route path="/jobs" element={<Jobs />} />
