@@ -35,6 +35,7 @@ function App() {
       <Routes>
         <Route path="/welcome" element={<Landing />} />
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/history" element={<History />} />
         {/* <Route path="/meettheband" element={<MeetTheBand />} /> */}
         <Route path="/ensembles" element={<Ensembles />} />
